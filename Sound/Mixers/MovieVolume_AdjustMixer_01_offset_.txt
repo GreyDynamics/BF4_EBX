@@ -1,0 +1,104 @@
+00000f80    MixerAsset 43ed360035e3ac1bdf902b7ea643f499
+00000f78        $::Asset
+00000f78            $::DataContainer
+00000f80            Name Sound/Mixers/MovieVolume_AdjustMixer_01
+00000f84        Graph 4028ea2c1382519d5785e9e846270c20
+00000f88        Presets::array
+000010f4            member(0) 1ce8a03f511fe7db2077f74977e90b0a
+00000f8c        DefaultPreset 1ce8a03f511fe7db2077f74977e90b0a
+00000f90        Bypass False
+00000fa4    MixerPreset 1ce8a03f511fe7db2077f74977e90b0a
+00000f9c        $::DataContainer
+00000fa4        NameHash 0
+00000fa8        Groups *nullArray*
+00000fac        Nodes *nullArray*
+00000fc0    AudioGraphParameter 24c0d89e87bf474487cf5e153a98eef1
+00000fb8        $::DataContainer
+00000fc0        DefaultValue 1.0
+00000fc4        NameHash 2097128355
+00000fc8        ValueIndex 3
+00000fdc    MixerOutputNodeData 3165f4881030c3449dbf28828204e119
+00000fd4        $::AudioGraphNodeData
+00000fd4            $::DataContainer
+00000fdc        Entries::array
+000010fc            member(0) ffed1716d42167439942b2a31d4763f6
+00001100            member(1) d33a542f2e4db64385e87ba7e0897296
+00000ff0    MixerInputNodeData 31b413028758a94397d0f44d80b5c080
+00000fe8        $::AudioGraphNodeData
+00000fe8            $::DataContainer
+00000ff0        Entries::array
+00001108            member(0) 8ff625a6e15adb49a7ce42b9e31ba73d
+00001004    SimpleTransformNodeData 35280304e1f4444b9f00f837d785a233
+00000ffc        $::AudioGraphNodeData
+00000ffc            $::DataContainer
+00001004        X::AudioGraphNodePort
+00001004            UnconnectedValue 1.0
+00001008            ValueIndex 0
+0000100a            IsConnected False
+0000100c        Y::AudioGraphNodePort
+0000100c            UnconnectedValue 1.0
+00001010            ValueIndex 0
+00001012            IsConnected False
+00001014        Z::AudioGraphNodePort
+00001014            UnconnectedValue 0.0
+00001018            ValueIndex 2
+0000101a            IsConnected True
+0000101c        Operation SimpleTransformOperation_Multiply
+00001020        AngleUnit AngleUnit_Radians
+00001034    MixerGraphData 4028ea2c1382519d5785e9e846270c20
+0000102c        $::AudioGraphData
+0000102c            $::DataContainer
+00001034            Nodes::array
+00001110                member(0) 31b413028758a94397d0f44d80b5c080
+00001114                member(1) 35280304e1f4444b9f00f837d785a233
+00001118                member(2) 3165f4881030c3449dbf28828204e119
+00001038            PublicParameters *nullArray*
+0000103c            PublicEvents *nullArray*
+00001040            PublicAssetParameters *nullArray*
+00001044            PublicValueCount 1
+00001046            ValueCount 6
+00001048        Inputs::array
+00001120            member(0) 24c0d89e87bf474487cf5e153a98eef1
+0000104c        MixerInputInfos::array
+00001128            member(0)::MixerInputInfo
+00001128                Mode MixerValueAccumulateMode_None
+0000112c                KeepValue False
+00001050        Outputs::array
+00001134            member(0) c330c17e09b0a143a6ac4c77e3ef1a7b
+00001138            member(1) c85ab3722601fd448de87c6fcaa87476
+00001064    MixerInputEntry 8ff625a6e15adb49a7ce42b9e31ba73d
+0000105c        $::AudioGraphNodePortGroup
+0000105c            $::DataContainer
+00001064        Out::AudioGraphNodePort
+00001064            UnconnectedValue 0.0
+00001068            ValueIndex 1
+0000106a            IsConnected True
+0000106c        Source 24c0d89e87bf474487cf5e153a98eef1
+00001070        AccumulateMode MixerValueAccumulateMode_None
+00001074        KeepValue False
+00001088    AudioGraphParameter c330c17e09b0a143a6ac4c77e3ef1a7b
+00001080        $::DataContainer
+00001088        DefaultValue 1.0
+0000108c        NameHash 2973232193
+00001090        ValueIndex 4
+000010a4    AudioGraphParameter c85ab3722601fd448de87c6fcaa87476
+0000109c        $::DataContainer
+000010a4        DefaultValue 0.0
+000010a8        NameHash 2438956336
+000010ac        ValueIndex 5
+000010c0    MixerOutputEntry d33a542f2e4db64385e87ba7e0897296
+000010b8        $::AudioGraphNodePortGroup
+000010b8            $::DataContainer
+000010c0        In::AudioGraphNodePort
+000010c0            UnconnectedValue 0.0
+000010c4            ValueIndex 2
+000010c6            IsConnected True
+000010c8        Target c85ab3722601fd448de87c6fcaa87476
+000010dc    MixerOutputEntry ffed1716d42167439942b2a31d4763f6
+000010d4        $::AudioGraphNodePortGroup
+000010d4            $::DataContainer
+000010dc        In::AudioGraphNodePort
+000010dc            UnconnectedValue 0.0
+000010e0            ValueIndex 1
+000010e2            IsConnected True
+000010e4        Target c330c17e09b0a143a6ac4c77e3ef1a7b

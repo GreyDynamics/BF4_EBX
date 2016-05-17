@@ -1,0 +1,123 @@
+00000ce0    SoldierTactics ec3b8c1bfaf4f24fb0dff82508ab4454
+00000cd8        $::Asset
+00000cd8            $::DataContainer
+00000ce0            Name AI/Templates/SupportArchetype
+00000ce4        Vehicle *nullGuid*
+00000ce8        Charge *nullGuid*
+00000cec        Attack ecf22163bcaf1044a8aca0d8f4c278dd
+00000cf0        Hide *nullGuid*
+00000cf4        Flee *nullGuid*
+00000cf8        CloseCombat 0c2ff1e2e0e523409e1f0589d53f65c2
+00000cfc        SquadMovement *nullGuid*
+00000d00        SquadEngageSettings *nullGuid*
+00000d04        EngageSettings::EngageSettings
+00000d04            DistanceToTarget 50.0
+00000d08            SuppressionValue 0.00999999977648
+00000d0c        WeaponSuppressionSettings::WeaponSuppressionSettings
+00000d0c            SuppressionValue 0.75
+00000d10            ContinuousSuppressionTime 999.0
+00000d14            SuppressionAreaSize 5.0
+00000d18        VehicleSuppressionSettings::VehicleSuppressionSettings
+00000d18            SuppressionDistance 15.0
+00000d1c            ReevaluateCoverDistance 15.0
+00000d30    CloseCombatSettings 0c2ff1e2e0e523409e1f0589d53f65c2
+00000d28        $::DataContainer
+00000d30        Distance 8.0
+00000d34        HeightDistance 2.0
+00000d38        DistanceLimit 14.0
+00000d3c        LostVisibilityTimeout 2.0
+00000d40        PoseSettings f08a63df123d4d4485879f3c7d1fbfff
+00000d54    MoveSettings 369d09d69daf6146bf3dfb31f8d78825
+00000d4c        $::DataContainer
+00000d54        MoveStyle *nullGuid*
+00000d58        MoveSpeed MoveSpeed_Run
+00000d5c        FireTargetDistance 100.0
+00000d60        Walk *nullGuid*
+00000d64        Sprint *nullGuid*
+00000d68        StartStop *nullGuid*
+00000d6c        StartEvasiveThreshold 0.0
+00000d70        StopEvasiveThreshold 0.0
+00000d74        Fire True
+00000d75        IsEvasive False
+00000d88    CoverControlSettings e96e7ae2c2a76345a95b9a596baef5fd
+00000d80        $::DataContainer
+00000d88        FiringTimes::array
+00000ea4            member(0) 30.0
+00000ea8            member(1) 30.0
+00000eac            member(2) 30.0
+00000d8c        IdleTimes::array
+00000eb4            member(0) 5.0
+00000eb8            member(1) 5.0
+00000ebc            member(2) 5.0
+00000d90        SuppressionThreshold 0.25
+00000d94        AllowSuppression False
+00000da8    AttackSettings ecf22163bcaf1044a8aca0d8f4c278dd
+00000da0        $::DataContainer
+00000da8        GoalCoverQuery AI/CoverQueries/SupportAttack/4d7a1cfbb245f941bf6ef8bd50570ed4
+00000dac        ProtectionCoverQuery AI/CoverQueries/ReactiveCover/ab46346d3c47fc44a7f47099c0d7e30b
+00000db0        HideCoverQuery AI/CoverQueries/HideCover/38db91b74906ca41b65c0aa6c953ed34
+00000db4        ValidCoverQuery AI/CoverQueries/ValidCover/91a7310f47ee754ea9a297da29d27ac1
+00000db8        MoveSettings 369d09d69daf6146bf3dfb31f8d78825
+00000dbc        CoverSettings e96e7ae2c2a76345a95b9a596baef5fd
+00000dc0        CoverRequestSettings::AttackCoverRequestSettings
+00000dc0            MinimumTimeInCoverToRequest 22.0
+00000dc4            MaximumTimeInCoverToRequest 26.0
+00000dc8            MinimumTimeIntervalToRequestProtectiveCover 22.0
+00000dcc            MaximumTimeIntervalToRequestProtectiveCover 26.0
+00000dd0            MinimumTimeInCoverAfterTargetLost 24.0
+00000dd4            MaximumTimeInCoverAfterTargetLost 28.0
+00000dd8            DistanceToTargetCompromisedThreshold 6.0
+00000ddc            MinimumDistanceToTarget 5.0
+00000de0            MinimumInitialDelay::TinyPiecewiseLinearCurve
+00000de0                X0 20.0
+00000de4                Y0 0.0
+00000de8                X1 20.1000003815
+00000dec                Y1 0.25
+00000df0            MaximumInitialDelay::TinyPiecewiseLinearCurve
+00000df0                X0 20.0
+00000df4                Y0 0.75
+00000df8                X1 20.1000003815
+00000dfc                Y1 1.25
+00000e00        IndoorCoverRequestSettings::AttackCoverRequestSettings
+00000e00            MinimumTimeInCoverToRequest 16.0
+00000e04            MaximumTimeInCoverToRequest 20.0
+00000e08            MinimumTimeIntervalToRequestProtectiveCover 16.0
+00000e0c            MaximumTimeIntervalToRequestProtectiveCover 20.0
+00000e10            MinimumTimeInCoverAfterTargetLost 18.0
+00000e14            MaximumTimeInCoverAfterTargetLost 22.0
+00000e18            DistanceToTargetCompromisedThreshold 6.0
+00000e1c            MinimumDistanceToTarget 5.0
+00000e20            MinimumInitialDelay::TinyPiecewiseLinearCurve
+00000e20                X0 20.0
+00000e24                Y0 0.0
+00000e28                X1 20.1000003815
+00000e2c                Y1 0.25
+00000e30            MaximumInitialDelay::TinyPiecewiseLinearCurve
+00000e30                X0 20.0
+00000e34                Y0 0.75
+00000e38                X1 20.1000003815
+00000e3c                Y1 1.25
+00000e40        OutdoorCoverRequestSettings::AttackCoverRequestSettings
+00000e40            MinimumTimeInCoverToRequest 28.0
+00000e44            MaximumTimeInCoverToRequest 32.0
+00000e48            MinimumTimeIntervalToRequestProtectiveCover 28.0
+00000e4c            MaximumTimeIntervalToRequestProtectiveCover 32.0
+00000e50            MinimumTimeInCoverAfterTargetLost 30.0
+00000e54            MaximumTimeInCoverAfterTargetLost 34.0
+00000e58            DistanceToTargetCompromisedThreshold 6.0
+00000e5c            MinimumDistanceToTarget 5.0
+00000e60            MinimumInitialDelay::TinyPiecewiseLinearCurve
+00000e60                X0 20.0
+00000e64                Y0 0.0
+00000e68                X1 20.1000003815
+00000e6c                Y1 0.25
+00000e70            MaximumInitialDelay::TinyPiecewiseLinearCurve
+00000e70                X0 20.0
+00000e74                Y0 0.75
+00000e78                X1 20.1000003815
+00000e7c                Y1 1.25
+00000e80        ProjectileSettings *nullGuid*
+00000e84        CombatIntensity AICombatIntensity_High
+00000e98    PoseSettings f08a63df123d4d4485879f3c7d1fbfff
+00000e90        $::DataContainer
+00000e98        Pose Pose_Stand

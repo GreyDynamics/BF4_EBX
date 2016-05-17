@@ -1,0 +1,300 @@
+00001a90    ScalableEmitterDocument 834da7214ebef94994443aa8c5d98999
+00001a88        $::EmitterDocument
+00001a88            $::EmitterAsset
+00001a88                $::Asset
+00001a88                    $::DataContainer
+00001a90                    Name *nullString*
+00001a94        TemplateDataLow 00000000
+00001a98        TemplateDataMedium 00000000
+00001a9c        TemplateDataHigh 00000000
+00001aa0        TemplateDataUltra 00000000
+00001ab0    EmitterTemplateData 00000000
+00001ab0        $::DataContainer
+00001ab8        RootProcessor 00000009
+00001abc        MaxCount 1
+00001ac0        WorldAlignmentDirection::Vec3
+00001ac0            x 0.0
+00001ac4            y 1.0
+00001ac8            z 0.0
+00001ad0        Lifetime 0.0
+00001ad4        TimeScale 0.5
+00001ad8        LifetimeFrameCount 0
+00001adc        EmittableType EmittableType_Quad
+00001ae0        EmittableAlignment EmittableAlignment_Emittable
+00001ae4        MotionStretchMultiplier 1.0
+00001ae8        MotionStretchLengthClamp 100.0
+00001aec        Mesh *nullGuid*
+00001af0        VertexPixelLightingBlendFactor 0.0
+00001af4        GlobalLocalNormalBlendFactor 1.0
+00001af8        SoftParticlesFadeDistanceMultiplier -0.0500000007451
+00001afc        LightWrapAroundFactor 0.0
+00001b00        BentNormalFactor 1.0
+00001b04        LightMultiplier 1.0
+00001b08        BendingFactor 0.0
+00001b0c        CameraBias 0.0
+00001b10        Shader::SurfaceShaderInstanceDataStruct
+00001b10            Shader *nullGuid*
+00001b14            BoolParameters *nullArray*
+00001b18            VectorParameters *nullArray*
+00001b1c            VectorArrayParameters *nullArray*
+00001b20            TextureParameters *nullArray*
+00001b24        EmitterDrawOrder EmitterDrawOrder_Default
+00001b28        ParticleCullingFactor 0.800000011921
+00001b2c        MinSpawnDistance 0.0
+00001b30        MaxSpawnDistance 0.0
+00001b34        MinScreenArea 1.0
+00001b38        MeshCullingDistance 0.0
+00001b3c        DistanceScaleLength 0.0
+00001b40        DistanceScaleNearValue 1.0
+00001b44        DistanceScaleFarValue 1.0
+00001b48        SpeedNormalizationValue 50.0
+00001b4c        WindSpeedNormalizationValue 50.0
+00001b50        PerParticleEffectParameters *nullArray*
+00001b54        CullFadeNearDistance 0.0
+00001b58        CullFadeNearRange 0.0
+00001b5c        CullFadeFarDistance 0.0
+00001b60        CullFadeFarRange 0.0
+00001b64        RepeatParticleSpawning False
+00001b65        FollowSpawnSource False
+00001b66        KillParticlesWithEmitter False
+00001b67        ExclusionVolumeCullEnable False
+00001b68        Emissive True
+00001b69        Opaque False
+00001b6a        ForceNiceSorting False
+00001b6b        LocalSpace False
+00001b6c        CameraSpace False
+00001b6d        TransparencySunShadowEnable False
+00001b6e        CastPlanarReflectionEnable False
+00001b6f        ForceFullRes False
+00001b70        FogFade False
+00001b71        AcceptGlobalParameter1 False
+00001b72        AcceptGlobalParameter2 False
+00001b73        AcceptGlobalParameter3 False
+00001b74        UseOfCustomParamRandomSpawnValuesEnabled False
+00001b75        EmitterWindEvaluationEnable False
+00001b76        EmittableWindEvaluationEnable False
+00001b77        GroupEmittersWithSameBaseTextureOnly False
+00001b80    PolynomialData 00000001
+00001b80        $::EvaluatorData
+00001b80            $::DataContainer
+00001b88            Parameter *nullGuid*
+00001b8c        ScaleValue 1.0
+00001b90        Coefficients::Vec4
+00001b90            x 0.0
+00001b94            y 0.0
+00001b98            z 0.0
+00001b9c            w 0.25
+00001ba0        MinClamp 0.0
+00001ba4        MaxClamp 1.0
+00001bb0    SpawnColorRandomData 00000002
+00001bb0        $::ProcessorData
+00001bb0            $::DataContainer
+00001bb8            Pre *nullGuid*
+00001bbc            NextProcessor 00000005
+00001bc0            EvaluatorInput EfOne
+00001bd0        Color0::Vec3
+00001bd0            x 10.0
+00001bd4            y 9.87300014496
+00001bd8            z 8.83199977875
+00001be0        Color1::Vec3
+00001be0            x 10.0
+00001be4            y 10.0
+00001be8            z 10.0
+00001bf0    UpdateColorData 00000003
+00001bf0        $::ProcessorData
+00001bf0            $::DataContainer
+00001bf8            Pre *nullGuid*
+00001bfc            NextProcessor 00000004
+00001c00            EvaluatorInput EfOne
+00001c10        Color::Vec3
+00001c10            x 15.0
+00001c14            y 15.0
+00001c18            z 15.0
+00001c20    SpawnRateData 00000004
+00001c18        $::ProcessorData
+00001c18            $::DataContainer
+00001c20            Pre *nullGuid*
+00001c24            NextProcessor 00000002
+00001c28            EvaluatorInput EfOne
+00001c2c        SpawnRate 1.0
+00001c30        DistributeOverTime False
+00001c31        DistributeOverDistance False
+00001c34    SpawnSizeData 00000005
+00001c2c        $::ProcessorData
+00001c2c            $::DataContainer
+00001c34            Pre *nullGuid*
+00001c38            NextProcessor 00000006
+00001c3c            EvaluatorInput EfOne
+00001c40        Size 1.0
+00001c44    UpdateAgeData 00000006
+00001c3c        $::ProcessorData
+00001c3c            $::DataContainer
+00001c44            Pre *nullGuid*
+00001c48            NextProcessor 0000000a
+00001c4c            EvaluatorInput EfOne
+00001c50        Lifetime -1.0
+00001c54        RandomLifetimeScale 0.0
+00001c58        MaxFactor 1.0
+00001c5c    UpdateClipScaleData 00000007
+00001c54        $::ProcessorData
+00001c54            $::DataContainer
+00001c5c            Pre *nullGuid*
+00001c60            NextProcessor *nullGuid*
+00001c64            EvaluatorInput EfNormTime
+00001c68        Lookup::array
+00001cb4            member(0) 32767
+00001cb6            member(1) 32767
+00001cb8            member(2) 32767
+00001cba            member(3) 32767
+00001cbc            member(4) 32255
+00001cbe            member(5) 32255
+00001cc0            member(6) 32767
+00001cc2            member(7) 32084
+00001cc4            member(8) 32255
+00001cc6            member(9) 32255
+00001cc8            member(10) 32767
+00001cca            member(11) 32084
+00001ccc            member(12) 32255
+00001cce            member(13) 32255
+00001cd0            member(14) 32767
+00001cd2            member(15) 32084
+00001cd4            member(16) 32255
+00001cd6            member(17) 32255
+00001cd8            member(18) 32767
+00001cda            member(19) 32084
+00001cdc            member(20) 32255
+00001cde            member(21) 32255
+00001ce0            member(22) 32767
+00001ce2            member(23) 32084
+00001ce4            member(24) 32255
+00001ce6            member(25) 32255
+00001ce8            member(26) 32767
+00001cea            member(27) 32084
+00001cec            member(28) 32255
+00001cee            member(29) 32255
+00001cf0            member(30) 32767
+00001cf2            member(31) 32084
+00001cf4            member(32) 32255
+00001cf6            member(33) 32255
+00001cf8            member(34) 32767
+00001cfa            member(35) 32084
+00001cfc            member(36) 32255
+00001cfe            member(37) 32255
+00001d00            member(38) 32767
+00001d02            member(39) 32084
+00001d04            member(40) 32255
+00001d06            member(41) 32255
+00001d08            member(42) 32767
+00001d0a            member(43) 32084
+00001d0c            member(44) 32255
+00001d0e            member(45) 32255
+00001d10            member(46) 32767
+00001d12            member(47) 32084
+00001d14            member(48) 32255
+00001d16            member(49) 32255
+00001d18            member(50) 32767
+00001d1a            member(51) 32084
+00001d1c            member(52) 32255
+00001d1e            member(53) 32255
+00001d20            member(54) 32767
+00001d22            member(55) 32084
+00001d24            member(56) 32255
+00001d26            member(57) 32255
+00001d28            member(58) 32767
+00001d2a            member(59) 32084
+00001d2c            member(60) 32255
+00001d2e            member(61) 32255
+00001d30            member(62) 32767
+00001d32            member(63) 32084
+00001d34            member(64) 32255
+00001d36            member(65) 32255
+00001d38            member(66) 32767
+00001d3a            member(67) 32084
+00001d3c            member(68) 32255
+00001d3e            member(69) 32255
+00001d40            member(70) 32767
+00001d42            member(71) 32084
+00001d44            member(72) 32255
+00001d46            member(73) 32255
+00001d48            member(74) 32767
+00001d4a            member(75) 32084
+00001d4c            member(76) 32255
+00001d4e            member(77) 32255
+00001d50            member(78) 32767
+00001d52            member(79) 32084
+00001d54            member(80) 32255
+00001d56            member(81) 32255
+00001d58            member(82) 32767
+00001d5a            member(83) 32084
+00001d5c            member(84) 32255
+00001d5e            member(85) 32255
+00001d60            member(86) 32767
+00001d62            member(87) 32084
+00001d64            member(88) 32255
+00001d66            member(89) 32255
+00001d68            member(90) 32767
+00001d6a            member(91) 32084
+00001d6c            member(92) 32255
+00001d6e            member(93) 32255
+00001d70            member(94) 32767
+00001d72            member(95) 32084
+00001d74            member(96) 32255
+00001d76            member(97) 32255
+00001d78            member(98) 32767
+00001d7a            member(99) 32084
+00001d7c            member(100) 32255
+00001d7e            member(101) 32255
+00001d80            member(102) 32767
+00001d82            member(103) 32084
+00001d84            member(104) 32255
+00001d86            member(105) 32255
+00001d88            member(106) 32767
+00001d8a            member(107) 32084
+00001d8c            member(108) 32255
+00001d8e            member(109) 32255
+00001d90            member(110) 32767
+00001d92            member(111) 32084
+00001d94            member(112) 32255
+00001d96            member(113) 32255
+00001d98            member(114) 32767
+00001d9a            member(115) 32084
+00001d9c            member(116) 32255
+00001d9e            member(117) 32255
+00001da0            member(118) 32767
+00001da2            member(119) 32084
+00001da4            member(120) 32255
+00001da6            member(121) 32255
+00001da8            member(122) 32767
+00001daa            member(123) 32084
+00001dac            member(124) 32255
+00001dae            member(125) 32255
+00001db0            member(126) 32767
+00001db2            member(127) 32084
+00001db4            member(128) 32255
+00001db6            member(129) 32255
+00001db8            member(130) 32767
+00001dba            member(131) 32084
+00001c6c    UpdateSizeData 00000008
+00001c64        $::ProcessorData
+00001c64            $::DataContainer
+00001c6c            Pre *nullGuid*
+00001c70            NextProcessor 00000007
+00001c74            EvaluatorInput EfNormTime
+00001c78        Pivot::Vec2
+00001c78            x 0.0
+00001c7c            y 0.0
+00001c80    UpdateTextureCoordsData 00000009
+00001c78        $::ProcessorData
+00001c78            $::DataContainer
+00001c80            Pre *nullGuid*
+00001c84            NextProcessor 00000003
+00001c88            EvaluatorInput EfNormTime
+00001c8c        BaseTexture FX/Textures/Trails/Gradient_Generic_03/ff55dcd57b9e2c409b7de727105c18eb
+00001c90        NormalTexture Systems/Emitter/DefaultNormalTexture/479eddffb0309e4c95392f6240c340cc
+00001c94    UpdateTransparencyData 0000000a
+00001c8c        $::ProcessorData
+00001c8c            $::DataContainer
+00001c94            Pre 00000001
+00001c98            NextProcessor 00000008
+00001c9c            EvaluatorInput EfOne
+00001ca0        CullThreshold 0.20000000298

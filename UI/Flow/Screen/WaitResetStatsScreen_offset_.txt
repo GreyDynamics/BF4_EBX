@@ -1,0 +1,156 @@
+00001640    UIScreenAsset 6a525f4bfeef8934dad9fab451142bfd
+00001638        $::UIViewBaseAsset
+00001638            $::UIGraphAsset
+00001638                $::Asset
+00001638                    $::DataContainer
+00001640                    Name UI/Flow/Screen/WaitResetStatsScreen
+00001644                Nodes::array
+000017e4                    member(0) 5fa5f128101cd446bd94dca9fc6e97fd
+000017e8                    member(1) c719abc4b8a490419e2b117d532b2b41
+000017ec                    member(2) e63f5df5d7f0744d822f2b8a13d4937a
+000017f0                    member(3) 91eec92ebe0b9e41890ceafb290438f4
+00001648                GlobalNode *nullGuid*
+0000164c                Connections::array
+000017f8                    member(0) 00000002
+000017fc                    member(1) 00000003
+00001650                AudioEventMappings UI/Flow/Graph/AudioMapping/DefaultUIGraphAudioMapping/0b64b44173196984a254b1b23e4e6a04
+00001654                BundleAssetName *nullString*
+00001658                EventList *nullArray*
+0000165c                ProtectScreens False
+0000165d                Modal False
+0000165e                IsWin32UIGraphAsset True
+0000165f                IsXenonUIGraphAsset True
+00001660                IsPs3UIGraphAsset True
+00001661                IsGen4aUIGraphAsset True
+00001662                IsGen4bUIGraphAsset True
+00001664        UIAsset UI/Assets/WaitResetStatsScreen/4e8d1a47cf5ebd6f712454c580550647
+00001668        SwfPath UI/Assets/WaitResetStatsScreen
+0000166c        Purpose UIScreenPurpose_Standard
+00001680    WidgetNode 5fa5f128101cd446bd94dca9fc6e97fd
+00001678        $::UINodeData
+00001678            $::DataContainer
+00001680            Name ChangeListener
+00001684            ParentGraph 6a525f4bfeef8934dad9fab451142bfd
+00001688            IsRootNode False
+00001689            ParentIsScreen True
+0000168c        WidgetAsset UI/Assets/ChangeListener/c2ebd27dd24701eba1fd557ccf7a7309
+00001690        FocusIndex 0
+00001694        VerticalAlign WVA_Center
+00001698        HorisontalAlign WHA_Center
+0000169c        ZDepthLevel 0
+000016a0        DataBinding 00000000
+000016a4        InstanceName ChangeListener_00
+000016a8        WidgetProperties *nullArray*
+000016ac        Outputs::array
+00001804            member(0) 00000005
+000016b0        Inputs *nullArray*
+000016b4        AlwaysInFocus False
+000016b5        IsDisabled False
+000016c8    InstanceOutputNode 91eec92ebe0b9e41890ceafb290438f4
+000016c0        $::UINodeData
+000016c0            $::DataContainer
+000016c8            Name ResetFailed
+000016cc            ParentGraph 6a525f4bfeef8934dad9fab451142bfd
+000016d0            IsRootNode False
+000016d1            ParentIsScreen True
+000016d4        In 00000004
+000016d8        Id -1848678189
+000016dc        DestroyGraph True
+000016f0    InstanceOutputNode c719abc4b8a490419e2b117d532b2b41
+000016e8        $::UINodeData
+000016e8            $::DataContainer
+000016f0            Name ResetDone
+000016f4            ParentGraph 6a525f4bfeef8934dad9fab451142bfd
+000016f8            IsRootNode False
+000016f9            ParentIsScreen True
+000016fc        In 00000006
+00001700        Id 1918799184
+00001704        DestroyGraph True
+00001718    WidgetNode e63f5df5d7f0744d822f2b8a13d4937a
+00001710        $::UINodeData
+00001710            $::DataContainer
+00001718            Name ChangeListener
+0000171c            ParentGraph 6a525f4bfeef8934dad9fab451142bfd
+00001720            IsRootNode False
+00001721            ParentIsScreen True
+00001724        WidgetAsset UI/Assets/ChangeListener/c2ebd27dd24701eba1fd557ccf7a7309
+00001728        FocusIndex 0
+0000172c        VerticalAlign WVA_Center
+00001730        HorisontalAlign WHA_Center
+00001734        ZDepthLevel 0
+00001738        DataBinding 00000001
+0000173c        InstanceName ChangeListener_01
+00001740        WidgetProperties *nullArray*
+00001744        Outputs::array
+0000180c            member(0) 00000007
+00001748        Inputs *nullArray*
+0000174c        AlwaysInFocus False
+0000174d        IsDisabled False
+00001750    UIDynamicDataBinding 00000000
+00001748        $::UIDataBinding
+00001748            $::DataContainer
+00001750        Bindings::array
+00001814            member(0)::UIDataSourceInfo
+00001814                DataName Key
+00001818                DataCategory UI/UIComponents/UIConnectionComp/730b6f549efba24a2804fc429c4abcd1
+0000181c                DataKey -112122154
+00001820                UseDirectAccess False
+00001821                UpdateOnInitialize False
+00001754        Refresh True
+00001758    UIDynamicDataBinding 00000001
+00001750        $::UIDataBinding
+00001750            $::DataContainer
+00001758        Bindings::array
+00001828            member(0)::UIDataSourceInfo
+00001828                DataName Key
+0000182c                DataCategory UI/UIComponents/UIConnectionComp/730b6f549efba24a2804fc429c4abcd1
+00001830                DataKey -2078803371
+00001834                UseDirectAccess False
+00001835                UpdateOnInitialize False
+0000175c        Refresh True
+00001760    UINodeConnection 00000002
+00001758        $::DataContainer
+00001760        SourceNode 5fa5f128101cd446bd94dca9fc6e97fd
+00001764        TargetNode c719abc4b8a490419e2b117d532b2b41
+00001768        SourcePort 00000005
+0000176c        TargetPort 00000006
+00001770        SourcePortName *nullString*
+00001774        TargetPortName *nullString*
+00001778        NumScreensToPop 0
+0000177c    UINodeConnection 00000003
+00001774        $::DataContainer
+0000177c        SourceNode e63f5df5d7f0744d822f2b8a13d4937a
+00001780        TargetNode 91eec92ebe0b9e41890ceafb290438f4
+00001784        SourcePort 00000007
+00001788        TargetPort 00000004
+0000178c        SourcePortName *nullString*
+00001790        TargetPortName *nullString*
+00001794        NumScreensToPop 0
+00001798    UINodePort 00000004
+00001790        $::DataContainer
+00001798        Name *nullString*
+0000179c        InstanceName *nullString*
+000017a0        Query UIWidgetEventID_None
+000017a4        AllowManualRemove False
+000017a5        IsReferencePort False
+000017a8    UINodePort 00000005
+000017a0        $::DataContainer
+000017a8        Name KeyChanged
+000017ac        InstanceName ChangeListener_00
+000017b0        Query UIWidgetEventID_OnChanged
+000017b4        AllowManualRemove False
+000017b5        IsReferencePort False
+000017b8    UINodePort 00000006
+000017b0        $::DataContainer
+000017b8        Name *nullString*
+000017bc        InstanceName *nullString*
+000017c0        Query UIWidgetEventID_None
+000017c4        AllowManualRemove False
+000017c5        IsReferencePort False
+000017c8    UINodePort 00000007
+000017c0        $::DataContainer
+000017c8        Name KeyChanged
+000017cc        InstanceName ChangeListener_01
+000017d0        Query UIWidgetEventID_OnChanged
+000017d4        AllowManualRemove False
+000017d5        IsReferencePort False

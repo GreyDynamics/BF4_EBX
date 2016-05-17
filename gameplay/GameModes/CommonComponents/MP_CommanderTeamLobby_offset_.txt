@@ -1,0 +1,111 @@
+00000df0    LogicPrefabBlueprint 32d04b5ea0f4caf15758eb6d2e6cfd76
+00000de8        $::PrefabBlueprint
+00000de8            $::Blueprint
+00000de8                $::EntityBusData
+00000de8                    $::DataBusData
+00000de8                        $::Asset
+00000de8                            $::DataContainer
+00000df0                            Name Gameplay/GameModes/CommonComponents/MP_CommanderTeamLobby
+00000df4                        PropertyConnections *nullArray*
+00000df8                        LinkConnections *nullArray*
+00000dfc                        Interface 00000001
+00000e00                        Flags 2
+00000e04                    EventConnections::array
+00000e64                        member(0)::EventConnection
+00000e64                            Source 00000002
+00000e68                            Target 00000000
+00000e6c                            SourceEvent::EventSpec
+00000e6c                                Id -699931768
+00000e70                            TargetEvent::EventSpec
+00000e70                                Id 229946160
+00000e74                            TargetType EventConnectionTargetType_Client
+00000e78                        member(1)::EventConnection
+00000e78                            Source 00000000
+00000e7c                            Target 00000002
+00000e80                            SourceEvent::EventSpec
+00000e80                                Id 193453899
+00000e84                            TargetEvent::EventSpec
+00000e84                                Id 5862146
+00000e88                            TargetType EventConnectionTargetType_Client
+00000e8c                        member(2)::EventConnection
+00000e8c                            Source 00000002
+00000e90                            Target 00000001
+00000e94                            SourceEvent::EventSpec
+00000e94                                Id -699931768
+00000e98                            TargetEvent::EventSpec
+00000e98                                Id -160855919
+00000e9c                            TargetType EventConnectionTargetType_Client
+00000ea0                        member(3)::EventConnection
+00000ea0                            Source 00000003
+00000ea4                            Target 00000000
+00000ea8                            SourceEvent::EventSpec
+00000ea8                                Id -699931768
+00000eac                            TargetEvent::EventSpec
+00000eac                                Id 5862146
+00000eb0                            TargetType EventConnectionTargetType_Client
+00000eb4                        member(4)::EventConnection
+00000eb4                            Source 00000000
+00000eb8                            Target 00000003
+00000ebc                            SourceEvent::EventSpec
+00000ebc                                Id 193453899
+00000ec0                            TargetEvent::EventSpec
+00000ec0                                Id 5862146
+00000ec4                            TargetType EventConnectionTargetType_Client
+00000ec8                        member(5)::EventConnection
+00000ec8                            Source 00000001
+00000ecc                            Target 00000000
+00000ed0                            SourceEvent::EventSpec
+00000ed0                                Id 206074481
+00000ed4                            TargetEvent::EventSpec
+00000ed4                                Id 5862146
+00000ed8                            TargetType EventConnectionTargetType_Client
+00000e08            Objects::array
+00000ee0                member(0) 00000003
+00000ee4                member(1) 00000002
+00000ee8                member(2) 00000000
+00000e0c    DelayEntityData 00000000
+00000e04        $::EntityData
+00000e04            $::GameObjectData
+00000e04                $::DataBusPeer
+00000e04                    $::GameDataContainer
+00000e04                        $::DataContainer
+00000e0c                    Flags 46925936
+00000e10        Delay 0.5
+00000e14        Realm Realm_Client
+00000e18        AutoStart False
+00000e19        RunOnce False
+00000e1a        RemoveDuplicateEvents True
+00000e1c    InterfaceDescriptorData 00000001
+00000e14        $::DynamicDataContainer
+00000e14            $::DataContainer
+00000e1c            Fields *nullArray*
+00000e20        InputEvents::array
+00000ef0            member(0)::DynamicEvent
+00000ef0                Id 206074481
+00000e24        OutputEvents::array
+00000ef8            member(0)::DynamicEvent
+00000ef8                Id -160855919
+00000e28        InputLinks *nullArray*
+00000e2c        OutputLinks *nullArray*
+00000e30    TeamFilterEntityData 00000002
+00000e28        $::EntityData
+00000e28            $::GameObjectData
+00000e28                $::DataBusPeer
+00000e28                    $::GameDataContainer
+00000e28                        $::DataContainer
+00000e30                    Flags 37980026
+00000e34        Realm Realm_Client
+00000e38        Team TeamNeutral
+00000e3c        InvertFilter True
+00000e3d        GenerateEventForEveryMatchingTeamMember False
+00000e40    TeamFilterEntityData 00000003
+00000e38        $::EntityData
+00000e38            $::GameObjectData
+00000e38                $::DataBusPeer
+00000e38                    $::GameDataContainer
+00000e38                        $::DataContainer
+00000e40                    Flags 61027523
+00000e44        Realm Realm_Client
+00000e48        Team TeamNeutral
+00000e4c        InvertFilter False
+00000e4d        GenerateEventForEveryMatchingTeamMember False

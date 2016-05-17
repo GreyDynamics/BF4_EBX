@@ -1,0 +1,871 @@
+00001c40    VoiceOverLogicAsset 4eb757f2d7018f5d57310d665ebb203e
+00001c38        $::Asset
+00001c38            $::DataContainer
+00001c40            Name Sound/VO/Logic/SP_Airfield_TankAndVehicle_Chatter_VO_Logic
+00001c44        Events::array
+00002634            member(0) f56adfc512f4b34b9b37c8e0e4da68e3
+00002638            member(1) b61e2d59c5cc0445ab5bc5e089b3cdab
+0000263c            member(2) f439a6c300ed9944b4806cda3b9dee40
+00002640            member(3) 34b35373729261499d98266f54ce7144
+00002644            member(4) 30fa5b5bd066914a86d8de16938db0f8
+00002648            member(5) 9fac461a10437d45af54d391031e1632
+0000264c            member(6) be303120b6993449acb70b0248e7869f
+00002650            member(7) 16aa3e06e88e3f47b5d0ce2d39a5ea25
+00001c48        Groups::array
+00002658            member(0) 00000022
+00001c4c        Flows::array
+00002660            member(0) 24f2b8149d7fbf42aacef86f00fd3043
+00002664            member(1) a24589e8f713734f95759644ee157b92
+00002668            member(2) ae6579563e781042918c8d5d6caf063f
+0000266c            member(3) 8b8ccde903cf3147b03d6f57bad8cf00
+00002670            member(4) e975802e4e31e24f951d5d1b6f2d417b
+00002674            member(5) 9f8c899634ddfb4e87695861b74b345e
+00002678            member(6) d052311c3e02d8458fb66627d38cfde7
+00001c50        FlowConfigs *nullArray*
+00001c54        System Sound/VO/VO_System/91fe61a73d6d9992f2dd7ef8d078002a
+00001c68    VoiceOverEvent 16aa3e06e88e3f47b5d0ce2d39a5ea25
+00001c60        $::DataContainer
+00001c68        Name CH_Hostile_Conversation18
+00001c6c        NameHash 3814451082
+00001c70        Parameters::array
+00002680            member(0) 5c05db2deb69914d8f99db0b1fd4642d
+00002684            member(1) 8cbf4d992860844e875f73f70063fedf
+00001c74        Owner 4eb757f2d7018f5d57310d665ebb203e
+00001c88    VoiceOverLogicFlow 24f2b8149d7fbf42aacef86f00fd3043
+00001c80        $::DataContainer
+00001c88        Name US1_Vehicle_Fire
+00001c8c        Owner 4eb757f2d7018f5d57310d665ebb203e
+00001c90        Group 00000022
+00001c94        Locals *nullArray*
+00001c98        Roots::array
+0000268c            member(0) 542d3d9212cf0c4799be6336a30d9c94
+00001cac    VoiceOverEvent 30fa5b5bd066914a86d8de16938db0f8
+00001ca4        $::DataContainer
+00001cac        Name US1_AntiVehicleTurret
+00001cb0        NameHash 2076863895
+00001cb4        Parameters *nullArray*
+00001cb8        Owner 4eb757f2d7018f5d57310d665ebb203e
+00001ccc    VoiceOverEvent 34b35373729261499d98266f54ce7144
+00001cc4        $::DataContainer
+00001ccc        Name US1_Alert_Tank
+00001cd0        NameHash 4111241996
+00001cd4        Parameters *nullArray*
+00001cd8        Owner 4eb757f2d7018f5d57310d665ebb203e
+00001cec    VoiceOverEventNode 542d3d9212cf0c4799be6336a30d9c94
+00001ce4        $::VoiceOverStructureNode
+00001ce4            $::VoiceOverNode
+00001ce4                $::DataContainer
+00001cec            FlowMode VoiceOverLogicFlowMode_All
+00001cf0        Interval *nullGuid*
+00001cf4        Relationship::array
+00002694            member(0) 5ab1da1f91bfe44c948f93751a31d1df
+00001cf8        Redirects *nullArray*
+00001cfc        Event f56adfc512f4b34b9b37c8e0e4da68e3
+00001d10    VoiceOverVariableNode 57e158f286c076418ba574bc2512ef39
+00001d08        $::VoiceOverExpressionNode
+00001d08            $::VoiceOverNode
+00001d08                $::DataContainer
+00001d10        Value 00000027
+00001d14        Source 00000029
+00001d28    VoiceOverConversationNode 583227952c879e42bdbbc93b84f88f8d
+00001d20        $::VoiceOverStructureNode
+00001d20            $::VoiceOverNode
+00001d20                $::DataContainer
+00001d28            FlowMode VoiceOverLogicFlowMode_One
+00001d2c        Condition *nullArray*
+00001d30        PronunciationIndex::VoiceOverValueConnection
+00001d30            TargetNode *nullGuid*
+00001d34            TargetValue *nullGuid*
+00001d38        Interval *nullGuid*
+00001d3c        FinishedRelationship *nullArray*
+00001d40        BlockedRelationship *nullArray*
+00001d44        ConditionMode VoiceOverContainerConditionMode_All
+00001d48        Probability 100.0
+00001d4c        Conversation::VoiceOverConversationInfo
+00001d4c            Groups::array
+0000269c                member(0) 00000016
+00001d50            Tracks::array
+000026a4                member(0) 0000001e
+00001d54            Pronunciations *nullArray*
+00001d58            InterruptMode VoiceOverConversationInterruptMode_Allow
+00001d5c            Priority 0
+00001d60            QueueMode VoiceOverConversationQueueMode_Never
+00001d64            Relevancy 3.0
+00001d68            LastSequenceIndex 0
+00001d7c    VoiceOverConversationNode 5ab1da1f91bfe44c948f93751a31d1df
+00001d74        $::VoiceOverStructureNode
+00001d74            $::VoiceOverNode
+00001d74                $::DataContainer
+00001d7c            FlowMode VoiceOverLogicFlowMode_One
+00001d80        Condition *nullArray*
+00001d84        PronunciationIndex::VoiceOverValueConnection
+00001d84            TargetNode *nullGuid*
+00001d88            TargetValue *nullGuid*
+00001d8c        Interval *nullGuid*
+00001d90        FinishedRelationship *nullArray*
+00001d94        BlockedRelationship *nullArray*
+00001d98        ConditionMode VoiceOverContainerConditionMode_All
+00001d9c        Probability 100.0
+00001da0        Conversation::VoiceOverConversationInfo
+00001da0            Groups::array
+000026ac                member(0) 00000015
+00001da4            Tracks::array
+000026b4                member(0) 00000021
+00001da8            Pronunciations *nullArray*
+00001dac            InterruptMode VoiceOverConversationInterruptMode_Allow
+00001db0            Priority 0
+00001db4            QueueMode VoiceOverConversationQueueMode_Never
+00001db8            Relevancy 3.0
+00001dbc            LastSequenceIndex 0
+00001dd0    VoiceOverNamedValue 5c05db2deb69914d8f99db0b1fd4642d
+00001dc8        $::VoiceOverValue
+00001dc8            $::DataContainer
+00001dd0        Name Soldier1
+00001dd4        NameHash 3678776702
+00001dd8        ValueType VoiceOverValueType_Object
+00001dec    VoiceOverEventNode 5f218c956370334a9132fcc27781f088
+00001de4        $::VoiceOverStructureNode
+00001de4            $::VoiceOverNode
+00001de4                $::DataContainer
+00001dec            FlowMode VoiceOverLogicFlowMode_One
+00001df0        Interval *nullGuid*
+00001df4        Relationship::array
+000026bc            member(0) 8f1db2e4d1d16249a09972228a86d07f
+00001df8        Redirects::array
+000026c4            member(0) 0000002d
+000026c8            member(1) 0000002c
+00001dfc        Event 16aa3e06e88e3f47b5d0ce2d39a5ea25
+00001e10    VoiceOverLabelNode 664bff1bb7c26f4aab721685ec7f4289
+00001e08        $::VoiceOverExpressionNode
+00001e08            $::VoiceOverNode
+00001e08                $::DataContainer
+00001e10        Sources::array
+000026d0            member(0) 00000023
+00001e14        False 00000025
+00001e18        True 00000026
+00001e1c        WantedLabels::array
+000026d8            member(0) Sound/VO/VO_System/fa763021213df940838527cf3f4761b8
+00001e20        UnwantedLabels *nullArray*
+00001e24        SourceMode VoiceOverLabelSourceMode_Combined
+00001e28        WantedCompareMode VoiceOverLabelCompareMode_Any
+00001e2c        UnwantedCompareMode VoiceOverLabelCompareMode_Any
+00001e40    VoiceOverLogicFlow 8b8ccde903cf3147b03d6f57bad8cf00
+00001e38        $::DataContainer
+00001e40        Name US1_Alert_Tank
+00001e44        Owner 4eb757f2d7018f5d57310d665ebb203e
+00001e48        Group 00000022
+00001e4c        Locals *nullArray*
+00001e50        Roots::array
+000026e0            member(0) fdc34ac3958b1745a23ab1292f54f3b2
+00001e64    VoiceOverNamedValue 8cbf4d992860844e875f73f70063fedf
+00001e5c        $::VoiceOverValue
+00001e5c            $::DataContainer
+00001e64        Name Soldier2
+00001e68        NameHash 3678776701
+00001e6c        ValueType VoiceOverValueType_Object
+00001e80    VoiceOverConversationNode 8f1db2e4d1d16249a09972228a86d07f
+00001e78        $::VoiceOverStructureNode
+00001e78            $::VoiceOverNode
+00001e78                $::DataContainer
+00001e80            FlowMode VoiceOverLogicFlowMode_All
+00001e84        Condition::array
+000026e8            member(0)::VoiceOverValueConnection
+000026e8                TargetNode 664bff1bb7c26f4aab721685ec7f4289
+000026ec                TargetValue 00000026
+00001e88        PronunciationIndex::VoiceOverValueConnection
+00001e88            TargetNode *nullGuid*
+00001e8c            TargetValue *nullGuid*
+00001e90        Interval *nullGuid*
+00001e94        FinishedRelationship *nullArray*
+00001e98        BlockedRelationship *nullArray*
+00001e9c        ConditionMode VoiceOverContainerConditionMode_All
+00001ea0        Probability 100.0
+00001ea4        Conversation::VoiceOverConversationInfo
+00001ea4            Groups::array
+000026f4                member(0) 00000019
+000026f8                member(1) 00000018
+00001ea8            Tracks::array
+00002700                member(0) 0000001a
+00002704                member(1) 00000020
+00001eac            Pronunciations *nullArray*
+00001eb0            InterruptMode VoiceOverConversationInterruptMode_Allow
+00001eb4            Priority 1
+00001eb8            QueueMode VoiceOverConversationQueueMode_Always
+00001ebc            Relevancy 2.0
+00001ec0            LastSequenceIndex 11
+00001ed4    VoiceOverNamedValue 8fcf6b56fe69964dbe912a2617284ca7
+00001ecc        $::VoiceOverValue
+00001ecc            $::DataContainer
+00001ed4        Name Pac
+00001ed8        NameHash 193467159
+00001edc        ValueType VoiceOverValueType_Object
+00001ef0    VoiceOverEventNode 9359b1c946f6994bba66bbf2c657166c
+00001ee8        $::VoiceOverStructureNode
+00001ee8            $::VoiceOverNode
+00001ee8                $::DataContainer
+00001ef0            FlowMode VoiceOverLogicFlowMode_All
+00001ef4        Interval *nullGuid*
+00001ef8        Relationship::array
+0000270c            member(0) 583227952c879e42bdbbc93b84f88f8d
+00001efc        Redirects *nullArray*
+00001f00        Event 30fa5b5bd066914a86d8de16938db0f8
+00001f14    VoiceOverNamedValue 937fc44b1f44de49b9dd63ed43ecd742
+00001f0c        $::VoiceOverValue
+00001f0c            $::DataContainer
+00001f14        Name Soldier
+00001f18        NameHash 2844639087
+00001f1c        ValueType VoiceOverValueType_Object
+00001f30    VoiceOverConversationNode 96ade7ca2ca6ed4887980bb400f2b293
+00001f28        $::VoiceOverStructureNode
+00001f28            $::VoiceOverNode
+00001f28                $::DataContainer
+00001f30            FlowMode VoiceOverLogicFlowMode_One
+00001f34        Condition *nullArray*
+00001f38        PronunciationIndex::VoiceOverValueConnection
+00001f38            TargetNode *nullGuid*
+00001f3c            TargetValue *nullGuid*
+00001f40        Interval *nullGuid*
+00001f44        FinishedRelationship *nullArray*
+00001f48        BlockedRelationship *nullArray*
+00001f4c        ConditionMode VoiceOverContainerConditionMode_All
+00001f50        Probability 100.0
+00001f54        Conversation::VoiceOverConversationInfo
+00001f54            Groups::array
+00002714                member(0) 00000014
+00001f58            Tracks::array
+0000271c                member(0) 0000001b
+00001f5c            Pronunciations *nullArray*
+00001f60            InterruptMode VoiceOverConversationInterruptMode_Allow
+00001f64            Priority 0
+00001f68            QueueMode VoiceOverConversationQueueMode_Never
+00001f6c            Relevancy 3.0
+00001f70            LastSequenceIndex 0
+00001f84    VoiceOverLogicFlow 9f8c899634ddfb4e87695861b74b345e
+00001f7c        $::DataContainer
+00001f84        Name Pac_Incoming_VO
+00001f88        Owner 4eb757f2d7018f5d57310d665ebb203e
+00001f8c        Group 00000022
+00001f90        Locals::array
+00002724            member(0) 00000029
+00001f94        Roots::array
+0000272c            member(0) bc1ee7999beb6847ad90a9a0e11799a3
+00001fa8    VoiceOverEvent 9fac461a10437d45af54d391031e1632
+00001fa0        $::DataContainer
+00001fa8        Name US1_SoldierInPain
+00001fac        NameHash 2255186262
+00001fb0        Parameters::array
+00002734            member(0) 937fc44b1f44de49b9dd63ed43ecd742
+00001fb4        Owner 4eb757f2d7018f5d57310d665ebb203e
+00001fc8    VoiceOverLogicFlow a24589e8f713734f95759644ee157b92
+00001fc0        $::DataContainer
+00001fc8        Name US2_Alert_RPG
+00001fcc        Owner 4eb757f2d7018f5d57310d665ebb203e
+00001fd0        Group 00000022
+00001fd4        Locals *nullArray*
+00001fd8        Roots::array
+0000273c            member(0) fae6673be9af004d92dcd6099164c943
+00001fec    VoiceOverLogicFlow ae6579563e781042918c8d5d6caf063f
+00001fe4        $::DataContainer
+00001fec        Name US1_APC_Reinforcements
+00001ff0        Owner 4eb757f2d7018f5d57310d665ebb203e
+00001ff4        Group 00000022
+00001ff8        Locals *nullArray*
+00001ffc        Roots::array
+00002744            member(0) d3274edb96e04c48a74f0ed33fcb1046
+00002010    VoiceOverVariableNode b37927f72e39f448be8ed52cc13012f7
+00002008        $::VoiceOverExpressionNode
+00002008            $::VoiceOverNode
+00002008                $::DataContainer
+00002010        Value 00000024
+00002014        Source 0000002a
+00002028    VoiceOverConversationNode b60b67bdbd69b9419a7ec2798e1db295
+00002020        $::VoiceOverStructureNode
+00002020            $::VoiceOverNode
+00002020                $::DataContainer
+00002028            FlowMode VoiceOverLogicFlowMode_One
+0000202c        Condition *nullArray*
+00002030        PronunciationIndex::VoiceOverValueConnection
+00002030            TargetNode *nullGuid*
+00002034            TargetValue *nullGuid*
+00002038        Interval *nullGuid*
+0000203c        FinishedRelationship *nullArray*
+00002040        BlockedRelationship *nullArray*
+00002044        ConditionMode VoiceOverContainerConditionMode_All
+00002048        Probability 100.0
+0000204c        Conversation::VoiceOverConversationInfo
+0000204c            Groups::array
+0000274c                member(0) 00000013
+00002050            Tracks::array
+00002754                member(0) 0000001c
+00002054            Pronunciations *nullArray*
+00002058            InterruptMode VoiceOverConversationInterruptMode_Allow
+0000205c            Priority 0
+00002060            QueueMode VoiceOverConversationQueueMode_Never
+00002064            Relevancy 3.0
+00002068            LastSequenceIndex 0
+0000207c    VoiceOverEvent b61e2d59c5cc0445ab5bc5e089b3cdab
+00002074        $::DataContainer
+0000207c        Name US2_Alert_RPG
+00002080        NameHash 1711258874
+00002084        Parameters *nullArray*
+00002088        Owner 4eb757f2d7018f5d57310d665ebb203e
+0000209c    VoiceOverVariableNode b73052a05f74014cbe4289f535af4ccb
+00002094        $::VoiceOverExpressionNode
+00002094            $::VoiceOverNode
+00002094                $::DataContainer
+0000209c        Value 00000028
+000020a0        Source 0000002b
+000020b4    VoiceOverEventNode bc1ee7999beb6847ad90a9a0e11799a3
+000020ac        $::VoiceOverStructureNode
+000020ac            $::VoiceOverNode
+000020ac                $::DataContainer
+000020b4            FlowMode VoiceOverLogicFlowMode_All
+000020b8        Interval *nullGuid*
+000020bc        Relationship::array
+0000275c            member(0) bf9e75cb7ee5964cb33967c3cc1b32ee
+000020c0        Redirects::array
+00002764            member(0) 0000002e
+000020c4        Event be303120b6993449acb70b0248e7869f
+000020d8    VoiceOverEvent be303120b6993449acb70b0248e7869f
+000020d0        $::DataContainer
+000020d8        Name Pac_Incoming_VO
+000020dc        NameHash 574004008
+000020e0        Parameters::array
+0000276c            member(0) 8fcf6b56fe69964dbe912a2617284ca7
+000020e4        Owner 4eb757f2d7018f5d57310d665ebb203e
+000020f8    VoiceOverConversationNode bf9e75cb7ee5964cb33967c3cc1b32ee
+000020f0        $::VoiceOverStructureNode
+000020f0            $::VoiceOverNode
+000020f0                $::DataContainer
+000020f8            FlowMode VoiceOverLogicFlowMode_One
+000020fc        Condition *nullArray*
+00002100        PronunciationIndex::VoiceOverValueConnection
+00002100            TargetNode *nullGuid*
+00002104            TargetValue *nullGuid*
+00002108        Interval *nullGuid*
+0000210c        FinishedRelationship *nullArray*
+00002110        BlockedRelationship *nullArray*
+00002114        ConditionMode VoiceOverContainerConditionMode_All
+00002118        Probability 100.0
+0000211c        Conversation::VoiceOverConversationInfo
+0000211c            Groups::array
+00002774                member(0) 00000017
+00002120            Tracks::array
+0000277c                member(0) 0000001f
+00002124            Pronunciations *nullArray*
+00002128            InterruptMode VoiceOverConversationInterruptMode_Allow
+0000212c            Priority 0
+00002130            QueueMode VoiceOverConversationQueueMode_Never
+00002134            Relevancy 3.0
+00002138            LastSequenceIndex 0
+0000214c    VoiceOverLogicFlow d052311c3e02d8458fb66627d38cfde7
+00002144        $::DataContainer
+0000214c        Name CH_Hostile_Conversation18
+00002150        Owner 4eb757f2d7018f5d57310d665ebb203e
+00002154        Group 00000022
+00002158        Locals::array
+00002784            member(0) 0000002a
+00002788            member(1) 0000002b
+0000215c        Roots::array
+00002790            member(0) 5f218c956370334a9132fcc27781f088
+00002170    VoiceOverEventNode d3274edb96e04c48a74f0ed33fcb1046
+00002168        $::VoiceOverStructureNode
+00002168            $::VoiceOverNode
+00002168                $::DataContainer
+00002170            FlowMode VoiceOverLogicFlowMode_All
+00002174        Interval *nullGuid*
+00002178        Relationship::array
+00002798            member(0) 96ade7ca2ca6ed4887980bb400f2b293
+0000217c        Redirects *nullArray*
+00002180        Event f439a6c300ed9944b4806cda3b9dee40
+00002194    VoiceOverLogicFlow e975802e4e31e24f951d5d1b6f2d417b
+0000218c        $::DataContainer
+00002194        Name US1_AntiVehicleTurret
+00002198        Owner 4eb757f2d7018f5d57310d665ebb203e
+0000219c        Group 00000022
+000021a0        Locals *nullArray*
+000021a4        Roots::array
+000027a0            member(0) 9359b1c946f6994bba66bbf2c657166c
+000021b8    VoiceOverConversationNode f05f553e7af0b140a52c2f7290066ae1
+000021b0        $::VoiceOverStructureNode
+000021b0            $::VoiceOverNode
+000021b0                $::DataContainer
+000021b8            FlowMode VoiceOverLogicFlowMode_One
+000021bc        Condition *nullArray*
+000021c0        PronunciationIndex::VoiceOverValueConnection
+000021c0            TargetNode *nullGuid*
+000021c4            TargetValue *nullGuid*
+000021c8        Interval *nullGuid*
+000021cc        FinishedRelationship *nullArray*
+000021d0        BlockedRelationship *nullArray*
+000021d4        ConditionMode VoiceOverContainerConditionMode_All
+000021d8        Probability 100.0
+000021dc        Conversation::VoiceOverConversationInfo
+000021dc            Groups::array
+000027a8                member(0) 00000012
+000021e0            Tracks::array
+000027b0                member(0) 0000001d
+000021e4            Pronunciations *nullArray*
+000021e8            InterruptMode VoiceOverConversationInterruptMode_Allow
+000021ec            Priority 0
+000021f0            QueueMode VoiceOverConversationQueueMode_Never
+000021f4            Relevancy 3.0
+000021f8            LastSequenceIndex 0
+0000220c    VoiceOverEvent f439a6c300ed9944b4806cda3b9dee40
+00002204        $::DataContainer
+0000220c        Name US1_APC_Reinforcements
+00002210        NameHash 4188007212
+00002214        Parameters *nullArray*
+00002218        Owner 4eb757f2d7018f5d57310d665ebb203e
+0000222c    VoiceOverEvent f56adfc512f4b34b9b37c8e0e4da68e3
+00002224        $::DataContainer
+0000222c        Name US1_Vehicle_Fire
+00002230        NameHash 2334797522
+00002234        Parameters *nullArray*
+00002238        Owner 4eb757f2d7018f5d57310d665ebb203e
+0000224c    VoiceOverEventNode fae6673be9af004d92dcd6099164c943
+00002244        $::VoiceOverStructureNode
+00002244            $::VoiceOverNode
+00002244                $::DataContainer
+0000224c            FlowMode VoiceOverLogicFlowMode_All
+00002250        Interval *nullGuid*
+00002254        Relationship::array
+000027b8            member(0) f05f553e7af0b140a52c2f7290066ae1
+00002258        Redirects *nullArray*
+0000225c        Event b61e2d59c5cc0445ab5bc5e089b3cdab
+00002270    VoiceOverEventNode fdc34ac3958b1745a23ab1292f54f3b2
+00002268        $::VoiceOverStructureNode
+00002268            $::VoiceOverNode
+00002268                $::DataContainer
+00002270            FlowMode VoiceOverLogicFlowMode_All
+00002274        Interval *nullGuid*
+00002278        Relationship::array
+000027c0            member(0) b60b67bdbd69b9419a7ec2798e1db295
+0000227c        Redirects *nullArray*
+00002280        Event 34b35373729261499d98266f54ce7144
+00002284    VoiceOverDialogClip 00000000
+0000227c        $::DataContainer
+00002284        MinOffset 0.0
+00002288        MaxOffset 0.5
+0000228c        Takes::array
+000027c8            member(0)::VoiceOverDialogTake
+000027c8                Wave Sound/VO/SP/AI/CH/vo_en_sp_ch_idle_guarding_dialog_s18_l009/6e8a780686a70856b0fe680c6555486a
+00002290        OffsetReferences::array
+000027d0            member(0) 00000001
+00002294        Events *nullGuid*
+00002298        SequenceIndex 8
+0000229c    VoiceOverDialogClip 00000001
+00002294        $::DataContainer
+0000229c        MinOffset 0.0
+000022a0        MaxOffset 0.5
+000022a4        Takes::array
+000027d8            member(0)::VoiceOverDialogTake
+000027d8                Wave Sound/VO/SP/AI/CH/vo_en_sp_ch_idle_guarding_dialog_s18_l008/4a6a677b767b3af6d19c26904e435b17
+000022a8        OffsetReferences::array
+000027e0            member(0) 0000000c
+000022ac        Events *nullGuid*
+000022b0        SequenceIndex 7
+000022b4    VoiceOverDialogClip 00000002
+000022ac        $::DataContainer
+000022b4        MinOffset 0.0
+000022b8        MaxOffset 0.5
+000022bc        Takes::array
+000027e8            member(0)::VoiceOverDialogTake
+000027e8                Wave Sound/VO/SP/AI/CH/vo_en_sp_ch_idle_guarding_dialog_s18_l006/0178d18f351a9a16aee8aea8880a65d6
+000022c0        OffsetReferences::array
+000027f0            member(0) 0000000d
+000022c4        Events *nullGuid*
+000022c8        SequenceIndex 5
+000022cc    VoiceOverDialogClip 00000003
+000022c4        $::DataContainer
+000022cc        MinOffset 0.0
+000022d0        MaxOffset 0.0
+000022d4        Takes::array
+000027f8            member(0)::VoiceOverDialogTake
+000027f8                Wave Sound/VO/SP/AI/US1/Encounter/vo_en_sp_ai_us1_encounter_tank_normal/d51b93672fc276039ab25d232833a088
+000022d8        OffsetReferences *nullArray*
+000022dc        Events *nullGuid*
+000022e0        SequenceIndex 0
+000022e4    VoiceOverDialogClip 00000004
+000022dc        $::DataContainer
+000022e4        MinOffset 0.0
+000022e8        MaxOffset 0.5
+000022ec        Takes::array
+00002800            member(0)::VoiceOverDialogTake
+00002800                Wave Sound/VO/SP/AI/CH/vo_en_sp_ch_idle_guarding_dialog_s18_l003/ce119618494b0d6306ff163230ee36cd
+000022f0        OffsetReferences::array
+00002808            member(0) 0000000e
+000022f4        Events *nullGuid*
+000022f8        SequenceIndex 2
+000022fc    VoiceOverDialogClip 00000005
+000022f4        $::DataContainer
+000022fc        MinOffset 0.0
+00002300        MaxOffset 0.0
+00002304        Takes::array
+00002810            member(0)::VoiceOverDialogTake
+00002810                Wave Sound/VO/SP/AI/US1/Encounter/vo_en_sp_ai_us1_encounter_flanker_vehicle_normal/e0f84d4f1d0b4b70a110efdfcdcee9a7
+00002308        OffsetReferences *nullArray*
+0000230c        Events *nullGuid*
+00002310        SequenceIndex 0
+00002314    VoiceOverDialogClip 00000006
+0000230c        $::DataContainer
+00002314        MinOffset 0.0
+00002318        MaxOffset 0.0
+0000231c        Takes::array
+00002818            member(0)::VoiceOverDialogTake
+00002818                Wave Sound/VO/SP/AI/US1/vo_en_sp_ai_us1_flanker_vehicle_fire_ifv_normal/0a24cb5dffcdb4708816378240c0dd14
+00002320        OffsetReferences *nullArray*
+00002324        Events *nullGuid*
+00002328        SequenceIndex 0
+0000232c    VoiceOverDialogClip 00000007
+00002324        $::DataContainer
+0000232c        MinOffset 0.0
+00002330        MaxOffset 0.5
+00002334        Takes::array
+00002820            member(0)::VoiceOverDialogTake
+00002820                Wave Sound/VO/SP/AI/CH/vo_en_sp_ch_idle_guarding_dialog_s18_l011/d9f7bf07fc3033cd6f871af1fddbc0bc
+00002338        OffsetReferences::array
+00002828            member(0) 00000009
+0000233c        Events *nullGuid*
+00002340        SequenceIndex 10
+00002344    VoiceOverDialogClip 00000008
+0000233c        $::DataContainer
+00002344        MinOffset 0.0
+00002348        MaxOffset 0.5
+0000234c        Takes::array
+00002830            member(0)::VoiceOverDialogTake
+00002830                Wave Sound/VO/SP/AI/CH/vo_en_sp_ch_idle_guarding_dialog_s18_l004/6eb9aaf15f5c1b97b2a4a5305beae05a
+00002350        OffsetReferences::array
+00002838            member(0) 00000004
+00002354        Events *nullGuid*
+00002358        SequenceIndex 3
+0000235c    VoiceOverDialogClip 00000009
+00002354        $::DataContainer
+0000235c        MinOffset 0.0
+00002360        MaxOffset 0.5
+00002364        Takes::array
+00002840            member(0)::VoiceOverDialogTake
+00002840                Wave Sound/VO/SP/AI/CH/vo_en_sp_ch_idle_guarding_dialog_s18_l010/d1093f7ffbefd332e2c2a3fe3c63c81d
+00002368        OffsetReferences::array
+00002848            member(0) 00000000
+0000236c        Events *nullGuid*
+00002370        SequenceIndex 9
+00002374    VoiceOverDialogClip 0000000a
+0000236c        $::DataContainer
+00002374        MinOffset 0.0
+00002378        MaxOffset 0.0
+0000237c        Takes::array
+00002850            member(0)::VoiceOverDialogTake
+00002850                Wave Sound/VO/SP/AI/US1/Encounter/vo_en_sp_ai_us1_encounter_avt_normal/23d997d84f0fd0671c577cda9c069926
+00002380        OffsetReferences *nullArray*
+00002384        Events *nullGuid*
+00002388        SequenceIndex 0
+0000238c    VoiceOverDialogClip 0000000b
+00002384        $::DataContainer
+0000238c        MinOffset 0.0
+00002390        MaxOffset 0.0
+00002394        Takes::array
+00002858            member(0)::VoiceOverDialogTake
+00002858                Wave Sound/VO/SP/AI/CH/vo_en_sp_ch_idle_guarding_dialog_s18_l001/283f280edbce8677596bb498f43f49ab
+00002398        OffsetReferences *nullArray*
+0000239c        Events *nullGuid*
+000023a0        SequenceIndex 0
+000023a4    VoiceOverDialogClip 0000000c
+0000239c        $::DataContainer
+000023a4        MinOffset 0.0
+000023a8        MaxOffset 0.5
+000023ac        Takes::array
+00002860            member(0)::VoiceOverDialogTake
+00002860                Wave Sound/VO/SP/AI/CH/vo_en_sp_ch_idle_guarding_dialog_s18_l007/7cf081c619e79d76911db0e2d4beddb3
+000023b0        OffsetReferences::array
+00002868            member(0) 00000002
+000023b4        Events *nullGuid*
+000023b8        SequenceIndex 6
+000023bc    VoiceOverDialogClip 0000000d
+000023b4        $::DataContainer
+000023bc        MinOffset 0.0
+000023c0        MaxOffset 0.5
+000023c4        Takes::array
+00002870            member(0)::VoiceOverDialogTake
+00002870                Wave Sound/VO/SP/AI/CH/vo_en_sp_ch_idle_guarding_dialog_s18_l005/911ca8d29a5011c83d1203fa3226657f
+000023c8        OffsetReferences::array
+00002878            member(0) 00000008
+000023cc        Events *nullGuid*
+000023d0        SequenceIndex 4
+000023d4    VoiceOverDialogClip 0000000e
+000023cc        $::DataContainer
+000023d4        MinOffset 0.0
+000023d8        MaxOffset 0.5
+000023dc        Takes::array
+00002880            member(0)::VoiceOverDialogTake
+00002880                Wave Sound/VO/SP/AI/CH/vo_en_sp_ch_idle_guarding_dialog_s18_l002/908c01a073230dd9631aa60efa441b76
+000023e0        OffsetReferences::array
+00002888            member(0) 0000000b
+000023e4        Events *nullGuid*
+000023e8        SequenceIndex 1
+000023ec    VoiceOverDialogClip 0000000f
+000023e4        $::DataContainer
+000023ec        MinOffset 0.0
+000023f0        MaxOffset 0.0
+000023f4        Takes::array
+00002890            member(0)::VoiceOverDialogTake
+00002890                Wave Sound/VO/SP/AI/Squad/Pac/Alert/vo_en_sp_ai_pac_alert_mortar_incoming_combat/320a81807854432729eb6d75c9596a37
+000023f8        OffsetReferences *nullArray*
+000023fc        Events *nullGuid*
+00002400        SequenceIndex 0
+00002404    VoiceOverDialogClip 00000010
+000023fc        $::DataContainer
+00002404        MinOffset 0.0
+00002408        MaxOffset 0.0
+0000240c        Takes::array
+00002898            member(0)::VoiceOverDialogTake
+00002898                Wave Sound/VO/SP/AI/US1/Alert/vo_en_sp_ai_us1_alert_rpg_normal/5522fa4c20951e1c243ebc57feb11546
+00002410        OffsetReferences *nullArray*
+00002414        Events *nullGuid*
+00002418        SequenceIndex 0
+0000241c    VoiceOverDialogClip 00000011
+00002414        $::DataContainer
+0000241c        MinOffset 0.0
+00002420        MaxOffset 0.5
+00002424        Takes::array
+000028a0            member(0)::VoiceOverDialogTake
+000028a0                Wave Sound/VO/SP/AI/CH/vo_en_sp_ch_idle_guarding_dialog_s18_l012/853bf9d1ac8b7eb5182bc17e074ee5e8
+00002428        OffsetReferences::array
+000028a8            member(0) 00000007
+0000242c        Events *nullGuid*
+00002430        SequenceIndex 11
+00002434    VoiceOverDialogGroup 00000012
+0000242c        $::DataContainer
+00002434        Sound Sound/VO/VO_Radio_Tankdriver_BrokenRadio_01/fd2fc90cf217c845ae9d1908df3f4b84
+00002438        TrackCount 1
+0000243c    VoiceOverDialogGroup 00000013
+00002434        $::DataContainer
+0000243c        Sound Sound/VO/VO_Radio_Tankdriver_BrokenRadio_01/fd2fc90cf217c845ae9d1908df3f4b84
+00002440        TrackCount 1
+00002444    VoiceOverDialogGroup 00000014
+0000243c        $::DataContainer
+00002444        Sound Sound/VO/VO_Radio_Tankdriver_BrokenRadio_01/fd2fc90cf217c845ae9d1908df3f4b84
+00002448        TrackCount 1
+0000244c    VoiceOverDialogGroup 00000015
+00002444        $::DataContainer
+0000244c        Sound Sound/VO/VO_Radio_Tankdriver_BrokenRadio_01/fd2fc90cf217c845ae9d1908df3f4b84
+00002450        TrackCount 1
+00002454    VoiceOverDialogGroup 00000016
+0000244c        $::DataContainer
+00002454        Sound Sound/VO/VO_Radio_Tankdriver_BrokenRadio_01/fd2fc90cf217c845ae9d1908df3f4b84
+00002458        TrackCount 1
+0000245c    VoiceOverDialogGroup 00000017
+00002454        $::DataContainer
+0000245c        Sound Sound/VO/VO_InWorld_SP/0f2f12ba073e614db34a0912b11e07fc
+00002460        TrackCount 1
+00002464    VoiceOverDialogGroup 00000018
+0000245c        $::DataContainer
+00002464        Sound Sound/VO/VO_InWorld_AI_Talk/1fa6560862cc6a4f87501cab04f276d3
+00002468        TrackCount 1
+0000246c    VoiceOverDialogGroup 00000019
+00002464        $::DataContainer
+0000246c        Sound Sound/VO/VO_InWorld_AI_Talk/1fa6560862cc6a4f87501cab04f276d3
+00002470        TrackCount 1
+00002474    VoiceOverDialogTrack 0000001a
+0000246c        $::DataContainer
+00002474        Source::VoiceOverValueConnection
+00002474            TargetNode b37927f72e39f448be8ed52cc13012f7
+00002478            TargetValue 00000024
+0000247c        TakeControl::VoiceOverValueConnection
+0000247c            TargetNode *nullGuid*
+00002480            TargetValue *nullGuid*
+00002484        TakeIndexMapping *nullArray*
+00002488        TakeSwitching VoiceOverDialogTakeBehavior_Start
+0000248c        Output *nullGuid*
+00002490        SamplerNode Sound/VO/VO_InWorld_AI_Talk/dd05a0db4d0c4344850fdacb51110dc1
+00002494        QueueGroup Sound/VO/VO_System/dc52d000e4e6f8429514073e58bfa266
+00002498        Clips::array
+000028b0            member(0) 0000000b
+000028b4            member(1) 00000004
+000028b8            member(2) 0000000d
+000028bc            member(3) 0000000c
+000028c0            member(4) 00000000
+000028c4            member(5) 00000007
+0000249c        TakeSwitchingOnResume False
+0000249d        ParentTrackIndex 0
+0000249e        GroupIndex 0
+000024a0    VoiceOverDialogTrack 0000001b
+00002498        $::DataContainer
+000024a0        Source::VoiceOverValueConnection
+000024a0            TargetNode *nullGuid*
+000024a4            TargetValue *nullGuid*
+000024a8        TakeControl::VoiceOverValueConnection
+000024a8            TargetNode *nullGuid*
+000024ac            TargetValue *nullGuid*
+000024b0        TakeIndexMapping *nullArray*
+000024b4        TakeSwitching VoiceOverDialogTakeBehavior_Start
+000024b8        Output *nullGuid*
+000024bc        SamplerNode Sound/VO/VO_Radio_Tankdriver_BrokenRadio_01/016355a32a221f4c857685917f6e7d28
+000024c0        QueueGroup Sound/VO/VO_System/7f7429f1f07e5246b08e7800b292cc9d
+000024c4        Clips::array
+000028cc            member(0) 00000005
+000024c8        TakeSwitchingOnResume False
+000024c9        ParentTrackIndex 0
+000024ca        GroupIndex 0
+000024cc    VoiceOverDialogTrack 0000001c
+000024c4        $::DataContainer
+000024cc        Source::VoiceOverValueConnection
+000024cc            TargetNode *nullGuid*
+000024d0            TargetValue *nullGuid*
+000024d4        TakeControl::VoiceOverValueConnection
+000024d4            TargetNode *nullGuid*
+000024d8            TargetValue *nullGuid*
+000024dc        TakeIndexMapping *nullArray*
+000024e0        TakeSwitching VoiceOverDialogTakeBehavior_Start
+000024e4        Output *nullGuid*
+000024e8        SamplerNode Sound/VO/VO_Radio_Tankdriver_BrokenRadio_01/016355a32a221f4c857685917f6e7d28
+000024ec        QueueGroup Sound/VO/VO_System/7f7429f1f07e5246b08e7800b292cc9d
+000024f0        Clips::array
+000028d4            member(0) 00000003
+000024f4        TakeSwitchingOnResume False
+000024f5        ParentTrackIndex 0
+000024f6        GroupIndex 0
+000024f8    VoiceOverDialogTrack 0000001d
+000024f0        $::DataContainer
+000024f8        Source::VoiceOverValueConnection
+000024f8            TargetNode *nullGuid*
+000024fc            TargetValue *nullGuid*
+00002500        TakeControl::VoiceOverValueConnection
+00002500            TargetNode *nullGuid*
+00002504            TargetValue *nullGuid*
+00002508        TakeIndexMapping *nullArray*
+0000250c        TakeSwitching VoiceOverDialogTakeBehavior_Start
+00002510        Output *nullGuid*
+00002514        SamplerNode Sound/VO/VO_Radio_Tankdriver_BrokenRadio_01/016355a32a221f4c857685917f6e7d28
+00002518        QueueGroup Sound/VO/VO_System/7f7429f1f07e5246b08e7800b292cc9d
+0000251c        Clips::array
+000028dc            member(0) 00000010
+00002520        TakeSwitchingOnResume False
+00002521        ParentTrackIndex 0
+00002522        GroupIndex 0
+00002524    VoiceOverDialogTrack 0000001e
+0000251c        $::DataContainer
+00002524        Source::VoiceOverValueConnection
+00002524            TargetNode *nullGuid*
+00002528            TargetValue *nullGuid*
+0000252c        TakeControl::VoiceOverValueConnection
+0000252c            TargetNode *nullGuid*
+00002530            TargetValue *nullGuid*
+00002534        TakeIndexMapping *nullArray*
+00002538        TakeSwitching VoiceOverDialogTakeBehavior_Start
+0000253c        Output *nullGuid*
+00002540        SamplerNode Sound/VO/VO_Radio_Tankdriver_BrokenRadio_01/016355a32a221f4c857685917f6e7d28
+00002544        QueueGroup Sound/VO/VO_System/7f7429f1f07e5246b08e7800b292cc9d
+00002548        Clips::array
+000028e4            member(0) 0000000a
+0000254c        TakeSwitchingOnResume False
+0000254d        ParentTrackIndex 0
+0000254e        GroupIndex 0
+00002550    VoiceOverDialogTrack 0000001f
+00002548        $::DataContainer
+00002550        Source::VoiceOverValueConnection
+00002550            TargetNode 57e158f286c076418ba574bc2512ef39
+00002554            TargetValue 00000027
+00002558        TakeControl::VoiceOverValueConnection
+00002558            TargetNode *nullGuid*
+0000255c            TargetValue *nullGuid*
+00002560        TakeIndexMapping *nullArray*
+00002564        TakeSwitching VoiceOverDialogTakeBehavior_Start
+00002568        Output *nullGuid*
+0000256c        SamplerNode Sound/VO/VO_InWorld_SP/a72050e2642c7643921d74e181e32895
+00002570        QueueGroup Sound/VO/VO_System/773be1823519724b81ec15da4a4aac89
+00002574        Clips::array
+000028ec            member(0) 0000000f
+00002578        TakeSwitchingOnResume False
+00002579        ParentTrackIndex 0
+0000257a        GroupIndex 0
+0000257c    VoiceOverDialogTrack 00000020
+00002574        $::DataContainer
+0000257c        Source::VoiceOverValueConnection
+0000257c            TargetNode b73052a05f74014cbe4289f535af4ccb
+00002580            TargetValue 00000028
+00002584        TakeControl::VoiceOverValueConnection
+00002584            TargetNode *nullGuid*
+00002588            TargetValue *nullGuid*
+0000258c        TakeIndexMapping *nullArray*
+00002590        TakeSwitching VoiceOverDialogTakeBehavior_Start
+00002594        Output *nullGuid*
+00002598        SamplerNode Sound/VO/VO_InWorld_AI_Talk/dd05a0db4d0c4344850fdacb51110dc1
+0000259c        QueueGroup Sound/VO/VO_System/dc52d000e4e6f8429514073e58bfa266
+000025a0        Clips::array
+000028f4            member(0) 0000000e
+000028f8            member(1) 00000008
+000028fc            member(2) 00000002
+00002900            member(3) 00000001
+00002904            member(4) 00000009
+00002908            member(5) 00000011
+000025a4        TakeSwitchingOnResume False
+000025a5        ParentTrackIndex 1
+000025a6        GroupIndex 1
+000025a8    VoiceOverDialogTrack 00000021
+000025a0        $::DataContainer
+000025a8        Source::VoiceOverValueConnection
+000025a8            TargetNode *nullGuid*
+000025ac            TargetValue *nullGuid*
+000025b0        TakeControl::VoiceOverValueConnection
+000025b0            TargetNode *nullGuid*
+000025b4            TargetValue *nullGuid*
+000025b8        TakeIndexMapping *nullArray*
+000025bc        TakeSwitching VoiceOverDialogTakeBehavior_Start
+000025c0        Output *nullGuid*
+000025c4        SamplerNode Sound/VO/VO_Radio_Tankdriver_BrokenRadio_01/016355a32a221f4c857685917f6e7d28
+000025c8        QueueGroup Sound/VO/VO_System/7f7429f1f07e5246b08e7800b292cc9d
+000025cc        Clips::array
+00002910            member(0) 00000006
+000025d0        TakeSwitchingOnResume False
+000025d1        ParentTrackIndex 0
+000025d2        GroupIndex 0
+000025d4    VoiceOverGroup 00000022
+000025cc        $::DataContainer
+000025d4        Name Default
+000025d8        Priority 0
+000025dc    VoiceOverLabelSource 00000023
+000025d4        $::DataContainer
+000025dc        Source::VoiceOverValueConnection
+000025dc            TargetNode b37927f72e39f448be8ed52cc13012f7
+000025e0            TargetValue 00000024
+000025e4    VoiceOverValue 00000024
+000025dc        $::DataContainer
+000025e4    VoiceOverValue 00000025
+000025dc        $::DataContainer
+000025e4    VoiceOverValue 00000026
+000025dc        $::DataContainer
+000025e4    VoiceOverValue 00000027
+000025dc        $::DataContainer
+000025e4    VoiceOverValue 00000028
+000025dc        $::DataContainer
+000025e4    VoiceOverNamedValue 00000029
+000025dc        $::VoiceOverValue
+000025dc            $::DataContainer
+000025e4        Name Pac
+000025e8        NameHash 193467159
+000025ec        ValueType VoiceOverValueType_Object
+000025f0    VoiceOverNamedValue 0000002a
+000025e8        $::VoiceOverValue
+000025e8            $::DataContainer
+000025f0        Name Soldier1
+000025f4        NameHash 3678776702
+000025f8        ValueType VoiceOverValueType_Object
+000025fc    VoiceOverNamedValue 0000002b
+000025f4        $::VoiceOverValue
+000025f4            $::DataContainer
+000025fc        Name Soldier2
+00002600        NameHash 3678776701
+00002604        ValueType VoiceOverValueType_Object
+00002608    VoiceOverValueRedirect 0000002c
+00002600        $::DataContainer
+00002608        Source 8cbf4d992860844e875f73f70063fedf
+0000260c        Target 0000002b
+00002610    VoiceOverValueRedirect 0000002d
+00002608        $::DataContainer
+00002610        Source 5c05db2deb69914d8f99db0b1fd4642d
+00002614        Target 0000002a
+00002618    VoiceOverValueRedirect 0000002e
+00002610        $::DataContainer
+00002618        Source 8fcf6b56fe69964dbe912a2617284ca7
+0000261c        Target 00000029

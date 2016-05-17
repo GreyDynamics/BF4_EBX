@@ -1,0 +1,542 @@
+00002540    UIScreenAsset 6795ca1deaa997120017edaaff0837be
+00002538        $::UIViewBaseAsset
+00002538            $::UIGraphAsset
+00002538                $::Asset
+00002538                    $::DataContainer
+00002540                    Name UI/Flow/Screen/Popups/PopupServerReminder
+00002544                Nodes::array
+00002974                    member(0) f4ef1d87ead5a443aa76c05824630d23
+00002978                    member(1) 410f20b25d37944a83672b893ef78646
+0000297c                    member(2) 4af9cc8b9186014983dfbf91117fb70c
+00002980                    member(3) 9ab1cd3e2055f8429aaa64a7a016d800
+00002984                    member(4) cf637de4f4997d42adf895d5f3fe02f4
+00002548                GlobalNode *nullGuid*
+0000254c                Connections::array
+0000298c                    member(0) 00000009
+00002550                AudioEventMappings UI/Flow/Graph/AudioMapping/FlashScreenAudioMapping/e9a16c48bc2ec84b820957b2691a28d2
+00002554                BundleAssetName *nullString*
+00002558                EventList *nullArray*
+0000255c                ProtectScreens False
+0000255d                Modal True
+0000255e                IsWin32UIGraphAsset True
+0000255f                IsXenonUIGraphAsset True
+00002560                IsPs3UIGraphAsset True
+00002561                IsGen4aUIGraphAsset True
+00002562                IsGen4bUIGraphAsset True
+00002564        UIAsset UI/Assets/PopupServerReminder/0901aca7a8a7d1ac32f3cd61f1572c35
+00002568        SwfPath UI/Assets/PopupServerReminder
+0000256c        Purpose UIScreenPurpose_Standard
+00002580    WidgetNode 410f20b25d37944a83672b893ef78646
+00002578        $::UINodeData
+00002578            $::DataContainer
+00002580            Name Dimmer
+00002584            ParentGraph 6795ca1deaa997120017edaaff0837be
+00002588            IsRootNode False
+00002589            ParentIsScreen True
+0000258c        WidgetAsset UI/Assets/Dimmer/5cbbd928b6246077e7268be53524ba15
+00002590        FocusIndex 0
+00002594        VerticalAlign WVA_Center
+00002598        HorisontalAlign WHA_Center
+0000259c        ZDepthLevel 0
+000025a0        DataBinding 00000005
+000025a4        InstanceName Dimmer_00
+000025a8        WidgetProperties::array
+00002994            member(0)::UIWidgetProperty
+00002994                Name DimFromStart
+00002998                Value true
+0000299c            member(1)::UIWidgetProperty
+0000299c                Name InstantDim
+000029a0                Value true
+000025ac        Outputs *nullArray*
+000025b0        Inputs::array
+000029a8            member(0) 0000001b
+000029ac            member(1) 00000017
+000025b4        AlwaysInFocus False
+000025b5        IsDisabled False
+000025c8    WidgetNode 4af9cc8b9186014983dfbf91117fb70c
+000025c0        $::UINodeData
+000025c0            $::DataContainer
+000025c8            Name TextField
+000025cc            ParentGraph 6795ca1deaa997120017edaaff0837be
+000025d0            IsRootNode False
+000025d1            ParentIsScreen True
+000025d4        WidgetAsset UI/Assets/TextField/9cde2e99f6361ef321405c1ec7fcf345
+000025d8        FocusIndex 3
+000025dc        VerticalAlign WVA_Center
+000025e0        HorisontalAlign WHA_Center
+000025e4        ZDepthLevel 0
+000025e8        DataBinding 0000001c
+000025ec        InstanceName TextField_00
+000025f0        WidgetProperties::array
+000029b4            member(0)::UIWidgetProperty
+000029b4                Name p_styleName
+000029b8                Value popupHeader
+000029bc            member(1)::UIWidgetProperty
+000029bc                Name p_wordWrap
+000029c0                Value false
+000025f4        Outputs *nullArray*
+000025f8        Inputs::array
+000029c8            member(0) 0000000f
+000029cc            member(1) 00000019
+000025fc        AlwaysInFocus False
+000025fd        IsDisabled False
+00002610    WidgetNode 9ab1cd3e2055f8429aaa64a7a016d800
+00002608        $::UINodeData
+00002608            $::DataContainer
+00002610            Name TextField
+00002614            ParentGraph 6795ca1deaa997120017edaaff0837be
+00002618            IsRootNode False
+00002619            ParentIsScreen True
+0000261c        WidgetAsset UI/Assets/TextField/9cde2e99f6361ef321405c1ec7fcf345
+00002620        FocusIndex 0
+00002624        VerticalAlign WVA_Center
+00002628        HorisontalAlign WHA_Center
+0000262c        ZDepthLevel 0
+00002630        DataBinding 0000001f
+00002634        InstanceName TextField_01
+00002638        WidgetProperties *nullArray*
+0000263c        Outputs *nullArray*
+00002640        Inputs::array
+000029d4            member(0) 00000010
+000029d8            member(1) 00000016
+00002644        AlwaysInFocus False
+00002645        IsDisabled False
+00002658    WidgetNode cf637de4f4997d42adf895d5f3fe02f4
+00002650        $::UINodeData
+00002650            $::DataContainer
+00002658            Name PopupButtonsManager
+0000265c            ParentGraph 6795ca1deaa997120017edaaff0837be
+00002660            IsRootNode False
+00002661            ParentIsScreen True
+00002664        WidgetAsset UI/Assets/PopupButtonsManager/85eba77ee604d6e293eb6f89c0e20bb9
+00002668        FocusIndex 0
+0000266c        VerticalAlign WVA_Center
+00002670        HorisontalAlign WHA_Center
+00002674        ZDepthLevel 0
+00002678        DataBinding 00000000
+0000267c        InstanceName PopupButtonsManager_00
+00002680        WidgetProperties *nullArray*
+00002684        Outputs::array
+000029e0            member(0) 0000000d
+00002688        Inputs *nullArray*
+0000268c        AlwaysInFocus False
+0000268d        IsDisabled False
+000026a0    InstanceOutputNode f4ef1d87ead5a443aa76c05824630d23
+00002698        $::UINodeData
+00002698            $::DataContainer
+000026a0            Name PopupButtonReleased
+000026a4            ParentGraph 6795ca1deaa997120017edaaff0837be
+000026a8            IsRootNode False
+000026a9            ParentIsScreen True
+000026ac        In 00000015
+000026b0        Id 1352178388
+000026b4        DestroyGraph True
+000026b8    UIDynamicDataBinding 00000000
+000026b0        $::UIDataBinding
+000026b0            $::DataContainer
+000026b8        Bindings::array
+000029e8            member(0)::UIDataSourceInfo
+000029e8                DataName Buttons
+000029ec                DataCategory UI/UIComponents/UIPopupComp/6d639c3787a9777411d0458076f632d4
+000029f0                DataKey -1192680079
+000029f4                UseDirectAccess False
+000029f5                UpdateOnInitialize True
+000026bc        Refresh True
+000026c0    UIDynamicDataBinding 00000001
+000026b8        $::UIDataBinding
+000026b8            $::DataContainer
+000026c0        Bindings::array
+000029fc            member(0)::UIDataSourceInfo
+000029fc                DataName Visible
+00002a00                DataCategory UI/UIComponents/UIPopupComp/6d639c3787a9777411d0458076f632d4
+00002a04                DataKey 1310175943
+00002a08                UseDirectAccess False
+00002a09                UpdateOnInitialize True
+000026c4        Refresh True
+000026c8    UIDynamicDataBinding 00000002
+000026c0        $::UIDataBinding
+000026c0            $::DataContainer
+000026c8        Bindings *nullArray*
+000026cc        Refresh True
+000026d0    UIDynamicDataBinding 00000003
+000026c8        $::UIDataBinding
+000026c8            $::DataContainer
+000026d0        Bindings::array
+00002a10            member(0)::UIDataSourceInfo
+00002a10                DataName Buttons
+00002a14                DataCategory UI/UIComponents/UIPopupComp/6d639c3787a9777411d0458076f632d4
+00002a18                DataKey -1192680079
+00002a1c                UseDirectAccess False
+00002a1d                UpdateOnInitialize True
+000026d4        Refresh True
+000026d8    UIDynamicDataBinding 00000004
+000026d0        $::UIDataBinding
+000026d0            $::DataContainer
+000026d8        Bindings::array
+00002a24            member(0)::UIDataSourceInfo
+00002a24                DataName Text
+00002a28                DataCategory *nullGuid*
+00002a2c                DataKey 0
+00002a30                UseDirectAccess False
+00002a31                UpdateOnInitialize False
+00002a34            member(1)::UIDataSourceInfo
+00002a34                DataName Selected
+00002a38                DataCategory *nullGuid*
+00002a3c                DataKey 1258883550
+00002a40                UseDirectAccess False
+00002a41                UpdateOnInitialize True
+00002a44            member(2)::UIDataSourceInfo
+00002a44                DataName Visible
+00002a48                DataCategory *nullGuid*
+00002a4c                DataKey 0
+00002a50                UseDirectAccess False
+00002a51                UpdateOnInitialize False
+00002a54            member(3)::UIDataSourceInfo
+00002a54                DataName Enabled
+00002a58                DataCategory *nullGuid*
+00002a5c                DataKey 0
+00002a60                UseDirectAccess False
+00002a61                UpdateOnInitialize False
+000026dc        Refresh True
+000026e0    UIDynamicDataBinding 00000005
+000026d8        $::UIDataBinding
+000026d8            $::DataContainer
+000026e0        Bindings::array
+00002a68            member(0)::UIDataSourceInfo
+00002a68                DataName Visible
+00002a6c                DataCategory UI/UIComponents/UIPopupComp/6d639c3787a9777411d0458076f632d4
+00002a70                DataKey 1310175943
+00002a74                UseDirectAccess False
+00002a75                UpdateOnInitialize True
+000026e4        Refresh True
+000026e8    UIDynamicDataBinding 00000006
+000026e0        $::UIDataBinding
+000026e0            $::DataContainer
+000026e8        Bindings::array
+00002a7c            member(0)::UIDataSourceInfo
+00002a7c                DataName Text
+00002a80                DataCategory *nullGuid*
+00002a84                DataKey 0
+00002a88                UseDirectAccess False
+00002a89                UpdateOnInitialize False
+00002a8c            member(1)::UIDataSourceInfo
+00002a8c                DataName Selected
+00002a90                DataCategory *nullGuid*
+00002a94                DataKey 0
+00002a98                UseDirectAccess False
+00002a99                UpdateOnInitialize False
+00002a9c            member(2)::UIDataSourceInfo
+00002a9c                DataName Visible
+00002aa0                DataCategory *nullGuid*
+00002aa4                DataKey 0
+00002aa8                UseDirectAccess False
+00002aa9                UpdateOnInitialize False
+00002aac            member(3)::UIDataSourceInfo
+00002aac                DataName Enabled
+00002ab0                DataCategory *nullGuid*
+00002ab4                DataKey 0
+00002ab8                UseDirectAccess False
+00002ab9                UpdateOnInitialize False
+000026ec        Refresh True
+000026f0    UIDynamicDataBinding 00000007
+000026e8        $::UIDataBinding
+000026e8            $::DataContainer
+000026f0        Bindings::array
+00002ac0            member(0)::UIDataSourceInfo
+00002ac0                DataName Text
+00002ac4                DataCategory *nullGuid*
+00002ac8                DataKey 0
+00002acc                UseDirectAccess False
+00002acd                UpdateOnInitialize False
+000026f4        Refresh True
+000026f8    UIListDataBinding 00000008
+000026f0        $::UIDataBinding
+000026f0            $::DataContainer
+000026f8        ListIndex 0
+000026fc        ListQuery::UIDataSourceInfo
+000026fc            DataName *nullString*
+00002700            DataCategory *nullGuid*
+00002704            DataKey 0
+00002708            UseDirectAccess False
+00002709            UpdateOnInitialize True
+0000270c        StaticItems::array
+00002ad4            member(0)::StaticListItem
+00002ad4                ItemName ID_M_REMINDER_EXTEND
+00002ad8                ItemIndex *nullString*
+00002adc                DynamicDisable::UISimpleDataSource
+00002adc                    DataCategory *nullGuid*
+00002ae0                    DataKey 0
+00002ae4                DynamicNewContent::UISimpleDataSource
+00002ae4                    DataCategory *nullGuid*
+00002ae8                    DataKey 0
+00002aec                AppendPlatformToSID False
+00002aed                ExcludeInRetail False
+00002af0            member(1)::StaticListItem
+00002af0                ItemName ID_M_REMINDER_LATER
+00002af4                ItemIndex *nullString*
+00002af8                DynamicDisable::UISimpleDataSource
+00002af8                    DataCategory *nullGuid*
+00002afc                    DataKey 0
+00002b00                DynamicNewContent::UISimpleDataSource
+00002b00                    DataCategory *nullGuid*
+00002b04                    DataKey 0
+00002b08                AppendPlatformToSID False
+00002b09                ExcludeInRetail False
+00002710        DefaultHighlightedRow::DefaultSelectionItem
+00002710            DefaultSelectionQuery::UIDataSourceInfo
+00002710                DataName *nullString*
+00002714                DataCategory *nullGuid*
+00002718                DataKey 0
+0000271c                UseDirectAccess False
+0000271d                UpdateOnInitialize True
+00002720            DefaultSelectionIndex 0
+00002724        RowType basicRow
+00002728        NavigationType sendEventTopBottom
+0000272c        NavigationTypeSource::UIDataSourceInfo
+0000272c            DataName *nullString*
+00002730            DataCategory *nullGuid*
+00002734            DataKey 0
+00002738            UseDirectAccess False
+00002739            UpdateOnInitialize True
+0000273c        UnFocusMode DeSelect
+00002740        EmptyRowType emptyRowNone
+00002744        RowSpacing 2
+00002748        DisabledRows *nullString*
+0000274c        SendIndexWithEvent True
+0000274d        ClearListAtNavigationEvent False
+0000274e        UseScrollBar False
+0000274f        ScreenRotationEnabled False
+00002750        Use3DSelection False
+00002751        FireHighlightOnMouseOut False
+00002752        DataIncludesButtonLayout False
+00002753        Visible True
+00002754        SpinnerEnabled False
+00002755        HighLightOnUpdate True
+00002756        EnableScaleToText True
+00002757        DisableItemCaching False
+00002758        DisplayDisabledItems False
+0000275c    UINodeConnection 00000009
+00002754        $::DataContainer
+0000275c        SourceNode cf637de4f4997d42adf895d5f3fe02f4
+00002760        TargetNode f4ef1d87ead5a443aa76c05824630d23
+00002764        SourcePort 0000000d
+00002768        TargetPort 00000015
+0000276c        SourcePortName *nullString*
+00002770        TargetPortName *nullString*
+00002774        NumScreensToPop 0
+00002778    UINodePort 0000000a
+00002770        $::DataContainer
+00002778        Name *nullString*
+0000277c        InstanceName *nullString*
+00002780        Query UIWidgetEventID_None
+00002784        AllowManualRemove False
+00002785        IsReferencePort False
+00002788    UINodePort 0000000b
+00002780        $::DataContainer
+00002788        Name *nullString*
+0000278c        InstanceName *nullString*
+00002790        Query UIWidgetEventID_None
+00002794        AllowManualRemove False
+00002795        IsReferencePort False
+00002798    UINodePort 0000000c
+00002790        $::DataContainer
+00002798        Name *nullString*
+0000279c        InstanceName *nullString*
+000027a0        Query UIWidgetEventID_None
+000027a4        AllowManualRemove False
+000027a5        IsReferencePort False
+000027a8    UINodePort 0000000d
+000027a0        $::DataContainer
+000027a8        Name ButtonReleased
+000027ac        InstanceName PopupButtonsManager_00
+000027b0        Query UIWidgetEventID_OnItemReleased
+000027b4        AllowManualRemove False
+000027b5        IsReferencePort False
+000027b8    UINodePort 0000000e
+000027b0        $::DataContainer
+000027b8        Name *nullString*
+000027bc        InstanceName *nullString*
+000027c0        Query UIWidgetEventID_None
+000027c4        AllowManualRemove False
+000027c5        IsReferencePort False
+000027c8    UINodePort 0000000f
+000027c0        $::DataContainer
+000027c8        Name Show
+000027cc        InstanceName TextField_00
+000027d0        Query UIWidgetEventID_Show
+000027d4        AllowManualRemove False
+000027d5        IsReferencePort False
+000027d8    UINodePort 00000010
+000027d0        $::DataContainer
+000027d8        Name Show
+000027dc        InstanceName TextField_01
+000027e0        Query UIWidgetEventID_Show
+000027e4        AllowManualRemove False
+000027e5        IsReferencePort False
+000027e8    UINodePort 00000011
+000027e0        $::DataContainer
+000027e8        Name *nullString*
+000027ec        InstanceName *nullString*
+000027f0        Query UIWidgetEventID_None
+000027f4        AllowManualRemove False
+000027f5        IsReferencePort False
+000027f8    UINodePort 00000012
+000027f0        $::DataContainer
+000027f8        Name *nullString*
+000027fc        InstanceName *nullString*
+00002800        Query UIWidgetEventID_None
+00002804        AllowManualRemove False
+00002805        IsReferencePort False
+00002808    UINodePort 00000013
+00002800        $::DataContainer
+00002808        Name *nullString*
+0000280c        InstanceName *nullString*
+00002810        Query UIWidgetEventID_None
+00002814        AllowManualRemove False
+00002815        IsReferencePort False
+00002818    UINodePort 00000014
+00002810        $::DataContainer
+00002818        Name *nullString*
+0000281c        InstanceName *nullString*
+00002820        Query UIWidgetEventID_None
+00002824        AllowManualRemove False
+00002825        IsReferencePort False
+00002828    UINodePort 00000015
+00002820        $::DataContainer
+00002828        Name *nullString*
+0000282c        InstanceName *nullString*
+00002830        Query UIWidgetEventID_None
+00002834        AllowManualRemove False
+00002835        IsReferencePort False
+00002838    UINodePort 00000016
+00002830        $::DataContainer
+00002838        Name Hide
+0000283c        InstanceName TextField_01
+00002840        Query UIWidgetEventID_Hide
+00002844        AllowManualRemove False
+00002845        IsReferencePort False
+00002848    UINodePort 00000017
+00002840        $::DataContainer
+00002848        Name FadeOut
+0000284c        InstanceName Dimmer_00
+00002850        Query UIWidgetEventID_Hide
+00002854        AllowManualRemove False
+00002855        IsReferencePort False
+00002858    UINodePort 00000018
+00002850        $::DataContainer
+00002858        Name *nullString*
+0000285c        InstanceName *nullString*
+00002860        Query UIWidgetEventID_None
+00002864        AllowManualRemove False
+00002865        IsReferencePort False
+00002868    UINodePort 00000019
+00002860        $::DataContainer
+00002868        Name Hide
+0000286c        InstanceName TextField_00
+00002870        Query UIWidgetEventID_Hide
+00002874        AllowManualRemove False
+00002875        IsReferencePort False
+00002878    UINodePort 0000001a
+00002870        $::DataContainer
+00002878        Name *nullString*
+0000287c        InstanceName *nullString*
+00002880        Query UIWidgetEventID_None
+00002884        AllowManualRemove False
+00002885        IsReferencePort False
+00002888    UINodePort 0000001b
+00002880        $::DataContainer
+00002888        Name FadeIn
+0000288c        InstanceName Dimmer_00
+00002890        Query UIWidgetEventID_Show
+00002894        AllowManualRemove False
+00002895        IsReferencePort False
+00002898    UITextDataBinding 0000001c
+00002890        $::UIDataBinding
+00002890            $::DataContainer
+00002898        StaticText *nullString*
+0000289c        TextData::UIDataSourceInfo
+0000289c            DataName *nullString*
+000028a0            DataCategory UI/UIComponents/UIPurchaseServerComp/3af100868a91bc9ef64d2f0ca2299b2f
+000028a4            DataKey 0
+000028a8            UseDirectAccess False
+000028a9            UpdateOnInitialize True
+000028ac        Visibility::UIDataSourceInfo
+000028ac            DataName *nullString*
+000028b0            DataCategory *nullGuid*
+000028b4            DataKey 0
+000028b8            UseDirectAccess False
+000028b9            UpdateOnInitialize True
+000028bc        Refresh True
+000028bd        OverrideDirectAccess True
+000028c0    UITextDataBinding 0000001d
+000028b8        $::UIDataBinding
+000028b8            $::DataContainer
+000028c0        StaticText ID_M_REMINDER_HEADER
+000028c4        TextData::UIDataSourceInfo
+000028c4            DataName *nullString*
+000028c8            DataCategory *nullGuid*
+000028cc            DataKey -1951480908
+000028d0            UseDirectAccess False
+000028d1            UpdateOnInitialize True
+000028d4        Visibility::UIDataSourceInfo
+000028d4            DataName *nullString*
+000028d8            DataCategory *nullGuid*
+000028dc            DataKey 0
+000028e0            UseDirectAccess False
+000028e1            UpdateOnInitialize True
+000028e4        Refresh True
+000028e5        OverrideDirectAccess True
+000028e8    UITextDataBinding 0000001e
+000028e0        $::UIDataBinding
+000028e0            $::DataContainer
+000028e8        StaticText *nullString*
+000028ec        TextData::UIDataSourceInfo
+000028ec            DataName *nullString*
+000028f0            DataCategory *nullGuid*
+000028f4            DataKey -480560575
+000028f8            UseDirectAccess False
+000028f9            UpdateOnInitialize True
+000028fc        Visibility::UIDataSourceInfo
+000028fc            DataName *nullString*
+00002900            DataCategory *nullGuid*
+00002904            DataKey 0
+00002908            UseDirectAccess False
+00002909            UpdateOnInitialize True
+0000290c        Refresh True
+0000290d        OverrideDirectAccess True
+00002910    UITextDataBinding 0000001f
+00002908        $::UIDataBinding
+00002908            $::DataContainer
+00002910        StaticText *nullString*
+00002914        TextData::UIDataSourceInfo
+00002914            DataName *nullString*
+00002918            DataCategory UI/UIComponents/UIPurchaseServerComp/3af100868a91bc9ef64d2f0ca2299b2f
+0000291c            DataKey 0
+00002920            UseDirectAccess False
+00002921            UpdateOnInitialize True
+00002924        Visibility::UIDataSourceInfo
+00002924            DataName *nullString*
+00002928            DataCategory *nullGuid*
+0000292c            DataKey 0
+00002930            UseDirectAccess False
+00002931            UpdateOnInitialize True
+00002934        Refresh True
+00002935        OverrideDirectAccess True
+00002938    UITextDataBinding 00000020
+00002930        $::UIDataBinding
+00002930            $::DataContainer
+00002938        StaticText *nullString*
+0000293c        TextData::UIDataSourceInfo
+0000293c            DataName *nullString*
+00002940            DataCategory *nullGuid*
+00002944            DataKey -480560576
+00002948            UseDirectAccess False
+00002949            UpdateOnInitialize True
+0000294c        Visibility::UIDataSourceInfo
+0000294c            DataName *nullString*
+00002950            DataCategory *nullGuid*
+00002954            DataKey 0
+00002958            UseDirectAccess False
+00002959            UpdateOnInitialize True
+0000295c        Refresh True
+0000295d        OverrideDirectAccess True

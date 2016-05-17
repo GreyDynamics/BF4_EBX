@@ -1,0 +1,567 @@
+00004f30    SoldierWeaponBlueprint 53f464de8ff46e187791ba2b87f02851
+00004f28        $::ObjectBlueprint
+00004f28            $::Blueprint
+00004f28                $::EntityBusData
+00004f28                    $::DataBusData
+00004f28                        $::Asset
+00004f28                            $::DataContainer
+00004f30                            Name Gameplay/Gadgets/Tomahawk/Tomahawk_dummy
+00004f34                        PropertyConnections *nullArray*
+00004f38                        LinkConnections *nullArray*
+00004f3c                        Interface *nullGuid*
+00004f40                        Flags 0
+00004f44                    EventConnections *nullArray*
+00004f48            Object 00000003
+00004f50    FiringFunctionData 00000000
+00004f50        $::GameDataContainer
+00004f50            $::DataContainer
+00004f58        Dispersion *nullArray*
+00004f5c        WeaponDispersion::WeaponDispersion
+00004f5c            StandDispersion::FiringDispersionData
+00004f5c                MinAngle 0.0
+00004f60                MaxAngle 0.0
+00004f64                IncreasePerShot 0.0
+00004f68                DecreasePerSecond 5.0
+00004f6c            CrouchDispersion::FiringDispersionData
+00004f6c                MinAngle 0.0
+00004f70                MaxAngle 0.0
+00004f74                IncreasePerShot 0.0
+00004f78                DecreasePerSecond 5.0
+00004f7c            ProneDispersion::FiringDispersionData
+00004f7c                MinAngle 0.0
+00004f80                MaxAngle 0.0
+00004f84                IncreasePerShot 0.0
+00004f88                DecreasePerSecond 5.0
+00004f8c            JumpDispersionAngle 0.0
+00004f90            ProneTransitionDispersionAngle 0.0
+00004f94            MoveDispersionAngle 0.0
+00004f98            MoveZoomedDispersionAngle 0.0
+00004f9c            DecreasePerSecond 5.0
+00004fa0        Shot::ShotConfigData
+00004fa0            InitialPosition::Vec3
+00004fa0                x 0.0
+00004fa4                y 0.0
+00004fa8                z 0.0
+00004fb0            InitialDirection::Vec3
+00004fb0                x 0.0
+00004fb4                y 0.0
+00004fb8                z 1.0
+00004fc0            InitialSpeed::Vec3
+00004fc0                x 0.0
+00004fc4                y 0.0
+00004fc8                z 350.0
+00004fd0            InitialDirectionScaleByPitch *nullArray*
+00004fd4            InitialSpeedScaleByPitch *nullArray*
+00004fd8            InheritWeaponSpeedAmount 0.0
+00004fdc            MuzzleExplosion *nullGuid*
+00004fe0            ProjectileData *nullGuid*
+00004fe4            SecondaryProjectileData *nullGuid*
+00004fe8            Projectile *nullGuid*
+00004fec            SecondaryProjectile *nullGuid*
+00004ff0            SpawnDelay 0.0
+00004ff4            SpawnDelayZoomed -1.0
+00004ff8            NumberOfBulletsPerShell 1
+00004ffc            NumberOfBulletsPerShot 1
+00005000            NumberOfBulletsPerBurst 3
+00005004            RelativeTargetAiming False
+00005005            ForceSpawnToCamera False
+00005006            SpawnVisualAtWeaponBone False
+00005007            ActiveForceSpawnToCamera True
+00005010        OverHeat::OverHeatData
+00005010            OverHeatEffect::FireEffectData
+00005010                Offset::Vec3
+00005010                    x 0.0
+00005014                    y 0.0
+00005018                    z 0.0
+00005020                Rotation::Vec3
+00005020                    x 0.0
+00005024                    y 0.0
+00005028                    z 0.0
+00005030                ZoomOffset::Vec3
+00005030                    x 0.0
+00005034                    y 0.0
+00005038                    z 0.0
+00005040                ZoomRotation::Vec3
+00005040                    x 0.0
+00005044                    y 0.0
+00005048                    z 0.0
+00005050                Effect *nullGuid*
+00005054                UseZoomOffset False
+00005055                UseZoomRotation False
+00005056                DisableDuringZoom False
+00005057                UpdateTransform False
+00005058                StopLoopingEffects False
+00005060            HeatPerBullet 0.0
+00005064            HeatDropPerSecond 0.20000000298
+00005068            OverHeatPenaltyTime 3.0
+0000506c            OverHeatThreshold 0.800000011921
+00005070        FireEffects1p *nullArray*
+00005074        FireEffects3p *nullArray*
+00005078        Sound *nullGuid*
+0000507c        FireLogic::FireLogicData
+0000507c            HoldAndRelease::HoldAndReleaseData
+0000507c                MaxHoldTime 10.0
+00005080                MinPowerModifier 1.0
+00005084                MaxPowerModifier 2.0
+00005088                PowerIncreasePerSecond 0.10000000149
+0000508c                Delay 0.0
+00005090                KilledHoldingPowerModifier 0.0
+00005094                ForceFireWhenKilledHolding True
+00005098            BoltAction::BoltActionData
+00005098                BoltActionDelay 0.5
+0000509c                BoltActionTime 1.0
+000050a0                HoldBoltActionUntilFireRelease True
+000050a1                HoldBoltActionUntilZoomRelease True
+000050a2                ForceBoltActionOnFireTrigger False
+000050a3                UnZoomOnBoltAction True
+000050a4                ReturnToZoomAfterBoltAction True
+000050a8            Recoil::RecoilData
+000050a8                MaxRecoilAngleX 0.0
+000050ac                MinRecoilAngleX 0.0
+000050b0                MaxRecoilAngleY 0.0
+000050b4                MinRecoilAngleY 0.0
+000050b8                MaxRecoilAngleZ 0.0
+000050bc                MinRecoilAngleZ 0.0
+000050c0                MaxRecoilFov 0.0
+000050c4                MinRecoilFov 0.0
+000050c8                RecoilFollowsDispersion True
+000050cc            FireInputAction 1018135856
+000050d0            ReloadInputAction 1131457753
+000050d4            CycleFireModeInputAction -1145593149
+000050d8            TriggerPullWeight 0.10000000149
+000050dc            RateOfFire 550.0
+000050e0            RateOfFireForBurst 550.0
+000050e4            DelayBetweenBursts -1.0
+000050e8            ClientFireRateMultiplier 0.670000016689
+000050ec            ReloadDelay 0.0
+000050f0            ReloadTime 3.59999990463
+000050f4            ReloadTimerArray *nullArray*
+000050f8            ReloadTimeBulletsLeft -1.0
+000050fc            ReloadThreshold 0.75
+00005100            PreFireDelay 0.0
+00005104            PreFireDelayZoomed -1.0
+00005108            PreFireRequireHold 1.0
+0000510c            AutomaticDelay 0.0
+00005110            ReloadLogic rlWeaponSwitchCancelsUnfinishedReload
+00005114            ReloadType rtMagazine
+00005118            FireLogicType fltAutomaticFire
+0000511c            FireLogicTypeArray *nullArray*
+00005120            HoldOffReloadUntilFireRelease False
+00005121            HoldOffReloadUntilZoomRelease False
+00005122            ForceReloadActionOnFireTrigger False
+00005123            AlwaysAutoReload True
+00005124            ZoomTransitionDisableFire False
+00005128        Ammo::AmmoConfigData
+00005128            MagazineCapacity 30
+0000512c            NumberOfMagazines 6
+00005130            TraceFrequency 1
+00005134            AmmoPickupMinAmount 0
+00005138            AmmoPickupMaxAmount 0
+0000513c            AutoReplenishDelay 5.0
+00005140            AmmoBagPickupDelayMultiplier 1.0
+00005144            AmmoBagPickupAmount -1
+00005148            AutoReplenishMagazine False
+00005149            StartUnloaded False
+0000514c        SelfHealTimeWhenDeployed 0.0
+00005150        UsePrimaryAmmo True
+00005151        UnlimitedAmmoForAI False
+00005160    FirstPersonCameraData 00000001
+00005160        $::DataContainer
+00005168        WeaponSpringEffect *nullGuid*
+0000516c        CameraSpringEffect *nullGuid*
+00005170        Offset::Vec3
+00005170            x 0.10000000149
+00005174            y -1.5
+00005178            z 0.20000000298
+00005180        WeaponBaseOffset::Vec3
+00005180            x -0.0900000035763
+00005184            y 0.0
+00005188            z 0.0
+00005190        WeaponLagRotationOffset::Vec3
+00005190            x -0.0900000035763
+00005194            y 0.0
+00005198            z 0.20000000298
+000051a0        Rotation::Vec3
+000051a0            x 0.0
+000051a4            y 0.0
+000051a8            z 0.0
+000051b0        MoveStrafeModifier 0.0
+000051b4        MoveForwardModifier 0.0
+000051b8        RotateYawModifier 0.0
+000051bc        RotatePitchModifier 0.0
+000051c0        RotateRollModifier 0.0
+000051c4        ZoomMoveStrafeModifier 0.0
+000051c8        ZoomMoveForwardModifier 0.0
+000051cc        ZoomRotateYawModifier 0.0
+000051d0        ZoomRotatePitchModifier 0.0
+000051d4        ZoomRotateRollModifier 0.0
+000051d8        ReleaseModifier 0.0
+000051dc        ReleaseModifierPitch -1.0
+000051e0        ReleaseModifierYaw -1.0
+000051e4        ReleaseModifierRoll -1.0
+000051e8        OffsetReleaseModifier -1.0
+000051ec        ZoomReleaseModifierPitch -1.0
+000051f0        ZoomReleaseModifierYaw -1.0
+000051f4        ZoomReleaseModifierRoll -1.0
+000051f8        ZoomOffsetReleaseModifier -1.0
+000051fc        RotationAdditionToOffset 1.0
+00005200    SoldierAimAssistData 00000002
+00005200        $::GameDataContainer
+00005200            $::DataContainer
+00005208        InputPolynomial::array
+00005614            member(0) 1.0
+00005618            member(1) 0.0
+0000561c            member(2) 0.0
+00005620            member(3) 0.0
+00005624            member(4) 0.0
+00005628            member(5) 0.0
+0000562c            member(6) 0.0
+00005630            member(7) 0.0
+0000520c        ZoomedInputPolynomial::array
+00005638            member(0) 1.0
+0000563c            member(1) 0.0
+00005640            member(2) 0.0
+00005644            member(3) 0.0
+00005648            member(4) 0.0
+0000564c            member(5) 0.0
+00005650            member(6) 0.0
+00005654            member(7) 0.0
+00005210        StickyBoxScale::Vec3
+00005210            x 1.89999997616
+00005214            y 1.0
+00005218            z 1.89999997616
+00005220        StickyDistanceScale::Vec3
+00005220            x 0.5
+00005224            y 0.0
+00005228            z 0.5
+00005230        SnapBoxScale::Vec3
+00005230            x 1.89999997616
+00005234            y 1.0
+00005238            z 1.89999997616
+00005240        SnapDistanceScale::Vec3
+00005240            x 0.5
+00005244            y 0.0
+00005248            z 0.5
+00005250        EyePosOffset::Vec3
+00005250            x 0.600000023842
+00005254            y 0.40000000596
+00005258            z 0.0
+00005260        AccelerationInputThreshold 0.0
+00005264        AccelerationMultiplier 0.0
+00005268        AccelerationDamping 0.0
+0000526c        AccelerationTimeThreshold 0.0
+00005270        SquaredAcceleration 0.0
+00005274        MaxAcceleration::Vec2
+00005274            x 100.0
+00005278            y 100.0
+0000527c        YawSpeedStrength 20.0
+00005280        PitchSpeedStrength 20.0
+00005284        AttractDistanceFallOffs::Vec2
+00005284            x 1.0
+00005288            y 1.20000004768
+0000528c        AttractSoftZone 0.0
+00005290        AttractUserInputMultiplier 1.0
+00005294        AttractUserInputMultiplier_NoZoom -1.0
+00005298        AttractOwnSpeedInfluence 0.0
+0000529c        AttractTargetSpeedInfluence 0.0
+000052a0        AttractOwnRequiredMovementForMaximumAttract 0.0
+000052a4        AttractStartInputThreshold 0.0
+000052a8        AttractMoveInputCap 0.899999976158
+000052ac        AttractYawStrength 0.0
+000052b0        AttractPitchStrength 0.0
+000052b4        MaxToTargetAngle 90.0
+000052b8        MaxToTargetXZAngle 90.0
+000052bc        ViewObstructedKeepTime 0.0
+000052c0        SnapZoomLateralSpeedLimit 1000.0
+000052c4        SnapZoomTime 0.20000000298
+000052c8        SnapZoomPostTimeNoInput 0.0
+000052cc        SnapZoomPostTime 0.0
+000052d0        SnapZoomReticlePointPriority 999
+000052d4        SnapZoomAutoEngageTime 0.0
+000052d8        SnapZoomBreakTimeAtMaxInput -1.0
+000052dc        SnapZoomBreakMaxInput 0.20000000298
+000052e0        SnapZoomBreakMinAngle 90.0
+000052e4        SnapZoomSpamGuardTime 0.5
+000052e8        SoldierBackupSkeletonCollisionData *nullGuid*
+000052ec        CheckBoneCenterOnlyDistance 40.0
+000052f0        DisableForcedTargetRecalcDistance 7.0
+000052f4        OverrideAimingRange 0.0
+000052f8        OverrideAimingRangeCrouch 0.0
+000052fc        OverrideAimingRangeProne 0.0
+00005300        UseYawAcceleration False
+00005301        UsePitchAcceleration False
+00005302        SnapZoomUserShorterWeaponTime True
+00005303        SnapZoomPostTimeDynamicPoint True
+00005304        ForceSoldierBackupSkeletonCollisionUse False
+00005310    SoldierWeaponData 00000003
+00005310        $::WeaponEntityData
+00005310            $::GameComponentEntityData
+00005310                $::ComponentEntityData
+00005310                    $::SpatialEntityData
+00005310                        $::EntityData
+00005310                            $::GameObjectData
+00005310                                $::DataBusPeer
+00005310                                    $::GameDataContainer
+00005310                                        $::DataContainer
+00005318                                    Flags 507593940
+00005320                        Transform::LinearTransform
+00005320                            right::Vec3
+00005320                                x 1.0
+00005324                                y 0.0
+00005328                                z 0.0
+00005330                            up::Vec3
+00005330                                x 0.0
+00005334                                y 1.0
+00005338                                z 0.0
+00005340                            forward::Vec3
+00005340                                x 0.0
+00005344                                y 0.0
+00005348                                z 1.0
+00005350                            trans::Vec3
+00005350                                x 0.0
+00005354                                y 0.0
+00005358                                z 0.0
+00005360                    Components *nullArray*
+00005364                    ClientRuntimeComponentCount 0
+00005365                    ServerRuntimeComponentCount 0
+00005366                    ClientRuntimeTransformationCount 0
+00005367                    ServerRuntimeTransformationCount 0
+00005370                Enabled True
+00005380            WeaponClass wc12gauge
+00005384            WeaponStates::array
+0000565c                member(0)::WeaponStateData
+0000565c                    ReferencedAssetHashes *nullArray*
+00005660                    BoneFakePhysics *nullArray*
+00005664                    WeaponMesh3p *nullGuid*
+00005668                    Mesh3p *nullGuid*
+0000566c                    Weapon::AntRef
+0000566c                        AssetGuid 00000000000000000000000000000000
+0000567c                        ProjectId 0
+00005680                    Weapon3p::AntRef
+00005680                        AssetGuid 00000000000000000000000000000000
+00005690                        ProjectId 0
+00005694                    ZoomMeshTransitionFactor 1.0
+00005698                    ZoomScaleFactor 1.0
+0000569c                    ZoomInOutMeshTransitionFactors *nullArray*
+000056a0                    KeepAimingTime 3.0
+000056a4                    AnimatedFireType AnimatedFireAutomatic
+000056a8                    AnimatedAimingType AnimatedAimingTwoHanded
+000056ac                    HideProjectileAfterFireTime 0.0
+000056b0                    ProjectileBoneName *nullString*
+000056b4                    UnDeploySpeed 1.0
+000056b8                    DeploySpeed 1.0
+000056bc                    Mesh3pTransforms *nullArray*
+000056c0                    AlwaysAimHead True
+000056c1                    IsOneHanded False
+000056c2                    PlayDeployAfterFire False
+000056c3                    SkipDeployAnimation False
+000056c4                    SkipReloadAnimation False
+000056c5                    SkipFireAnimation False
+000056c6                    SendFireWhenPrefiring False
+00005388            WeaponFiring 00000005
+0000538c            CustomWeaponType *nullGuid*
+00005390            AIData *nullGuid*
+000053a0        PickupSettings::PickupSettingsData
+000053a0            MeshRenderOffset::Vec3
+000053a0                x 0.0
+000053a4                y 0.0
+000053a8                z 0.0
+000053b0            MeshRenderRotation::Vec3
+000053b0                x 0.0
+000053b4                y 0.0
+000053b8                z 90.0
+000053c0        InteractionOffset::Vec3
+000053c0            x 0.0
+000053c4            y 0.0
+000053c8            z 0.449999988079
+000053d0        CustomizationAccessoryPivots::CustomizationAccessoryPivots
+000053d0            BasePivotPos::Vec3
+000053d0                x 0.0
+000053d4                y 0.0
+000053d8                z 0.0
+000053e0            OpticPivotPos::Vec3
+000053e0                x 0.0
+000053e4                y 0.0750000029802
+000053e8                z 0.40000000596
+000053f0            BarrelPivotPos::Vec3
+000053f0                x 0.0
+000053f4                y 0.0
+000053f8                z 0.699999988079
+00005400            AccessoryPivotPos::Vec3
+00005400                x 0.0
+00005404                y 0.0
+00005408                z 0.600000023842
+00005410            UnderBarrelPivotPos::Vec3
+00005410                x 0.0
+00005414                y -0.0500000007451
+00005418                z 0.5
+00005420        DamageGiverName Tomahawk_dummy
+00005424        ZoomLevels::array
+000056cc            member(0) 00000006
+00005428        WeaponModifierData *nullArray*
+0000542c        AimingController 00000004
+00005430        FirstPersonCamera 00000001
+00005434        Hud::HudData
+00005434            CrosshairScaleMin 0.0
+00005438            CrosshairScaleMax 5.0
+0000543c            CrosshairOpacityMin 1.0
+00005440            CrosshairOpacityMax 0.10000000149
+00005444            CrosshairOpacityModifier 1.0
+00005448            CrosshairTypeId *nullString*
+0000544c            CrosshairType *nullGuid*
+00005450            LockingType *nullGuid*
+00005454            WeaponClass *nullString*
+00005458            LowAmmoWarning 0.300000011921
+0000545c            ReloadPrompt 0.300000011921
+00005460            RenderTargetIndex 0
+00005464            HudPropertyList *nullGuid*
+00005468            SeaLevelAltFreq 0.0
+0000546c            CameraShakeModifier 1.0
+00005470            HudIcon *nullString*
+00005474            ShowMinimap True
+00005475            HideAmmo False
+00005476            InfiniteAmmo False
+00005477            HideCrosshairWhenAimOnFriend True
+00005478            UseRenderTarget False
+00005479            UseRangeMeter False
+0000547a            UseAimWarning False
+0000547b            UsePredictedSight False
+0000547c            UseWeaponOrientations False
+0000547d            UseVelocityVectorMarker False
+0000547e            UseLockingController False
+0000547f            UseThrust False
+00005480            UseGForce False
+00005481            UseSkidSlip False
+00005482            UseClimbRate False
+00005484        AnimBaseSet wabsRif
+00005488        QuickThrowType QttHand
+0000548c        SoldierWeaponBlueprint 53f464de8ff46e187791ba2b87f02851
+00005490        PersistenceId *nullString*
+00005494        SecondaryActionInputAction -1341426433
+00005498        VoiceOverInfo *nullGuid*
+0000549c        WeaponFloatParam 1.0
+000054a0        MaxRangeMeterDistance 200.0
+000054a4        SocketsInWeapon *nullArray*
+000054a8        HideWhenOutOfAmmo False
+000054a9        AllowSwitchingToWeaponOutOfAmmo True
+000054aa        AllowSwitchingToWeaponReloading True
+000054ab        SwitchToPrimaryWhenOutOfAmmo True
+000054ac        WaitForFireBeforeSwitchToPrimaryWhenOutOfAmmo True
+000054ad        SwitchToSecondaryWhenPrimaryOutOfAmmo False
+000054ae        FireAndSwitchBackToPrevSupported False
+000054af        AllowSwitchingToWeaponInVehicles True
+000054b0        AllowSwitchingToWeaponInWater False
+000054b1        LowerOnOwnTeam True
+000054b2        RedeployWhenSwitchingWeaponStates True
+000054b3        UseQuickThrowOnAutomaticSwitchback False
+000054b4        EnableBreathControl False
+000054b5        CanBeInSupportedShooting False
+000054b6        UseDetailedRangeMeterQuery False
+000054b7        IsSilenced False
+000054b8        SkipFirstZoomLevel False
+000054c0    SoldierAimingSimulationData 00000004
+000054b8        $::GameDataContainer
+000054b8            $::DataContainer
+000054c0        ZoomLevels::array
+000056d4            member(0) 00000007
+000054c4        AimAssist 00000002
+000054c8        StandPose::AimingPoseData
+000054c8            MinimumPitch -85.0
+000054cc            MaximumPitch 85.0
+000054d0            TargetingFov -1.0
+000054d4            AimSteadiness 0.0
+000054d8            SpeedMultiplier 1.0
+000054dc            RecoilMultiplier 1.0
+000054e0        CrouchPose::AimingPoseData
+000054e0            MinimumPitch -85.0
+000054e4            MaximumPitch 85.0
+000054e8            TargetingFov -1.0
+000054ec            AimSteadiness 0.0
+000054f0            SpeedMultiplier 1.0
+000054f4            RecoilMultiplier 1.0
+000054f8        PronePose::AimingPoseData
+000054f8            MinimumPitch -85.0
+000054fc            MaximumPitch 85.0
+00005500            TargetingFov -1.0
+00005504            AimSteadiness 0.0
+00005508            SpeedMultiplier 1.0
+0000550c            RecoilMultiplier 1.0
+00005510        ZoomTransitionTime 0.20000000298
+00005514        ZoomTransitionTimeArray *nullArray*
+00005518        FovDelayTime 0.0
+0000551c        FovTransitionTime 0.15000000596
+00005520        AimingRange 100.0
+00005524        LockAimToTargetSpeed 180.0
+00005528        Modifiers *nullArray*
+0000552c        ReturnToZoomAfterReload True
+00005530    WeaponFiringData 00000005
+00005528        $::GameDataContainer
+00005528            $::DataContainer
+00005530        PrimaryFire 00000000
+00005534        DeployTime 2.0
+00005538        ReactivateCooldownTime 0.0
+0000553c        DisableZoomOnDeployTime 0.25
+00005540        AltDeployTime 2.0
+00005544        AltDeployId -1
+00005548        WeaponSway *nullGuid*
+0000554c        Rumble::RumbleFiringData
+0000554c            LowRumble 0.0
+00005550            HighRumble 0.0
+00005554            RumbleDuration 0.20000000298
+00005558        SupportDelayStand 0.300000011921
+0000555c        SupportDelayProne 0.300000011921
+00005560        UseAutoAiming True
+00005561        InflictSelfDamage False
+00005562        ShowEnemyNametagOnAim True
+00005563        ReloadWholeMags False
+00005564        DisableReloadWhileSprinting False
+00005565        AbortReloadOnSprint False
+00005568    WeaponZoomLevelData 00000006
+00005560        $::DataContainer
+00005568        RenderFov 55.0
+0000556c        RenderFovTransition *nullGuid*
+00005570        ZoomInOutMeshTransitionFactors *nullArray*
+00005574        ZoomDisabledTransitionTimer 0.0
+00005578        SightType SightType_None
+0000557c        AnimationSettings::WeaponAnimationSettingsData
+0000557c            KickbackFactor 1.0
+00005580            KickbackSpeedFactor 1.0
+00005584            WeaponOffsetX 0.0
+00005588            WeaponOffsetY 0.0
+0000558c            WeaponOffsetZ 0.0
+00005590            ZoomOutSpeed 1.0
+00005594            ZoomInSpeed 1.0
+00005598    ZoomLevelData 00000007
+00005590        $::DataContainer
+00005598        FieldOfView 55.0
+0000559c        FieldOfViewSP -1.0
+000055a0        FieldOfViewTransition *nullGuid*
+000055a4        LookSpeedMultiplier 1.0
+000055a8        SprintLookSpeedMultiplier 0.5
+000055ac        MoveSpeedMultiplier 1.0
+000055b0        SwayPitchMagnitude 0.0
+000055b4        SwayYawMagnitude 0.0
+000055b8        SupportedSwayPitchMagnitude 0.0
+000055bc        SupportedSwayYawMagnitude 0.0
+000055c0        SuppressedSwayPitchMagnitude 0.0
+000055c4        SuppressedSwayYawMagnitude 0.0
+000055c8        SuppressedSwayMinFactor 0.5
+000055cc        TimePitchMultiplier 0.10000000149
+000055d0        TimeYawMultiplier 0.0299999993294
+000055d4        DispersionMultiplier 1.0
+000055d8        DispersionRotation 0.0
+000055dc        RecoilMultiplier 1.0
+000055e0        RecoilFovMultiplier 1.0
+000055e4        CameraImpulseMultiplier 1.0
+000055e8        StartFadeToBlackAtTime 0.10000000149
+000055ec        FadeToBlackDuration 0.20000000298
+000055f0        StartFadeFromBlackAtTime 0.300000011921
+000055f4        FadeFromBlackDuration 0.10000000149
+000055f8        ScreenExposureAreaScale 1.0
+000055fc        OnActivateEventType ZoomLevelActivateEventType_Disable
+00005600        AttractYawStrength 1.0
+00005604        AttractPitchStrength 1.0
+00005608        AllowFieldOfViewScaling False
+00005609        FadeToBlackInZoomTransition False
+0000560a        UseFovSpecialisation False
+0000560b        UseWeaponMeshZoom1p True

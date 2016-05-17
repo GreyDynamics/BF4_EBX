@@ -1,0 +1,86 @@
+00001010    LogicPrefabBlueprint 249fd3af486f6648b59549fec9753151
+00001008        $::PrefabBlueprint
+00001008            $::Blueprint
+00001008                $::EntityBusData
+00001008                    $::DataBusData
+00001008                        $::Asset
+00001008                            $::DataContainer
+00001010                            Name Gameplay/Logic/HistoricalMaximum_Client
+00001014                        PropertyConnections::array
+000010b4                            member(0)::PropertyConnection
+000010b4                                Source 00000000
+000010b8                                Target 7ff178d1a1272b4d90dc67acca76a114
+000010bc                                SourceFieldId 5862146
+000010c0                                TargetFieldId 5862146
+000010c4                                ShouldNetworkValue False
+000010c8                            member(1)::PropertyConnection
+000010c8                                Source 7ff178d1a1272b4d90dc67acca76a114
+000010cc                                Target 00000000
+000010d0                                SourceFieldId 193453899
+000010d4                                TargetFieldId 193453899
+000010d8                                ShouldNetworkValue False
+00001018                        LinkConnections *nullArray*
+0000101c                        Interface 00000000
+00001020                        Flags 0
+00001024                    EventConnections *nullArray*
+00001028            Objects::array
+000010e0                member(0) 7ff178d1a1272b4d90dc67acca76a114
+0000103c    LuaRunnerScriptEntityData 7ff178d1a1272b4d90dc67acca76a114
+00001034        $::EntityData
+00001034            $::GameObjectData
+00001034                $::DataBusPeer
+00001034                    $::GameDataContainer
+00001034                        $::DataContainer
+0000103c                    Flags 427356543
+00001040        Script --function <guid>( self, event, vars, sharedvars, globalvars, deltaTime )
+do
+	InitVars(vars, "value", self.In)
+
+	if self.In > vars.value then
+		vars.value = self.In
+	end
+	self.Out = vars.value
+end
+
+00001044        InputEvents *nullArray*
+00001048        OutputEvents *nullArray*
+0000104c        InputFloatProperties::array
+000010e8            member(0) In
+00001050        OutputFloatProperties::array
+000010f0            member(0) Out
+00001054        InputIntProperties *nullArray*
+00001058        OutputIntProperties *nullArray*
+0000105c        InputBoolProperties *nullArray*
+00001060        OutputBoolProperties *nullArray*
+00001064        InputStringProperties *nullArray*
+00001068        OutputStringProperties *nullArray*
+0000106c        InputTransformProperties *nullArray*
+00001070        OutputTransformProperties *nullArray*
+00001074        InputVec3Properties *nullArray*
+00001078        OutputVec3Properties *nullArray*
+0000107c        ExecuteOnPropertyChange ExecuteOnPropertyChangeType_Immediate
+00001080        PriorityForExecutingPerFrame 0
+00001084        Realm Realm_Client
+00001088        CompiledLua Gameplay/Logic/HistoricalMaximum_Client/LuaRunnerCompiledLua_D178F17F_27A1_4D2B_90DC_67ACCA76A114_Win32/6faa3b175b2efc955331ba39e14aedcf
+0000108c        AutoStartExecutingPerFrame False
+0000108d        AutoStartForInitialization False
+0000108e        RunOnPropertyChange False
+0000108f        AddToDebugDisplay False
+00001090    InterfaceDescriptorData 00000000
+00001088        $::DynamicDataContainer
+00001088            $::DataContainer
+00001090            Fields::array
+000010f8                member(0)::DataField
+000010f8                    Value *nullString*
+000010fc                    ValueRef *nullGuid*
+00001100                    Id 5862146
+00001104                    AccessType FieldAccessType_Target
+00001108                member(1)::DataField
+00001108                    Value *nullString*
+0000110c                    ValueRef *nullGuid*
+00001110                    Id 193453899
+00001114                    AccessType FieldAccessType_Source
+00001094        InputEvents *nullArray*
+00001098        OutputEvents *nullArray*
+0000109c        InputLinks *nullArray*
+000010a0        OutputLinks *nullArray*

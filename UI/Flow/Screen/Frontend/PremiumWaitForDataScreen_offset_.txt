@@ -1,0 +1,268 @@
+000017e0    UIScreenAsset a053fddd98e8d9ffa2306d109cd38a87
+000017d8        $::UIViewBaseAsset
+000017d8            $::UIGraphAsset
+000017d8                $::Asset
+000017d8                    $::DataContainer
+000017e0                    Name UI/Flow/Screen/Frontend/PremiumWaitForDataScreen
+000017e4                Nodes::array
+00001ab4                    member(0) 11f1cc2b3b0b474eb7b1f2fb0d43a4c7
+00001ab8                    member(1) cfc3450041279f459037ff832a4a9c6a
+00001abc                    member(2) c0d77a1ffad3324bad3ae250b7a2a292
+00001ac0                    member(3) 576afb553225134387c69c07fd7fa269
+00001ac4                    member(4) c436bb74dc68fd4586e338a784f2d79d
+00001ac8                    member(5) 9bd15619335cc64caad699c31f6d18bf
+000017e8                GlobalNode *nullGuid*
+000017ec                Connections::array
+00001ad0                    member(0) 00000002
+00001ad4                    member(1) 00000004
+00001ad8                    member(2) 00000005
+00001adc                    member(3) 00000003
+000017f0                AudioEventMappings UI/Flow/Graph/AudioMapping/DefaultUIGraphAudioMapping/0b64b44173196984a254b1b23e4e6a04
+000017f4                BundleAssetName *nullString*
+000017f8                EventList *nullArray*
+000017fc                ProtectScreens False
+000017fd                Modal False
+000017fe                IsWin32UIGraphAsset True
+000017ff                IsXenonUIGraphAsset True
+00001800                IsPs3UIGraphAsset True
+00001801                IsGen4aUIGraphAsset True
+00001802                IsGen4bUIGraphAsset True
+00001804        UIAsset UI/Assets/PremiumWaitForDataScreen/7fa40ac4c28d6694b90983584aa76889
+00001808        SwfPath UI/Assets/PremiumWaitForDataScreen
+0000180c        Purpose UIScreenPurpose_Standard
+00001820    WidgetNode 11f1cc2b3b0b474eb7b1f2fb0d43a4c7
+00001818        $::UINodeData
+00001818            $::DataContainer
+00001820            Name ChangeListener
+00001824            ParentGraph a053fddd98e8d9ffa2306d109cd38a87
+00001828            IsRootNode False
+00001829            ParentIsScreen True
+0000182c        WidgetAsset UI/Assets/ChangeListener/c2ebd27dd24701eba1fd557ccf7a7309
+00001830        FocusIndex 0
+00001834        VerticalAlign WVA_Center
+00001838        HorisontalAlign WHA_Center
+0000183c        ZDepthLevel 0
+00001840        DataBinding 00000001
+00001844        InstanceName ChangeListener_00
+00001848        WidgetProperties *nullArray*
+0000184c        Outputs::array
+00001ae4            member(0) 00000011
+00001850        Inputs *nullArray*
+00001854        AlwaysInFocus False
+00001855        IsDisabled False
+00001868    WidgetNode 576afb553225134387c69c07fd7fa269
+00001860        $::UINodeData
+00001860            $::DataContainer
+00001868            Name ChangeListener
+0000186c            ParentGraph a053fddd98e8d9ffa2306d109cd38a87
+00001870            IsRootNode False
+00001871            ParentIsScreen True
+00001874        WidgetAsset UI/Assets/ChangeListener/c2ebd27dd24701eba1fd557ccf7a7309
+00001878        FocusIndex 0
+0000187c        VerticalAlign WVA_Center
+00001880        HorisontalAlign WHA_Center
+00001884        ZDepthLevel 0
+00001888        DataBinding 00000000
+0000188c        InstanceName ChangeListener_01
+00001890        WidgetProperties *nullArray*
+00001894        Outputs::array
+00001aec            member(0) 00000006
+00001898        Inputs *nullArray*
+0000189c        AlwaysInFocus False
+0000189d        IsDisabled False
+000018b0    InstanceOutputNode 9bd15619335cc64caad699c31f6d18bf
+000018a8        $::UINodeData
+000018a8            $::DataContainer
+000018b0            Name TooYoung
+000018b4            ParentGraph a053fddd98e8d9ffa2306d109cd38a87
+000018b8            IsRootNode False
+000018b9            ParentIsScreen True
+000018bc        In 00000009
+000018c0        Id -1929042405
+000018c4        DestroyGraph True
+000018d8    BinaryLogicNode c0d77a1ffad3324bad3ae250b7a2a292
+000018d0        $::UINodeData
+000018d0            $::DataContainer
+000018d8            Name BinaryLogicNode
+000018dc            ParentGraph a053fddd98e8d9ffa2306d109cd38a87
+000018e0            IsRootNode False
+000018e1            ParentIsScreen True
+000018e4        In 0000000c
+000018e8        True 00000007
+000018ec        False 0000000d
+000018f0        DataSourceInfo::UISimpleDataSource
+000018f0            DataCategory *nullGuid*
+000018f4            DataKey 0
+00001908    ComparisonLogicNode c436bb74dc68fd4586e338a784f2d79d
+00001900        $::UINodeData
+00001900            $::DataContainer
+00001908            Name TooYoung?
+0000190c            ParentGraph a053fddd98e8d9ffa2306d109cd38a87
+00001910            IsRootNode False
+00001911            ParentIsScreen True
+00001914        In 00000008
+00001918        Outputs::array
+00001af4            member(0) 00000012
+0000191c        DataSourceInfo::UISimpleDataSource
+0000191c            DataCategory UI/UIComponents/UIPremiumComp/b17de779e23996af4bb3ed6f23be5439
+00001920            DataKey 1121080044
+00001924        SkipFractionals False
+00001938    InstanceOutputNode cfc3450041279f459037ff832a4a9c6a
+00001930        $::UINodeData
+00001930            $::DataContainer
+00001938            Name DataRetrieved
+0000193c            ParentGraph a053fddd98e8d9ffa2306d109cd38a87
+00001940            IsRootNode False
+00001941            ParentIsScreen True
+00001944        In 00000010
+00001948        Id -844882241
+0000194c        DestroyGraph True
+00001950    UIDynamicDataBinding 00000000
+00001948        $::UIDataBinding
+00001948            $::DataContainer
+00001950        Bindings::array
+00001afc            member(0)::UIDataSourceInfo
+00001afc                DataName Key
+00001b00                DataCategory UI/UIComponents/UIPremiumComp/b17de779e23996af4bb3ed6f23be5439
+00001b04                DataKey 1121080044
+00001b08                UseDirectAccess False
+00001b09                UpdateOnInitialize False
+00001954        Refresh True
+00001958    UIDynamicDataBinding 00000001
+00001950        $::UIDataBinding
+00001950            $::DataContainer
+00001958        Bindings::array
+00001b10            member(0)::UIDataSourceInfo
+00001b10                DataName Key
+00001b14                DataCategory UI/UIComponents/UIPremiumComp/b17de779e23996af4bb3ed6f23be5439
+00001b18                DataKey -343466331
+00001b1c                UseDirectAccess False
+00001b1d                UpdateOnInitialize False
+0000195c        Refresh True
+00001960    UINodeConnection 00000002
+00001958        $::DataContainer
+00001960        SourceNode 11f1cc2b3b0b474eb7b1f2fb0d43a4c7
+00001964        TargetNode c0d77a1ffad3324bad3ae250b7a2a292
+00001968        SourcePort 00000011
+0000196c        TargetPort 0000000c
+00001970        SourcePortName *nullString*
+00001974        TargetPortName *nullString*
+00001978        NumScreensToPop 0
+0000197c    UINodeConnection 00000003
+00001974        $::DataContainer
+0000197c        SourceNode c0d77a1ffad3324bad3ae250b7a2a292
+00001980        TargetNode cfc3450041279f459037ff832a4a9c6a
+00001984        SourcePort 00000007
+00001988        TargetPort 00000010
+0000198c        SourcePortName *nullString*
+00001990        TargetPortName *nullString*
+00001994        NumScreensToPop 0
+00001998    UINodeConnection 00000004
+00001990        $::DataContainer
+00001998        SourceNode 576afb553225134387c69c07fd7fa269
+0000199c        TargetNode c436bb74dc68fd4586e338a784f2d79d
+000019a0        SourcePort 00000006
+000019a4        TargetPort 00000008
+000019a8        SourcePortName *nullString*
+000019ac        TargetPortName *nullString*
+000019b0        NumScreensToPop 0
+000019b4    UINodeConnection 00000005
+000019ac        $::DataContainer
+000019b4        SourceNode c436bb74dc68fd4586e338a784f2d79d
+000019b8        TargetNode 9bd15619335cc64caad699c31f6d18bf
+000019bc        SourcePort 00000012
+000019c0        TargetPort 00000009
+000019c4        SourcePortName *nullString*
+000019c8        TargetPortName *nullString*
+000019cc        NumScreensToPop 0
+000019d0    UINodePort 00000006
+000019c8        $::DataContainer
+000019d0        Name KeyChanged
+000019d4        InstanceName ChangeListener_01
+000019d8        Query UIWidgetEventID_OnChanged
+000019dc        AllowManualRemove False
+000019dd        IsReferencePort False
+000019e0    UINodePort 00000007
+000019d8        $::DataContainer
+000019e0        Name True
+000019e4        InstanceName *nullString*
+000019e8        Query UIWidgetEventID_None
+000019ec        AllowManualRemove False
+000019ed        IsReferencePort False
+000019f0    UINodePort 00000008
+000019e8        $::DataContainer
+000019f0        Name *nullString*
+000019f4        InstanceName *nullString*
+000019f8        Query UIWidgetEventID_None
+000019fc        AllowManualRemove False
+000019fd        IsReferencePort False
+00001a00    UINodePort 00000009
+000019f8        $::DataContainer
+00001a00        Name *nullString*
+00001a04        InstanceName *nullString*
+00001a08        Query UIWidgetEventID_None
+00001a0c        AllowManualRemove False
+00001a0d        IsReferencePort False
+00001a10    UINodePort 0000000a
+00001a08        $::DataContainer
+00001a10        Name *nullString*
+00001a14        InstanceName *nullString*
+00001a18        Query UIWidgetEventID_None
+00001a1c        AllowManualRemove False
+00001a1d        IsReferencePort False
+00001a20    UINodePort 0000000b
+00001a18        $::DataContainer
+00001a20        Name *nullString*
+00001a24        InstanceName *nullString*
+00001a28        Query UIWidgetEventID_None
+00001a2c        AllowManualRemove False
+00001a2d        IsReferencePort False
+00001a30    UINodePort 0000000c
+00001a28        $::DataContainer
+00001a30        Name *nullString*
+00001a34        InstanceName *nullString*
+00001a38        Query UIWidgetEventID_None
+00001a3c        AllowManualRemove False
+00001a3d        IsReferencePort False
+00001a40    UINodePort 0000000d
+00001a38        $::DataContainer
+00001a40        Name False
+00001a44        InstanceName *nullString*
+00001a48        Query UIWidgetEventID_None
+00001a4c        AllowManualRemove False
+00001a4d        IsReferencePort False
+00001a50    UINodePort 0000000e
+00001a48        $::DataContainer
+00001a50        Name *nullString*
+00001a54        InstanceName *nullString*
+00001a58        Query UIWidgetEventID_None
+00001a5c        AllowManualRemove False
+00001a5d        IsReferencePort False
+00001a60    UINodePort 0000000f
+00001a58        $::DataContainer
+00001a60        Name *nullString*
+00001a64        InstanceName *nullString*
+00001a68        Query UIWidgetEventID_None
+00001a6c        AllowManualRemove False
+00001a6d        IsReferencePort False
+00001a70    UINodePort 00000010
+00001a68        $::DataContainer
+00001a70        Name *nullString*
+00001a74        InstanceName *nullString*
+00001a78        Query UIWidgetEventID_None
+00001a7c        AllowManualRemove False
+00001a7d        IsReferencePort False
+00001a80    UINodePort 00000011
+00001a78        $::DataContainer
+00001a80        Name KeyChanged
+00001a84        InstanceName ChangeListener_00
+00001a88        Query UIWidgetEventID_OnChanged
+00001a8c        AllowManualRemove False
+00001a8d        IsReferencePort False
+00001a90    UINodePort 00000012
+00001a88        $::DataContainer
+00001a90        Name TooYoung
+00001a94        InstanceName *nullString*
+00001a98        Query UIWidgetEventID_None
+00001a9c        AllowManualRemove True
+00001a9d        IsReferencePort False

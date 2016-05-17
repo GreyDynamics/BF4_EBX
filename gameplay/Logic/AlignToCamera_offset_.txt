@@ -1,0 +1,184 @@
+00001370    LogicPrefabBlueprint e01f5ebd3b55b8ddc181cd89ec1be395
+00001368        $::PrefabBlueprint
+00001368            $::Blueprint
+00001368                $::EntityBusData
+00001368                    $::DataBusData
+00001368                        $::Asset
+00001368                            $::DataContainer
+00001370                            Name Gameplay/Logic/AlignToCamera
+00001374                        PropertyConnections::array
+000014c4                            member(0)::PropertyConnection
+000014c4                                Source 00000001
+000014c8                                Target 00000000
+000014cc                                SourceFieldId 2089021886
+000014d0                                TargetFieldId 2089021886
+000014d4                                ShouldNetworkValue False
+000014d8                            member(1)::PropertyConnection
+000014d8                                Source 00000001
+000014dc                                Target 00000000
+000014e0                                SourceFieldId 5862272
+000014e4                                TargetFieldId 5862272
+000014e8                                ShouldNetworkValue False
+000014ec                            member(2)::PropertyConnection
+000014ec                                Source 00000001
+000014f0                                Target 00000000
+000014f4                                SourceFieldId 1986470206
+000014f8                                TargetFieldId 1986470206
+000014fc                                ShouldNetworkValue False
+00001500                            member(3)::PropertyConnection
+00001500                                Source 00000001
+00001504                                Target 00000000
+00001508                                SourceFieldId 227190399
+0000150c                                TargetFieldId 227190399
+00001510                                ShouldNetworkValue False
+00001514                            member(4)::PropertyConnection
+00001514                                Source 3f93a04354753f448b8ece070baab4bc
+00001518                                Target 00000001
+0000151c                                SourceFieldId -1576422971
+00001520                                TargetFieldId -2024647575
+00001524                                ShouldNetworkValue False
+00001528                            member(5)::PropertyConnection
+00001528                                Source 00000002
+0000152c                                Target 3f93a04354753f448b8ece070baab4bc
+00001530                                SourceFieldId -910201930
+00001534                                TargetFieldId -910201930
+00001538                                ShouldNetworkValue False
+0000153c                            member(6)::PropertyConnection
+0000153c                                Source 00000000
+00001540                                Target 00000002
+00001544                                SourceFieldId -2024647575
+00001548                                TargetFieldId -2024647575
+0000154c                                ShouldNetworkValue False
+00001550                            member(7)::PropertyConnection
+00001550                                Source 00000002
+00001554                                Target 3f93a04354753f448b8ece070baab4bc
+00001558                                SourceFieldId -892384772
+0000155c                                TargetFieldId -960244503
+00001560                                ShouldNetworkValue False
+00001378                        LinkConnections *nullArray*
+0000137c                        Interface 00000002
+00001380                        Flags 0
+00001384                    EventConnections *nullArray*
+00001388            Objects::array
+00001568                member(0) 00000000
+0000156c                member(1) 00000001
+00001570                member(2) 3f93a04354753f448b8ece070baab4bc
+0000139c    LuaRunnerScriptEntityData 3f93a04354753f448b8ece070baab4bc
+00001394        $::EntityData
+00001394            $::GameObjectData
+00001394                $::DataBusPeer
+00001394                    $::GameDataContainer
+00001394                        $::DataContainer
+0000139c                    Flags 429953855
+000013a0        Script --function <guid>( self, event, vars, sharedvars, globalvars, deltaTime )
+do
+	if self.Player ~= nil and self.Screen ~= nil then
+		local player = self.Player.trans
+		player.y = self.Screen.trans.y
+		local transform = LinearTransform.LookAtTransform(player, self.Screen.trans)
+		self.ScreenTransform = LinearTransform.FromRotTrans(transform, self.Screen.trans)
+	elseif self.Screen ~= nil then
+		self.ScreenTransform = LinearTransform.Identity(self.Screen.trans)
+	else
+		self.ScreenTransform = LinearTransform.Identity(Vec3.FromXYZ(10,10,10))
+	end
+end
+
+000013a4        InputEvents *nullArray*
+000013a8        OutputEvents *nullArray*
+000013ac        InputFloatProperties *nullArray*
+000013b0        OutputFloatProperties *nullArray*
+000013b4        InputIntProperties *nullArray*
+000013b8        OutputIntProperties *nullArray*
+000013bc        InputBoolProperties *nullArray*
+000013c0        OutputBoolProperties *nullArray*
+000013c4        InputStringProperties *nullArray*
+000013c8        OutputStringProperties *nullArray*
+000013cc        InputTransformProperties::array
+00001578            member(0) Player
+0000157c            member(1) Screen
+000013d0        OutputTransformProperties::array
+00001584            member(0) ScreenTransform
+000013d4        InputVec3Properties *nullArray*
+000013d8        OutputVec3Properties *nullArray*
+000013dc        ExecuteOnPropertyChange ExecuteOnPropertyChangeType_Immediate
+000013e0        PriorityForExecutingPerFrame 0
+000013e4        Realm Realm_ClientAndServer
+000013e8        CompiledLua Gameplay/Logic/AlignToCamera/LuaRunnerCompiledLua_43A0933F_7554_443F_8B8E_CE070BAAB4BC_Win32/7d6580b15d4dc4ab7442c8074981b3d9
+000013ec        AutoStartExecutingPerFrame False
+000013ed        AutoStartForInitialization True
+000013ee        RunOnPropertyChange False
+000013ef        AddToDebugDisplay False
+000013f0    TransformBuilderEntityData 00000000
+000013f0        $::EntityData
+000013f0            $::GameObjectData
+000013f0                $::DataBusPeer
+000013f0                    $::GameDataContainer
+000013f0                        $::DataContainer
+000013f8                    Flags 421483213
+000013fc        Realm Realm_ClientAndServer
+00001400        Left::Vec3
+00001400            x 1.0
+00001404            y 0.0
+00001408            z 0.0
+00001410        Up::Vec3
+00001410            x 0.0
+00001414            y 1.0
+00001418            z 0.0
+00001420        Forward::Vec3
+00001420            x 0.0
+00001424            y 0.0
+00001428            z 1.0
+00001430        Trans::Vec3
+00001430            x 0.0
+00001434            y 0.0
+00001438            z 0.0
+00001440        IsWorldSpace True
+00001450    TransformSplitterEntityData 00000001
+00001450        $::EntityData
+00001450            $::GameObjectData
+00001450                $::DataBusPeer
+00001450                    $::GameDataContainer
+00001450                        $::DataContainer
+00001458                    Flags 403201517
+0000145c        Realm Realm_ClientAndServer
+00001460        Transform::LinearTransform
+00001460            right::Vec3
+00001460                x 1.0
+00001464                y 0.0
+00001468                z 0.0
+00001470            up::Vec3
+00001470                x 0.0
+00001474                y 1.0
+00001478                z 0.0
+00001480            forward::Vec3
+00001480                x 0.0
+00001484                y 0.0
+00001488                z 1.0
+00001490            trans::Vec3
+00001490                x 0.0
+00001494                y 0.0
+00001498                z 0.0
+000014a0    InterfaceDescriptorData 00000002
+00001498        $::DynamicDataContainer
+00001498            $::DataContainer
+000014a0            Fields::array
+0000158c                member(0)::DataField
+0000158c                    Value *nullString*
+00001590                    ValueRef *nullGuid*
+00001594                    Id -910201930
+00001598                    AccessType FieldAccessType_Target
+0000159c                member(1)::DataField
+0000159c                    Value *nullString*
+000015a0                    ValueRef *nullGuid*
+000015a4                    Id -2024647575
+000015a8                    AccessType FieldAccessType_Source
+000015ac                member(2)::DataField
+000015ac                    Value *nullString*
+000015b0                    ValueRef *nullGuid*
+000015b4                    Id -892384772
+000015b8                    AccessType FieldAccessType_Target
+000014a4        InputEvents *nullArray*
+000014a8        OutputEvents *nullArray*
+000014ac        InputLinks *nullArray*
+000014b0        OutputLinks *nullArray*

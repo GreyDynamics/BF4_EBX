@@ -1,0 +1,145 @@
+00001000    LogicPrefabBlueprint 75d7c3280e004fa1814809fe4490f254
+00000ff8        $::PrefabBlueprint
+00000ff8            $::Blueprint
+00000ff8                $::EntityBusData
+00000ff8                    $::DataBusData
+00000ff8                        $::Asset
+00000ff8                            $::DataContainer
+00001000                            Name FX/VE/Gameplay/Prefab_WaterLine
+00001004                        PropertyConnections::array
+000010f4                            member(0)::PropertyConnection
+000010f4                                Source 00000001
+000010f8                                Target 00000000
+000010fc                                SourceFieldId 225375086
+00001100                                TargetFieldId 2662400
+00001104                                ShouldNetworkValue False
+00001108                            member(1)::PropertyConnection
+00001108                                Source 00000004
+0000110c                                Target 00000002
+00001110                                SourceFieldId 49680608
+00001114                                TargetFieldId 1591366968
+00001118                                ShouldNetworkValue False
+0000111c                            member(2)::PropertyConnection
+0000111c                                Source 00000002
+00001120                                Target 00000003
+00001124                                SourceFieldId 731416433
+00001128                                TargetFieldId 1591366968
+0000112c                                ShouldNetworkValue False
+00001130                            member(3)::PropertyConnection
+00001130                                Source 00000003
+00001134                                Target 00000000
+00001138                                SourceFieldId 731416433
+0000113c                                TargetFieldId 631114095
+00001140                                ShouldNetworkValue False
+00001008                        LinkConnections *nullArray*
+0000100c                        Interface 00000004
+00001010                        Flags 0
+00001014                    EventConnections::array
+00001148                        member(0)::EventConnection
+00001148                            Source 00000002
+0000114c                            Target 00000001
+00001150                            SourceEvent::EventSpec
+00001150                                Id -577169869
+00001154                            TargetEvent::EventSpec
+00001154                                Id -1541066415
+00001158                            TargetType EventConnectionTargetType_Client
+0000115c                        member(1)::EventConnection
+0000115c                            Source 00000002
+00001160                            Target 00000001
+00001164                            SourceEvent::EventSpec
+00001164                                Id 369452315
+00001168                            TargetEvent::EventSpec
+00001168                                Id 668205626
+0000116c                            TargetType EventConnectionTargetType_Client
+00001018            Objects::array
+00001174                member(0) 00000000
+00001178                member(1) 00000001
+0000117c                member(2) 00000002
+00001180                member(3) 00000003
+00001020    LogicVisualEnvironmentReferenceObjectData 00000000
+00001020        $::ReferenceObjectData
+00001020            $::GameObjectData
+00001020                $::DataBusPeer
+00001020                    $::GameDataContainer
+00001020                        $::DataContainer
+00001028                    Flags 160323241
+0000102c            Blueprint FX/VE/Gameplay/VE_Waterline/ebbfc3127d69054d9bda6a8d15798b77
+00001030            BlueprintTransform::LinearTransform
+00001030                right::Vec3
+00001030                    x 1.0
+00001034                    y 0.0
+00001038                    z 0.0
+00001040                up::Vec3
+00001040                    x 0.0
+00001044                    y 1.0
+00001048                    z 0.0
+00001050                forward::Vec3
+00001050                    x 0.0
+00001054                    y 0.0
+00001058                    z 1.0
+00001060                trans::Vec3
+00001060                    x 0.0
+00001064                    y 0.0
+00001068                    z 0.0
+00001070            ObjectVariation *nullGuid*
+00001074            StreamRealm StreamRealm_None
+00001078            RadiosityTypeOverride RadiosityTypeOverride_None
+0000107c            CastSunShadowEnable False
+0000107d            CastReflectionEnable False
+0000107e            Excluded False
+00001080    BoolEntityData 00000001
+00001078        $::EntityData
+00001078            $::GameObjectData
+00001078                $::DataBusPeer
+00001078                    $::GameDataContainer
+00001078                        $::DataContainer
+00001080                    Flags 33625412
+00001084        Realm Realm_Client
+00001088        DefaultValue False
+0000108c    FloatRangeConverterEntityData 00000002
+00001084        $::EntityData
+00001084            $::GameObjectData
+00001084                $::DataBusPeer
+00001084                    $::GameDataContainer
+00001084                        $::DataContainer
+0000108c                    Flags 413585463
+00001090        Realm Realm_Client
+00001094        InStart 1.0
+00001098        InEnd -1.0
+0000109c        OutStart 1.0
+000010a0        OutEnd -1.0
+000010a4        InputValue 0.0
+000010a8        FireEventsOnInit False
+000010a9        IgnoreAboveRangeCheck False
+000010aa        Invert False
+000010ab        Clamp True
+000010ac    FloatRangeConverterEntityData 00000003
+000010a4        $::EntityData
+000010a4            $::GameObjectData
+000010a4                $::DataBusPeer
+000010a4                    $::GameDataContainer
+000010a4                        $::DataContainer
+000010ac                    Flags 159169991
+000010b0        Realm Realm_Client
+000010b4        InStart 1.0
+000010b8        InEnd -1.0
+000010bc        OutStart 1.0
+000010c0        OutEnd -1.0
+000010c4        InputValue 0.0
+000010c8        FireEventsOnInit False
+000010c9        IgnoreAboveRangeCheck False
+000010ca        Invert False
+000010cb        Clamp True
+000010cc    InterfaceDescriptorData 00000004
+000010c4        $::DynamicDataContainer
+000010c4            $::DataContainer
+000010cc            Fields::array
+00001188                member(0)::DataField
+00001188                    Value *nullString*
+0000118c                    ValueRef *nullGuid*
+00001190                    Id 49680608
+00001194                    AccessType FieldAccessType_Target
+000010d0        InputEvents *nullArray*
+000010d4        OutputEvents *nullArray*
+000010d8        InputLinks *nullArray*
+000010dc        OutputLinks *nullArray*

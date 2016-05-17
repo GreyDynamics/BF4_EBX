@@ -1,0 +1,152 @@
+000013e0    UIFlowCppScreenData c0e174956132d144807776ac512037f1
+000013d8        $::UIViewAsset
+000013d8            $::UIViewBaseAsset
+000013d8                $::UIGraphAsset
+000013d8                    $::Asset
+000013d8                        $::DataContainer
+000013e0                        Name UI/CppScreens/FlowTwoTeams64ScoreboardsScreen
+000013e4                    Nodes::array
+00001584                        member(0) 42cd90ad380e0a45a20b96116d110885
+00001588                        member(1) 20a026235cba0f4a953cd2e0ff2bd131
+0000158c                        member(2) c7a00219a69eeb4e8f4156ae0de7bbc4
+00001590                        member(3) 60c28ba70823de47b83acba038400f9e
+000013e8                    GlobalNode *nullGuid*
+000013ec                    Connections::array
+00001598                        member(0) 00000000
+0000159c                        member(1) 00000001
+000013f0                    AudioEventMappings UI/Flow/Graph/AudioMapping/DefaultMaping/93137385a900e1b310012ead21f6cf0e
+000013f4                    BundleAssetName *nullString*
+000013f8                    EventList *nullArray*
+000013fc                    ProtectScreens False
+000013fd                    Modal False
+000013fe                    IsWin32UIGraphAsset True
+000013ff                    IsXenonUIGraphAsset True
+00001400                    IsPs3UIGraphAsset True
+00001401                    IsGen4aUIGraphAsset True
+00001402                    IsGen4bUIGraphAsset True
+00001404        RenderPass UIScreenRenderingPass_BelowFlash
+00001408        ScreenData UI/CppScreens/Generic/Scaling/1ded11ecd20c1040ae8c350ef00dcefd
+0000140c        RootWidget UI/CppScreens/TwoTeams64ScoreboardsScreenRoot/bc601ffbfb61d947a3a8dd83e0671a90
+00001410        RenderTarget False
+00001424    InstanceInputNode 20a026235cba0f4a953cd2e0ff2bd131
+0000141c        $::UINodeData
+0000141c            $::DataContainer
+00001424            Name EnterFocused
+00001428            ParentGraph c0e174956132d144807776ac512037f1
+0000142c            IsRootNode False
+0000142d            ParentIsScreen True
+00001430        Out 00000005
+00001444    InstanceInputNode 42cd90ad380e0a45a20b96116d110885
+0000143c        $::UINodeData
+0000143c            $::DataContainer
+00001444            Name EnterUnfocused
+00001448            ParentGraph c0e174956132d144807776ac512037f1
+0000144c            IsRootNode False
+0000144d            ParentIsScreen True
+00001450        Out 00000008
+00001464    DataSetNode 60c28ba70823de47b83acba038400f9e
+0000145c        $::UINodeData
+0000145c            $::DataContainer
+00001464            Name SetUnfocused
+00001468            ParentGraph c0e174956132d144807776ac512037f1
+0000146c            IsRootNode False
+0000146d            ParentIsScreen True
+00001470        In 00000006
+00001474        Out 00000007
+00001478        Param False
+0000147c        ParamType DSPT_Default
+00001480        DataSource::UISimpleDataSource
+00001480            DataCategory UI/UIComponents/UIScoreboardComp/b0c12c9a7dfaab2d45b384484b65c406
+00001484            DataKey 1346905968
+00001488        SetToEmptyString False
+00001489        ForceUpdate False
+0000149c    DataSetNode c7a00219a69eeb4e8f4156ae0de7bbc4
+00001494        $::UINodeData
+00001494            $::DataContainer
+0000149c            Name SetFocused
+000014a0            ParentGraph c0e174956132d144807776ac512037f1
+000014a4            IsRootNode False
+000014a5            ParentIsScreen True
+000014a8        In 00000004
+000014ac        Out 00000003
+000014b0        Param True
+000014b4        ParamType DSPT_Default
+000014b8        DataSource::UISimpleDataSource
+000014b8            DataCategory UI/UIComponents/UIScoreboardComp/b0c12c9a7dfaab2d45b384484b65c406
+000014bc            DataKey 1346905968
+000014c0        SetToEmptyString False
+000014c1        ForceUpdate False
+000014c4    UINodeConnection 00000000
+000014bc        $::DataContainer
+000014c4        SourceNode 42cd90ad380e0a45a20b96116d110885
+000014c8        TargetNode 60c28ba70823de47b83acba038400f9e
+000014cc        SourcePort 00000008
+000014d0        TargetPort 00000006
+000014d4        SourcePortName *nullString*
+000014d8        TargetPortName *nullString*
+000014dc        NumScreensToPop 0
+000014e0    UINodeConnection 00000001
+000014d8        $::DataContainer
+000014e0        SourceNode 20a026235cba0f4a953cd2e0ff2bd131
+000014e4        TargetNode c7a00219a69eeb4e8f4156ae0de7bbc4
+000014e8        SourcePort 00000005
+000014ec        TargetPort 00000004
+000014f0        SourcePortName *nullString*
+000014f4        TargetPortName *nullString*
+000014f8        NumScreensToPop 0
+000014fc    UINodePort 00000002
+000014f4        $::DataContainer
+000014fc        Name EnterFocused
+00001500        InstanceName *nullString*
+00001504        Query UIWidgetEventID_None
+00001508        AllowManualRemove False
+00001509        IsReferencePort True
+0000150c    UINodePort 00000003
+00001504        $::DataContainer
+0000150c        Name *nullString*
+00001510        InstanceName *nullString*
+00001514        Query UIWidgetEventID_None
+00001518        AllowManualRemove False
+00001519        IsReferencePort False
+0000151c    UINodePort 00000004
+00001514        $::DataContainer
+0000151c        Name *nullString*
+00001520        InstanceName *nullString*
+00001524        Query UIWidgetEventID_None
+00001528        AllowManualRemove False
+00001529        IsReferencePort False
+0000152c    UINodePort 00000005
+00001524        $::DataContainer
+0000152c        Name *nullString*
+00001530        InstanceName *nullString*
+00001534        Query UIWidgetEventID_None
+00001538        AllowManualRemove False
+00001539        IsReferencePort False
+0000153c    UINodePort 00000006
+00001534        $::DataContainer
+0000153c        Name *nullString*
+00001540        InstanceName *nullString*
+00001544        Query UIWidgetEventID_None
+00001548        AllowManualRemove False
+00001549        IsReferencePort False
+0000154c    UINodePort 00000007
+00001544        $::DataContainer
+0000154c        Name *nullString*
+00001550        InstanceName *nullString*
+00001554        Query UIWidgetEventID_None
+00001558        AllowManualRemove False
+00001559        IsReferencePort False
+0000155c    UINodePort 00000008
+00001554        $::DataContainer
+0000155c        Name *nullString*
+00001560        InstanceName *nullString*
+00001564        Query UIWidgetEventID_None
+00001568        AllowManualRemove False
+00001569        IsReferencePort False
+0000156c    UINodePort 00000009
+00001564        $::DataContainer
+0000156c        Name EnterUnfocused
+00001570        InstanceName *nullString*
+00001574        Query UIWidgetEventID_None
+00001578        AllowManualRemove False
+00001579        IsReferencePort True

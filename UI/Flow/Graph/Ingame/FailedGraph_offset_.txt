@@ -1,0 +1,266 @@
+000011a0    UIGraphAsset 131f01ff5e51cdf183860b48780a6790
+00001198        $::Asset
+00001198            $::DataContainer
+000011a0            Name UI/Flow/Graph/Ingame/FailedGraph
+000011a4        Nodes::array
+000014a4            member(0) 3859d907a4d20a4294bda2a974ed9739
+000014a8            member(1) 72d577690e86d64a805d0af6df5cc4c6
+000014ac            member(2) 4d5ae1b1bc89bd41bfeb19e060ff1ec9
+000014b0            member(3) 2f4a923f0d6a4d42b169ba89461b3a5a
+000014b4            member(4) 979c4d2fa8717a45ab9428b1aa21723c
+000014b8            member(5) 5928dd8b17805247bcd1a9707cf36d88
+000014bc            member(6) fa8a4a5953eceb4ab2ca328755733c2e
+000014c0            member(7) a732331ec1ba4940a76179e2db01a8e0
+000011a8        GlobalNode *nullGuid*
+000011ac        Connections::array
+000014c8            member(0) 00000001
+000014cc            member(1) 00000004
+000014d0            member(2) 00000002
+000014d4            member(3) 00000000
+000014d8            member(4) 00000003
+000011b0        AudioEventMappings UI/Flow/Graph/AudioMapping/DefaultUIGraphAudioMapping/0b64b44173196984a254b1b23e4e6a04
+000011b4        BundleAssetName *nullString*
+000011b8        EventList *nullArray*
+000011bc        ProtectScreens False
+000011bd        Modal False
+000011be        IsWin32UIGraphAsset True
+000011bf        IsXenonUIGraphAsset True
+000011c0        IsPs3UIGraphAsset True
+000011c1        IsGen4aUIGraphAsset True
+000011c2        IsGen4bUIGraphAsset True
+000011d4    ActionNode 2f4a923f0d6a4d42b169ba89461b3a5a
+000011cc        $::UINodeData
+000011cc            $::DataContainer
+000011d4            Name Disable_GameInput
+000011d8            ParentGraph 131f01ff5e51cdf183860b48780a6790
+000011dc            IsRootNode False
+000011dd            ParentIsScreen False
+000011e0        ActionKey -368863171
+000011e4        Params::array
+000014e0            member(0) False
+000011e8        ActionAsset *nullGuid*
+000011ec        In 00000010
+000011f0        DataInputs *nullArray*
+000011f4        Out 0000000a
+000011f8        AppendIncomingParams False
+0000120c    InstanceInputNode 3859d907a4d20a4294bda2a974ed9739
+00001204        $::UINodeData
+00001204            $::DataContainer
+0000120c            Name Died
+00001210            ParentGraph 131f01ff5e51cdf183860b48780a6790
+00001214            IsRootNode False
+00001215            ParentIsScreen False
+00001218        Out 00000008
+0000122c    ActionNode 4d5ae1b1bc89bd41bfeb19e060ff1ec9
+00001224        $::UINodeData
+00001224            $::DataContainer
+0000122c            Name RestartCheckpoint
+00001230            ParentGraph 131f01ff5e51cdf183860b48780a6790
+00001234            IsRootNode False
+00001235            ParentIsScreen False
+00001238        ActionKey -2117492232
+0000123c        Params *nullArray*
+00001240        ActionAsset *nullGuid*
+00001244        In 0000000d
+00001248        DataInputs *nullArray*
+0000124c        Out 0000000f
+00001250        AppendIncomingParams False
+00001264    InstanceInputNode 5928dd8b17805247bcd1a9707cf36d88
+0000125c        $::UINodeData
+0000125c            $::DataContainer
+00001264            Name Failed
+00001268            ParentGraph 131f01ff5e51cdf183860b48780a6790
+0000126c            IsRootNode False
+0000126d            ParentIsScreen False
+00001270        Out 00000006
+00001284    InstanceInputNode 72d577690e86d64a805d0af6df5cc4c6
+0000127c        $::UINodeData
+0000127c            $::DataContainer
+00001284            Name HideAndRestart
+00001288            ParentGraph 131f01ff5e51cdf183860b48780a6790
+0000128c            IsRootNode False
+0000128d            ParentIsScreen False
+00001290        Out 00000007
+000012a4    ActionNode 979c4d2fa8717a45ab9428b1aa21723c
+0000129c        $::UINodeData
+0000129c            $::DataContainer
+000012a4            Name Enable_GameInput
+000012a8            ParentGraph 131f01ff5e51cdf183860b48780a6790
+000012ac            IsRootNode False
+000012ad            ParentIsScreen False
+000012b0        ActionKey -368863171
+000012b4        Params::array
+000014e8            member(0) True
+000012b8        ActionAsset *nullGuid*
+000012bc        In 00000005
+000012c0        DataInputs *nullArray*
+000012c4        Out 00000011
+000012c8        AppendIncomingParams False
+000012dc    InstanceOutputNode a732331ec1ba4940a76179e2db01a8e0
+000012d4        $::UINodeData
+000012d4            $::DataContainer
+000012dc            Name Exit
+000012e0            ParentGraph 131f01ff5e51cdf183860b48780a6790
+000012e4            IsRootNode False
+000012e5            ParentIsScreen False
+000012e8        In 0000000b
+000012ec        Id 2088518501
+000012f0        DestroyGraph True
+00001304    ActionNode fa8a4a5953eceb4ab2ca328755733c2e
+000012fc        $::UINodeData
+000012fc            $::DataContainer
+00001304            Name Disable_Gameinput
+00001308            ParentGraph 131f01ff5e51cdf183860b48780a6790
+0000130c            IsRootNode False
+0000130d            ParentIsScreen False
+00001310        ActionKey -368863171
+00001314        Params::array
+000014f0            member(0) False
+00001318        ActionAsset *nullGuid*
+0000131c        In 0000000e
+00001320        DataInputs *nullArray*
+00001324        Out 00000012
+00001328        AppendIncomingParams False
+0000132c    UINodeConnection 00000000
+00001324        $::DataContainer
+0000132c        SourceNode 5928dd8b17805247bcd1a9707cf36d88
+00001330        TargetNode fa8a4a5953eceb4ab2ca328755733c2e
+00001334        SourcePort 00000006
+00001338        TargetPort 0000000e
+0000133c        SourcePortName *nullString*
+00001340        TargetPortName *nullString*
+00001344        NumScreensToPop 0
+00001348    UINodeConnection 00000001
+00001340        $::DataContainer
+00001348        SourceNode 3859d907a4d20a4294bda2a974ed9739
+0000134c        TargetNode 2f4a923f0d6a4d42b169ba89461b3a5a
+00001350        SourcePort 00000008
+00001354        TargetPort 00000010
+00001358        SourcePortName *nullString*
+0000135c        TargetPortName *nullString*
+00001360        NumScreensToPop 0
+00001364    UINodeConnection 00000002
+0000135c        $::DataContainer
+00001364        SourceNode 979c4d2fa8717a45ab9428b1aa21723c
+00001368        TargetNode 4d5ae1b1bc89bd41bfeb19e060ff1ec9
+0000136c        SourcePort 00000011
+00001370        TargetPort 0000000d
+00001374        SourcePortName *nullString*
+00001378        TargetPortName *nullString*
+0000137c        NumScreensToPop 0
+00001380    UINodeConnection 00000003
+00001378        $::DataContainer
+00001380        SourceNode 4d5ae1b1bc89bd41bfeb19e060ff1ec9
+00001384        TargetNode a732331ec1ba4940a76179e2db01a8e0
+00001388        SourcePort 0000000f
+0000138c        TargetPort 0000000b
+00001390        SourcePortName *nullString*
+00001394        TargetPortName *nullString*
+00001398        NumScreensToPop 0
+0000139c    UINodeConnection 00000004
+00001394        $::DataContainer
+0000139c        SourceNode 72d577690e86d64a805d0af6df5cc4c6
+000013a0        TargetNode 979c4d2fa8717a45ab9428b1aa21723c
+000013a4        SourcePort 00000007
+000013a8        TargetPort 00000005
+000013ac        SourcePortName *nullString*
+000013b0        TargetPortName *nullString*
+000013b4        NumScreensToPop 0
+000013b8    UINodePort 00000005
+000013b0        $::DataContainer
+000013b8        Name *nullString*
+000013bc        InstanceName *nullString*
+000013c0        Query UIWidgetEventID_None
+000013c4        AllowManualRemove False
+000013c5        IsReferencePort False
+000013c8    UINodePort 00000006
+000013c0        $::DataContainer
+000013c8        Name *nullString*
+000013cc        InstanceName *nullString*
+000013d0        Query UIWidgetEventID_None
+000013d4        AllowManualRemove False
+000013d5        IsReferencePort False
+000013d8    UINodePort 00000007
+000013d0        $::DataContainer
+000013d8        Name *nullString*
+000013dc        InstanceName *nullString*
+000013e0        Query UIWidgetEventID_None
+000013e4        AllowManualRemove False
+000013e5        IsReferencePort False
+000013e8    UINodePort 00000008
+000013e0        $::DataContainer
+000013e8        Name *nullString*
+000013ec        InstanceName *nullString*
+000013f0        Query UIWidgetEventID_None
+000013f4        AllowManualRemove False
+000013f5        IsReferencePort False
+000013f8    UINodePort 00000009
+000013f0        $::DataContainer
+000013f8        Name InstanceInputNode
+000013fc        InstanceName *nullString*
+00001400        Query UIWidgetEventID_None
+00001404        AllowManualRemove False
+00001405        IsReferencePort False
+00001408    UINodePort 0000000a
+00001400        $::DataContainer
+00001408        Name *nullString*
+0000140c        InstanceName *nullString*
+00001410        Query UIWidgetEventID_None
+00001414        AllowManualRemove False
+00001415        IsReferencePort False
+00001418    UINodePort 0000000b
+00001410        $::DataContainer
+00001418        Name *nullString*
+0000141c        InstanceName *nullString*
+00001420        Query UIWidgetEventID_None
+00001424        AllowManualRemove False
+00001425        IsReferencePort False
+00001428    UINodePort 0000000c
+00001420        $::DataContainer
+00001428        Name InstanceInputNode
+0000142c        InstanceName *nullString*
+00001430        Query UIWidgetEventID_None
+00001434        AllowManualRemove False
+00001435        IsReferencePort False
+00001438    UINodePort 0000000d
+00001430        $::DataContainer
+00001438        Name *nullString*
+0000143c        InstanceName *nullString*
+00001440        Query UIWidgetEventID_None
+00001444        AllowManualRemove False
+00001445        IsReferencePort False
+00001448    UINodePort 0000000e
+00001440        $::DataContainer
+00001448        Name *nullString*
+0000144c        InstanceName *nullString*
+00001450        Query UIWidgetEventID_None
+00001454        AllowManualRemove False
+00001455        IsReferencePort False
+00001458    UINodePort 0000000f
+00001450        $::DataContainer
+00001458        Name *nullString*
+0000145c        InstanceName *nullString*
+00001460        Query UIWidgetEventID_None
+00001464        AllowManualRemove False
+00001465        IsReferencePort False
+00001468    UINodePort 00000010
+00001460        $::DataContainer
+00001468        Name *nullString*
+0000146c        InstanceName *nullString*
+00001470        Query UIWidgetEventID_None
+00001474        AllowManualRemove False
+00001475        IsReferencePort False
+00001478    UINodePort 00000011
+00001470        $::DataContainer
+00001478        Name *nullString*
+0000147c        InstanceName *nullString*
+00001480        Query UIWidgetEventID_None
+00001484        AllowManualRemove False
+00001485        IsReferencePort False
+00001488    UINodePort 00000012
+00001480        $::DataContainer
+00001488        Name *nullString*
+0000148c        InstanceName *nullString*
+00001490        Query UIWidgetEventID_None
+00001494        AllowManualRemove False
+00001495        IsReferencePort False

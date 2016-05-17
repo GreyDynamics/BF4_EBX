@@ -1,0 +1,1527 @@
+000049e0    SoldierWeaponBlueprint 850256e078a7ee4ba5ccfb200477b05d
+000049d8        $::ObjectBlueprint
+000049d8            $::Blueprint
+000049d8                $::EntityBusData
+000049d8                    $::DataBusData
+000049d8                        $::Asset
+000049d8                            $::DataContainer
+000049e0                            Name XP3/Gameplay/weapons/BallisticShield/BallisticShield
+000049e4                        PropertyConnections *nullArray*
+000049e8                        LinkConnections *nullArray*
+000049ec                        Interface *nullGuid*
+000049f0                        Flags 0
+000049f4                    EventConnections *nullArray*
+000049f8            Object 00000002
+00004a00    BallisticShieldWeaponData 00000000
+00004a00        $::WeaponData
+00004a00            $::ToolData
+00004a00                $::DataContainer
+00004a08                IsAlwaysActive False
+00004a0c            ShowLaserPaintedVehicles False
+00004a10        ADSZeroPitchOffset::Vec3
+00004a10            x -0.119999997318
+00004a14            y -0.170000001788
+00004a18            z -0.34999999404
+00004a20        ADSMinPitchOffset::Vec3
+00004a20            x -0.15000000596
+00004a24            y 0.0
+00004a28            z 0.0
+00004a30        ADSMaxPitchOffset::Vec3
+00004a30            x -0.10000000149
+00004a34            y 0.25
+00004a38            z -0.550000011921
+00004a40        CrouchZeroPitchOffset::Vec3
+00004a40            x -0.10000000149
+00004a44            y -0.129999995232
+00004a48            z -0.550000011921
+00004a50        CrouchMinPitchOffset::Vec3
+00004a50            x -0.10000000149
+00004a54            y -0.129999995232
+00004a58            z -0.550000011921
+00004a60        CrouchMaxPitchOffset::Vec3
+00004a60            x -0.15000000596
+00004a64            y 0.20000000298
+00004a68            z -0.550000011921
+00004a70        CrouchMoveZeroPitchOffset::Vec3
+00004a70            x -0.15000000596
+00004a74            y -0.10000000149
+00004a78            z -0.300000011921
+00004a80        CrouchMoveMinPitchOffset::Vec3
+00004a80            x -0.180000007153
+00004a84            y -0.10000000149
+00004a88            z -0.300000011921
+00004a90        CrouchMoveMaxPitchOffset::Vec3
+00004a90            x -0.15000000596
+00004a94            y 0.180000007153
+00004a98            z -0.40000000596
+00004aa0        SprintOffset::LinearTransform
+00004aa0            right::Vec3
+00004aa0                x 0.298836231232
+00004aa4                y 0.707106769085
+00004aa8                z -0.640856385231
+00004ab0            up::Vec3
+00004ab0                x -0.298836231232
+00004ab4                y 0.707106769085
+00004ab8                z 0.640856385231
+00004ac0            forward::Vec3
+00004ac0                x 0.906307816505
+00004ac4                y 0.0
+00004ac8                z 0.42261826992
+00004ad0            trans::Vec3
+00004ad0                x -0.34999999404
+00004ad4                y 1.14999997616
+00004ad8                z -0.10000000149
+00004ae0        MaxHealth 200.0
+00004ae4        PhysicsBlueprint XP3/Gameplay/Weapons/BallisticShield/Ballistic_Shield_Static/81e5fe3e4dfe240937bdd104b3515e6e
+00004ae8        DestructionMeshHealth 100.0
+00004aec        DestructionMeshBlueprint1p XP3/Gameplay/weapons/BallisticShield/Ballistic_Shield_broken_1P/70e999c97767f349843b978ad78e01ee
+00004af0        DestructionMeshBlueprint3p XP3/Gameplay/Weapons/BallisticShield/Ballistic_Shield_broken_3p/0de55fa3b1cf52919cd72189e866916d
+00004b00    FiringFunctionData 00000001
+00004b00        $::GameDataContainer
+00004b00            $::DataContainer
+00004b08        Dispersion *nullArray*
+00004b0c        WeaponDispersion::WeaponDispersion
+00004b0c            StandDispersion::FiringDispersionData
+00004b0c                MinAngle 15.0
+00004b10                MaxAngle 15.0
+00004b14                IncreasePerShot 0.0
+00004b18                DecreasePerSecond 5.0
+00004b1c            CrouchDispersion::FiringDispersionData
+00004b1c                MinAngle 15.0
+00004b20                MaxAngle 15.0
+00004b24                IncreasePerShot 0.0
+00004b28                DecreasePerSecond 5.0
+00004b2c            ProneDispersion::FiringDispersionData
+00004b2c                MinAngle 15.0
+00004b30                MaxAngle 15.0
+00004b34                IncreasePerShot 0.0
+00004b38                DecreasePerSecond 5.0
+00004b3c            JumpDispersionAngle 0.0
+00004b40            ProneTransitionDispersionAngle 0.0
+00004b44            MoveDispersionAngle 0.0
+00004b48            MoveZoomedDispersionAngle 0.0
+00004b4c            DecreasePerSecond 0.0
+00004b50        Shot::ShotConfigData
+00004b50            InitialPosition::Vec3
+00004b50                x 0.0
+00004b54                y 0.0
+00004b58                z 0.0
+00004b60            InitialDirection::Vec3
+00004b60                x 0.0
+00004b64                y -0.10000000149
+00004b68                z 1.0
+00004b70            InitialSpeed::Vec3
+00004b70                x 0.0
+00004b74                y 0.0
+00004b78                z 17.0
+00004b80            InitialDirectionScaleByPitch::array
+000053b0                member(0)::InitialDirectionScaleByPitchData
+000053b0                    InitialDirectionScale::Vec3
+000053b0                        x 1.0
+000053b4                        y 1.0
+000053b8                        z 1.0
+000053c0                    Pitch 0.0
+000053d0                member(1)::InitialDirectionScaleByPitchData
+000053d0                    InitialDirectionScale::Vec3
+000053d0                        x 1.0
+000053d4                        y 1.0
+000053d8                        z 1.0
+000053e0                    Pitch -10.0
+000053f0                member(2)::InitialDirectionScaleByPitchData
+000053f0                    InitialDirectionScale::Vec3
+000053f0                        x 1.0
+000053f4                        y 5.0
+000053f8                        z 1.0
+00005400                    Pitch -22.0
+00005410                member(3)::InitialDirectionScaleByPitchData
+00005410                    InitialDirectionScale::Vec3
+00005410                        x 1.0
+00005414                        y 15.0
+00005418                        z 1.0
+00005420                    Pitch 72.0
+00004b84            InitialSpeedScaleByPitch *nullArray*
+00004b88            InheritWeaponSpeedAmount 0.0
+00004b8c            MuzzleExplosion *nullGuid*
+00004b90            ProjectileData XP3/Gameplay/weapons/BallisticShield/ShieldBash/d2da4158d4028843ae94e493b3e098db
+00004b94            SecondaryProjectileData *nullGuid*
+00004b98            Projectile *nullGuid*
+00004b9c            SecondaryProjectile *nullGuid*
+00004ba0            SpawnDelay 0.219999998808
+00004ba4            SpawnDelayZoomed -1.0
+00004ba8            NumberOfBulletsPerShell 12
+00004bac            NumberOfBulletsPerShot 1
+00004bb0            NumberOfBulletsPerBurst 3
+00004bb4            RelativeTargetAiming False
+00004bb5            ForceSpawnToCamera True
+00004bb6            SpawnVisualAtWeaponBone False
+00004bb7            ActiveForceSpawnToCamera False
+00004bc0        OverHeat::OverHeatData
+00004bc0            OverHeatEffect::FireEffectData
+00004bc0                Offset::Vec3
+00004bc0                    x 0.0
+00004bc4                    y 0.0
+00004bc8                    z 0.0
+00004bd0                Rotation::Vec3
+00004bd0                    x 0.0
+00004bd4                    y 0.0
+00004bd8                    z 0.0
+00004be0                ZoomOffset::Vec3
+00004be0                    x 0.0
+00004be4                    y 0.0
+00004be8                    z 0.0
+00004bf0                ZoomRotation::Vec3
+00004bf0                    x 0.0
+00004bf4                    y 0.0
+00004bf8                    z 0.0
+00004c00                Effect *nullGuid*
+00004c04                UseZoomOffset False
+00004c05                UseZoomRotation False
+00004c06                DisableDuringZoom False
+00004c07                UpdateTransform False
+00004c08                StopLoopingEffects False
+00004c10            HeatPerBullet 0.0
+00004c14            HeatDropPerSecond 0.20000000298
+00004c18            OverHeatPenaltyTime 3.0
+00004c1c            OverHeatThreshold 0.800000011921
+00004c20        FireEffects1p *nullArray*
+00004c24        FireEffects3p *nullArray*
+00004c28        Sound XP3/Sound/Weapons/BallisticShield/XP3_BallisticShield_Deploy_and_Swing/9106c4fe8dd1d64596dce6dbf9af4eb9
+00004c2c        FireLogic::FireLogicData
+00004c2c            HoldAndRelease::HoldAndReleaseData
+00004c2c                MaxHoldTime 10.0
+00004c30                MinPowerModifier 1.0
+00004c34                MaxPowerModifier 2.0
+00004c38                PowerIncreasePerSecond 0.10000000149
+00004c3c                Delay 0.0
+00004c40                KilledHoldingPowerModifier 0.0
+00004c44                ForceFireWhenKilledHolding True
+00004c48            BoltAction::BoltActionData
+00004c48                BoltActionDelay 0.5
+00004c4c                BoltActionTime 1.0
+00004c50                HoldBoltActionUntilFireRelease True
+00004c51                HoldBoltActionUntilZoomRelease True
+00004c52                ForceBoltActionOnFireTrigger False
+00004c53                UnZoomOnBoltAction True
+00004c54                ReturnToZoomAfterBoltAction True
+00004c58            Recoil::RecoilData
+00004c58                MaxRecoilAngleX 0.0
+00004c5c                MinRecoilAngleX 0.0
+00004c60                MaxRecoilAngleY 0.0
+00004c64                MinRecoilAngleY 0.0
+00004c68                MaxRecoilAngleZ 0.0
+00004c6c                MinRecoilAngleZ 0.0
+00004c70                MaxRecoilFov 0.0
+00004c74                MinRecoilFov 0.0
+00004c78                RecoilFollowsDispersion True
+00004c7c            FireInputAction 1018135856
+00004c80            ReloadInputAction 1131457753
+00004c84            CycleFireModeInputAction -1145593149
+00004c88            TriggerPullWeight 0.15000000596
+00004c8c            RateOfFire 80.0
+00004c90            RateOfFireForBurst 80.0
+00004c94            DelayBetweenBursts -1.0
+00004c98            ClientFireRateMultiplier 0.670000016689
+00004c9c            ReloadDelay 0.0
+00004ca0            ReloadTime 0.10000000149
+00004ca4            ReloadTimerArray *nullArray*
+00004ca8            ReloadTimeBulletsLeft -1.0
+00004cac            ReloadThreshold 0.75
+00004cb0            PreFireDelay 0.0
+00004cb4            PreFireDelayZoomed -1.0
+00004cb8            PreFireRequireHold 1.0
+00004cbc            AutomaticDelay 0.0
+00004cc0            ReloadLogic rlWeaponSwitchCancelsUnfinishedReload
+00004cc4            ReloadType rtMagazine
+00004cc8            FireLogicType fltSingleFire
+00004ccc            FireLogicTypeArray *nullArray*
+00004cd0            HoldOffReloadUntilFireRelease False
+00004cd1            HoldOffReloadUntilZoomRelease False
+00004cd2            ForceReloadActionOnFireTrigger False
+00004cd3            AlwaysAutoReload True
+00004cd4            ZoomTransitionDisableFire False
+00004cd8        Ammo::AmmoConfigData
+00004cd8            MagazineCapacity -1
+00004cdc            NumberOfMagazines -1
+00004ce0            TraceFrequency 1
+00004ce4            AmmoPickupMinAmount 0
+00004ce8            AmmoPickupMaxAmount 0
+00004cec            AutoReplenishDelay 5.0
+00004cf0            AmmoBagPickupDelayMultiplier 1.0
+00004cf4            AmmoBagPickupAmount -1
+00004cf8            AutoReplenishMagazine False
+00004cf9            StartUnloaded False
+00004cfc        SelfHealTimeWhenDeployed 0.0
+00004d00        UsePrimaryAmmo True
+00004d01        UnlimitedAmmoForAI False
+00004d10    SoldierWeaponData 00000002
+00004d10        $::WeaponEntityData
+00004d10            $::GameComponentEntityData
+00004d10                $::ComponentEntityData
+00004d10                    $::SpatialEntityData
+00004d10                        $::EntityData
+00004d10                            $::GameObjectData
+00004d10                                $::DataBusPeer
+00004d10                                    $::GameDataContainer
+00004d10                                        $::DataContainer
+00004d18                                    Flags 527470450
+00004d20                        Transform::LinearTransform
+00004d20                            right::Vec3
+00004d20                                x 1.0
+00004d24                                y 0.0
+00004d28                                z 0.0
+00004d30                            up::Vec3
+00004d30                                x 0.0
+00004d34                                y 1.0
+00004d38                                z 0.0
+00004d40                            forward::Vec3
+00004d40                                x 0.0
+00004d44                                y 0.0
+00004d48                                z 1.0
+00004d50                            trans::Vec3
+00004d50                                x 0.0
+00004d54                                y 0.0
+00004d58                                z 0.0
+00004d60                    Components *nullArray*
+00004d64                    ClientRuntimeComponentCount 0
+00004d65                    ServerRuntimeComponentCount 0
+00004d66                    ClientRuntimeTransformationCount 0
+00004d67                    ServerRuntimeTransformationCount 0
+00004d70                Enabled True
+00004d80            WeaponClass wcBallisticShield
+00004d84            WeaponStates::array
+00005ec4                member(0)::WeaponStateData
+00005ec4                    ReferencedAssetHashes *nullArray*
+00005ec8                    BoneFakePhysics *nullArray*
+00005ecc                    WeaponMesh3p XP3/Gameplay/weapons/BallisticShield/BallisticShield_Mesh3P/9f6bc7889d348642b144e48d8be12466
+00005ed0                    Mesh3p xp3/gameplay/weapons/ballisticshield/ballisticshield_mesh3p_Mesh/89b8ffcc41505a4f92c5ba177fb18c22
+00005ed4                    Weapon::AntRef
+00005ed4                        AssetGuid 15BBD35B4F9F744EA2836BD198D87F93
+00005ee4                        ProjectId 0
+00005ee8                    Weapon3p::AntRef
+00005ee8                        AssetGuid D4FFFFAB5B18864FA7C10C567A1F4C63
+00005ef8                        ProjectId 0
+00005efc                    ZoomMeshTransitionFactor 1.0
+00005f00                    ZoomScaleFactor 1.0
+00005f04                    ZoomInOutMeshTransitionFactors *nullArray*
+00005f08                    KeepAimingTime 3.0
+00005f0c                    AnimatedFireType AnimatedFireSingle
+00005f10                    AnimatedAimingType AnimatedAimingRightHanded
+00005f14                    HideProjectileAfterFireTime 0.0
+00005f18                    ProjectileBoneName *nullString*
+00005f1c                    UnDeploySpeed 1.0
+00005f20                    DeploySpeed 1.0
+00005f24                    Mesh3pTransforms::array
+00005440                        member(0)::LinearTransform
+00005440                            right::Vec3
+00005440                                x 1.0
+00005444                                y 0.0
+00005448                                z 0.0
+00005450                            up::Vec3
+00005450                                x 0.0
+00005454                                y 1.0
+00005458                                z 0.0
+00005460                            forward::Vec3
+00005460                                x 0.0
+00005464                                y 0.0
+00005468                                z 1.0
+00005470                            trans::Vec3
+00005470                                x 0.0
+00005474                                y 0.0
+00005478                                z 0.0
+00005480                        member(1)::LinearTransform
+00005480                            right::Vec3
+00005480                                x 1.0
+00005484                                y 0.0
+00005488                                z 0.0
+00005490                            up::Vec3
+00005490                                x 0.0
+00005494                                y 1.0
+00005498                                z 0.0
+000054a0                            forward::Vec3
+000054a0                                x 0.0
+000054a4                                y 0.0
+000054a8                                z 1.0
+000054b0                            trans::Vec3
+000054b0                                x 0.0
+000054b4                                y 0.0
+000054b8                                z 0.0
+000054c0                        member(2)::LinearTransform
+000054c0                            right::Vec3
+000054c0                                x 1.0
+000054c4                                y 0.0
+000054c8                                z 0.0
+000054d0                            up::Vec3
+000054d0                                x 0.0
+000054d4                                y 1.0
+000054d8                                z 0.0
+000054e0                            forward::Vec3
+000054e0                                x 0.0
+000054e4                                y 0.0
+000054e8                                z 1.0
+000054f0                            trans::Vec3
+000054f0                                x 0.0
+000054f4                                y 0.0
+000054f8                                z 0.0
+00005500                        member(3)::LinearTransform
+00005500                            right::Vec3
+00005500                                x 1.0
+00005504                                y 0.0
+00005508                                z 0.0
+00005510                            up::Vec3
+00005510                                x 0.0
+00005514                                y 1.0
+00005518                                z 0.0
+00005520                            forward::Vec3
+00005520                                x 0.0
+00005524                                y 0.0
+00005528                                z 1.0
+00005530                            trans::Vec3
+00005530                                x 0.0
+00005534                                y 0.0
+00005538                                z 0.0
+00005540                        member(4)::LinearTransform
+00005540                            right::Vec3
+00005540                                x 1.0
+00005544                                y 0.0
+00005548                                z 0.0
+00005550                            up::Vec3
+00005550                                x 0.0
+00005554                                y 1.0
+00005558                                z 0.0
+00005560                            forward::Vec3
+00005560                                x 0.0
+00005564                                y 0.0
+00005568                                z 1.0
+00005570                            trans::Vec3
+00005570                                x 0.0
+00005574                                y 0.0
+00005578                                z 0.0
+00005580                        member(5)::LinearTransform
+00005580                            right::Vec3
+00005580                                x 1.0
+00005584                                y 0.0
+00005588                                z 0.0
+00005590                            up::Vec3
+00005590                                x 0.0
+00005594                                y 1.0
+00005598                                z 0.0
+000055a0                            forward::Vec3
+000055a0                                x 0.0
+000055a4                                y 0.0
+000055a8                                z 1.0
+000055b0                            trans::Vec3
+000055b0                                x 0.0
+000055b4                                y 0.0
+000055b8                                z 0.0
+000055c0                        member(6)::LinearTransform
+000055c0                            right::Vec3
+000055c0                                x 1.0
+000055c4                                y 0.0
+000055c8                                z 0.0
+000055d0                            up::Vec3
+000055d0                                x 0.0
+000055d4                                y 1.0
+000055d8                                z 0.0
+000055e0                            forward::Vec3
+000055e0                                x 0.0
+000055e4                                y 0.0
+000055e8                                z 1.0
+000055f0                            trans::Vec3
+000055f0                                x 0.0
+000055f4                                y 0.0
+000055f8                                z 0.0
+00005600                        member(7)::LinearTransform
+00005600                            right::Vec3
+00005600                                x 1.0
+00005604                                y 0.0
+00005608                                z 0.0
+00005610                            up::Vec3
+00005610                                x 0.0
+00005614                                y 1.0
+00005618                                z 0.0
+00005620                            forward::Vec3
+00005620                                x 0.0
+00005624                                y 0.0
+00005628                                z 1.0
+00005630                            trans::Vec3
+00005630                                x 0.0
+00005634                                y 0.0840726196766
+00005638                                z -0.0737866684794
+00005640                        member(8)::LinearTransform
+00005640                            right::Vec3
+00005640                                x 1.0
+00005644                                y 0.0
+00005648                                z 0.0
+00005650                            up::Vec3
+00005650                                x 0.0
+00005654                                y 1.0
+00005658                                z 0.0
+00005660                            forward::Vec3
+00005660                                x 0.0
+00005664                                y 0.0
+00005668                                z 1.0
+00005670                            trans::Vec3
+00005670                                x 0.0
+00005674                                y -0.02375825122
+00005678                                z -0.299556553364
+00005680                        member(9)::LinearTransform
+00005680                            right::Vec3
+00005680                                x 1.0
+00005684                                y 0.0
+00005688                                z 0.0
+00005690                            up::Vec3
+00005690                                x 0.0
+00005694                                y 1.0
+00005698                                z 0.0
+000056a0                            forward::Vec3
+000056a0                                x 0.0
+000056a4                                y 0.0
+000056a8                                z 1.0
+000056b0                            trans::Vec3
+000056b0                                x 0.0
+000056b4                                y 0.0
+000056b8                                z 0.0
+000056c0                        member(10)::LinearTransform
+000056c0                            right::Vec3
+000056c0                                x 1.0
+000056c4                                y 0.0
+000056c8                                z 0.0
+000056d0                            up::Vec3
+000056d0                                x 0.0
+000056d4                                y 1.0
+000056d8                                z 0.0
+000056e0                            forward::Vec3
+000056e0                                x 0.0
+000056e4                                y 0.0
+000056e8                                z 1.0
+000056f0                            trans::Vec3
+000056f0                                x 0.0
+000056f4                                y 0.0
+000056f8                                z 0.0
+00005700                        member(11)::LinearTransform
+00005700                            right::Vec3
+00005700                                x 1.0
+00005704                                y 0.0
+00005708                                z 0.0
+00005710                            up::Vec3
+00005710                                x 0.0
+00005714                                y 1.0
+00005718                                z 0.0
+00005720                            forward::Vec3
+00005720                                x 0.0
+00005724                                y 0.0
+00005728                                z 1.0
+00005730                            trans::Vec3
+00005730                                x 0.0
+00005734                                y 0.0
+00005738                                z 0.0
+00005740                        member(12)::LinearTransform
+00005740                            right::Vec3
+00005740                                x 1.0
+00005744                                y 0.0
+00005748                                z 0.0
+00005750                            up::Vec3
+00005750                                x 0.0
+00005754                                y 0.961374640465
+00005758                                z 0.275243073702
+00005760                            forward::Vec3
+00005760                                x 0.0
+00005764                                y -0.275243073702
+00005768                                z 0.961374640465
+00005770                            trans::Vec3
+00005770                                x 0.0
+00005774                                y 0.137660875916
+00005778                                z -0.0246952548623
+00005780                        member(13)::LinearTransform
+00005780                            right::Vec3
+00005780                                x 1.0
+00005784                                y 0.0
+00005788                                z 0.0
+00005790                            up::Vec3
+00005790                                x 0.0
+00005794                                y 0.961374640465
+00005798                                z 0.275243073702
+000057a0                            forward::Vec3
+000057a0                                x 0.0
+000057a4                                y -0.275243073702
+000057a8                                z 0.961374640465
+000057b0                            trans::Vec3
+000057b0                                x 0.0
+000057b4                                y 0.219141691923
+000057b8                                z -0.00681526586413
+000057c0                        member(14)::LinearTransform
+000057c0                            right::Vec3
+000057c0                                x 1.0
+000057c4                                y 0.0
+000057c8                                z 0.0
+000057d0                            up::Vec3
+000057d0                                x 0.0
+000057d4                                y 0.961374640465
+000057d8                                z 0.275243073702
+000057e0                            forward::Vec3
+000057e0                                x 0.0
+000057e4                                y -0.275243073702
+000057e8                                z 0.961374640465
+000057f0                            trans::Vec3
+000057f0                                x 0.0
+000057f4                                y 0.137660861015
+000057f8                                z -0.0246952585876
+00005800                        member(15)::LinearTransform
+00005800                            right::Vec3
+00005800                                x 1.0
+00005804                                y 0.0
+00005808                                z 0.0
+00005810                            up::Vec3
+00005810                                x 0.0
+00005814                                y 1.0
+00005818                                z 0.0
+00005820                            forward::Vec3
+00005820                                x 0.0
+00005824                                y 0.0
+00005828                                z 1.0
+00005830                            trans::Vec3
+00005830                                x 0.0
+00005834                                y 0.0941575169563
+00005838                                z -0.253451555967
+00005840                        member(16)::LinearTransform
+00005840                            right::Vec3
+00005840                                x 1.0
+00005844                                y 0.0
+00005848                                z 0.0
+00005850                            up::Vec3
+00005850                                x 0.0
+00005854                                y 1.0
+00005858                                z 0.0
+00005860                            forward::Vec3
+00005860                                x 0.0
+00005864                                y 0.0
+00005868                                z 1.0
+00005870                            trans::Vec3
+00005870                                x -0.0185093600303
+00005874                                y 0.116915121675
+00005878                                z -0.253451555967
+00005880                        member(17)::LinearTransform
+00005880                            right::Vec3
+00005880                                x 1.0
+00005884                                y 0.0
+00005888                                z 0.0
+00005890                            up::Vec3
+00005890                                x 0.0
+00005894                                y 1.0
+00005898                                z 0.0
+000058a0                            forward::Vec3
+000058a0                                x 0.0
+000058a4                                y 0.0
+000058a8                                z 1.0
+000058b0                            trans::Vec3
+000058b0                                x 0.0
+000058b4                                y 0.0
+000058b8                                z 0.0
+000058c0                        member(18)::LinearTransform
+000058c0                            right::Vec3
+000058c0                                x 1.0
+000058c4                                y 0.0
+000058c8                                z 0.0
+000058d0                            up::Vec3
+000058d0                                x 0.0
+000058d4                                y 1.0
+000058d8                                z 0.0
+000058e0                            forward::Vec3
+000058e0                                x 0.0
+000058e4                                y 0.0
+000058e8                                z 1.0
+000058f0                            trans::Vec3
+000058f0                                x 0.0
+000058f4                                y 0.0
+000058f8                                z 0.0
+00005900                        member(19)::LinearTransform
+00005900                            right::Vec3
+00005900                                x 1.0
+00005904                                y 0.0
+00005908                                z 0.0
+00005910                            up::Vec3
+00005910                                x 0.0
+00005914                                y 1.0
+00005918                                z 0.0
+00005920                            forward::Vec3
+00005920                                x 0.0
+00005924                                y 0.0
+00005928                                z 1.0
+00005930                            trans::Vec3
+00005930                                x 0.0
+00005934                                y 0.0
+00005938                                z 0.0
+00005940                        member(20)::LinearTransform
+00005940                            right::Vec3
+00005940                                x 1.0
+00005944                                y 0.0
+00005948                                z 0.0
+00005950                            up::Vec3
+00005950                                x 0.0
+00005954                                y 1.0
+00005958                                z 0.0
+00005960                            forward::Vec3
+00005960                                x 0.0
+00005964                                y 0.0
+00005968                                z 1.0
+00005970                            trans::Vec3
+00005970                                x 0.0
+00005974                                y 0.0
+00005978                                z 0.0
+00005980                        member(21)::LinearTransform
+00005980                            right::Vec3
+00005980                                x 1.0
+00005984                                y 0.0
+00005988                                z 0.0
+00005990                            up::Vec3
+00005990                                x 0.0
+00005994                                y 1.0
+00005998                                z 0.0
+000059a0                            forward::Vec3
+000059a0                                x 0.0
+000059a4                                y 0.0
+000059a8                                z 1.0
+000059b0                            trans::Vec3
+000059b0                                x 0.0
+000059b4                                y 0.0
+000059b8                                z 0.0
+000059c0                        member(22)::LinearTransform
+000059c0                            right::Vec3
+000059c0                                x 1.0
+000059c4                                y 0.0
+000059c8                                z 0.0
+000059d0                            up::Vec3
+000059d0                                x 0.0
+000059d4                                y 1.0
+000059d8                                z 0.0
+000059e0                            forward::Vec3
+000059e0                                x 0.0
+000059e4                                y 0.0
+000059e8                                z 1.0
+000059f0                            trans::Vec3
+000059f0                                x 0.0
+000059f4                                y 0.0
+000059f8                                z 0.0
+00005a00                        member(23)::LinearTransform
+00005a00                            right::Vec3
+00005a00                                x 1.0
+00005a04                                y 0.0
+00005a08                                z 0.0
+00005a10                            up::Vec3
+00005a10                                x 0.0
+00005a14                                y 1.0
+00005a18                                z 0.0
+00005a20                            forward::Vec3
+00005a20                                x 0.0
+00005a24                                y 0.0
+00005a28                                z 1.0
+00005a30                            trans::Vec3
+00005a30                                x 0.0
+00005a34                                y 0.0
+00005a38                                z 0.0
+00005a40                        member(24)::LinearTransform
+00005a40                            right::Vec3
+00005a40                                x 1.0
+00005a44                                y 0.0
+00005a48                                z 0.0
+00005a50                            up::Vec3
+00005a50                                x 0.0
+00005a54                                y 1.0
+00005a58                                z 0.0
+00005a60                            forward::Vec3
+00005a60                                x 0.0
+00005a64                                y 0.0
+00005a68                                z 1.0
+00005a70                            trans::Vec3
+00005a70                                x 0.0
+00005a74                                y 0.0
+00005a78                                z 0.0
+00005a80                        member(25)::LinearTransform
+00005a80                            right::Vec3
+00005a80                                x 1.0
+00005a84                                y 0.0
+00005a88                                z 0.0
+00005a90                            up::Vec3
+00005a90                                x 0.0
+00005a94                                y 1.0
+00005a98                                z 0.0
+00005aa0                            forward::Vec3
+00005aa0                                x 0.0
+00005aa4                                y 0.0
+00005aa8                                z 1.0
+00005ab0                            trans::Vec3
+00005ab0                                x 0.0
+00005ab4                                y 0.0
+00005ab8                                z 0.0
+00005ac0                        member(26)::LinearTransform
+00005ac0                            right::Vec3
+00005ac0                                x 1.0
+00005ac4                                y 0.0
+00005ac8                                z 0.0
+00005ad0                            up::Vec3
+00005ad0                                x 0.0
+00005ad4                                y 1.0
+00005ad8                                z 0.0
+00005ae0                            forward::Vec3
+00005ae0                                x 0.0
+00005ae4                                y 0.0
+00005ae8                                z 1.0
+00005af0                            trans::Vec3
+00005af0                                x 0.0
+00005af4                                y 0.0
+00005af8                                z 0.0
+00005b00                        member(27)::LinearTransform
+00005b00                            right::Vec3
+00005b00                                x 1.0
+00005b04                                y 0.0
+00005b08                                z 0.0
+00005b10                            up::Vec3
+00005b10                                x 0.0
+00005b14                                y 1.0
+00005b18                                z 0.0
+00005b20                            forward::Vec3
+00005b20                                x 0.0
+00005b24                                y 0.0
+00005b28                                z 1.0
+00005b30                            trans::Vec3
+00005b30                                x 0.0
+00005b34                                y 0.0
+00005b38                                z 0.0
+00005b40                        member(28)::LinearTransform
+00005b40                            right::Vec3
+00005b40                                x 1.0
+00005b44                                y 0.0
+00005b48                                z 0.0
+00005b50                            up::Vec3
+00005b50                                x 0.0
+00005b54                                y 1.0
+00005b58                                z 0.0
+00005b60                            forward::Vec3
+00005b60                                x 0.0
+00005b64                                y 0.0
+00005b68                                z 1.0
+00005b70                            trans::Vec3
+00005b70                                x 0.0
+00005b74                                y 0.0
+00005b78                                z 0.0
+00005b80                        member(29)::LinearTransform
+00005b80                            right::Vec3
+00005b80                                x 1.0
+00005b84                                y 0.0
+00005b88                                z 0.0
+00005b90                            up::Vec3
+00005b90                                x 0.0
+00005b94                                y 1.0
+00005b98                                z 0.0
+00005ba0                            forward::Vec3
+00005ba0                                x 0.0
+00005ba4                                y 0.0
+00005ba8                                z 1.0
+00005bb0                            trans::Vec3
+00005bb0                                x 0.0
+00005bb4                                y 0.0
+00005bb8                                z 0.0
+00005bc0                        member(30)::LinearTransform
+00005bc0                            right::Vec3
+00005bc0                                x 1.0
+00005bc4                                y 0.0
+00005bc8                                z 0.0
+00005bd0                            up::Vec3
+00005bd0                                x 0.0
+00005bd4                                y 1.0
+00005bd8                                z 0.0
+00005be0                            forward::Vec3
+00005be0                                x 0.0
+00005be4                                y 0.0
+00005be8                                z 1.0
+00005bf0                            trans::Vec3
+00005bf0                                x 0.0
+00005bf4                                y 0.0
+00005bf8                                z 0.0
+00005c00                        member(31)::LinearTransform
+00005c00                            right::Vec3
+00005c00                                x 1.0
+00005c04                                y 0.0
+00005c08                                z 0.0
+00005c10                            up::Vec3
+00005c10                                x 0.0
+00005c14                                y 1.0
+00005c18                                z 0.0
+00005c20                            forward::Vec3
+00005c20                                x 0.0
+00005c24                                y 0.0
+00005c28                                z 1.0
+00005c30                            trans::Vec3
+00005c30                                x 0.0
+00005c34                                y 0.0
+00005c38                                z 0.0
+00005c40                        member(32)::LinearTransform
+00005c40                            right::Vec3
+00005c40                                x 1.0
+00005c44                                y 0.0
+00005c48                                z 0.0
+00005c50                            up::Vec3
+00005c50                                x 0.0
+00005c54                                y 1.0
+00005c58                                z 0.0
+00005c60                            forward::Vec3
+00005c60                                x 0.0
+00005c64                                y 0.0
+00005c68                                z 1.0
+00005c70                            trans::Vec3
+00005c70                                x 0.0
+00005c74                                y -0.0792140811682
+00005c78                                z 0.00284228473902
+00005c80                        member(33)::LinearTransform
+00005c80                            right::Vec3
+00005c80                                x 1.0
+00005c84                                y 0.0
+00005c88                                z 0.0
+00005c90                            up::Vec3
+00005c90                                x 0.0
+00005c94                                y 1.0
+00005c98                                z 0.0
+00005ca0                            forward::Vec3
+00005ca0                                x 0.0
+00005ca4                                y 0.0
+00005ca8                                z 1.0
+00005cb0                            trans::Vec3
+00005cb0                                x 0.0
+00005cb4                                y 0.0
+00005cb8                                z 0.0
+00005cc0                        member(34)::LinearTransform
+00005cc0                            right::Vec3
+00005cc0                                x 1.0
+00005cc4                                y 0.0
+00005cc8                                z 0.0
+00005cd0                            up::Vec3
+00005cd0                                x 0.0
+00005cd4                                y 1.0
+00005cd8                                z 0.0
+00005ce0                            forward::Vec3
+00005ce0                                x 0.0
+00005ce4                                y 0.0
+00005ce8                                z 1.0
+00005cf0                            trans::Vec3
+00005cf0                                x 0.0
+00005cf4                                y 0.0
+00005cf8                                z 0.0
+00005d00                        member(35)::LinearTransform
+00005d00                            right::Vec3
+00005d00                                x 1.0
+00005d04                                y 0.0
+00005d08                                z 0.0
+00005d10                            up::Vec3
+00005d10                                x 0.0
+00005d14                                y 1.0
+00005d18                                z 0.0
+00005d20                            forward::Vec3
+00005d20                                x 0.0
+00005d24                                y 0.0
+00005d28                                z 1.0
+00005d30                            trans::Vec3
+00005d30                                x 0.0
+00005d34                                y 0.0
+00005d38                                z 0.0
+00005d40                        member(36)::LinearTransform
+00005d40                            right::Vec3
+00005d40                                x 1.0
+00005d44                                y 0.0
+00005d48                                z 0.0
+00005d50                            up::Vec3
+00005d50                                x 0.0
+00005d54                                y 1.0
+00005d58                                z 0.0
+00005d60                            forward::Vec3
+00005d60                                x 0.0
+00005d64                                y 0.0
+00005d68                                z 1.0
+00005d70                            trans::Vec3
+00005d70                                x 0.0
+00005d74                                y 0.0
+00005d78                                z 0.0
+00005d80                        member(37)::LinearTransform
+00005d80                            right::Vec3
+00005d80                                x 1.0
+00005d84                                y 0.0
+00005d88                                z 0.0
+00005d90                            up::Vec3
+00005d90                                x 0.0
+00005d94                                y 1.0
+00005d98                                z 0.0
+00005da0                            forward::Vec3
+00005da0                                x 0.0
+00005da4                                y 0.0
+00005da8                                z 1.0
+00005db0                            trans::Vec3
+00005db0                                x 0.0
+00005db4                                y -0.056378915906
+00005db8                                z 0.274834871292
+00005dc0                        member(38)::LinearTransform
+00005dc0                            right::Vec3
+00005dc0                                x 1.0
+00005dc4                                y 0.0
+00005dc8                                z 0.0
+00005dd0                            up::Vec3
+00005dd0                                x 0.0
+00005dd4                                y 1.0
+00005dd8                                z 0.0
+00005de0                            forward::Vec3
+00005de0                                x 0.0
+00005de4                                y 0.0
+00005de8                                z 1.0
+00005df0                            trans::Vec3
+00005df0                                x 0.0
+00005df4                                y 0.0
+00005df8                                z 0.0
+00005e00                        member(39)::LinearTransform
+00005e00                            right::Vec3
+00005e00                                x 1.0
+00005e04                                y 0.0
+00005e08                                z 0.0
+00005e10                            up::Vec3
+00005e10                                x 0.0
+00005e14                                y 1.0
+00005e18                                z 0.0
+00005e20                            forward::Vec3
+00005e20                                x 0.0
+00005e24                                y 0.0
+00005e28                                z 1.0
+00005e30                            trans::Vec3
+00005e30                                x -0.094263471663
+00005e34                                y -0.42942148447
+00005e38                                z 0.410610258579
+00005e40                        member(40)::LinearTransform
+00005e40                            right::Vec3
+00005e40                                x 1.0
+00005e44                                y 0.0
+00005e48                                z 0.0
+00005e50                            up::Vec3
+00005e50                                x 0.0
+00005e54                                y 1.0
+00005e58                                z 0.0
+00005e60                            forward::Vec3
+00005e60                                x 0.0
+00005e64                                y 0.0
+00005e68                                z 1.0
+00005e70                            trans::Vec3
+00005e70                                x 0.0
+00005e74                                y 0.0
+00005e78                                z 0.0
+00005e80                        member(41)::LinearTransform
+00005e80                            right::Vec3
+00005e80                                x 1.0
+00005e84                                y 0.0
+00005e88                                z 0.0
+00005e90                            up::Vec3
+00005e90                                x 0.0
+00005e94                                y 1.0
+00005e98                                z 0.0
+00005ea0                            forward::Vec3
+00005ea0                                x 0.0
+00005ea4                                y 0.0
+00005ea8                                z 1.0
+00005eb0                            trans::Vec3
+00005eb0                                x 0.0
+00005eb4                                y -0.146308556199
+00005eb8                                z -0.344745993614
+00005f28                    AlwaysAimHead True
+00005f29                    IsOneHanded False
+00005f2a                    PlayDeployAfterFire False
+00005f2b                    SkipDeployAnimation False
+00005f2c                    SkipReloadAnimation False
+00005f2d                    SkipFireAnimation False
+00005f2e                    SendFireWhenPrefiring False
+00004d88            WeaponFiring 00000005
+00004d8c            CustomWeaponType 00000000
+00004d90            AIData *nullGuid*
+00004da0        PickupSettings::PickupSettingsData
+00004da0            MeshRenderOffset::Vec3
+00004da0                x -0.0399999991059
+00004da4                y 0.0250000003725
+00004da8                z -0.00999999977648
+00004db0            MeshRenderRotation::Vec3
+00004db0                x 0.0
+00004db4                y 0.0
+00004db8                z 90.0
+00004dc0        InteractionOffset::Vec3
+00004dc0            x 0.0
+00004dc4            y 0.0
+00004dc8            z 0.449999988079
+00004dd0        CustomizationAccessoryPivots::CustomizationAccessoryPivots
+00004dd0            BasePivotPos::Vec3
+00004dd0                x 0.0
+00004dd4                y -0.01600000076
+00004dd8                z 0.0500000007451
+00004de0            OpticPivotPos::Vec3
+00004de0                x 0.0
+00004de4                y 0.019999999553
+00004de8                z 0.0649999976158
+00004df0            BarrelPivotPos::Vec3
+00004df0                x 0.0
+00004df4                y -0.00999999977648
+00004df8                z 0.135000005364
+00004e00            AccessoryPivotPos::Vec3
+00004e00                x 0.0
+00004e04                y 0.0230000000447
+00004e08                z 0.219999998808
+00004e10            UnderBarrelPivotPos::Vec3
+00004e10                x 0.0
+00004e14                y -0.01600000076
+00004e18                z 0.0500000007451
+00004e20        DamageGiverName BallisticShield
+00004e24        ZoomLevels::array
+00005f34            member(0) 00000006
+00005f38            member(1) 00000007
+00004e28        WeaponModifierData *nullArray*
+00004e2c        AimingController XP4/Gameplay/Weapons/common/AimingControllers/Aim_BallisticShield/f7d1548b94af9f488f706479ffc38c1a
+00004e30        FirstPersonCamera Gameplay/Weapons/Common/DefaultFirstPersonCameraData/7bb9056fe0d2d842ba0b9f6982886fa1
+00004e34        Hud::HudData
+00004e34            CrosshairScaleMin 0.0
+00004e38            CrosshairScaleMax 5.0
+00004e3c            CrosshairOpacityMin 1.0
+00004e40            CrosshairOpacityMax 0.10000000149
+00004e44            CrosshairOpacityModifier 1.0
+00004e48            CrosshairTypeId *nullString*
+00004e4c            CrosshairType UI/Hud/Crosshairs/CrosshairDot/3ae464ffd64d450de42b9dca24973b51
+00004e50            LockingType *nullGuid*
+00004e54            WeaponClass *nullString*
+00004e58            LowAmmoWarning -1.0
+00004e5c            ReloadPrompt 0.300000011921
+00004e60            RenderTargetIndex 0
+00004e64            HudPropertyList *nullGuid*
+00004e68            SeaLevelAltFreq 0.0
+00004e6c            CameraShakeModifier 1.0
+00004e70            HudIcon *nullString*
+00004e74            ShowMinimap True
+00004e75            HideAmmo True
+00004e76            InfiniteAmmo False
+00004e77            HideCrosshairWhenAimOnFriend True
+00004e78            UseRenderTarget False
+00004e79            UseRangeMeter False
+00004e7a            UseAimWarning False
+00004e7b            UsePredictedSight False
+00004e7c            UseWeaponOrientations False
+00004e7d            UseVelocityVectorMarker False
+00004e7e            UseLockingController False
+00004e7f            UseThrust False
+00004e80            UseGForce False
+00004e81            UseSkidSlip False
+00004e82            UseClimbRate False
+00004e84        AnimBaseSet wabsAT
+00004e88        QuickThrowType QttHand
+00004e8c        SoldierWeaponBlueprint 850256e078a7ee4ba5ccfb200477b05d
+00004e90        PersistenceId *nullString*
+00004e94        SecondaryActionInputAction -1341426433
+00004e98        VoiceOverInfo 00000003
+00004e9c        WeaponFloatParam 1.0
+00004ea0        MaxRangeMeterDistance 200.0
+00004ea4        SocketsInWeapon *nullArray*
+00004ea8        HideWhenOutOfAmmo False
+00004ea9        AllowSwitchingToWeaponOutOfAmmo True
+00004eaa        AllowSwitchingToWeaponReloading True
+00004eab        SwitchToPrimaryWhenOutOfAmmo False
+00004eac        WaitForFireBeforeSwitchToPrimaryWhenOutOfAmmo False
+00004ead        SwitchToSecondaryWhenPrimaryOutOfAmmo False
+00004eae        FireAndSwitchBackToPrevSupported False
+00004eaf        AllowSwitchingToWeaponInVehicles False
+00004eb0        AllowSwitchingToWeaponInWater False
+00004eb1        LowerOnOwnTeam True
+00004eb2        RedeployWhenSwitchingWeaponStates True
+00004eb3        UseQuickThrowOnAutomaticSwitchback False
+00004eb4        EnableBreathControl False
+00004eb5        CanBeInSupportedShooting False
+00004eb6        UseDetailedRangeMeterQuery False
+00004eb7        IsSilenced True
+00004eb8        SkipFirstZoomLevel False
+00004ec0    EntityVoiceOverInfo 00000003
+00004eb8        $::DataContainer
+00004ec0        VoiceOverType Sound/VO/VO_System/94178596767a5a45af2fd2668ac03d78
+00004ec4        Labels::array
+00005f40            member(0) Sound/VO/VO_System/99ba5bf1b349834da9aeed470461a54f
+00004ec8    GunSwayData 00000004
+00004ec0        $::WeaponSwayData
+00004ec0            $::DataContainer
+00004ec8        Stand::GunSwayStandData
+00004ec8            NoZoom::GunSwayBaseMoveJumpData
+00004ec8                BaseValue::GunSwayDispersionData
+00004ec8                    MinAngle 0.0
+00004ecc                    MaxAngle 0.0
+00004ed0                    IncreasePerShot 0.0
+00004ed4                    DecreasePerSecond 0.0
+00004ed8                    NoFireDecreasePerSecond 15.0
+00004edc                    NoFireTimeThreshold 0.20000000298
+00004ee0                Moving::GunSwayDispersionData
+00004ee0                    MinAngle 0.0
+00004ee4                    MaxAngle 0.0
+00004ee8                    IncreasePerShot 0.0
+00004eec                    DecreasePerSecond 0.0
+00004ef0                    NoFireDecreasePerSecond 15.0
+00004ef4                    NoFireTimeThreshold 0.20000000298
+00004ef8                Jumping::GunSwayDispersionData
+00004ef8                    MinAngle 0.0
+00004efc                    MaxAngle 0.0
+00004f00                    IncreasePerShot 0.0
+00004f04                    DecreasePerSecond 0.0
+00004f08                    NoFireDecreasePerSecond 15.0
+00004f0c                    NoFireTimeThreshold 0.20000000298
+00004f10                Sprinting::GunSwayDispersionData
+00004f10                    MinAngle 0.0
+00004f14                    MaxAngle 0.0
+00004f18                    IncreasePerShot 0.0
+00004f1c                    DecreasePerSecond 0.0
+00004f20                    NoFireDecreasePerSecond 15.0
+00004f24                    NoFireTimeThreshold 0.20000000298
+00004f28                VaultingSmallObject::GunSwayDispersionData
+00004f28                    MinAngle 0.0
+00004f2c                    MaxAngle 0.0
+00004f30                    IncreasePerShot 0.0
+00004f34                    DecreasePerSecond 0.0
+00004f38                    NoFireDecreasePerSecond 15.0
+00004f3c                    NoFireTimeThreshold 0.20000000298
+00004f40                VaultingMediumObject::GunSwayDispersionData
+00004f40                    MinAngle 0.0
+00004f44                    MaxAngle 0.0
+00004f48                    IncreasePerShot 0.0
+00004f4c                    DecreasePerSecond 0.0
+00004f50                    NoFireDecreasePerSecond 15.0
+00004f54                    NoFireTimeThreshold 0.20000000298
+00004f58                Recoil::GunSwayRecoilData
+00004f58                    RecoilAmplitudeMax 0.0
+00004f5c                    RecoilAmplitudeIncPerShot 0.0
+00004f60                    HorizontalRecoilAmplitudeIncPerShotMin 0.0
+00004f64                    HorizontalRecoilAmplitudeIncPerShotMax 0.0
+00004f68                    HorizontalRecoilAmplitudeMax 0.0
+00004f6c                    RecoilAmplitudeDecreaseFactor 0.0
+00004f70                GunSwayLag::GunSwayLagData
+00004f70                    MoveStrafeModifier 0.0
+00004f74                    MoveForwardModifier 0.0
+00004f78                    RotateYawModifier 0.0
+00004f7c                    RotatePitchModifier 0.0
+00004f80                    ReleaseModifier 0.0
+00004f84            Zoom::GunSwayBaseMoveJumpData
+00004f84                BaseValue::GunSwayDispersionData
+00004f84                    MinAngle 0.0
+00004f88                    MaxAngle 0.0
+00004f8c                    IncreasePerShot 0.0
+00004f90                    DecreasePerSecond 0.0
+00004f94                    NoFireDecreasePerSecond 15.0
+00004f98                    NoFireTimeThreshold 0.20000000298
+00004f9c                Moving::GunSwayDispersionData
+00004f9c                    MinAngle 0.0
+00004fa0                    MaxAngle 0.0
+00004fa4                    IncreasePerShot 0.0
+00004fa8                    DecreasePerSecond 0.0
+00004fac                    NoFireDecreasePerSecond 15.0
+00004fb0                    NoFireTimeThreshold 0.20000000298
+00004fb4                Jumping::GunSwayDispersionData
+00004fb4                    MinAngle 0.0
+00004fb8                    MaxAngle 0.0
+00004fbc                    IncreasePerShot 0.0
+00004fc0                    DecreasePerSecond 0.0
+00004fc4                    NoFireDecreasePerSecond 15.0
+00004fc8                    NoFireTimeThreshold 0.20000000298
+00004fcc                Sprinting::GunSwayDispersionData
+00004fcc                    MinAngle 0.0
+00004fd0                    MaxAngle 0.0
+00004fd4                    IncreasePerShot 0.0
+00004fd8                    DecreasePerSecond 0.0
+00004fdc                    NoFireDecreasePerSecond 15.0
+00004fe0                    NoFireTimeThreshold 0.20000000298
+00004fe4                VaultingSmallObject::GunSwayDispersionData
+00004fe4                    MinAngle 0.0
+00004fe8                    MaxAngle 0.0
+00004fec                    IncreasePerShot 0.0
+00004ff0                    DecreasePerSecond 0.0
+00004ff4                    NoFireDecreasePerSecond 15.0
+00004ff8                    NoFireTimeThreshold 0.20000000298
+00004ffc                VaultingMediumObject::GunSwayDispersionData
+00004ffc                    MinAngle 0.0
+00005000                    MaxAngle 0.0
+00005004                    IncreasePerShot 0.0
+00005008                    DecreasePerSecond 0.0
+0000500c                    NoFireDecreasePerSecond 15.0
+00005010                    NoFireTimeThreshold 0.20000000298
+00005014                Recoil::GunSwayRecoilData
+00005014                    RecoilAmplitudeMax 0.0
+00005018                    RecoilAmplitudeIncPerShot 0.0
+0000501c                    HorizontalRecoilAmplitudeIncPerShotMin 0.0
+00005020                    HorizontalRecoilAmplitudeIncPerShotMax 0.0
+00005024                    HorizontalRecoilAmplitudeMax 0.0
+00005028                    RecoilAmplitudeDecreaseFactor 0.0
+0000502c                GunSwayLag::GunSwayLagData
+0000502c                    MoveStrafeModifier 0.0
+00005030                    MoveForwardModifier 0.0
+00005034                    RotateYawModifier 0.0
+00005038                    RotatePitchModifier 0.0
+0000503c                    ReleaseModifier 0.0
+00005040        Crouch::GunSwayCrouchProneData
+00005040            NoZoom::GunSwayBaseMoveData
+00005040                BaseValue::GunSwayDispersionData
+00005040                    MinAngle 0.0
+00005044                    MaxAngle 0.0
+00005048                    IncreasePerShot 0.0
+0000504c                    DecreasePerSecond 0.0
+00005050                    NoFireDecreasePerSecond 15.0
+00005054                    NoFireTimeThreshold 0.20000000298
+00005058                Moving::GunSwayDispersionData
+00005058                    MinAngle 0.0
+0000505c                    MaxAngle 0.0
+00005060                    IncreasePerShot 0.0
+00005064                    DecreasePerSecond 0.0
+00005068                    NoFireDecreasePerSecond 15.0
+0000506c                    NoFireTimeThreshold 0.20000000298
+00005070                Recoil::GunSwayRecoilData
+00005070                    RecoilAmplitudeMax 0.0
+00005074                    RecoilAmplitudeIncPerShot 0.0
+00005078                    HorizontalRecoilAmplitudeIncPerShotMin 0.0
+0000507c                    HorizontalRecoilAmplitudeIncPerShotMax 0.0
+00005080                    HorizontalRecoilAmplitudeMax 0.0
+00005084                    RecoilAmplitudeDecreaseFactor 0.0
+00005088                GunSwayLag::GunSwayLagData
+00005088                    MoveStrafeModifier 0.0
+0000508c                    MoveForwardModifier 0.0
+00005090                    RotateYawModifier 0.0
+00005094                    RotatePitchModifier 0.0
+00005098                    ReleaseModifier 0.0
+0000509c            Zoom::GunSwayBaseMoveData
+0000509c                BaseValue::GunSwayDispersionData
+0000509c                    MinAngle 0.0
+000050a0                    MaxAngle 0.0
+000050a4                    IncreasePerShot 0.0
+000050a8                    DecreasePerSecond 0.0
+000050ac                    NoFireDecreasePerSecond 15.0
+000050b0                    NoFireTimeThreshold 0.20000000298
+000050b4                Moving::GunSwayDispersionData
+000050b4                    MinAngle 0.0
+000050b8                    MaxAngle 0.0
+000050bc                    IncreasePerShot 0.0
+000050c0                    DecreasePerSecond 0.0
+000050c4                    NoFireDecreasePerSecond 15.0
+000050c8                    NoFireTimeThreshold 0.20000000298
+000050cc                Recoil::GunSwayRecoilData
+000050cc                    RecoilAmplitudeMax 0.0
+000050d0                    RecoilAmplitudeIncPerShot 0.0
+000050d4                    HorizontalRecoilAmplitudeIncPerShotMin 0.0
+000050d8                    HorizontalRecoilAmplitudeIncPerShotMax 0.0
+000050dc                    HorizontalRecoilAmplitudeMax 0.0
+000050e0                    RecoilAmplitudeDecreaseFactor 0.0
+000050e4                GunSwayLag::GunSwayLagData
+000050e4                    MoveStrafeModifier 0.0
+000050e8                    MoveForwardModifier 0.0
+000050ec                    RotateYawModifier 0.0
+000050f0                    RotatePitchModifier 0.0
+000050f4                    ReleaseModifier 0.0
+000050f8        Prone::GunSwayCrouchProneData
+000050f8            NoZoom::GunSwayBaseMoveData
+000050f8                BaseValue::GunSwayDispersionData
+000050f8                    MinAngle 0.0
+000050fc                    MaxAngle 0.0
+00005100                    IncreasePerShot 0.0
+00005104                    DecreasePerSecond 0.0
+00005108                    NoFireDecreasePerSecond 15.0
+0000510c                    NoFireTimeThreshold 0.20000000298
+00005110                Moving::GunSwayDispersionData
+00005110                    MinAngle 0.0
+00005114                    MaxAngle 0.0
+00005118                    IncreasePerShot 0.0
+0000511c                    DecreasePerSecond 0.0
+00005120                    NoFireDecreasePerSecond 15.0
+00005124                    NoFireTimeThreshold 0.20000000298
+00005128                Recoil::GunSwayRecoilData
+00005128                    RecoilAmplitudeMax 0.0
+0000512c                    RecoilAmplitudeIncPerShot 0.0
+00005130                    HorizontalRecoilAmplitudeIncPerShotMin 0.0
+00005134                    HorizontalRecoilAmplitudeIncPerShotMax 0.0
+00005138                    HorizontalRecoilAmplitudeMax 0.0
+0000513c                    RecoilAmplitudeDecreaseFactor 0.0
+00005140                GunSwayLag::GunSwayLagData
+00005140                    MoveStrafeModifier 0.0
+00005144                    MoveForwardModifier 0.0
+00005148                    RotateYawModifier 0.0
+0000514c                    RotatePitchModifier 0.0
+00005150                    ReleaseModifier 0.0
+00005154            Zoom::GunSwayBaseMoveData
+00005154                BaseValue::GunSwayDispersionData
+00005154                    MinAngle 0.0
+00005158                    MaxAngle 0.0
+0000515c                    IncreasePerShot 0.0
+00005160                    DecreasePerSecond 0.0
+00005164                    NoFireDecreasePerSecond 15.0
+00005168                    NoFireTimeThreshold 0.20000000298
+0000516c                Moving::GunSwayDispersionData
+0000516c                    MinAngle 0.0
+00005170                    MaxAngle 0.0
+00005174                    IncreasePerShot 0.0
+00005178                    DecreasePerSecond 0.0
+0000517c                    NoFireDecreasePerSecond 15.0
+00005180                    NoFireTimeThreshold 0.20000000298
+00005184                Recoil::GunSwayRecoilData
+00005184                    RecoilAmplitudeMax 0.0
+00005188                    RecoilAmplitudeIncPerShot 0.0
+0000518c                    HorizontalRecoilAmplitudeIncPerShotMin 0.0
+00005190                    HorizontalRecoilAmplitudeIncPerShotMax 0.0
+00005194                    HorizontalRecoilAmplitudeMax 0.0
+00005198                    RecoilAmplitudeDecreaseFactor 0.0
+0000519c                GunSwayLag::GunSwayLagData
+0000519c                    MoveStrafeModifier 0.0
+000051a0                    MoveForwardModifier 0.0
+000051a4                    RotateYawModifier 0.0
+000051a8                    RotatePitchModifier 0.0
+000051ac                    ReleaseModifier 0.0
+000051b0        ProneToCrouch::GunSwayStanceTransition
+000051b0            MaxPenaltyValue::GunSwayDispersionData
+000051b0                MinAngle 0.0
+000051b4                MaxAngle 0.0
+000051b8                IncreasePerShot 0.0
+000051bc                DecreasePerSecond 0.0
+000051c0                NoFireDecreasePerSecond 15.0
+000051c4                NoFireTimeThreshold 0.20000000298
+000051c8            CoolDown 0.0
+000051cc        ProneToStand::GunSwayStanceTransition
+000051cc            MaxPenaltyValue::GunSwayDispersionData
+000051cc                MinAngle 0.0
+000051d0                MaxAngle 0.0
+000051d4                IncreasePerShot 0.0
+000051d8                DecreasePerSecond 0.0
+000051dc                NoFireDecreasePerSecond 15.0
+000051e0                NoFireTimeThreshold 0.20000000298
+000051e4            CoolDown 0.0
+000051e8        CrouchToProne::GunSwayStanceTransition
+000051e8            MaxPenaltyValue::GunSwayDispersionData
+000051e8                MinAngle 0.0
+000051ec                MaxAngle 0.0
+000051f0                IncreasePerShot 0.0
+000051f4                DecreasePerSecond 0.0
+000051f8                NoFireDecreasePerSecond 15.0
+000051fc                NoFireTimeThreshold 0.20000000298
+00005200            CoolDown 0.0
+00005204        CrouchToStand::GunSwayStanceTransition
+00005204            MaxPenaltyValue::GunSwayDispersionData
+00005204                MinAngle 0.0
+00005208                MaxAngle 0.0
+0000520c                IncreasePerShot 0.0
+00005210                DecreasePerSecond 0.0
+00005214                NoFireDecreasePerSecond 15.0
+00005218                NoFireTimeThreshold 0.20000000298
+0000521c            CoolDown 0.0
+00005220        StandToProne::GunSwayStanceTransition
+00005220            MaxPenaltyValue::GunSwayDispersionData
+00005220                MinAngle 0.0
+00005224                MaxAngle 0.0
+00005228                IncreasePerShot 0.0
+0000522c                DecreasePerSecond 0.0
+00005230                NoFireDecreasePerSecond 15.0
+00005234                NoFireTimeThreshold 0.20000000298
+00005238            CoolDown 0.0
+0000523c        StandToCrouch::GunSwayStanceTransition
+0000523c            MaxPenaltyValue::GunSwayDispersionData
+0000523c                MinAngle 0.0
+00005240                MaxAngle 0.0
+00005244                IncreasePerShot 0.0
+00005248                DecreasePerSecond 0.0
+0000524c                NoFireDecreasePerSecond 15.0
+00005250                NoFireTimeThreshold 0.20000000298
+00005254            CoolDown 0.0
+00005258        SuppressionModifierUnzoomed::GunSwayStanceZoomModifierData
+00005258            DispersionMod::GunSwayDispersionModData
+00005258                MinAngleModifier 0.0
+0000525c                MaxAngleModifier 0.0
+00005260                IncreasePerShotModifier 0.0
+00005264                DecreasePerSecondModifier 0.0
+00005268            MovingDispersionMod::GunSwayDispersionModData
+00005268                MinAngleModifier 0.0
+0000526c                MaxAngleModifier 0.0
+00005270                IncreasePerShotModifier 0.0
+00005274                DecreasePerSecondModifier 0.0
+00005278            SprintingDispersionMod::GunSwayDispersionModData
+00005278                MinAngleModifier 0.0
+0000527c                MaxAngleModifier 0.0
+00005280                IncreasePerShotModifier 0.0
+00005284                DecreasePerSecondModifier 0.0
+00005288            RecoilMagnitudeMod 0.0
+0000528c            RecoilAngleMod 0.0
+00005290            FirstShotRecoilMod 0.0
+00005294            LagYawMod 0.0
+00005298            LagPitchMod 0.0
+0000529c        SuppressionModifierZoomed::GunSwayStanceZoomModifierData
+0000529c            DispersionMod::GunSwayDispersionModData
+0000529c                MinAngleModifier 0.0
+000052a0                MaxAngleModifier 0.0
+000052a4                IncreasePerShotModifier 0.0
+000052a8                DecreasePerSecondModifier 0.0
+000052ac            MovingDispersionMod::GunSwayDispersionModData
+000052ac                MinAngleModifier 0.0
+000052b0                MaxAngleModifier 0.0
+000052b4                IncreasePerShotModifier 0.0
+000052b8                DecreasePerSecondModifier 0.0
+000052bc            SprintingDispersionMod::GunSwayDispersionModData
+000052bc                MinAngleModifier 0.0
+000052c0                MaxAngleModifier 0.0
+000052c4                IncreasePerShotModifier 0.0
+000052c8                DecreasePerSecondModifier 0.0
+000052cc            RecoilMagnitudeMod 0.0
+000052d0            RecoilAngleMod 0.0
+000052d4            FirstShotRecoilMod 0.0
+000052d8            LagYawMod 0.0
+000052dc            LagPitchMod 0.0
+000052e0        ModifierUnlocks *nullArray*
+000052e4        DeviationScaleFactorZoom 1.0
+000052e8        GameplayDeviationScaleFactorZoom 1.0
+000052ec        DeviationScaleFactorNoZoom 1.0
+000052f0        GameplayDeviationScaleFactorNoZoom 1.0
+000052f4        ShootingRecoilDecreaseScale 0.0
+000052f8        FirstShotRecoilMultiplier 0.0
+000052fc        CameraRecoil *nullGuid*
+00005300    WeaponFiringData 00000005
+000052f8        $::GameDataContainer
+000052f8            $::DataContainer
+00005300        PrimaryFire 00000001
+00005304        DeployTime 0.620000004768
+00005308        ReactivateCooldownTime 0.0
+0000530c        DisableZoomOnDeployTime 0.10000000149
+00005310        AltDeployTime 2.0
+00005314        AltDeployId -1
+00005318        WeaponSway 00000004
+0000531c        Rumble::RumbleFiringData
+0000531c            LowRumble 1.0
+00005320            HighRumble 0.800000011921
+00005324            RumbleDuration 0.300000011921
+00005328        SupportDelayStand 0.300000011921
+0000532c        SupportDelayProne 0.300000011921
+00005330        UseAutoAiming False
+00005331        InflictSelfDamage False
+00005332        ShowEnemyNametagOnAim True
+00005333        ReloadWholeMags False
+00005334        DisableReloadWhileSprinting False
+00005335        AbortReloadOnSprint False
+00005338    WeaponZoomLevelData 00000006
+00005330        $::DataContainer
+00005338        RenderFov 55.0
+0000533c        RenderFovTransition *nullGuid*
+00005340        ZoomInOutMeshTransitionFactors *nullArray*
+00005344        ZoomDisabledTransitionTimer 0.0
+00005348        SightType SightType_None
+0000534c        AnimationSettings::WeaponAnimationSettingsData
+0000534c            KickbackFactor 1.0
+00005350            KickbackSpeedFactor 1.0
+00005354            WeaponOffsetX 0.0
+00005358            WeaponOffsetY 0.0
+0000535c            WeaponOffsetZ -0.600000023842
+00005360            ZoomOutSpeed 1.0
+00005364            ZoomInSpeed 1.0
+00005368    WeaponZoomLevelData 00000007
+00005360        $::DataContainer
+00005368        RenderFov 50.0
+0000536c        RenderFovTransition *nullGuid*
+00005370        ZoomInOutMeshTransitionFactors *nullArray*
+00005374        ZoomDisabledTransitionTimer 0.0
+00005378        SightType SightType_None
+0000537c        AnimationSettings::WeaponAnimationSettingsData
+0000537c            KickbackFactor 1.0
+00005380            KickbackSpeedFactor 1.0
+00005384            WeaponOffsetX 0.0
+00005388            WeaponOffsetY 0.0
+0000538c            WeaponOffsetZ -1.0
+00005390            ZoomOutSpeed 1.0
+00005394            ZoomInSpeed 5.0

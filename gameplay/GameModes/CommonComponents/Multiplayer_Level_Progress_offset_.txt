@@ -1,0 +1,218 @@
+00001380    LogicPrefabBlueprint 6bae2396dd3c2d55e9f114057e32c34c
+00001378        $::PrefabBlueprint
+00001378            $::Blueprint
+00001378                $::EntityBusData
+00001378                    $::DataBusData
+00001378                        $::Asset
+00001378                            $::DataContainer
+00001380                            Name Gameplay/GameModes/CommonComponents/Multiplayer_Level_Progress
+00001384                        PropertyConnections::array
+00001454                            member(0)::PropertyConnection
+00001454                                Source 00000003
+00001458                                Target 185d053493fee846850ef367ba65319a
+0000145c                                SourceFieldId 2089241922
+00001460                                TargetFieldId 2089241922
+00001464                                ShouldNetworkValue False
+00001468                            member(1)::PropertyConnection
+00001468                                Source 00000003
+0000146c                                Target 185d053493fee846850ef367ba65319a
+00001470                                SourceFieldId -610841040
+00001474                                TargetFieldId -610841040
+00001478                                ShouldNetworkValue False
+0000147c                            member(2)::PropertyConnection
+0000147c                                Source 00000003
+00001480                                Target 185d053493fee846850ef367ba65319a
+00001484                                SourceFieldId 2119031649
+00001488                                TargetFieldId 2119031649
+0000148c                                ShouldNetworkValue False
+00001490                            member(3)::PropertyConnection
+00001490                                Source 00000003
+00001494                                Target 185d053493fee846850ef367ba65319a
+00001498                                SourceFieldId 2010831616
+0000149c                                TargetFieldId 2010831616
+000014a0                                ShouldNetworkValue False
+000014a4                            member(4)::PropertyConnection
+000014a4                                Source 00000003
+000014a8                                Target 185d053493fee846850ef367ba65319a
+000014ac                                SourceFieldId 2040629799
+000014b0                                TargetFieldId 2040629799
+000014b4                                ShouldNetworkValue False
+000014b8                            member(5)::PropertyConnection
+000014b8                                Source 00000001
+000014bc                                Target 00000002
+000014c0                                SourceFieldId 225375086
+000014c4                                TargetFieldId 858290427
+000014c8                                ShouldNetworkValue False
+000014cc                            member(6)::PropertyConnection
+000014cc                                Source 00000002
+000014d0                                Target 00000003
+000014d4                                SourceFieldId 193453899
+000014d8                                TargetFieldId -1292456776
+000014dc                                ShouldNetworkValue False
+000014e0                            member(7)::PropertyConnection
+000014e0                                Source 185d053493fee846850ef367ba65319a
+000014e4                                Target 00000002
+000014e8                                SourceFieldId -1292456776
+000014ec                                TargetFieldId 193450867
+000014f0                                ShouldNetworkValue False
+000014f4                            member(8)::PropertyConnection
+000014f4                                Source 00000000
+000014f8                                Target 00000002
+000014fc                                SourceFieldId 225375086
+00001500                                TargetFieldId 193450866
+00001504                                ShouldNetworkValue False
+00001388                        LinkConnections *nullArray*
+0000138c                        Interface 00000003
+00001390                        Flags 2
+00001394                    EventConnections::array
+0000150c                        member(0)::EventConnection
+0000150c                            Source 00000003
+00001510                            Target 00000001
+00001514                            SourceEvent::EventSpec
+00001514                                Id -1541508057
+00001518                            TargetEvent::EventSpec
+00001518                                Id 1736970756
+0000151c                            TargetType EventConnectionTargetType_Server
+00001398            Objects::array
+00001524                member(0) 185d053493fee846850ef367ba65319a
+00001528                member(1) 00000002
+0000152c                member(2) 00000001
+00001530                member(3) 00000000
+000013ac    LuaRunnerScriptEntityData 185d053493fee846850ef367ba65319a
+000013a4        $::EntityData
+000013a4            $::GameObjectData
+000013a4                $::DataBusPeer
+000013a4                    $::GameDataContainer
+000013a4                        $::DataContainer
+000013ac                    Flags 403004696
+000013b0        Script --function <guid>( self, event, vars, sharedvars, globalvars )
+do
+	--InitVars(vars, "numTimes", 0)
+	--vars.numTimes = vars.numTimes + 1
+	--self.test = vars.numTimes
+	local highestProgress = 0
+	local teamValue = nil
+	
+	if self.InitialValue ~= 0 then
+		for t = 1, 4 do
+			if t == 1 then
+				teamValue = self.Team1Value
+			elseif t == 2 then
+				teamValue = self.Team2Value
+			elseif t == 3 then
+				teamValue = self.Team3Value
+			elseif t == 4 then
+				teamValue = self.Team4Value
+			end
+		
+			if teamValue ~= nil then
+				currentProgress = 100 - (teamValue * 100) / self.InitialValue
+
+				if highestProgress < currentProgress then
+					highestProgress = currentProgress
+				end
+			end
+		end
+	end
+	
+	self.Progress = highestProgress
+end
+
+000013b4        InputEvents *nullArray*
+000013b8        OutputEvents *nullArray*
+000013bc        InputFloatProperties *nullArray*
+000013c0        OutputFloatProperties *nullArray*
+000013c4        InputIntProperties::array
+00001538            member(0) InitialValue
+0000153c            member(1) Team1Value
+00001540            member(2) Team2Value
+00001544            member(3) Team3Value
+00001548            member(4) Team4Value
+000013c8        OutputIntProperties::array
+00001550            member(0) Progress
+000013cc        InputBoolProperties *nullArray*
+000013d0        OutputBoolProperties *nullArray*
+000013d4        InputStringProperties *nullArray*
+000013d8        OutputStringProperties *nullArray*
+000013dc        InputTransformProperties *nullArray*
+000013e0        OutputTransformProperties *nullArray*
+000013e4        InputVec3Properties *nullArray*
+000013e8        OutputVec3Properties *nullArray*
+000013ec        ExecuteOnPropertyChange ExecuteOnPropertyChangeType_Immediate
+000013f0        PriorityForExecutingPerFrame 0
+000013f4        Realm Realm_Server
+000013f8        CompiledLua Gameplay/GameModes/CommonComponents/Multiplayer_Level_Progress/LuaRunnerCompiledLua_34055D18_FE93_46E8_850E_F367BA65319A_Win32/ef8dbffa3ff8b8e977ab343e53f90b53
+000013fc        AutoStartExecutingPerFrame False
+000013fd        AutoStartForInitialization True
+000013fe        RunOnPropertyChange False
+000013ff        AddToDebugDisplay True
+00001400    IntEntityData 00000000
+000013f8        $::EntityData
+000013f8            $::GameObjectData
+000013f8                $::DataBusPeer
+000013f8                    $::GameDataContainer
+000013f8                        $::DataContainer
+00001400                    Flags 14644523
+00001404        Realm Realm_Server
+00001408        DefaultValue 0
+0000140c        IncDecValue 0
+00001410    IntEntityData 00000001
+00001408        $::EntityData
+00001408            $::GameObjectData
+00001408                $::DataBusPeer
+00001408                    $::GameDataContainer
+00001408                        $::DataContainer
+00001410                    Flags 83876263
+00001414        Realm Realm_Server
+00001418        DefaultValue 0
+0000141c        IncDecValue 1
+00001420    IntHubEntityData 00000002
+00001418        $::EntityData
+00001418            $::GameObjectData
+00001418                $::DataBusPeer
+00001418                    $::GameDataContainer
+00001418                        $::DataContainer
+00001420                    Flags 282364140
+00001424        Realm Realm_Server
+00001428        InputCount 2
+0000142c        InputSelect 0
+00001430    InterfaceDescriptorData 00000003
+00001428        $::DynamicDataContainer
+00001428            $::DataContainer
+00001430            Fields::array
+00001558                member(0)::DataField
+00001558                    Value *nullString*
+0000155c                    ValueRef *nullGuid*
+00001560                    Id 2089241922
+00001564                    AccessType FieldAccessType_Target
+00001568                member(1)::DataField
+00001568                    Value *nullString*
+0000156c                    ValueRef *nullGuid*
+00001570                    Id 2119031649
+00001574                    AccessType FieldAccessType_Target
+00001578                member(2)::DataField
+00001578                    Value *nullString*
+0000157c                    ValueRef *nullGuid*
+00001580                    Id -610841040
+00001584                    AccessType FieldAccessType_Target
+00001588                member(3)::DataField
+00001588                    Value *nullString*
+0000158c                    ValueRef *nullGuid*
+00001590                    Id -1292456776
+00001594                    AccessType FieldAccessType_Source
+00001598                member(4)::DataField
+00001598                    Value *nullString*
+0000159c                    ValueRef *nullGuid*
+000015a0                    Id 2010831616
+000015a4                    AccessType FieldAccessType_Target
+000015a8                member(5)::DataField
+000015a8                    Value *nullString*
+000015ac                    ValueRef *nullGuid*
+000015b0                    Id 2040629799
+000015b4                    AccessType FieldAccessType_Target
+00001434        InputEvents::array
+000015bc            member(0)::DynamicEvent
+000015bc                Id -1541508057
+00001438        OutputEvents *nullArray*
+0000143c        InputLinks *nullArray*
+00001440        OutputLinks *nullArray*

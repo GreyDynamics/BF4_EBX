@@ -1,0 +1,186 @@
+00001100    SoldierTactics fad79732f655f4448778f7480bc4b002
+000010f8        $::Asset
+000010f8            $::DataContainer
+00001100            Name AI/Templates/GruntAssaultRifleArchetype
+00001104        Vehicle ca8407a7fdfa4444a6fdbab6b343b3a4
+00001108        Charge *nullGuid*
+0000110c        Attack 6bb5df37580a934193199a2600bf3236
+00001110        Hide aa80a92f0d59134a900d8b907a70c2e4
+00001114        Flee 573264520bf607498d20960cba7c6637
+00001118        CloseCombat 2354134c79003b409669e64c9043bd75
+0000111c        SquadMovement *nullGuid*
+00001120        SquadEngageSettings *nullGuid*
+00001124        EngageSettings::EngageSettings
+00001124            DistanceToTarget 50.0
+00001128            SuppressionValue 0.00999999977648
+0000112c        WeaponSuppressionSettings::WeaponSuppressionSettings
+0000112c            SuppressionValue 0.75
+00001130            ContinuousSuppressionTime 1.0
+00001134            SuppressionAreaSize 5.0
+00001138        VehicleSuppressionSettings::VehicleSuppressionSettings
+00001138            SuppressionDistance 30.0
+0000113c            ReevaluateCoverDistance 15.0
+00001150    CloseCombatSettings 2354134c79003b409669e64c9043bd75
+00001148        $::DataContainer
+00001150        Distance 8.0
+00001154        HeightDistance 2.0
+00001158        DistanceLimit 14.0
+0000115c        LostVisibilityTimeout 2.0
+00001160        PoseSettings e9e4e533599a9b4985fcca678ba03c44
+00001174    MoveSettings 403dd8cbd7742f46a6ade589254fbec7
+0000116c        $::DataContainer
+00001174        MoveStyle *nullGuid*
+00001178        MoveSpeed MoveSpeed_Run
+0000117c        FireTargetDistance 50.0
+00001180        Walk *nullGuid*
+00001184        Sprint *nullGuid*
+00001188        StartStop *nullGuid*
+0000118c        StartEvasiveThreshold 0.25
+00001190        StopEvasiveThreshold 0.125
+00001194        Fire True
+00001195        IsEvasive True
+000011a8    FleeSettings 573264520bf607498d20960cba7c6637
+000011a0        $::DataContainer
+000011a8        CoverQuery AI/CoverQueries/Flee/00ac2cbd99542a4c84fe47dc5268d7bd
+000011ac        MoveSettings 911c9aa268a4b74fb7f48320e9a3f5af
+000011b0        CoverSettings *nullGuid*
+000011c4    AttackSettings 6bb5df37580a934193199a2600bf3236
+000011bc        $::DataContainer
+000011c4        GoalCoverQuery AI/CoverQueries/GruntAttack/650097e88b175242901d9ec571d0c20c
+000011c8        ProtectionCoverQuery AI/CoverQueries/ReactiveCover/ab46346d3c47fc44a7f47099c0d7e30b
+000011cc        HideCoverQuery AI/CoverQueries/HideCover/38db91b74906ca41b65c0aa6c953ed34
+000011d0        ValidCoverQuery AI/CoverQueries/ValidCover/91a7310f47ee754ea9a297da29d27ac1
+000011d4        MoveSettings 403dd8cbd7742f46a6ade589254fbec7
+000011d8        CoverSettings d4d759a0df4fe042ab9daf7de65bd2ce
+000011dc        CoverRequestSettings::AttackCoverRequestSettings
+000011dc            MinimumTimeInCoverToRequest 8.0
+000011e0            MaximumTimeInCoverToRequest 10.0
+000011e4            MinimumTimeIntervalToRequestProtectiveCover 8.0
+000011e8            MaximumTimeIntervalToRequestProtectiveCover 10.0
+000011ec            MinimumTimeInCoverAfterTargetLost 9.0
+000011f0            MaximumTimeInCoverAfterTargetLost 11.0
+000011f4            DistanceToTargetCompromisedThreshold 6.0
+000011f8            MinimumDistanceToTarget 5.0
+000011fc            MinimumInitialDelay::TinyPiecewiseLinearCurve
+000011fc                X0 20.0
+00001200                Y0 0.0
+00001204                X1 20.1000003815
+00001208                Y1 0.25
+0000120c            MaximumInitialDelay::TinyPiecewiseLinearCurve
+0000120c                X0 20.0
+00001210                Y0 0.75
+00001214                X1 20.1000003815
+00001218                Y1 1.25
+0000121c        IndoorCoverRequestSettings::AttackCoverRequestSettings
+0000121c            MinimumTimeInCoverToRequest 5.0
+00001220            MaximumTimeInCoverToRequest 7.0
+00001224            MinimumTimeIntervalToRequestProtectiveCover 5.0
+00001228            MaximumTimeIntervalToRequestProtectiveCover 7.0
+0000122c            MinimumTimeInCoverAfterTargetLost 6.0
+00001230            MaximumTimeInCoverAfterTargetLost 8.0
+00001234            DistanceToTargetCompromisedThreshold 6.0
+00001238            MinimumDistanceToTarget 5.0
+0000123c            MinimumInitialDelay::TinyPiecewiseLinearCurve
+0000123c                X0 20.0
+00001240                Y0 0.0
+00001244                X1 20.1000003815
+00001248                Y1 0.25
+0000124c            MaximumInitialDelay::TinyPiecewiseLinearCurve
+0000124c                X0 20.0
+00001250                Y0 0.75
+00001254                X1 20.1000003815
+00001258                Y1 1.25
+0000125c        OutdoorCoverRequestSettings::AttackCoverRequestSettings
+0000125c            MinimumTimeInCoverToRequest 11.0
+00001260            MaximumTimeInCoverToRequest 13.0
+00001264            MinimumTimeIntervalToRequestProtectiveCover 11.0
+00001268            MaximumTimeIntervalToRequestProtectiveCover 13.0
+0000126c            MinimumTimeInCoverAfterTargetLost 12.0
+00001270            MaximumTimeInCoverAfterTargetLost 14.0
+00001274            DistanceToTargetCompromisedThreshold 6.0
+00001278            MinimumDistanceToTarget 5.0
+0000127c            MinimumInitialDelay::TinyPiecewiseLinearCurve
+0000127c                X0 20.0
+00001280                Y0 0.0
+00001284                X1 20.1000003815
+00001288                Y1 0.25
+0000128c            MaximumInitialDelay::TinyPiecewiseLinearCurve
+0000128c                X0 20.0
+00001290                Y0 0.75
+00001294                X1 20.1000003815
+00001298                Y1 1.25
+0000129c        ProjectileSettings 8eedd8724ba61c46adefe3fc6470cc17
+000012a0        CombatIntensity AICombatIntensity_None
+000012b4    ProjectileSettings 8eedd8724ba61c46adefe3fc6470cc17
+000012ac        $::DataContainer
+000012b4        MinimumInterval 5.0
+000012b8        MaximumInterval 10.0
+000012bc        Lower 7.0
+000012c0        Upper 40.0
+000012c4        ValidAgainst ValidAgainst_SoldiersAndUnshieldedVehicles
+000012c8        IsContinuous False
+000012c9        Charge False
+000012dc    MoveSettings 911c9aa268a4b74fb7f48320e9a3f5af
+000012d4        $::DataContainer
+000012dc        MoveStyle *nullGuid*
+000012e0        MoveSpeed MoveSpeed_Sprint
+000012e4        FireTargetDistance 20.0
+000012e8        Walk *nullGuid*
+000012ec        Sprint *nullGuid*
+000012f0        StartStop *nullGuid*
+000012f4        StartEvasiveThreshold 0.0
+000012f8        StopEvasiveThreshold 0.0
+000012fc        Fire False
+000012fd        IsEvasive True
+00001310    HideSettings aa80a92f0d59134a900d8b907a70c2e4
+00001308        $::DataContainer
+00001310        CoverQuery AI/CoverQueries/HideCover/38db91b74906ca41b65c0aa6c953ed34
+00001314        MoveSettings b6cf0ebe96dcaf48b70c57f2b9d6648f
+00001318        CoverSettings *nullGuid*
+0000131c        InvalidateCoverAngle 180.0
+00001320        MinimumTimeActive 5.0
+00001324        MaximumTimeActive 10.0
+00001338    MoveSettings b6cf0ebe96dcaf48b70c57f2b9d6648f
+00001330        $::DataContainer
+00001338        MoveStyle *nullGuid*
+0000133c        MoveSpeed MoveSpeed_Sprint
+00001340        FireTargetDistance 20.0
+00001344        Walk *nullGuid*
+00001348        Sprint *nullGuid*
+0000134c        StartStop *nullGuid*
+00001350        StartEvasiveThreshold 0.0
+00001354        StopEvasiveThreshold 0.0
+00001358        Fire False
+00001359        IsEvasive True
+0000136c    VehicleSettings ca8407a7fdfa4444a6fdbab6b343b3a4
+00001364        $::DataContainer
+0000136c        MoveSettings f3d965d2acf84e41aec24f276964ed50
+00001370        DistanceToVehicle 20.0
+00001374        DistanceVehicleToHuman 10.0
+00001388    CoverControlSettings d4d759a0df4fe042ab9daf7de65bd2ce
+00001380        $::DataContainer
+00001388        FiringTimes::array
+000013f4            member(0) 6.0
+000013f8            member(1) 6.0
+000013fc            member(2) 6.0
+0000138c        IdleTimes::array
+00001404            member(0) 4.0
+00001408            member(1) 4.0
+0000140c            member(2) 4.0
+00001390        SuppressionThreshold 0.25
+00001394        AllowSuppression True
+000013a8    PoseSettings e9e4e533599a9b4985fcca678ba03c44
+000013a0        $::DataContainer
+000013a8        Pose Pose_Crouch
+000013bc    MoveSettings f3d965d2acf84e41aec24f276964ed50
+000013b4        $::DataContainer
+000013bc        MoveStyle *nullGuid*
+000013c0        MoveSpeed MoveSpeed_Sprint
+000013c4        FireTargetDistance 20.0
+000013c8        Walk *nullGuid*
+000013cc        Sprint *nullGuid*
+000013d0        StartStop *nullGuid*
+000013d4        StartEvasiveThreshold 0.0
+000013d8        StopEvasiveThreshold 0.0
+000013dc        Fire False
+000013dd        IsEvasive False

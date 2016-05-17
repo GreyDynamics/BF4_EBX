@@ -1,0 +1,89 @@
+00001610    UIScreenAsset 4a964f6b1914e03a1a4d9152a3d149fe
+00001608        $::UIViewBaseAsset
+00001608            $::UIGraphAsset
+00001608                $::Asset
+00001608                    $::DataContainer
+00001610                    Name UI/Flow/Screen/WaitRetrieveStatsScreen
+00001614                Nodes::array
+00001704                    member(0) 9e5cac3559e32945aa69d16732b30c89
+00001708                    member(1) 2918ec4990a8504dbb59755b24823376
+00001618                GlobalNode *nullGuid*
+0000161c                Connections::array
+00001710                    member(0) 00000001
+00001620                AudioEventMappings UI/Flow/Graph/AudioMapping/DefaultUIGraphAudioMapping/0b64b44173196984a254b1b23e4e6a04
+00001624                BundleAssetName *nullString*
+00001628                EventList *nullArray*
+0000162c                ProtectScreens False
+0000162d                Modal False
+0000162e                IsWin32UIGraphAsset True
+0000162f                IsXenonUIGraphAsset True
+00001630                IsPs3UIGraphAsset True
+00001631                IsGen4aUIGraphAsset True
+00001632                IsGen4bUIGraphAsset True
+00001634        UIAsset UI/Assets/WaitRetrieveStatsScreen/ee5b9e76bee858e0f29e3411a3bd431a
+00001638        SwfPath UI/Assets/WaitRetrieveStatsScreen
+0000163c        Purpose UIScreenPurpose_Standard
+00001650    InstanceOutputNode 2918ec4990a8504dbb59755b24823376
+00001648        $::UINodeData
+00001648            $::DataContainer
+00001650            Name StatsRetrieved
+00001654            ParentGraph 4a964f6b1914e03a1a4d9152a3d149fe
+00001658            IsRootNode False
+00001659            ParentIsScreen True
+0000165c        In 00000002
+00001660        Id -2059678002
+00001664        DestroyGraph True
+00001678    WidgetNode 9e5cac3559e32945aa69d16732b30c89
+00001670        $::UINodeData
+00001670            $::DataContainer
+00001678            Name ChangeListener
+0000167c            ParentGraph 4a964f6b1914e03a1a4d9152a3d149fe
+00001680            IsRootNode False
+00001681            ParentIsScreen True
+00001684        WidgetAsset UI/Assets/ChangeListener/c2ebd27dd24701eba1fd557ccf7a7309
+00001688        FocusIndex 0
+0000168c        VerticalAlign WVA_Center
+00001690        HorisontalAlign WHA_Center
+00001694        ZDepthLevel 0
+00001698        DataBinding 00000000
+0000169c        InstanceName ChangeListener_01
+000016a0        WidgetProperties *nullArray*
+000016a4        Outputs::array
+00001718            member(0) 00000003
+000016a8        Inputs *nullArray*
+000016ac        AlwaysInFocus False
+000016ad        IsDisabled False
+000016b0    UIDynamicDataBinding 00000000
+000016a8        $::UIDataBinding
+000016a8            $::DataContainer
+000016b0        Bindings::array
+00001720            member(0)::UIDataSourceInfo
+00001720                DataName Key
+00001724                DataCategory UI/UIComponents/UIConnectionComp/730b6f549efba24a2804fc429c4abcd1
+00001728                DataKey 2090134834
+0000172c                UseDirectAccess False
+0000172d                UpdateOnInitialize False
+000016b4        Refresh True
+000016b8    UINodeConnection 00000001
+000016b0        $::DataContainer
+000016b8        SourceNode 9e5cac3559e32945aa69d16732b30c89
+000016bc        TargetNode 2918ec4990a8504dbb59755b24823376
+000016c0        SourcePort 00000003
+000016c4        TargetPort 00000002
+000016c8        SourcePortName *nullString*
+000016cc        TargetPortName *nullString*
+000016d0        NumScreensToPop 0
+000016d4    UINodePort 00000002
+000016cc        $::DataContainer
+000016d4        Name *nullString*
+000016d8        InstanceName *nullString*
+000016dc        Query UIWidgetEventID_None
+000016e0        AllowManualRemove False
+000016e1        IsReferencePort False
+000016e4    UINodePort 00000003
+000016dc        $::DataContainer
+000016e4        Name KeyChanged
+000016e8        InstanceName ChangeListener_01
+000016ec        Query UIWidgetEventID_OnChanged
+000016f0        AllowManualRemove False
+000016f1        IsReferencePort False

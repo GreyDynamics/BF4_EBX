@@ -1,0 +1,168 @@
+000011d0    LogicPrefabBlueprint 26cd51ec7034918b73776f94a8d1cf58
+000011c8        $::PrefabBlueprint
+000011c8            $::Blueprint
+000011c8                $::EntityBusData
+000011c8                    $::DataBusData
+000011c8                        $::Asset
+000011c8                            $::DataContainer
+000011d0                            Name Gameplay/Gamemodes/Rush/LevelSetups/LevelSetupComponents/SquadSpawnDisabling
+000011d4                        PropertyConnections *nullArray*
+000011d8                        LinkConnections::array
+000012f4                            member(0)::LinkConnection
+000012f4                                Source 00000000
+000012f8                                Target 00000001
+000012fc                                SourceFieldId 838548383
+00001300                                TargetFieldId 838548383
+000011dc                        Interface 00000001
+000011e0                        Flags 2
+000011e4                    EventConnections::array
+00001308                        member(0)::EventConnection
+00001308                            Source 00000000
+0000130c                            Target 00000002
+00001310                            SourceEvent::EventSpec
+00001310                                Id -80368276
+00001314                            TargetEvent::EventSpec
+00001314                                Id 5862146
+00001318                            TargetType EventConnectionTargetType_Server
+0000131c                        member(1)::EventConnection
+0000131c                            Source 00000000
+00001320                            Target 00000003
+00001324                            SourceEvent::EventSpec
+00001324                                Id -70038721
+00001328                            TargetEvent::EventSpec
+00001328                                Id 5862146
+0000132c                            TargetType EventConnectionTargetType_Server
+00001330                        member(2)::EventConnection
+00001330                            Source 00000001
+00001334                            Target 00000000
+00001338                            SourceEvent::EventSpec
+00001338                                Id -1952177180
+0000133c                            TargetEvent::EventSpec
+0000133c                                Id -1952177180
+00001340                            TargetType EventConnectionTargetType_Server
+00001344                        member(3)::EventConnection
+00001344                            Source 00000001
+00001348                            Target 00000000
+0000134c                            SourceEvent::EventSpec
+0000134c                                Id -117303631
+00001350                            TargetEvent::EventSpec
+00001350                                Id -117303631
+00001354                            TargetType EventConnectionTargetType_Server
+00001358                        member(4)::EventConnection
+00001358                            Source 00000002
+0000135c                            Target 00000001
+00001360                            SourceEvent::EventSpec
+00001360                                Id -699931768
+00001364                            TargetEvent::EventSpec
+00001364                                Id -1254818322
+00001368                            TargetType EventConnectionTargetType_Server
+0000136c                        member(5)::EventConnection
+0000136c                            Source 00000003
+00001370                            Target 00000001
+00001374                            SourceEvent::EventSpec
+00001374                                Id -699931768
+00001378                            TargetEvent::EventSpec
+00001378                                Id -389808995
+0000137c                            TargetType EventConnectionTargetType_Server
+000011e8            Objects::array
+00001384                member(0) 00000000
+00001388                member(1) 00000003
+0000138c                member(2) 00000002
+000011f0    GeometryTriggerEntityData 00000000
+000011f0        $::AreaTriggerEntityData
+000011f0            $::TriggerEntityData
+000011f0                $::SpatialEntityData
+000011f0                    $::EntityData
+000011f0                        $::GameObjectData
+000011f0                            $::DataBusPeer
+000011f0                                $::GameDataContainer
+000011f0                                    $::DataContainer
+000011f8                                Flags 1686960336
+00001200                    Transform::LinearTransform
+00001200                        right::Vec3
+00001200                            x 1.0
+00001204                            y 0.0
+00001208                            z 0.0
+00001210                        up::Vec3
+00001210                            x 0.0
+00001214                            y 1.0
+00001218                            z 0.0
+00001220                        forward::Vec3
+00001220                            x 0.0
+00001224                            y 0.0
+00001228                            z 1.0
+00001230                        trans::Vec3
+00001230                            x 0.0
+00001234                            y 0.0
+00001238                            z 0.0
+00001240                Delay 0.0
+00001244                RunOnce False
+00001245                Enabled False
+00001250            GeometryTransform::LinearTransform
+00001250                right::Vec3
+00001250                    x 1.0
+00001254                    y 0.0
+00001258                    z 0.0
+00001260                up::Vec3
+00001260                    x 0.0
+00001264                    y 1.0
+00001268                    z 0.0
+00001270                forward::Vec3
+00001270                    x 0.0
+00001274                    y 0.0
+00001278                    z 1.0
+00001280                trans::Vec3
+00001280                    x 0.0
+00001284                    y 0.0
+00001288                    z 0.0
+00001290            Include ATPlayers
+00001294            Radius 0.0
+00001298            InsideAreaEventRepeatTime 0.0
+0000129c            TeamOfAllies Team1
+000012a0            UseCharacterEntity False
+000012a1            UseRadiusWithGeometryTransform False
+000012a2            OneInsideAreaEventPerSoldier False
+000012a3            TriggerOnlyOnLeave False
+000012a4            ResetOnEnable False
+000012a5            TriggerOnLeaveOnDeath True
+000012a6            TriggerOnLeaveOnDisable False
+000012b0    InterfaceDescriptorData 00000001
+000012a8        $::DynamicDataContainer
+000012a8            $::DataContainer
+000012b0            Fields *nullArray*
+000012b4        InputEvents::array
+00001394            member(0)::DynamicEvent
+00001394                Id -1952177180
+00001398            member(1)::DynamicEvent
+00001398                Id -117303631
+000012b8        OutputEvents::array
+000013a0            member(0)::DynamicEvent
+000013a0                Id -1254818322
+000013a4            member(1)::DynamicEvent
+000013a4                Id -389808995
+000012bc        InputLinks *nullArray*
+000012c0        OutputLinks::array
+000013ac            member(0)::DynamicLink
+000013ac                Id 838548383
+000012c4    TeamFilterEntityData 00000002
+000012bc        $::EntityData
+000012bc            $::GameObjectData
+000012bc                $::DataBusPeer
+000012bc                    $::GameDataContainer
+000012bc                        $::DataContainer
+000012c4                    Flags 93617036
+000012c8        Realm Realm_Server
+000012cc        Team Team2
+000012d0        InvertFilter False
+000012d1        GenerateEventForEveryMatchingTeamMember False
+000012d4    TeamFilterEntityData 00000003
+000012cc        $::EntityData
+000012cc            $::GameObjectData
+000012cc                $::DataBusPeer
+000012cc                    $::GameDataContainer
+000012cc                        $::DataContainer
+000012d4                    Flags 94345379
+000012d8        Realm Realm_Server
+000012dc        Team Team2
+000012e0        InvertFilter False
+000012e1        GenerateEventForEveryMatchingTeamMember False

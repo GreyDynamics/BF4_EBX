@@ -1,0 +1,201 @@
+00001720    UIScreenAsset 4b6a3b28feb998b79922c35388c4df40
+00001718        $::UIViewBaseAsset
+00001718            $::UIGraphAsset
+00001718                $::Asset
+00001718                    $::DataContainer
+00001720                    Name UI/Flow/Screen/Popups/PopupGeneric
+00001724                Nodes::array
+000018e4                    member(0) a624ba20b8281f4a965468d7ec894954
+000018e8                    member(1) 525f3143e43cc449b412c041dfa90b60
+000018ec                    member(2) 49ee86cfac8e714db0ba8c9d3cb0bc18
+000018f0                    member(3) cf5e7178aa268e41abee7ca0d7c1f19a
+00001728                GlobalNode *nullGuid*
+0000172c                Connections::array
+000018f8                    member(0) 00000005
+00001730                AudioEventMappings UI/Flow/Graph/AudioMapping/FlashScreenAudioMapping/e9a16c48bc2ec84b820957b2691a28d2
+00001734                BundleAssetName *nullString*
+00001738                EventList *nullArray*
+0000173c                ProtectScreens False
+0000173d                Modal True
+0000173e                IsWin32UIGraphAsset True
+0000173f                IsXenonUIGraphAsset True
+00001740                IsPs3UIGraphAsset True
+00001741                IsGen4aUIGraphAsset True
+00001742                IsGen4bUIGraphAsset True
+00001744        UIAsset UI/Assets/PopupGeneric/e378ef683c0456b28df0607d4cf48e6b
+00001748        SwfPath UI/Assets/PopupGeneric
+0000174c        Purpose UIScreenPurpose_Standard
+00001760    WidgetNode 49ee86cfac8e714db0ba8c9d3cb0bc18
+00001758        $::UINodeData
+00001758            $::DataContainer
+00001760            Name PopupButtonsManager
+00001764            ParentGraph 4b6a3b28feb998b79922c35388c4df40
+00001768            IsRootNode False
+00001769            ParentIsScreen True
+0000176c        WidgetAsset UI/Assets/PopupButtonsManager/85eba77ee604d6e293eb6f89c0e20bb9
+00001770        FocusIndex 0
+00001774        VerticalAlign WVA_Center
+00001778        HorisontalAlign WHA_Center
+0000177c        ZDepthLevel 0
+00001780        DataBinding 00000002
+00001784        InstanceName PopupButtonsManager_01
+00001788        WidgetProperties *nullArray*
+0000178c        Outputs::array
+00001900            member(0) 00000008
+00001790        Inputs *nullArray*
+00001794        AlwaysInFocus False
+00001795        IsDisabled False
+000017a8    InstanceOutputNode 525f3143e43cc449b412c041dfa90b60
+000017a0        $::UINodeData
+000017a0            $::DataContainer
+000017a8            Name PopupButtonReleased
+000017ac            ParentGraph 4b6a3b28feb998b79922c35388c4df40
+000017b0            IsRootNode False
+000017b1            ParentIsScreen True
+000017b4        In 00000006
+000017b8        Id 1352178388
+000017bc        DestroyGraph True
+000017d0    WidgetNode a624ba20b8281f4a965468d7ec894954
+000017c8        $::UINodeData
+000017c8            $::DataContainer
+000017d0            Name PopupGenericWidget
+000017d4            ParentGraph 4b6a3b28feb998b79922c35388c4df40
+000017d8            IsRootNode False
+000017d9            ParentIsScreen True
+000017dc        WidgetAsset UI/Assets/PopupGenericWidget/2e8284918176634eac89a7406d549b32
+000017e0        FocusIndex 0
+000017e4        VerticalAlign WVA_Center
+000017e8        HorisontalAlign WHA_Center
+000017ec        ZDepthLevel 0
+000017f0        DataBinding 00000001
+000017f4        InstanceName PopupGenericWidget_01
+000017f8        WidgetProperties *nullArray*
+000017fc        Outputs *nullArray*
+00001800        Inputs *nullArray*
+00001804        AlwaysInFocus False
+00001805        IsDisabled False
+00001818    WidgetNode cf5e7178aa268e41abee7ca0d7c1f19a
+00001810        $::UINodeData
+00001810            $::DataContainer
+00001818            Name Dimmer
+0000181c            ParentGraph 4b6a3b28feb998b79922c35388c4df40
+00001820            IsRootNode False
+00001821            ParentIsScreen True
+00001824        WidgetAsset UI/Assets/Dimmer/5cbbd928b6246077e7268be53524ba15
+00001828        FocusIndex 0
+0000182c        VerticalAlign WVA_Center
+00001830        HorisontalAlign WHA_Center
+00001834        ZDepthLevel 0
+00001838        DataBinding 00000000
+0000183c        InstanceName Dimmer_01
+00001840        WidgetProperties::array
+00001908            member(0)::UIWidgetProperty
+00001908                Name DimFromStart
+0000190c                Value true
+00001910            member(1)::UIWidgetProperty
+00001910                Name InstantDim
+00001914                Value true
+00001844        Outputs *nullArray*
+00001848        Inputs::array
+0000191c            member(0) 00000007
+00001920            member(1) 00000009
+0000184c        AlwaysInFocus False
+0000184d        IsDisabled False
+00001850    UIDynamicDataBinding 00000000
+00001848        $::UIDataBinding
+00001848            $::DataContainer
+00001850        Bindings::array
+00001928            member(0)::UIDataSourceInfo
+00001928                DataName Visible
+0000192c                DataCategory UI/UIComponents/UIPopupComp/6d639c3787a9777411d0458076f632d4
+00001930                DataKey 1310175943
+00001934                UseDirectAccess False
+00001935                UpdateOnInitialize True
+00001854        Refresh True
+00001858    UIDynamicDataBinding 00000001
+00001850        $::UIDataBinding
+00001850            $::DataContainer
+00001858        Bindings::array
+0000193c            member(0)::UIDataSourceInfo
+0000193c                DataName Title
+00001940                DataCategory UI/UIComponents/UIPopupComp/6d639c3787a9777411d0458076f632d4
+00001944                DataKey -1951480908
+00001948                UseDirectAccess False
+00001949                UpdateOnInitialize True
+0000194c            member(1)::UIDataSourceInfo
+0000194c                DataName Text
+00001950                DataCategory UI/UIComponents/UIPopupComp/6d639c3787a9777411d0458076f632d4
+00001954                DataKey 201161033
+00001958                UseDirectAccess False
+00001959                UpdateOnInitialize True
+0000185c        Refresh True
+00001860    UIDynamicDataBinding 00000002
+00001858        $::UIDataBinding
+00001858            $::DataContainer
+00001860        Bindings::array
+00001960            member(0)::UIDataSourceInfo
+00001960                DataName Buttons
+00001964                DataCategory UI/UIComponents/UIPopupComp/6d639c3787a9777411d0458076f632d4
+00001968                DataKey -1192680079
+0000196c                UseDirectAccess False
+0000196d                UpdateOnInitialize True
+00001864        Refresh True
+00001868    UIDynamicDataBinding 00000003
+00001860        $::UIDataBinding
+00001860            $::DataContainer
+00001868        Bindings::array
+00001974            member(0)::UIDataSourceInfo
+00001974                DataName Buttons
+00001978                DataCategory UI/UIComponents/UIPopupComp/6d639c3787a9777411d0458076f632d4
+0000197c                DataKey -1192680079
+00001980                UseDirectAccess False
+00001981                UpdateOnInitialize True
+0000186c        Refresh False
+00001870    UIDynamicDataBinding 00000004
+00001868        $::UIDataBinding
+00001868            $::DataContainer
+00001870        Bindings::array
+00001988            member(0)::UIDataSourceInfo
+00001988                DataName Buttons
+0000198c                DataCategory UI/UIComponents/UIPopupComp/6d639c3787a9777411d0458076f632d4
+00001990                DataKey -1192680079
+00001994                UseDirectAccess False
+00001995                UpdateOnInitialize True
+00001874        Refresh False
+00001878    UINodeConnection 00000005
+00001870        $::DataContainer
+00001878        SourceNode 49ee86cfac8e714db0ba8c9d3cb0bc18
+0000187c        TargetNode 525f3143e43cc449b412c041dfa90b60
+00001880        SourcePort 00000008
+00001884        TargetPort 00000006
+00001888        SourcePortName *nullString*
+0000188c        TargetPortName *nullString*
+00001890        NumScreensToPop 0
+00001894    UINodePort 00000006
+0000188c        $::DataContainer
+00001894        Name *nullString*
+00001898        InstanceName *nullString*
+0000189c        Query UIWidgetEventID_None
+000018a0        AllowManualRemove False
+000018a1        IsReferencePort False
+000018a4    UINodePort 00000007
+0000189c        $::DataContainer
+000018a4        Name FadeIn
+000018a8        InstanceName Dimmer_01
+000018ac        Query UIWidgetEventID_Show
+000018b0        AllowManualRemove False
+000018b1        IsReferencePort False
+000018b4    UINodePort 00000008
+000018ac        $::DataContainer
+000018b4        Name ButtonReleased
+000018b8        InstanceName PopupButtonsManager_01
+000018bc        Query UIWidgetEventID_OnItemReleased
+000018c0        AllowManualRemove False
+000018c1        IsReferencePort False
+000018c4    UINodePort 00000009
+000018bc        $::DataContainer
+000018c4        Name FadeOut
+000018c8        InstanceName Dimmer_01
+000018cc        Query UIWidgetEventID_Hide
+000018d0        AllowManualRemove False
+000018d1        IsReferencePort False

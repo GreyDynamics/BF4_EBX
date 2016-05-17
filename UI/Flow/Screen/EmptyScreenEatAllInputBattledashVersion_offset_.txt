@@ -1,0 +1,74 @@
+00001320    UIScreenAsset f74abd1363bdef469099662f4868e4af
+00001318        $::UIViewBaseAsset
+00001318            $::UIGraphAsset
+00001318                $::Asset
+00001318                    $::DataContainer
+00001320                    Name UI/Flow/Screen/EmptyScreenEatAllInputBattledashVersion
+00001324                Nodes::array
+000013e4                    member(0) ea6308c3d3d8e347a3a84ebb624b20ba
+00001328                GlobalNode *nullGuid*
+0000132c                Connections *nullArray*
+00001330                AudioEventMappings UI/Flow/Graph/AudioMapping/DefaultUIGraphAudioMapping/0b64b44173196984a254b1b23e4e6a04
+00001334                BundleAssetName *nullString*
+00001338                EventList *nullArray*
+0000133c                ProtectScreens False
+0000133d                Modal True
+0000133e                IsWin32UIGraphAsset True
+0000133f                IsXenonUIGraphAsset True
+00001340                IsPs3UIGraphAsset True
+00001341                IsGen4aUIGraphAsset True
+00001342                IsGen4bUIGraphAsset True
+00001344        UIAsset UI/Assets/EmptyScreenEatAllInput/59daa6f9c772cfbe6dd7ba60829985ce
+00001348        SwfPath UI/Assets/EmptyScreenEatAllInput
+0000134c        Purpose UIScreenPurpose_Listener
+00001360    WidgetNode ea6308c3d3d8e347a3a84ebb624b20ba
+00001358        $::UINodeData
+00001358            $::DataContainer
+00001360            Name InputListener
+00001364            ParentGraph f74abd1363bdef469099662f4868e4af
+00001368            IsRootNode False
+00001369            ParentIsScreen True
+0000136c        WidgetAsset UI/Assets/InputListener/14ee61e05af9aa6adec3ebfab940df98
+00001370        FocusIndex 0
+00001374        VerticalAlign WVA_Center
+00001378        HorisontalAlign WHA_Center
+0000137c        ZDepthLevel 0
+00001380        DataBinding *nullGuid*
+00001384        InstanceName InputListener_01
+00001388        WidgetProperties *nullArray*
+0000138c        Outputs::array
+000013ec            member(0) 00000002
+000013f0            member(1) 00000003
+000013f4            member(2) 00000000
+000013f8            member(3) 00000001
+00001390        Inputs *nullArray*
+00001394        AlwaysInFocus False
+00001395        IsDisabled False
+00001398    UINodePort 00000000
+00001390        $::DataContainer
+00001398        Name TabRelease
+0000139c        InstanceName InputListener_01
+000013a0        Query UIWidgetEventID_OnItemReleased
+000013a4        AllowManualRemove False
+000013a5        IsReferencePort False
+000013a8    UINodePort 00000001
+000013a0        $::DataContainer
+000013a8        Name TabTapped
+000013ac        InstanceName InputListener_01
+000013b0        Query UIWidgetEventID_OnItemOver
+000013b4        AllowManualRemove False
+000013b5        IsReferencePort False
+000013b8    UINodePort 00000002
+000013b0        $::DataContainer
+000013b8        Name GraphEvent
+000013bc        InstanceName InputListener_01
+000013c0        Query UIWidgetEventID_OnToggle
+000013c4        AllowManualRemove False
+000013c5        IsReferencePort False
+000013c8    UINodePort 00000003
+000013c0        $::DataContainer
+000013c8        Name TabPressed
+000013cc        InstanceName InputListener_01
+000013d0        Query UIWidgetEventID_OnItemPressed
+000013d4        AllowManualRemove False
+000013d5        IsReferencePort False

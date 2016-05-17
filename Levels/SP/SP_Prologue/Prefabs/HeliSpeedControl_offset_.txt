@@ -1,0 +1,122 @@
+00001130    LogicPrefabBlueprint cc96b45e8a80a123e11963f716b1e270
+00001128        $::PrefabBlueprint
+00001128            $::Blueprint
+00001128                $::EntityBusData
+00001128                    $::DataBusData
+00001128                        $::Asset
+00001128                            $::DataContainer
+00001130                            Name Levels/SP/SP_Prologue/Prefabs/HeliSpeedControl
+00001134                        PropertyConnections::array
+000011d4                            member(0)::PropertyConnection
+000011d4                                Source 00000000
+000011d8                                Target f88cf0456deed849b7e7624d19cffd17
+000011dc                                SourceFieldId 1127894270
+000011e0                                TargetFieldId 1127894270
+000011e4                                ShouldNetworkValue False
+000011e8                            member(1)::PropertyConnection
+000011e8                                Source 00000000
+000011ec                                Target f88cf0456deed849b7e7624d19cffd17
+000011f0                                SourceFieldId 1260890044
+000011f4                                TargetFieldId 1260890044
+000011f8                                ShouldNetworkValue False
+000011fc                            member(2)::PropertyConnection
+000011fc                                Source f88cf0456deed849b7e7624d19cffd17
+00001200                                Target 00000000
+00001204                                SourceFieldId 1688256841
+00001208                                TargetFieldId 1688256841
+0000120c                                ShouldNetworkValue False
+00001210                            member(3)::PropertyConnection
+00001210                                Source 00000000
+00001214                                Target f88cf0456deed849b7e7624d19cffd17
+00001218                                SourceFieldId -1388139719
+0000121c                                TargetFieldId -1388139719
+00001220                                ShouldNetworkValue False
+00001138                        LinkConnections *nullArray*
+0000113c                        Interface 00000000
+00001140                        Flags 3
+00001144                    EventConnections::array
+00001228                        member(0)::EventConnection
+00001228                            Source 00000000
+0000122c                            Target f88cf0456deed849b7e7624d19cffd17
+00001230                            SourceEvent::EventSpec
+00001230                                Id 193466183
+00001234                            TargetEvent::EventSpec
+00001234                                Id 550586970
+00001238                            TargetType EventConnectionTargetType_NetworkedClientAndServer
+00001148            Objects::array
+00001240                member(0) f88cf0456deed849b7e7624d19cffd17
+0000115c    LuaRunnerScriptEntityData f88cf0456deed849b7e7624d19cffd17
+00001154        $::EntityData
+00001154            $::GameObjectData
+00001154                $::DataBusPeer
+00001154                    $::GameDataContainer
+00001154                        $::DataContainer
+0000115c                    Flags 535858424
+00001160        Script --function <guid>( self, event, vars, sharedvars, globalvars, deltaTime )
+do
+
+	local dist = Vec3.Distance(self.HelicopterTransform.trans, self.FirstWaypoint.trans)
+	local totalDistance = dist + self.Length
+	
+	-- Helicopter is traveling a total of totalDistance over 15 seconds. Speed on waypoints is 
+	-- set to 1 m/s, so we need to calculate a multiplier.
+	
+	self.SpeedMultiplier = totalDistance / 15
+end
+
+00001164        InputEvents *nullArray*
+00001168        OutputEvents *nullArray*
+0000116c        InputFloatProperties::array
+00001248            member(0) Length
+00001170        OutputFloatProperties::array
+00001250            member(0) SpeedMultiplier
+00001174        InputIntProperties *nullArray*
+00001178        OutputIntProperties *nullArray*
+0000117c        InputBoolProperties *nullArray*
+00001180        OutputBoolProperties *nullArray*
+00001184        InputStringProperties *nullArray*
+00001188        OutputStringProperties *nullArray*
+0000118c        InputTransformProperties::array
+00001258            member(0) HelicopterTransform
+0000125c            member(1) FirstWaypoint
+00001190        OutputTransformProperties *nullArray*
+00001194        InputVec3Properties *nullArray*
+00001198        OutputVec3Properties *nullArray*
+0000119c        ExecuteOnPropertyChange ExecuteOnPropertyChangeType_DontExecute
+000011a0        PriorityForExecutingPerFrame 0
+000011a4        Realm Realm_ClientAndServer
+000011a8        CompiledLua Levels/SP/SP_Prologue/Prefabs/HeliSpeedControl/LuaRunnerCompiledLua_45F08CF8_EE6D_49D8_B7E7_624D19CFFD17_Win32/34cec57ac4c8f43de8e04e971d764284
+000011ac        AutoStartExecutingPerFrame False
+000011ad        AutoStartForInitialization False
+000011ae        RunOnPropertyChange False
+000011af        AddToDebugDisplay False
+000011b0    InterfaceDescriptorData 00000000
+000011a8        $::DynamicDataContainer
+000011a8            $::DataContainer
+000011b0            Fields::array
+00001264                member(0)::DataField
+00001264                    Value *nullString*
+00001268                    ValueRef *nullGuid*
+0000126c                    Id 1127894270
+00001270                    AccessType FieldAccessType_Target
+00001274                member(1)::DataField
+00001274                    Value *nullString*
+00001278                    ValueRef *nullGuid*
+0000127c                    Id 1260890044
+00001280                    AccessType FieldAccessType_Target
+00001284                member(2)::DataField
+00001284                    Value *nullString*
+00001288                    ValueRef *nullGuid*
+0000128c                    Id 1688256841
+00001290                    AccessType FieldAccessType_Source
+00001294                member(3)::DataField
+00001294                    Value *nullString*
+00001298                    ValueRef *nullGuid*
+0000129c                    Id -1388139719
+000012a0                    AccessType FieldAccessType_Target
+000011b4        InputEvents::array
+000012a8            member(0)::DynamicEvent
+000012a8                Id 193466183
+000011b8        OutputEvents *nullArray*
+000011bc        InputLinks *nullArray*
+000011c0        OutputLinks *nullArray*

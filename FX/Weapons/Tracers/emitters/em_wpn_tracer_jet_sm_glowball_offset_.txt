@@ -1,0 +1,311 @@
+00001ae0    ScalableEmitterDocument 77ecb0a74bcbee4ab26ef1bae17f682d
+00001ad8        $::EmitterDocument
+00001ad8            $::EmitterAsset
+00001ad8                $::Asset
+00001ad8                    $::DataContainer
+00001ae0                    Name *nullString*
+00001ae4        TemplateDataLow 00000000
+00001ae8        TemplateDataMedium 00000000
+00001aec        TemplateDataHigh 00000000
+00001af0        TemplateDataUltra 00000000
+00001b00    EmitterTemplateData 00000000
+00001b00        $::DataContainer
+00001b08        RootProcessor 00000007
+00001b0c        MaxCount 1
+00001b10        WorldAlignmentDirection::Vec3
+00001b10            x 1.0
+00001b14            y 0.0
+00001b18            z 0.0
+00001b20        Lifetime 1.5
+00001b24        TimeScale 1.0
+00001b28        LifetimeFrameCount 0
+00001b2c        EmittableType EmittableType_Quad
+00001b30        EmittableAlignment EmittableAlignment_MotionStretch
+00001b34        MotionStretchMultiplier 9000.0
+00001b38        MotionStretchLengthClamp 9000.0
+00001b3c        Mesh *nullGuid*
+00001b40        VertexPixelLightingBlendFactor 0.0
+00001b44        GlobalLocalNormalBlendFactor 1.0
+00001b48        SoftParticlesFadeDistanceMultiplier 0.0
+00001b4c        LightWrapAroundFactor 0.5
+00001b50        BentNormalFactor 1.0
+00001b54        LightMultiplier 1.0
+00001b58        BendingFactor 0.0
+00001b5c        CameraBias 0.0
+00001b60        Shader::SurfaceShaderInstanceDataStruct
+00001b60            Shader *nullGuid*
+00001b64            BoolParameters *nullArray*
+00001b68            VectorParameters *nullArray*
+00001b6c            VectorArrayParameters *nullArray*
+00001b70            TextureParameters *nullArray*
+00001b74        EmitterDrawOrder EmitterDrawOrder_Default
+00001b78        ParticleCullingFactor 1.0
+00001b7c        MinSpawnDistance 0.0
+00001b80        MaxSpawnDistance 0.0
+00001b84        MinScreenArea 9.99999974738e-05
+00001b88        MeshCullingDistance 0.0
+00001b8c        DistanceScaleLength 0.0
+00001b90        DistanceScaleNearValue 1.0
+00001b94        DistanceScaleFarValue 1.0
+00001b98        SpeedNormalizationValue 50.0
+00001b9c        WindSpeedNormalizationValue 50.0
+00001ba0        PerParticleEffectParameters *nullArray*
+00001ba4        CullFadeNearDistance 10.0
+00001ba8        CullFadeNearRange 400.0
+00001bac        CullFadeFarDistance 0.0
+00001bb0        CullFadeFarRange 0.0
+00001bb4        RepeatParticleSpawning False
+00001bb5        FollowSpawnSource False
+00001bb6        KillParticlesWithEmitter True
+00001bb7        ExclusionVolumeCullEnable False
+00001bb8        Emissive True
+00001bb9        Opaque False
+00001bba        ForceNiceSorting False
+00001bbb        LocalSpace True
+00001bbc        CameraSpace False
+00001bbd        TransparencySunShadowEnable False
+00001bbe        CastPlanarReflectionEnable False
+00001bbf        ForceFullRes True
+00001bc0        FogFade False
+00001bc1        AcceptGlobalParameter1 False
+00001bc2        AcceptGlobalParameter2 False
+00001bc3        AcceptGlobalParameter3 False
+00001bc4        UseOfCustomParamRandomSpawnValuesEnabled False
+00001bc5        EmitterWindEvaluationEnable False
+00001bc6        EmittableWindEvaluationEnable False
+00001bc7        GroupEmittersWithSameBaseTextureOnly False
+00001bd0    PolynomialData 00000001
+00001bd0        $::EvaluatorData
+00001bd0            $::DataContainer
+00001bd8            Parameter *nullGuid*
+00001bdc        ScaleValue 1.0
+00001be0        Coefficients::Vec4
+00001be0            x 0.0
+00001be4            y 0.0
+00001be8            z 0.0
+00001bec            w 1.0
+00001bf0        MinClamp 0.0
+00001bf4        MaxClamp 1.0
+00001c00    PolynomialData 00000002
+00001c00        $::EvaluatorData
+00001c00            $::DataContainer
+00001c08            Parameter *nullGuid*
+00001c0c        ScaleValue 1.0
+00001c10        Coefficients::Vec4
+00001c10            x 0.0
+00001c14            y 0.0
+00001c18            z 0.0
+00001c1c            w 1.0
+00001c20        MinClamp 0.0
+00001c24        MaxClamp 1.0
+00001c30    UpdateColorData 00000003
+00001c30        $::ProcessorData
+00001c30            $::DataContainer
+00001c38            Pre *nullGuid*
+00001c3c            NextProcessor 00000006
+00001c40            EvaluatorInput EfNormTime
+00001c50        Color::Vec3
+00001c50            x 29.4909992218
+00001c54            y 2.81999993324
+00001c58            z 30.0
+00001c60    RandomEvaluatorData 00000004
+00001c58        $::EvaluatorData
+00001c58            $::DataContainer
+00001c60            Parameter *nullGuid*
+00001c64        Max 1.0
+00001c68        Min 0.300000011921
+00001c6c    SpawnRateData 00000005
+00001c64        $::ProcessorData
+00001c64            $::DataContainer
+00001c6c            Pre *nullGuid*
+00001c70            NextProcessor 0000000c
+00001c74            EvaluatorInput EfOne
+00001c78        SpawnRate 60.0
+00001c7c        DistributeOverTime True
+00001c7d        DistributeOverDistance False
+00001c80    SpawnSizeData 00000006
+00001c78        $::ProcessorData
+00001c78            $::DataContainer
+00001c80            Pre 00000004
+00001c84            NextProcessor 0000000a
+00001c88            EvaluatorInput EfOne
+00001c8c        Size 1.5
+00001c90    UpdateAgeData 00000007
+00001c88        $::ProcessorData
+00001c88            $::DataContainer
+00001c90            Pre *nullGuid*
+00001c94            NextProcessor 00000005
+00001c98            EvaluatorInput EfOne
+00001c9c        Lifetime 3.0
+00001ca0        RandomLifetimeScale 0.0
+00001ca4        MaxFactor 1.0
+00001ca8    UpdateAlphaLevelScaleData 00000008
+00001ca0        $::ProcessorData
+00001ca0            $::DataContainer
+00001ca8            Pre *nullGuid*
+00001cac            NextProcessor 00000009
+00001cb0            EvaluatorInput EfNormTime
+00001cb4        Exponent 4.33699989319
+00001cb8    UpdateClipScaleData 00000009
+00001cb0        $::ProcessorData
+00001cb0            $::DataContainer
+00001cb8            Pre *nullGuid*
+00001cbc            NextProcessor *nullGuid*
+00001cc0            EvaluatorInput EfNormTime
+00001cc4        Lookup::array
+00001d14            member(0) 32767
+00001d16            member(1) 32767
+00001d18            member(2) 32767
+00001d1a            member(3) 32767
+00001d1c            member(4) 24063
+00001d1e            member(5) 24063
+00001d20            member(6) 24063
+00001d22            member(7) 24063
+00001d24            member(8) 24063
+00001d26            member(9) 24063
+00001d28            member(10) 24063
+00001d2a            member(11) 24063
+00001d2c            member(12) 24063
+00001d2e            member(13) 24063
+00001d30            member(14) 24063
+00001d32            member(15) 24063
+00001d34            member(16) 24063
+00001d36            member(17) 24063
+00001d38            member(18) 24063
+00001d3a            member(19) 24063
+00001d3c            member(20) 24063
+00001d3e            member(21) 24063
+00001d40            member(22) 24063
+00001d42            member(23) 24063
+00001d44            member(24) 24063
+00001d46            member(25) 24063
+00001d48            member(26) 24063
+00001d4a            member(27) 24063
+00001d4c            member(28) 24063
+00001d4e            member(29) 24063
+00001d50            member(30) 24063
+00001d52            member(31) 24063
+00001d54            member(32) 24063
+00001d56            member(33) 24063
+00001d58            member(34) 24063
+00001d5a            member(35) 24063
+00001d5c            member(36) 24063
+00001d5e            member(37) 24063
+00001d60            member(38) 24063
+00001d62            member(39) 24063
+00001d64            member(40) 24063
+00001d66            member(41) 24063
+00001d68            member(42) 24063
+00001d6a            member(43) 24063
+00001d6c            member(44) 24063
+00001d6e            member(45) 24063
+00001d70            member(46) 24063
+00001d72            member(47) 24063
+00001d74            member(48) 24063
+00001d76            member(49) 24063
+00001d78            member(50) 24063
+00001d7a            member(51) 24063
+00001d7c            member(52) 24063
+00001d7e            member(53) 24063
+00001d80            member(54) 24063
+00001d82            member(55) 24063
+00001d84            member(56) 24063
+00001d86            member(57) 24063
+00001d88            member(58) 24063
+00001d8a            member(59) 24063
+00001d8c            member(60) 24063
+00001d8e            member(61) 24063
+00001d90            member(62) 24063
+00001d92            member(63) 24063
+00001d94            member(64) 24063
+00001d96            member(65) 24063
+00001d98            member(66) 24063
+00001d9a            member(67) 24063
+00001d9c            member(68) 24063
+00001d9e            member(69) 24063
+00001da0            member(70) 24063
+00001da2            member(71) 24063
+00001da4            member(72) 24063
+00001da6            member(73) 24063
+00001da8            member(74) 24063
+00001daa            member(75) 24063
+00001dac            member(76) 24063
+00001dae            member(77) 24063
+00001db0            member(78) 24063
+00001db2            member(79) 24063
+00001db4            member(80) 24063
+00001db6            member(81) 24063
+00001db8            member(82) 24063
+00001dba            member(83) 24063
+00001dbc            member(84) 24063
+00001dbe            member(85) 24063
+00001dc0            member(86) 24063
+00001dc2            member(87) 24063
+00001dc4            member(88) 24063
+00001dc6            member(89) 24063
+00001dc8            member(90) 24063
+00001dca            member(91) 24063
+00001dcc            member(92) 24063
+00001dce            member(93) 24063
+00001dd0            member(94) 24063
+00001dd2            member(95) 24063
+00001dd4            member(96) 24063
+00001dd6            member(97) 24063
+00001dd8            member(98) 24063
+00001dda            member(99) 24063
+00001ddc            member(100) 24063
+00001dde            member(101) 24063
+00001de0            member(102) 24063
+00001de2            member(103) 24063
+00001de4            member(104) 24063
+00001de6            member(105) 24063
+00001de8            member(106) 24063
+00001dea            member(107) 24063
+00001dec            member(108) 24063
+00001dee            member(109) 24063
+00001df0            member(110) 24063
+00001df2            member(111) 24063
+00001df4            member(112) 24063
+00001df6            member(113) 24063
+00001df8            member(114) 24063
+00001dfa            member(115) 24063
+00001dfc            member(116) 24063
+00001dfe            member(117) 24063
+00001e00            member(118) 24063
+00001e02            member(119) 24063
+00001e04            member(120) 24063
+00001e06            member(121) 24063
+00001e08            member(122) 24063
+00001e0a            member(123) 24063
+00001e0c            member(124) 24063
+00001e0e            member(125) 24063
+00001e10            member(126) 24063
+00001e12            member(127) 24063
+00001e14            member(128) 24063
+00001e16            member(129) 24063
+00001e18            member(130) 24063
+00001e1a            member(131) 24063
+00001cc8    UpdateSizeData 0000000a
+00001cc0        $::ProcessorData
+00001cc0            $::DataContainer
+00001cc8            Pre 00000002
+00001ccc            NextProcessor 00000008
+00001cd0            EvaluatorInput EfNormTime
+00001cd4        Pivot::Vec2
+00001cd4            x 0.0
+00001cd8            y 0.0
+00001cdc    UpdateTextureCoordsData 0000000b
+00001cd4        $::ProcessorData
+00001cd4            $::DataContainer
+00001cdc            Pre *nullGuid*
+00001ce0            NextProcessor 00000003
+00001ce4            EvaluatorInput EfNormTime
+00001ce8        BaseTexture FX/Textures/Sparks/Sparks_Round_01/aaf46c80d65f42499433729d973260cd
+00001cec        NormalTexture Systems/Emitter/DefaultNormalTexture/479eddffb0309e4c95392f6240c340cc
+00001cf0    UpdateTransparencyData 0000000c
+00001ce8        $::ProcessorData
+00001ce8            $::DataContainer
+00001cf0            Pre 00000001
+00001cf4            NextProcessor 0000000b
+00001cf8            EvaluatorInput EfNormTime
+00001cfc        CullThreshold 0.20000000298

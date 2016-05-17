@@ -1,0 +1,326 @@
+000041b0    UIWidgetBlueprint 0da658c8c3578a383c4d6d65e8d84d0b
+000041a8        $::ObjectBlueprint
+000041a8            $::Blueprint
+000041a8                $::EntityBusData
+000041a8                    $::DataBusData
+000041a8                        $::Asset
+000041a8                            $::DataContainer
+000041b0                            Name UI/elements/Widgets/Options/OptionsKeybindingsPCWidget
+000041b4                        PropertyConnections *nullArray*
+000041b8                        LinkConnections *nullArray*
+000041bc                        Interface 00000002
+000041c0                        Flags 2
+000041c4                    EventConnections::array
+000044d4                        member(0)::EventConnection
+000044d4                            Source 7898fe9c5b43b54ca731c527429ec0f6
+000044d8                            Target 00000002
+000044dc                            SourceEvent::EventSpec
+000044dc                                Id 1473149187
+000044e0                            TargetEvent::EventSpec
+000044e0                                Id 1473149187
+000044e4                            TargetType EventConnectionTargetType_Client
+000044e8                        member(1)::EventConnection
+000044e8                            Source 00000001
+000044ec                            Target 00000002
+000044f0                            SourceEvent::EventSpec
+000044f0                                Id -1574823007
+000044f4                            TargetEvent::EventSpec
+000044f4                                Id -1574823007
+000044f8                            TargetType EventConnectionTargetType_Client
+000041c8            Object 7898fe9c5b43b54ca731c527429ec0f6
+000041e0    UIOptionsKeybindingsWidgetData 7898fe9c5b43b54ca731c527429ec0f6
+000041e0        $::BFUIWidgetEntityData
+000041e0            $::UIWidgetEntityData
+000041e0                $::EntityData
+000041e0                    $::GameObjectData
+000041e0                        $::DataBusPeer
+000041e0                            $::GameDataContainer
+000041e0                                $::DataContainer
+000041e8                            Flags 184457336
+000041ec                Size::UIElementSize
+000041ec                    X 1280.0
+000041f0                    Y 720.0
+000041f4                Layers::array
+00004500                    member(0) 00000003
+000041f8                TextureMappings *nullArray*
+000041fc                Components::array
+00004508                    member(0) *nullGuid*
+0000450c                    member(1) *nullGuid*
+00004200                VisibilityDataSource::UICompareDataSource
+00004200                    DataCategory *nullGuid*
+00004204                    DataKey 0
+00004208                    SchematicsProperty *nullString*
+0000420c                    CompareValue *nullString*
+00004210                InputEvents::array
+00004514                    member(0) RevertDisplayedOptions
+00004518                    member(1) ResetDefaultDisplayedOptions
+0000451c                    member(2) OnFootSelected
+00004520                    member(3) InVehicleSelected
+00004524                    member(4) InJetSelected
+00004528                    member(5) InHelicopterSelected
+0000452c                    member(6) SpectatorSelected
+00004530                    member(7) CommonSelected
+00004214                Visible True
+00004218        ActivationString KeyBindings
+0000421c        TabName ID_M_OPTIONS_KEY_BINDINGS
+00004220        HeaderFontColor::UIElementColor
+00004220            Rgb::Vec3
+00004220                x 1.0
+00004224                y 1.0
+00004228                z 1.0
+00004230            Alpha 1.0
+00004234            PropertyName *nullString*
+00004240        Headers::array
+00004538            member(0) ID_M_OPTIONS_HEADER_NAME
+0000453c            member(1) ID_M_OPTIONS_HEADER_KEYBOARD
+00004540            member(2) ID_M_OPTIONS_HEADER_MOUSE
+00004544            member(3) ID_M_OPTIONS_HEADER_JOYSTICK
+00004244        HeaderFont UI/elements/FontStyles/Default/7e78bc8bcda61c6365da91f253cca2af
+00004248        HeaderFill ui/elements/ElementSettings/ButtonFillData/c7cbc3c9732034f181b18b2eded2f861
+0000424c        HeaderHeight 32.0
+00004250        RowButtonStyle ui/elements/ElementSettings/Options/OptionsButtonStyle/1eecf2de10b6888b2db702b588862261
+00004254        RowHeight 32.0
+00004258        AutoScrollSpeed 20.0
+0000425c        ScrollBarWidth 6
+00004260        ScrollBarMargin 1
+00004264        ScrollBarStyle UI/elements/ElementSettings/Scrollbar/ScrollbarDefault/ad03a54bbd4770de955d462eae95e45a
+00004268        Columns::array
+0000454c            member(0)::UIOptionTableColumn
+0000454c                widthMin 550.0
+00004550                expandWeight 0.0
+00004554                rightSpacing False
+00004558            member(1)::UIOptionTableColumn
+00004558                widthMin 150.0
+0000455c                expandWeight 0.0
+00004560                rightSpacing False
+00004564            member(2)::UIOptionTableColumn
+00004564                widthMin 150.0
+00004568                expandWeight 0.0
+0000456c                rightSpacing False
+00004570            member(3)::UIOptionTableColumn
+00004570                widthMin 150.0
+00004574                expandWeight 0.0
+00004578                rightSpacing False
+0000426c        Types::array
+000045a0            member(0)::UIOptionKeyBindingsType
+000045a0                ActivatorEventName OnFootSelected
+000045a4                ID infantry
+000045a8                Filters *nullArray*
+000045ac            member(1)::UIOptionKeyBindingsType
+000045ac                ActivatorEventName InVehicleSelected
+000045b0                ID vehicle
+000045b4                Filters *nullArray*
+000045b8            member(2)::UIOptionKeyBindingsType
+000045b8                ActivatorEventName InJetSelected
+000045bc                ID jet
+000045c0                Filters *nullArray*
+000045c4            member(3)::UIOptionKeyBindingsType
+000045c4                ActivatorEventName InHelicopterSelected
+000045c8                ID heli
+000045cc                Filters *nullArray*
+000045d0            member(4)::UIOptionKeyBindingsType
+000045d0                ActivatorEventName SpectatorSelected
+000045d4                ID default
+000045d8                Filters::array
+00004580                    member(0)::UIInputConceptFilterData
+00004580                        First ConceptSpectatorViewPrev
+00004584                        Last ConceptSpectatorSquadActivate
+00004588                        IncludeThisRange True
+000045dc            member(5)::UIOptionKeyBindingsType
+000045dc                ActivatorEventName CommonSelected
+000045e0                ID default
+000045e4                Filters::array
+00004590                    member(0)::UIInputConceptFilterData
+00004590                        First ConceptSpectatorViewPrev
+00004594                        Last ConceptSpectatorSquadActivate
+00004598                        IncludeThisRange False
+00004270    UIElementDummyEntityData 00000000
+00004270        $::UIElementEntityData
+00004270            $::EntityData
+00004270                $::GameObjectData
+00004270                    $::DataBusPeer
+00004270                        $::GameDataContainer
+00004270                            $::DataContainer
+00004278                        Flags 0
+0000427c            InstanceName keyBindingsTable
+00004280            UIElementTransform::UIElementTransform
+00004280                Rotation::Vec3
+00004280                    x 0.0
+00004284                    y 0.0
+00004288                    z 0.0
+00004290                RotationPivot::Vec3
+00004290                    x 0.5
+00004294                    y 0.5
+00004298                    z 0.0
+000042a0                Z 0.0
+000042a4                PropertyName *nullString*
+000042b0            Color::UIElementColor
+000042b0                Rgb::Vec3
+000042b0                    x 1.0
+000042b4                    y 1.0
+000042b8                    z 1.0
+000042c0                Alpha 1.0
+000042c4                PropertyName *nullString*
+000042d0            PositionOffset::Vec3
+000042d0                x 0.0
+000042d4                y 0.0
+000042d8                z 0.0
+000042e0            RotationOffset::Vec3
+000042e0                x 0.0
+000042e4                y 0.0
+000042e8                z 0.0
+000042f0            InstanceNameHash 4042104574
+000042f4            Size::UIElementSize
+000042f4                X 1000.0
+000042f8                Y 448.0
+000042fc            LayoutMode UILayoutMode_AnchorOffset
+00004300            Offset::UIElementOffset
+00004300                X -50.0
+00004304                Y 150.0
+00004308            Anchor::UIElementAnchor
+00004308                X 0.521428704262
+0000430c                Y 0.15000000596
+00004310            Position::UIElementOffset
+00004310                X 0.0
+00004314                Y 0.0
+00004318            Expansion::UIElementRectExpansion
+00004318                X 0.0
+0000431c                Y 0.0
+00004320                Width 0.0
+00004324                Height 0.0
+00004328            Visible True
+00004330        DrawBackGround True
+00004340    UIElementWidgetReferenceEntityData 00000001
+00004340        $::LogicReferenceObjectData
+00004340            $::ReferenceObjectData
+00004340                $::GameObjectData
+00004340                    $::DataBusPeer
+00004340                        $::GameDataContainer
+00004340                            $::DataContainer
+00004348                        Flags 0
+0000434c                Blueprint UI/elements/Widgets/Options/KeyBindingsTabBar/f486332998519d2694f6173902ef542d
+00004350                BlueprintTransform::LinearTransform
+00004350                    right::Vec3
+00004350                        x 1.0
+00004354                        y 0.0
+00004358                        z 0.0
+00004360                    up::Vec3
+00004360                        x 0.0
+00004364                        y 1.0
+00004368                        z 0.0
+00004370                    forward::Vec3
+00004370                        x 0.0
+00004374                        y 0.0
+00004378                        z 1.0
+00004380                    trans::Vec3
+00004380                        x 0.0
+00004384                        y 0.0
+00004388                        z 0.0
+00004390                ObjectVariation *nullGuid*
+00004394                StreamRealm StreamRealm_None
+00004398                RadiosityTypeOverride RadiosityTypeOverride_None
+0000439c                CastSunShadowEnable False
+0000439d                CastReflectionEnable False
+0000439e                Excluded False
+000043a0            SubRealm SubRealm_All
+000043b0        UIElementTransform::UIElementTransform
+000043b0            Rotation::Vec3
+000043b0                x 0.0
+000043b4                y 0.0
+000043b8                z 0.0
+000043c0            RotationPivot::Vec3
+000043c0                x 0.5
+000043c4                y 0.5
+000043c8                z 0.0
+000043d0            Z 0.0
+000043d4            PropertyName *nullString*
+000043e0        Color::UIElementColor
+000043e0            Rgb::Vec3
+000043e0                x 1.0
+000043e4                y 1.0
+000043e8                z 1.0
+000043f0            Alpha 1.0
+000043f4            PropertyName *nullString*
+00004400        PositionOffset::Vec3
+00004400            x 0.0
+00004404            y 0.0
+00004408            z 0.0
+00004410        RotationOffset::Vec3
+00004410            x 0.0
+00004414            y 0.0
+00004418            z 0.0
+00004420        InstanceName tabBar
+00004424        InstanceNameHash 1742532643
+00004428        InclusionSettings::UIElementInclusionSettings
+00004428            CustomInclusionCritera *nullArray*
+0000442c            IsSingleplayerLayer True
+0000442d            IsMultiplayerLayer True
+0000442e            IsWin32Layer True
+0000442f            IsXenonLayer True
+00004430            IsPs3Layer True
+00004431            IsGen4aLayer True
+00004432            IsGen4bLayer True
+00004433            IsSDLayer True
+00004434            IsHDLayer True
+00004435            IsAdvanced False
+00004438        Size::UIElementSize
+00004438            X 256.0
+0000443c            Y 256.0
+00004440        LayoutMode UILayoutMode_AnchorOffset
+00004444        Offset::UIElementOffset
+00004444            X -128.0
+00004448            Y 50.0
+0000444c        Anchor::UIElementAnchor
+0000444c            X 0.506510317326
+00004450            Y 0.15000000596
+00004454        Position::UIElementOffset
+00004454            X 0.0
+00004458            Y 0.0
+0000445c        Expansion::UIElementRectExpansion
+0000445c            X 0.0
+00004460            Y 0.0
+00004464            Width 0.0
+00004468            Height 0.0
+0000446c        CodeAccessIdentifier *nullString*
+00004470        UseElementSize False
+00004480    InterfaceDescriptorData 00000002
+00004478        $::DynamicDataContainer
+00004478            $::DataContainer
+00004480            Fields *nullArray*
+00004484        InputEvents *nullArray*
+00004488        OutputEvents::array
+000045ec            member(0)::DynamicEvent
+000045ec                Id 1473149187
+000045f0            member(1)::DynamicEvent
+000045f0                Id -1574823007
+0000448c        InputLinks *nullArray*
+00004490        OutputLinks *nullArray*
+00004494    UIElementLayerEntityData 00000003
+0000448c        $::EntityData
+0000448c            $::GameObjectData
+0000448c                $::DataBusPeer
+0000448c                    $::GameDataContainer
+0000448c                        $::DataContainer
+00004494                    Flags 0
+00004498        LayerName Elements
+0000449c        Elements::array
+000045f8            member(0) 00000001
+000045fc            member(1) 00000000
+000044a0        InclusionSettings::UIElementInclusionSettings
+000044a0            CustomInclusionCritera *nullArray*
+000044a4            IsSingleplayerLayer True
+000044a5            IsMultiplayerLayer True
+000044a6            IsWin32Layer True
+000044a7            IsXenonLayer False
+000044a8            IsPs3Layer False
+000044a9            IsGen4aLayer False
+000044aa            IsGen4bLayer False
+000044ab            IsSDLayer True
+000044ac            IsHDLayer True
+000044ad            IsAdvanced False
+000044b0        VisibilityDataSource::UICompareDataSource
+000044b0            DataCategory *nullGuid*
+000044b4            DataKey 0
+000044b8            SchematicsProperty *nullString*
+000044bc            CompareValue *nullString*
+000044c0        Visible True

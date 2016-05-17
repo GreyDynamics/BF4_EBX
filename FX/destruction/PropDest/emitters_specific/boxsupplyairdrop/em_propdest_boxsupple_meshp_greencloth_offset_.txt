@@ -1,0 +1,284 @@
+00001fb0    ScalableEmitterDocument 3f8866f533d7204abfa37f983627f997
+00001fa8        $::EmitterDocument
+00001fa8            $::EmitterAsset
+00001fa8                $::Asset
+00001fa8                    $::DataContainer
+00001fb0                    Name *nullString*
+00001fb4        TemplateDataLow 00000001
+00001fb8        TemplateDataMedium 00000001
+00001fbc        TemplateDataHigh 00000001
+00001fc0        TemplateDataUltra 00000001
+00001fd0    BoxEvaluatorData 00000000
+00001fd0        $::EvaluatorData
+00001fd0            $::DataContainer
+00001fd8            Parameter *nullGuid*
+00001fe0        Dimensions::Vec3
+00001fe0            x 1.0
+00001fe4            y 0.75
+00001fe8            z 1.0
+00001ff0        Pivot::Vec3
+00001ff0            x 0.0
+00001ff4            y 0.0
+00001ff8            z 0.0
+00002000    EmitterTemplateData 00000001
+00002000        $::DataContainer
+00002008        RootProcessor 00000016
+0000200c        MaxCount 50
+00002010        WorldAlignmentDirection::Vec3
+00002010            x 0.0
+00002014            y 1.0
+00002018            z 0.0
+00002020        Lifetime 0.10000000149
+00002024        TimeScale 1.0
+00002028        LifetimeFrameCount 0
+0000202c        EmittableType EmittableType_Mesh
+00002030        EmittableAlignment EmittableAlignment_Emittable
+00002034        MotionStretchMultiplier 1.0
+00002038        MotionStretchLengthClamp 100.0
+0000203c        Mesh fx/mesh/debris/cloth/meshp_cloth_torn_01_white_Mesh/ab010377e4e6de4d820348348bd2053d
+00002040        VertexPixelLightingBlendFactor 0.0
+00002044        GlobalLocalNormalBlendFactor 1.0
+00002048        SoftParticlesFadeDistanceMultiplier 0.0
+0000204c        LightWrapAroundFactor 0.5
+00002050        BentNormalFactor 1.0
+00002054        LightMultiplier 1.0
+00002058        BendingFactor 0.0
+0000205c        CameraBias 0.0
+00002060        Shader::SurfaceShaderInstanceDataStruct
+00002060            Shader *nullGuid*
+00002064            BoolParameters *nullArray*
+00002068            VectorParameters *nullArray*
+0000206c            VectorArrayParameters *nullArray*
+00002070            TextureParameters *nullArray*
+00002074        EmitterDrawOrder EmitterDrawOrder_Default
+00002078        ParticleCullingFactor 0.800000011921
+0000207c        MinSpawnDistance 0.0
+00002080        MaxSpawnDistance 0.0
+00002084        MinScreenArea 1.0
+00002088        MeshCullingDistance 500.0
+0000208c        DistanceScaleLength 50.0
+00002090        DistanceScaleNearValue 1.0
+00002094        DistanceScaleFarValue 3.0
+00002098        SpeedNormalizationValue 5.0
+0000209c        WindSpeedNormalizationValue 50.0
+000020a0        PerParticleEffectParameters *nullArray*
+000020a4        CullFadeNearDistance 0.0
+000020a8        CullFadeNearRange 0.0
+000020ac        CullFadeFarDistance 0.0
+000020b0        CullFadeFarRange 0.0
+000020b4        RepeatParticleSpawning False
+000020b5        FollowSpawnSource False
+000020b6        KillParticlesWithEmitter False
+000020b7        ExclusionVolumeCullEnable False
+000020b8        Emissive False
+000020b9        Opaque False
+000020ba        ForceNiceSorting False
+000020bb        LocalSpace False
+000020bc        CameraSpace False
+000020bd        TransparencySunShadowEnable False
+000020be        CastPlanarReflectionEnable False
+000020bf        ForceFullRes False
+000020c0        FogFade True
+000020c1        AcceptGlobalParameter1 False
+000020c2        AcceptGlobalParameter2 False
+000020c3        AcceptGlobalParameter3 False
+000020c4        UseOfCustomParamRandomSpawnValuesEnabled False
+000020c5        EmitterWindEvaluationEnable False
+000020c6        EmittableWindEvaluationEnable False
+000020c7        GroupEmittersWithSameBaseTextureOnly False
+000020d0    PolynomialData 00000002
+000020d0        $::EvaluatorData
+000020d0            $::DataContainer
+000020d8            Parameter *nullGuid*
+000020dc        ScaleValue 1.0
+000020e0        Coefficients::Vec4
+000020e0            x 0.0
+000020e4            y 0.0
+000020e8            z 1.02551031113
+000020ec            w -0.0410203747451
+000020f0        MinClamp 0.0
+000020f4        MaxClamp 1.0
+00002100    PolynomialData 00000003
+00002100        $::EvaluatorData
+00002100            $::DataContainer
+00002108            Parameter *nullGuid*
+0000210c        ScaleValue 1.5
+00002110        Coefficients::Vec4
+00002110            x 0.0
+00002114            y 0.0
+00002118            z -5.0
+0000211c            w 5.0
+00002120        MinClamp 0.0
+00002124        MaxClamp 1.0
+00002130    UpdateColorData 00000004
+00002130        $::ProcessorData
+00002130            $::DataContainer
+00002138            Pre *nullGuid*
+0000213c            NextProcessor 00000015
+00002140            EvaluatorInput EfNormTime
+00002150        Color::Vec3
+00002150            x 0.00300000002608
+00002154            y 0.00700000021607
+00002158            z 0.00200000009499
+00002160    AirResistanceData 00000005
+00002158        $::ProcessorData
+00002158            $::DataContainer
+00002160            Pre *nullGuid*
+00002164            NextProcessor 00000006
+00002168            EvaluatorInput EfNormTime
+0000216c        DragFactor 3.0
+00002170    GravityData 00000006
+00002168        $::ProcessorData
+00002168            $::DataContainer
+00002170            Pre *nullGuid*
+00002174            NextProcessor 00000018
+00002178            EvaluatorInput EfNormTime
+0000217c        Gravity 6.0
+00002180        PerParticleRandomness 0.0
+00002184    RandomEvaluatorData 00000007
+0000217c        $::EvaluatorData
+0000217c            $::DataContainer
+00002184            Parameter *nullGuid*
+00002188        Max 1.0
+0000218c        Min 0.34999999404
+00002190    RandomEvaluatorData 00000008
+00002188        $::EvaluatorData
+00002188            $::DataContainer
+00002190            Parameter *nullGuid*
+00002194        Max 1.0
+00002198        Min 0.25
+0000219c    RandomEvaluatorData 00000009
+00002194        $::EvaluatorData
+00002194            $::DataContainer
+0000219c            Parameter *nullGuid*
+000021a0        Max 1.0
+000021a4        Min -1.0
+000021a8    RandomEvaluatorData 0000000a
+000021a0        $::EvaluatorData
+000021a0            $::DataContainer
+000021a8            Parameter *nullGuid*
+000021ac        Max 1.0
+000021b0        Min 0.300000011921
+000021b4    RandomXYZEvaluatorData 0000000b
+000021ac        $::EvaluatorData
+000021ac            $::DataContainer
+000021b4            Parameter *nullGuid*
+000021b8        MaxX 1.0
+000021bc        MinX -1.0
+000021c0        MaxY 1.0
+000021c4        MinY 0.5
+000021c8        MaxZ 1.0
+000021cc        MinZ -1.0
+000021d0    RandomXYZEvaluatorData 0000000c
+000021c8        $::EvaluatorData
+000021c8            $::DataContainer
+000021d0            Parameter *nullGuid*
+000021d4        MaxX 180.0
+000021d8        MinX -180.0
+000021dc        MaxY 0.0
+000021e0        MinY 0.0
+000021e4        MaxZ 180.0
+000021e8        MinZ 0.0
+000021ec    SpawnDirectionData 0000000d
+000021e4        $::ProcessorData
+000021e4            $::DataContainer
+000021ec            Pre 0000000b
+000021f0            NextProcessor 0000000f
+000021f4            EvaluatorInput EfOne
+000021f8        DirectionFromEmitterOrigin 0.15000000596
+000021fc        InheritSpeedAmount 1.0
+00002200        InheritSpeedSmoothingFactor 0.0
+00002204        InheritSpeedRandomness 0.0
+00002208        InheritSpeedAndDirectionFromEmitter False
+0000220c    SpawnOrientationData 0000000e
+00002204        $::ProcessorData
+00002204            $::DataContainer
+0000220c            Pre 0000000c
+00002210            NextProcessor 00000011
+00002214            EvaluatorInput EfOne
+00002218    SpawnPositionData 0000000f
+00002210        $::ProcessorData
+00002210            $::DataContainer
+00002218            Pre 00000000
+0000221c            NextProcessor 00000014
+00002220            EvaluatorInput EfOne
+00002224    SpawnRateData 00000010
+0000221c        $::ProcessorData
+0000221c            $::DataContainer
+00002224            Pre *nullGuid*
+00002228            NextProcessor 00000005
+0000222c            EvaluatorInput EfOne
+00002230        SpawnRate 20000.0
+00002234        DistributeOverTime True
+00002235        DistributeOverDistance False
+00002238    SpawnRotationData 00000011
+00002230        $::ProcessorData
+00002230            $::DataContainer
+00002238            Pre 00000009
+0000223c            NextProcessor 00000012
+00002240            EvaluatorInput EfOne
+00002244        Rotation 1.0
+00002248    SpawnRotationSpeedData 00000012
+00002240        $::ProcessorData
+00002240            $::DataContainer
+00002248            Pre 00000008
+0000224c            NextProcessor 00000013
+00002250            EvaluatorInput EfOne
+00002254        RotationSpeed 3.0
+00002258    SpawnSizeData 00000013
+00002250        $::ProcessorData
+00002250            $::DataContainer
+00002258            Pre 0000000a
+0000225c            NextProcessor 0000000d
+00002260            EvaluatorInput EfOne
+00002264        Size 1.5
+00002268    SpawnSpeedData 00000014
+00002260        $::ProcessorData
+00002260            $::DataContainer
+00002268            Pre 00000007
+0000226c            NextProcessor 00000019
+00002270            EvaluatorInput EfOne
+00002274        Speed 30.0
+00002278    TurbulanceData 00000015
+00002270        $::ProcessorData
+00002270            $::DataContainer
+00002278            Pre *nullGuid*
+0000227c            NextProcessor 00000017
+00002280            EvaluatorInput EfNormTime
+00002284        Intensity 0.300000011921
+00002288        NoiseType TurbulenceNoiseType_Random
+0000228c        PeriodSpace 1.0
+00002290        TurbulenceForceAsInstantVelocity 0.0
+00002294        Octaves 1
+00002298        OctavePersistence 0.5
+0000229c        PerParticleRandomness 0.0
+000022a0    UpdateAgeData 00000016
+00002298        $::ProcessorData
+00002298            $::DataContainer
+000022a0            Pre *nullGuid*
+000022a4            NextProcessor 00000010
+000022a8            EvaluatorInput EfOne
+000022ac        Lifetime 5.0
+000022b0        RandomLifetimeScale 0.0
+000022b4        MaxFactor 1.0
+000022b8    UpdateLinearVelocityData 00000017
+000022b0        $::ProcessorData
+000022b0            $::DataContainer
+000022b8            Pre *nullGuid*
+000022bc            NextProcessor *nullGuid*
+000022c0            EvaluatorInput EfNormTime
+000022c4    UpdateRotationData 00000018
+000022bc        $::ProcessorData
+000022bc            $::DataContainer
+000022c4            Pre 00000002
+000022c8            NextProcessor 0000000e
+000022cc            EvaluatorInput EfNormSpeed
+000022d0    UpdateSizeData 00000019
+000022c8        $::ProcessorData
+000022c8            $::DataContainer
+000022d0            Pre 00000003
+000022d4            NextProcessor 00000004
+000022d8            EvaluatorInput EfNormTime
+000022dc        Pivot::Vec2
+000022dc            x 0.0
+000022e0            y 0.0

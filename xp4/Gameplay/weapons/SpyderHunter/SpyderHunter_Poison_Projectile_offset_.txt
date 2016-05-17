@@ -1,0 +1,293 @@
+00002060    ProjectileBlueprint 5acf9477c836b146ba00ba662e2b762e
+00002058        $::ObjectBlueprint
+00002058            $::Blueprint
+00002058                $::EntityBusData
+00002058                    $::DataBusData
+00002058                        $::Asset
+00002058                            $::DataContainer
+00002060                            Name XP4/Gameplay/Weapons/SpyderHunter/SpyderHunter_Poison_Projectile
+00002064                        PropertyConnections *nullArray*
+00002068                        LinkConnections *nullArray*
+0000206c                        Interface *nullGuid*
+00002070                        Flags 1
+00002074                    EventConnections::array
+000023c4                        member(0)::EventConnection
+000023c4                            Source f95e503cde4a4c4f8f8311cadbe0edf6
+000023c8                            Target 00000000
+000023cc                            SourceEvent::EventSpec
+000023cc                                Id 95128145
+000023d0                            TargetEvent::EventSpec
+000023d0                                Id -559281700
+000023d4                            TargetType EventConnectionTargetType_Server
+000023d8                        member(1)::EventConnection
+000023d8                            Source 00000003
+000023dc                            Target f95e503cde4a4c4f8f8311cadbe0edf6
+000023e0                            SourceEvent::EventSpec
+000023e0                                Id 193453899
+000023e4                            TargetEvent::EventSpec
+000023e4                                Id -474729183
+000023e8                            TargetType EventConnectionTargetType_Server
+000023ec                        member(2)::EventConnection
+000023ec                            Source f95e503cde4a4c4f8f8311cadbe0edf6
+000023f0                            Target 00000003
+000023f4                            SourceEvent::EventSpec
+000023f4                                Id -1304372294
+000023f8                            TargetEvent::EventSpec
+000023f8                                Id 5862146
+000023fc                            TargetType EventConnectionTargetType_Server
+00002078            Object f95e503cde4a4c4f8f8311cadbe0edf6
+00002090    GrenadeEntityData f95e503cde4a4c4f8f8311cadbe0edf6
+00002090        $::GhostedProjectileEntityData
+00002090            $::MeshProjectileEntityData
+00002090                $::ProjectileEntityData
+00002090                    $::GamePhysicsEntityData
+00002090                        $::GameComponentEntityData
+00002090                            $::ComponentEntityData
+00002090                                $::SpatialEntityData
+00002090                                    $::EntityData
+00002090                                        $::GameObjectData
+00002090                                            $::DataBusPeer
+00002090                                                $::GameDataContainer
+00002090                                                    $::DataContainer
+00002098                                                Flags 508583673
+000020a0                                    Transform::LinearTransform
+000020a0                                        right::Vec3
+000020a0                                            x 1.0
+000020a4                                            y 0.0
+000020a8                                            z 0.0
+000020b0                                        up::Vec3
+000020b0                                            x 0.0
+000020b4                                            y 1.0
+000020b8                                            z 0.0
+000020c0                                        forward::Vec3
+000020c0                                            x 0.0
+000020c4                                            y 0.0
+000020c8                                            z 1.0
+000020d0                                        trans::Vec3
+000020d0                                            x 0.0
+000020d4                                            y 0.0
+000020d8                                            z 0.0
+000020e0                                Components::array
+00002404                                    member(0) 00000000
+00002408                                    member(1) 00000001
+0000240c                                    member(2) 00000003
+000020e4                                ClientRuntimeComponentCount 1
+000020e5                                ServerRuntimeComponentCount 2
+000020e6                                ClientRuntimeTransformationCount 1
+000020e7                                ServerRuntimeTransformationCount 1
+000020f0                            Enabled True
+00002100                        PhysicsData *nullGuid*
+00002110                    InitialSpeed 350.0
+00002114                    TimeToLive 2.5
+00002118                    MaxCount 0
+0000211c                    InitMeshHideTime 5.0
+00002120                    VisualConvergeDistance 3.0
+00002124                    VisualConvergenceDelay 0.0
+00002128                    VisualConvergenceDuration 0.15000000596
+0000212c                    ProxyVisualConvergenceDelay -1.0
+00002130                    ProxyVisualConvergenceDuration 1.20000004768
+00002134                    Explosion 00000002
+00002138                    SuppressionData 00000005
+0000213c                    AmmunitionType 40mm
+00002140                    MaterialPair::MaterialDecl
+00002140                        Packed 1800962048
+00002144                    HitReactionWeaponType AntHitReactionWeaponType_Flashbang
+00002148                    DetonateOnTimeout True
+00002149                    ServerProjectileDisabled False
+0000214a                    HideOnDetonation True
+0000214b                    VehicleLightingEnable False
+00002150                InitialAngularVelocity::Vec3
+00002150                    x 0.0
+00002154                    y 0.0
+00002158                    z 0.0
+00002160                Mesh xp4/gameplay/weapons/spyderhunter/spyderhunter_poison_projectile_Mesh/c6e5c2874aebbf45845b5e9c81ea9283
+00002164                TrailEffect XP4/FX/Weapons/Trail/FX_SpyderHunter_Poison/54d008df60029a4d9feb79dba5708d73
+00002168                InstantAttachableTestDistance 3.0
+0000216c                InstantAttachableVisualConvergenceDelay -1.0
+00002170                InstantAttachableVisualConvergenceDuration -1.0
+00002174                MaxAttachableInclination 45.0
+00002178                UnspawnAfterDetonationDelay 7.0
+0000217c                IsAttachable False
+0000217d                InstantAttachableTestUnderReticule True
+0000217e                ExtraDamping True
+00002180            ProxyConvergenceDelay 0.0
+00002184            ProxyConvergenceDuration 3.59999990463
+00002188            ProxyConvergenceInstantOnAttach True
+00002189            ForceProxyConvergence True
+00002190        Gravity -9.80000019073
+00002194        CollisionSpeedMultiplier 0.10000000149
+00002198        MinBounceSpeed 0.10000000149
+0000219c        CollisionDamage 2.0
+000021a0        GrenadeType GrenadeType_NotSet
+000021a4        HudIndicatorIcon grenade6
+000021a8        UseGrenadeCollisionMessage False
+000021a9        ShowHudIndicator False
+000021b0    DOTGiverComponentData 00000000
+000021b0        $::GameComponentData
+000021b0            $::ComponentData
+000021b0                $::GameObjectData
+000021b0                    $::DataBusPeer
+000021b0                        $::GameDataContainer
+000021b0                            $::DataContainer
+000021b8                        Flags 75383031
+000021bc                Components *nullArray*
+000021c0                Transform::LinearTransform
+000021c0                    right::Vec3
+000021c0                        x 1.0
+000021c4                        y 0.0
+000021c8                        z 0.0
+000021d0                    up::Vec3
+000021d0                        x 0.0
+000021d4                        y 1.0
+000021d8                        z 0.0
+000021e0                    forward::Vec3
+000021e0                        x 0.0
+000021e4                        y 0.0
+000021e8                        z 1.0
+000021f0                    trans::Vec3
+000021f0                        x 0.0
+000021f4                        y 0.0
+000021f8                        z 0.0
+00002200                Excluded False
+00002210        AoEOcclusionRaycastStartOffset::Vec3
+00002210            x 0.0
+00002214            y 0.0
+00002218            z 0.0
+00002220        AoERadius 3.5
+00002224        AoEDuration 1.0
+00002228        AoEMaxOcclusionRaycastRadius 0.5
+0000222c        DoTDuration 6.0
+00002230        DoTTickDuration 0.5
+00002234        DoTTickDamage 2
+00002238        DoTSuppressionValue 1.0
+0000223c        AoEInfiniteDuration False
+0000223d        AoEIgnoreObstructed True
+0000223e        DoTDontDamageShielded True
+0000223f        DamageAll True
+00002240        DamageVehicles False
+00002241        DamageCharacters True
+00002242        DamageBangers False
+00002250    PartComponentData 00000001
+00002250        $::GameComponentData
+00002250            $::ComponentData
+00002250                $::GameObjectData
+00002250                    $::DataBusPeer
+00002250                        $::GameDataContainer
+00002250                            $::DataContainer
+00002258                        Flags 29948969
+0000225c                Components *nullArray*
+00002260                Transform::LinearTransform
+00002260                    right::Vec3
+00002260                        x 1.0
+00002264                        y 0.0
+00002268                        z 0.0
+00002270                    up::Vec3
+00002270                        x 0.0
+00002274                        y 1.0
+00002278                        z 0.0
+00002280                    forward::Vec3
+00002280                        x 0.0
+00002284                        y 0.0
+00002288                        z 1.0
+00002290                    trans::Vec3
+00002290                        x -0.00190318387467
+00002294                        y 0.0132090291008
+00002298                        z -0.00267195887864
+000022a0                Excluded False
+000022b0        HealthStates::array
+00002414            member(0) 00000004
+000022b4        PartLinks *nullArray*
+000022b8        IsSupported False
+000022b9        IsFragile False
+000022ba        IsNetworkable True
+000022bb        IsWindow False
+000022bc        AnimatePhysics False
+000022c0    VeniceExplosionEntityData 00000002
+000022c0        $::ExplosionEntityData
+000022c0            $::SpatialEntityData
+000022c0                $::EntityData
+000022c0                    $::GameObjectData
+000022c0                        $::DataBusPeer
+000022c0                            $::GameDataContainer
+000022c0                                $::DataContainer
+000022c8                            Flags 0
+000022d0                Transform::LinearTransform
+000022d0                    right::Vec3
+000022d0                        x 1.0
+000022d4                        y 0.0
+000022d8                        z 0.0
+000022e0                    up::Vec3
+000022e0                        x 0.0
+000022e4                        y 1.0
+000022e8                        z 0.0
+000022f0                    forward::Vec3
+000022f0                        x 0.0
+000022f4                        y 0.0
+000022f8                        z 1.0
+00002300                    trans::Vec3
+00002300                        x 0.0
+00002304                        y 0.0
+00002308                        z 0.0
+00002310            DetonationEffect XP4/FX/Weapons/Trail/FX_SpyderHunter_PoisonExpl/6cb9e57a7235d24892ebaf49cf92878b
+00002314            DetonationEffectForFriendlies XP4/FX/Weapons/Trail/FX_SpyderHunter_PoisonExpl_Friendly/5d5a482366899144a054d9e887a7889e
+00002318            MaskVolume *nullGuid*
+0000231c            DestructionMaskVolume *nullGuid*
+00002320            MaterialPair::MaterialDecl
+00002320                Packed 2357886976
+00002324            SecondaryMaterialPair::MaterialDecl
+00002324                Packed 0
+00002328            DamageIndicationType DamageIndicationType_ExplosionCenter
+0000232c            EmpTime 0.0
+00002330            MaxOcclusionRaycastRadius 0.5
+00002334            InnerBlastRadius 1.5
+00002338            BlastDamage 19.0
+0000233c            BlastRadius 3.5
+00002340            BlastImpulse 500.0
+00002344            ShockwaveDamage 1.0
+00002348            ShockwaveRadius 3.59999990463
+0000234c            ShockwaveImpulse 100.0
+00002350            ShockwaveTime 0.25
+00002354            CameraShockwaveRadius 0.0
+00002358            SpawnDelay 0.0
+0000235c            NoFriendliesEffectOnEnabledFriendlyFire True
+0000235d            UseEntityTransformForDetonationEffect False
+0000235e            SecondaryMaterialsActive False
+0000235f            HasStunEffect False
+00002360            DisableOcclusion False
+00002361            DisableStaticEntityOcclusion False
+00002362            TriggerImpairedHearing True
+00002363            Enabled True
+00002370        UnspottableTime 1.0
+00002374        IsCausingSuppression True
+00002375        UnspotsOnExplode True
+00002376        SpotsOnExplode False
+00002380    DelayEntityData 00000003
+00002378        $::EntityData
+00002378            $::GameObjectData
+00002378                $::DataBusPeer
+00002378                    $::GameDataContainer
+00002378                        $::DataContainer
+00002380                    Flags 69586020
+00002384        Delay 0.15000000596
+00002388        Realm Realm_Server
+0000238c        AutoStart False
+0000238d        RunOnce False
+0000238e        RemoveDuplicateEvents True
+00002390    HealthStateData 00000004
+00002388        $::DataContainer
+00002390        Objects *nullArray*
+00002394        LoosePartPhysics *nullArray*
+00002398        SpawnedBangerBlueprint *nullGuid*
+0000239c        SpawnedBangerImpulseParams *nullGuid*
+000023a0        Health 0.0
+000023a4        PartIndex 0
+000023a8        CopyDamageToBanger True
+000023a9        PhysicsEnabled True
+000023aa        Indestructable False
+000023ab        CanSupportOtherParts False
+000023ac    WeaponSuppressionData 00000005
+000023a4        $::DataContainer
+000023ac        MaxMultiplier 50.0
+000023b0        MinMultiplier 50.0
+000023b4        MinDistance 12.0
+000023b8        MaxDistance 50.0

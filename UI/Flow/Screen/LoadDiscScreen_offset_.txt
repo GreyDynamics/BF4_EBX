@@ -1,0 +1,134 @@
+00001250    UIScreenAsset 455fb9d607b18541a824b7fa68164c80
+00001248        $::UIViewBaseAsset
+00001248            $::UIGraphAsset
+00001248                $::Asset
+00001248                    $::DataContainer
+00001250                    Name UI/Flow/Screen/LoadDiscScreen
+00001254                Nodes::array
+000013d4                    member(0) 4bb9e23db082494488131d0ae2c3c5ce
+000013d8                    member(1) 06c901d8e380f5408ad3fc9edecbfe30
+000013dc                    member(2) 590cefe2e610a946b822dc6ab5d0d362
+000013e0                    member(3) 99b2c056963575488a76c927bd10fc7b
+00001258                GlobalNode *nullGuid*
+0000125c                Connections::array
+000013e8                    member(0) 00000000
+000013ec                    member(1) 00000001
+00001260                AudioEventMappings UI/Flow/Graph/AudioMapping/DefaultUIGraphAudioMapping/0b64b44173196984a254b1b23e4e6a04
+00001264                BundleAssetName *nullString*
+00001268                EventList *nullArray*
+0000126c                ProtectScreens False
+0000126d                Modal True
+0000126e                IsWin32UIGraphAsset True
+0000126f                IsXenonUIGraphAsset True
+00001270                IsPs3UIGraphAsset True
+00001271                IsGen4aUIGraphAsset True
+00001272                IsGen4bUIGraphAsset True
+00001274        UIAsset UI/Assets/LoadDiscScreen/4faed3483775cd8a473af0d5b3ec7591
+00001278        SwfPath UI/Assets/LoadDiscScreen
+0000127c        Purpose UIScreenPurpose_Standard
+00001290    InstanceInputNode 06c901d8e380f5408ad3fc9edecbfe30
+00001288        $::UINodeData
+00001288            $::DataContainer
+00001290            Name SP Disc
+00001294            ParentGraph 455fb9d607b18541a824b7fa68164c80
+00001298            IsRootNode False
+00001299            ParentIsScreen True
+0000129c        Out 00000004
+000012b0    ActionNode 4bb9e23db082494488131d0ae2c3c5ce
+000012a8        $::UINodeData
+000012a8            $::DataContainer
+000012b0            Name Insert Disc 2
+000012b4            ParentGraph 455fb9d607b18541a824b7fa68164c80
+000012b8            IsRootNode False
+000012b9            ParentIsScreen True
+000012bc        ActionKey 424653229
+000012c0        Params::array
+000013f4            member(0) 2
+000012c4        ActionAsset *nullGuid*
+000012c8        In 00000006
+000012cc        DataInputs *nullArray*
+000012d0        Out 00000002
+000012d4        AppendIncomingParams False
+000012e8    InstanceInputNode 590cefe2e610a946b822dc6ab5d0d362
+000012e0        $::UINodeData
+000012e0            $::DataContainer
+000012e8            Name MP Disc
+000012ec            ParentGraph 455fb9d607b18541a824b7fa68164c80
+000012f0            IsRootNode False
+000012f1            ParentIsScreen True
+000012f4        Out 00000007
+00001308    ActionNode 99b2c056963575488a76c927bd10fc7b
+00001300        $::UINodeData
+00001300            $::DataContainer
+00001308            Name Insert Disc 1
+0000130c            ParentGraph 455fb9d607b18541a824b7fa68164c80
+00001310            IsRootNode False
+00001311            ParentIsScreen True
+00001314        ActionKey 424653229
+00001318        Params::array
+000013fc            member(0) 1
+0000131c        ActionAsset *nullGuid*
+00001320        In 00000003
+00001324        DataInputs *nullArray*
+00001328        Out 00000005
+0000132c        AppendIncomingParams False
+00001330    UINodeConnection 00000000
+00001328        $::DataContainer
+00001330        SourceNode 06c901d8e380f5408ad3fc9edecbfe30
+00001334        TargetNode 4bb9e23db082494488131d0ae2c3c5ce
+00001338        SourcePort 00000004
+0000133c        TargetPort 00000006
+00001340        SourcePortName *nullString*
+00001344        TargetPortName *nullString*
+00001348        NumScreensToPop 0
+0000134c    UINodeConnection 00000001
+00001344        $::DataContainer
+0000134c        SourceNode 590cefe2e610a946b822dc6ab5d0d362
+00001350        TargetNode 99b2c056963575488a76c927bd10fc7b
+00001354        SourcePort 00000007
+00001358        TargetPort 00000003
+0000135c        SourcePortName *nullString*
+00001360        TargetPortName *nullString*
+00001364        NumScreensToPop 0
+00001368    UINodePort 00000002
+00001360        $::DataContainer
+00001368        Name *nullString*
+0000136c        InstanceName *nullString*
+00001370        Query UIWidgetEventID_None
+00001374        AllowManualRemove False
+00001375        IsReferencePort False
+00001378    UINodePort 00000003
+00001370        $::DataContainer
+00001378        Name *nullString*
+0000137c        InstanceName *nullString*
+00001380        Query UIWidgetEventID_None
+00001384        AllowManualRemove False
+00001385        IsReferencePort False
+00001388    UINodePort 00000004
+00001380        $::DataContainer
+00001388        Name *nullString*
+0000138c        InstanceName *nullString*
+00001390        Query UIWidgetEventID_None
+00001394        AllowManualRemove False
+00001395        IsReferencePort False
+00001398    UINodePort 00000005
+00001390        $::DataContainer
+00001398        Name *nullString*
+0000139c        InstanceName *nullString*
+000013a0        Query UIWidgetEventID_None
+000013a4        AllowManualRemove False
+000013a5        IsReferencePort False
+000013a8    UINodePort 00000006
+000013a0        $::DataContainer
+000013a8        Name *nullString*
+000013ac        InstanceName *nullString*
+000013b0        Query UIWidgetEventID_None
+000013b4        AllowManualRemove False
+000013b5        IsReferencePort False
+000013b8    UINodePort 00000007
+000013b0        $::DataContainer
+000013b8        Name *nullString*
+000013bc        InstanceName *nullString*
+000013c0        Query UIWidgetEventID_None
+000013c4        AllowManualRemove False
+000013c5        IsReferencePort False

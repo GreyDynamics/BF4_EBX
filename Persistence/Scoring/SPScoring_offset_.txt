@@ -1,0 +1,149 @@
+00003380    ScoringData 5616f7a9aab451620374009bdc1d70a1
+00003378        $::Asset
+00003378            $::DataContainer
+00003380            Name Persistence/Scoring/SPScoring
+00003384        ScoringTypes::array
+000035f4            member(0) 0f582aa88409104ba849ed14272e9fa8
+000035f8            member(1) 2df30e02f49d754e8ff4136b0f778fbe
+000035fc            member(2) 18a419f210f7c447a1a73f01ad8f45c6
+00003600            member(3) d3a2a0f21489fd469d9af4b78ab16db7
+00003604            member(4) 21361ed421c1934095e68d147c9096ad
+00003608            member(5) 853b25eee57d0d4f9df8660863081cdb
+0000360c            member(6) c1ca1f5d581445478af8e2fe0d8af90d
+00003610            member(7) ab23603db2cc574987f8eae86b8084b7
+00003388        ScoringHandlers::array
+00003618            member(0) a89f32e75d2a5d4e9f44c4f63d2fc10a
+0000361c            member(1) 260ee6da67134148b17e6482aba1e2eb
+00003620            member(2) 23e693054d07e145b15aa580583cf058
+0000338c        Buckets::array
+00003628            member(0) b3d7f2f9143676409932317d21645262
+000033a0    ScoringTypeData 0f582aa88409104ba849ed14272e9fa8
+00003398        $::DataContainer
+000033a0        Measuring StatEvent_Kill
+000033a4        ParamX *nullGuid*
+000033a8        ParamY *nullGuid*
+000033ac        Limit 0.0
+000033b0        DescriptionSid ID_SCORE_ENEMY_DOWN
+000033b4        VisibilityType ScoringVisibilityType_Minor
+000033b8        Bucket ScoringBucket_SinglePlayer
+000033bc        Score 100.0
+000033c0        AdditionalValueMultiplier 0.0
+000033c4        ShowForTeam False
+000033d8    ScoringTypeData 18a419f210f7c447a1a73f01ad8f45c6
+000033d0        $::DataContainer
+000033d8        Measuring StatEvent_Destroy_X
+000033dc        ParamX *nullGuid*
+000033e0        ParamY *nullGuid*
+000033e4        Limit 0.0
+000033e8        DescriptionSid ID_SCORE_VEHICLE_DESTROY
+000033ec        VisibilityType ScoringVisibilityType_Minor
+000033f0        Bucket ScoringBucket_SinglePlayer
+000033f4        Score 100.0
+000033f8        AdditionalValueMultiplier 0.0
+000033fc        ShowForTeam False
+00003410    ScoringTypeData 21361ed421c1934095e68d147c9096ad
+00003408        $::DataContainer
+00003410        Measuring StatEvent_DogTag
+00003414        ParamX *nullGuid*
+00003418        ParamY *nullGuid*
+0000341c        Limit 0.0
+00003420        DescriptionSid ID_MELEE_BONUS
+00003424        VisibilityType ScoringVisibilityType_Minor
+00003428        Bucket ScoringBucket_SinglePlayer
+0000342c        Score 25.0
+00003430        AdditionalValueMultiplier 0.0
+00003434        ShowForTeam False
+00003448    NotifyClientScoringHandlerData 23e693054d07e145b15aa580583cf058
+00003440        $::ScoringHandlerData
+00003440            $::DataContainer
+00003458    OnLevelScoringHandlerData 260ee6da67134148b17e6482aba1e2eb
+00003450        $::ScoringHandlerData
+00003450            $::DataContainer
+00003468    ScoringTypeData 2df30e02f49d754e8ff4136b0f778fbe
+00003460        $::DataContainer
+00003468        Measuring StatEvent_Headshot_X_With_Y
+0000346c        ParamX *nullGuid*
+00003470        ParamY *nullGuid*
+00003474        Limit 0.0
+00003478        DescriptionSid ID_SCORE_HEADSHOT
+0000347c        VisibilityType ScoringVisibilityType_Minor
+00003480        Bucket ScoringBucket_SinglePlayer
+00003484        Score 25.0
+00003488        AdditionalValueMultiplier 0.0
+0000348c        ShowForTeam False
+000034a0    ScoringTypeData 853b25eee57d0d4f9df8660863081cdb
+00003498        $::DataContainer
+000034a0        Measuring StatEvent_TimedKillStreak
+000034a4        ParamX *nullGuid*
+000034a8        ParamY *nullGuid*
+000034ac        Limit 0.0
+000034b0        DescriptionSid ID_SCORE_KILLSTREAK
+000034b4        VisibilityType ScoringVisibilityType_Minor
+000034b8        Bucket ScoringBucket_SinglePlayer
+000034bc        Score 50.0
+000034c0        AdditionalValueMultiplier 0.0
+000034c4        ShowForTeam False
+000034d8    DamageScoringHandlerData a89f32e75d2a5d4e9f44c4f63d2fc10a
+000034d0        $::ScoringHandlerData
+000034d0            $::DataContainer
+000034d8        RepairVehicleLimit 0.10000000149
+000034dc        DamageTeamVehicleLimit 0.5
+000034e0        TeamHealingLimit 0.20000000298
+000034e4        TeamDamageLimit 0.5
+000034e8        KillAssistLimit 0.10000000149
+000034ec        KillAssistAsKillLimit 0.75
+000034f0        KillAssistTimeout 10.0
+000034f4        VehicleDestroyAssistLimit 0.10000000149
+000034f8        SaviorKillTimeout 3.0
+000034fc        SaviorDamageLimit 0.5
+00003500        DamageDoneTimeout 10.0
+00003504        DamageDoneMaxValue 1000.0
+00003508        HotVehicleTimeout 10.0
+0000351c    ScoringTypeData ab23603db2cc574987f8eae86b8084b7
+00003514        $::DataContainer
+0000351c        Measuring StatEvent_AISquadKill
+00003520        ParamX *nullGuid*
+00003524        ParamY *nullGuid*
+00003528        Limit 0.0
+0000352c        DescriptionSid ID_SCORE_SQUAD_ENEMY_DOWN
+00003530        VisibilityType ScoringVisibilityType_Minor
+00003534        Bucket ScoringBucket_SinglePlayer
+00003538        Score 50.0
+0000353c        AdditionalValueMultiplier 0.0
+00003540        ShowForTeam False
+00003554    ScoringBucketData b3d7f2f9143676409932317d21645262
+0000354c        $::DataContainer
+00003554        DestinationBucket ScoringBucket_SinglePlayer
+00003558        BucketType ScoringBucketType_Normal
+0000355c        Name sc_sp
+00003560        RawName *nullString*
+00003564        Unlocks *nullArray*
+00003568        ConnectedCategories *nullArray*
+0000356c        RankBucket *nullGuid*
+00003570        RoundScore True
+00003571        GlobalScore True
+00003572        AddToEntry False
+00003584    ScoringTypeData c1ca1f5d581445478af8e2fe0d8af90d
+0000357c        $::DataContainer
+00003584        Measuring StatEvent_AdrenalineKill
+00003588        ParamX *nullGuid*
+0000358c        ParamY *nullGuid*
+00003590        Limit 0.0
+00003594        DescriptionSid ID_SCORE_ADRENALINE_KILL
+00003598        VisibilityType ScoringVisibilityType_Minor
+0000359c        Bucket ScoringBucket_SinglePlayer
+000035a0        Score 50.0
+000035a4        AdditionalValueMultiplier 0.0
+000035a8        ShowForTeam False
+000035bc    ScoringTypeData d3a2a0f21489fd469d9af4b78ab16db7
+000035b4        $::DataContainer
+000035bc        Measuring StatEvent_MultiKill
+000035c0        ParamX *nullGuid*
+000035c4        ParamY *nullGuid*
+000035c8        Limit 0.0
+000035cc        DescriptionSid ID_SCORE_MULTIPLE_KILLS
+000035d0        VisibilityType ScoringVisibilityType_Minor
+000035d4        Bucket ScoringBucket_SinglePlayer
+000035d8        Score 0.0
+000035dc        AdditionalValueMultiplier 100.0
+000035e0        ShowForTeam False

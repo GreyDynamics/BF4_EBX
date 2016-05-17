@@ -1,0 +1,147 @@
+00001680    SpatialPrefabBlueprint 4d45758f3ce11649bfbbae859963d79d
+00001678        $::PrefabBlueprint
+00001678            $::Blueprint
+00001678                $::EntityBusData
+00001678                    $::DataBusData
+00001678                        $::Asset
+00001678                            $::DataContainer
+00001680                            Name Gameplay/Pickups/SP_Pickups/SP_Pickup_C4
+00001684                        PropertyConnections::array
+000017c4                            member(0)::PropertyConnection
+000017c4                                Source 00000001
+000017c8                                Target ae44db6fcb927a479a5abdb8f39d27c5
+000017cc                                SourceFieldId 2662400
+000017d0                                TargetFieldId -1355906264
+000017d4                                ShouldNetworkValue False
+000017d8                            member(1)::PropertyConnection
+000017d8                                Source 00000000
+000017dc                                Target ae44db6fcb927a479a5abdb8f39d27c5
+000017e0                                SourceFieldId 225375086
+000017e4                                TargetFieldId 2662400
+000017e8                                ShouldNetworkValue False
+00001688                        LinkConnections *nullArray*
+0000168c                        Interface 00000001
+00001690                        Flags 3
+00001694                    EventConnections::array
+000017f0                        member(0)::EventConnection
+000017f0                            Source ae44db6fcb927a479a5abdb8f39d27c5
+000017f4                            Target 00000001
+000017f8                            SourceEvent::EventSpec
+000017f8                                Id -1836726032
+000017fc                            TargetEvent::EventSpec
+000017fc                                Id -1836726032
+00001800                            TargetType EventConnectionTargetType_Server
+00001804                        member(1)::EventConnection
+00001804                            Source 00000001
+00001808                            Target 00000000
+0000180c                            SourceEvent::EventSpec
+0000180c                                Id -326382662
+00001810                            TargetEvent::EventSpec
+00001810                                Id 668205626
+00001814                            TargetType EventConnectionTargetType_ClientAndServer
+00001698            Objects::array
+0000181c                member(0) ae44db6fcb927a479a5abdb8f39d27c5
+00001820                member(1) 00000000
+000016b0    WeaponUnlockPickupEntityData ae44db6fcb927a479a5abdb8f39d27c5
+000016b0        $::PickupEntityData
+000016b0            $::GamePhysicsEntityData
+000016b0                $::GameComponentEntityData
+000016b0                    $::ComponentEntityData
+000016b0                        $::SpatialEntityData
+000016b0                            $::EntityData
+000016b0                                $::GameObjectData
+000016b0                                    $::DataBusPeer
+000016b0                                        $::GameDataContainer
+000016b0                                            $::DataContainer
+000016b8                                        Flags 433800366
+000016c0                            Transform::LinearTransform
+000016c0                                right::Vec3
+000016c0                                    x 4.17232428163e-07
+000016c4                                    y 2.98023170586e-08
+000016c8                                    z 0.999999701977
+000016d0                                up::Vec3
+000016d0                                    x -0.999999642372
+000016d4                                    y 2.98023167034e-07
+000016d8                                    z 3.27825461e-07
+000016e0                                forward::Vec3
+000016e0                                    x -2.08616214081e-07
+000016e4                                    y -0.999999701977
+000016e8                                    z 1.19209268234e-07
+000016f0                                trans::Vec3
+000016f0                                    x 0.0
+000016f4                                    y 0.0279883779585
+000016f8                                    z 0.0
+00001700                        Components *nullArray*
+00001704                        ClientRuntimeComponentCount 0
+00001705                        ServerRuntimeComponentCount 0
+00001706                        ClientRuntimeTransformationCount 0
+00001707                        ServerRuntimeTransformationCount 0
+00001710                    Enabled True
+00001720                PhysicsData *nullGuid*
+00001730            PhysicsBlueprint *nullGuid*
+00001734            Mesh *nullGuid*
+00001738            TimeToShowWeaponMesh 0.0
+0000173c            PreferredWeaponSlot 0
+00001740            TimeToLive 0.0
+00001744            IconName pickups.gadget
+00001748            MinRandomSpareAmmoPercent 100
+0000174c            MaxRandomSpareAmmoPercent 100
+00001750            MinRandomClipAmmoPercent 100
+00001754            MaxRandomClipAmmoPercent 100
+00001758            RandomizeAmmoOnDropForPlayer PickupPlayerEnum_HumanOnly
+0000175c            InteractionRadius 2.5
+00001760            DisplayWithinRadius 5.0
+00001764            TacticalRadius 100.0
+00001768            UseWeaponMesh True
+00001769            UnspawnOnPickup False
+0000176a            UnspawnOnAmmoPickup False
+0000176b            ContentIsStatic False
+0000176c            PositionIsStatic True
+0000176d            AllowPickup True
+0000176e            IgnoreNullWeaponSlots False
+0000176f            ForceWeaponSlotSelection False
+00001770            DisplayInMiniMap True
+00001771            HasAutomaticAmmoPickup True
+00001772            ReplaceAllContent False
+00001773            RemoveWeaponOnDrop False
+00001774            UseDisplayWithinRadius True
+00001775            KeepAmmoState True
+00001780        Weapons::array
+00001828            member(0)::WeaponUnlockPickupData
+00001828                UnlockWeaponAndSlot::UnlockWeaponAndSlot
+00001828                    Weapon Gameplay/Gadgets/C4/U_SP_C4/ca7a74a44ea350469230747b174c498b
+0000182c                    Slot WeaponSlot_2
+00001830                    CustomizationUnlockAssets *nullArray*
+00001834                    UnlockAssets *nullArray*
+00001838                AltWeaponSlot 5
+0000183c                LinkedToWeaponSlot -1
+00001840                MinAmmo 0
+00001844                MaxAmmo 0
+00001848                UnlimitedAmmoPickup False
+00001784        UseForPersistence True
+00001790    BoolEntityData 00000000
+00001788        $::EntityData
+00001788            $::GameObjectData
+00001788                $::DataBusPeer
+00001788                    $::GameDataContainer
+00001788                        $::DataContainer
+00001790                    Flags 118872624
+00001794        Realm Realm_ClientAndServer
+00001798        DefaultValue True
+0000179c    InterfaceDescriptorData 00000001
+00001794        $::DynamicDataContainer
+00001794            $::DataContainer
+0000179c            Fields::array
+00001850                member(0)::DataField
+00001850                    Value Boolean True
+00001854                    ValueRef *nullGuid*
+00001858                    Id 2662400
+0000185c                    AccessType FieldAccessType_Target
+000017a0        InputEvents::array
+00001864            member(0)::DynamicEvent
+00001864                Id -326382662
+000017a4        OutputEvents::array
+0000186c            member(0)::DynamicEvent
+0000186c                Id -1836726032
+000017a8        InputLinks *nullArray*
+000017ac        OutputLinks *nullArray*

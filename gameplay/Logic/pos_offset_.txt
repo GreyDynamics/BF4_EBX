@@ -1,0 +1,153 @@
+00000f10    LogicPrefabBlueprint f4c93cc67cbd094da2356e6a8aa298cd
+00000f08        $::PrefabBlueprint
+00000f08            $::Blueprint
+00000f08                $::EntityBusData
+00000f08                    $::DataBusData
+00000f08                        $::Asset
+00000f08                            $::DataContainer
+00000f10                            Name Gameplay/Logic/pos
+00000f14                        PropertyConnections::array
+00000fb4                            member(0)::PropertyConnection
+00000fb4                                Source 00000003
+00000fb8                                Target 00000002
+00000fbc                                SourceFieldId -1001694132
+00000fc0                                TargetFieldId 193450867
+00000fc4                                ShouldNetworkValue False
+00000fc8                            member(1)::PropertyConnection
+00000fc8                                Source 00000004
+00000fcc                                Target 00000002
+00000fd0                                SourceFieldId -1001694132
+00000fd4                                TargetFieldId 193450864
+00000fd8                                ShouldNetworkValue False
+00000fdc                            member(2)::PropertyConnection
+00000fdc                                Source 00000002
+00000fe0                                Target 00000000
+00000fe4                                SourceFieldId 193453899
+00000fe8                                TargetFieldId 2088812747
+00000fec                                ShouldNetworkValue False
+00000ff0                            member(3)::PropertyConnection
+00000ff0                                Source 00000002
+00000ff4                                Target 00000001
+00000ff8                                SourceFieldId 193453899
+00000ffc                                TargetFieldId 1070603269
+00001000                                ShouldNetworkValue False
+00001004                            member(4)::PropertyConnection
+00001004                                Source 00000005
+00001008                                Target 00000002
+0000100c                                SourceFieldId -1001694132
+00001010                                TargetFieldId 193450865
+00001014                                ShouldNetworkValue False
+00000f18                        LinkConnections *nullArray*
+00000f1c                        Interface 00000001
+00000f20                        Flags 2
+00000f24                    EventConnections::array
+0000101c                        member(0)::EventConnection
+0000101c                            Source 00000001
+00001020                            Target 00000001
+00001024                            SourceEvent::EventSpec
+00001024                                Id 1930560477
+00001028                            TargetEvent::EventSpec
+00001028                                Id 1100563380
+0000102c                            TargetType EventConnectionTargetType_Server
+00000f28            Objects::array
+00001034                member(0) 00000000
+00001038                member(1) 00000003
+0000103c                member(2) 00000004
+00001040                member(3) 00000002
+00001044                member(4) 00000005
+00000f2c    CompareBoolEntityData 00000000
+00000f24        $::EntityData
+00000f24            $::GameObjectData
+00000f24                $::DataBusPeer
+00000f24                    $::GameDataContainer
+00000f24                        $::DataContainer
+00000f2c                    Flags 278617923
+00000f30        Realm Realm_Server
+00000f34        Bool False
+00000f35        TriggerOnPropertyChange False
+00000f36        TriggerOnStart False
+00000f37        AlwaysSend False
+00000f38    InterfaceDescriptorData 00000001
+00000f30        $::DynamicDataContainer
+00000f30            $::DataContainer
+00000f38            Fields::array
+0000104c                member(0)::DataField
+0000104c                    Value *nullString*
+00001050                    ValueRef *nullGuid*
+00001054                    Id 1070603269
+00001058                    AccessType FieldAccessType_Source
+00000f3c        InputEvents::array
+00001060            member(0)::DynamicEvent
+00001060                Id 1930560477
+00000f40        OutputEvents::array
+00001068            member(0)::DynamicEvent
+00001068                Id 1100563380
+00000f44        InputLinks *nullArray*
+00000f48        OutputLinks *nullArray*
+00000f4c    OrEntityData 00000002
+00000f44        $::EntityData
+00000f44            $::GameObjectData
+00000f44                $::DataBusPeer
+00000f44                    $::GameDataContainer
+00000f44                        $::DataContainer
+00000f4c                    Flags 276398326
+00000f50        Realm Realm_Server
+00000f54        InputCount 3
+00000f58    UnlockEntityData 00000003
+00000f50        $::EntityData
+00000f50            $::GameObjectData
+00000f50                $::DataBusPeer
+00000f50                    $::GameDataContainer
+00000f50                        $::DataContainer
+00000f58                    Flags 22025425
+00000f5c        Realm Realm_Server
+00000f60        UnlockGuids::array
+00001070            member(0) 4856F56209E8CD40B6BD9046D36B6C0A
+00001080            member(1) FCF96B76D547F445B3888DBE6FA70084
+00001090            member(2) E7AB054AEA392C49BE45E3A61579D316
+00000f64        Logic UnlockEntityLogic_OR
+00000f68        ContextPlayerQueryType UnlockEntityPlayerQueryType_EquippedDogtagUnlocks
+00000f6c        ServerUsePrevIfNoCurrChar False
+00000f6d        InvertTest False
+00000f6e        ContextPlayer True
+00000f70    UnlockEntityData 00000004
+00000f68        $::EntityData
+00000f68            $::GameObjectData
+00000f68                $::DataBusPeer
+00000f68                    $::GameDataContainer
+00000f68                        $::DataContainer
+00000f70                    Flags 22483693
+00000f74        Realm Realm_Server
+00000f78        UnlockGuids::array
+000010a4            member(0) D0B55AD28292AC449175566AD1E47A3E
+00000f7c        Logic UnlockEntityLogic_OR
+00000f80        ContextPlayerQueryType UnlockEntityPlayerQueryType_AllWeaponUnlocks
+00000f84        ServerUsePrevIfNoCurrChar True
+00000f85        InvertTest False
+00000f86        ContextPlayer True
+00000f88    UnlockEntityData 00000005
+00000f80        $::EntityData
+00000f80            $::GameObjectData
+00000f80                $::DataBusPeer
+00000f80                    $::GameDataContainer
+00000f80                        $::DataContainer
+00000f88                    Flags 13698043
+00000f8c        Realm Realm_Server
+00000f90        UnlockGuids::array
+000010b8            member(0) DCEA7712D0607344A2E721402DE68F91
+000010c8            member(1) 2E306DC7D3588B4E903323289924C111
+000010d8            member(2) E0C2036FDE53C8468BD85CC158CA8487
+000010e8            member(3) 62AC92B772EB4D4B8C535991DA76E578
+000010f8            member(4) EE16B8A3F4F11C4382CC2ADCB3AC95D5
+00001108            member(5) 842146936AF6F44688B1FA7E76099DC7
+00001118            member(6) 7CDB2279C250EE40BA135E69385BCEF6
+00001128            member(7) 237508EF7EDBAA4AB108BF52E2611186
+00001138            member(8) B432EEF1E637CE48964263D0447CA08D
+00001148            member(9) 06525FA8854FAA4D88D1BA012292D354
+00001158            member(10) 955A1AB325B8DB43B397C846D0E71D76
+00001168            member(11) A22933E7B5022944861C4CB2EE42050B
+00000f94        Logic UnlockEntityLogic_OR
+00000f98        ContextPlayerQueryType UnlockEntityPlayerQueryType_VisualUnlocks
+00000f9c        ServerUsePrevIfNoCurrChar False
+00000f9d        InvertTest False
+00000f9e        ContextPlayer True

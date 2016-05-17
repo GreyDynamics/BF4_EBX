@@ -1,0 +1,159 @@
+000019b0    ScalableEmitterDocument 0ff4d8428b04c748ab75cd3e0e0189fb
+000019a8        $::EmitterDocument
+000019a8            $::EmitterAsset
+000019a8                $::Asset
+000019a8                    $::DataContainer
+000019b0                    Name *nullString*
+000019b4        TemplateDataLow 00000002
+000019b8        TemplateDataMedium 00000002
+000019bc        TemplateDataHigh 00000002
+000019c0        TemplateDataUltra 00000002
+000019d0    DefaultEvaluatorData 00000000
+000019d0        $::EvaluatorData
+000019d0            $::DataContainer
+000019d8            Parameter *nullGuid*
+000019e0        Values::Vec4
+000019e0            x 1.0
+000019e4            y 1.0
+000019e8            z 1.0
+000019ec            w 1.0
+000019f0    DefaultEvaluatorData 00000001
+000019f0        $::EvaluatorData
+000019f0            $::DataContainer
+000019f8            Parameter *nullGuid*
+00001a00        Values::Vec4
+00001a00            x 1.0
+00001a04            y 1.0
+00001a08            z 1.0
+00001a0c            w 1.0
+00001a10    EmitterTemplateData 00000002
+00001a10        $::DataContainer
+00001a18        RootProcessor 00000007
+00001a1c        MaxCount 1
+00001a20        WorldAlignmentDirection::Vec3
+00001a20            x 1.0
+00001a24            y 0.0
+00001a28            z 0.0
+00001a30        Lifetime 1.5
+00001a34        TimeScale 1.0
+00001a38        LifetimeFrameCount 0
+00001a3c        EmittableType EmittableType_Quad
+00001a40        EmittableAlignment EmittableAlignment_MotionStretch
+00001a44        MotionStretchMultiplier 900.0
+00001a48        MotionStretchLengthClamp 900.0
+00001a4c        Mesh *nullGuid*
+00001a50        VertexPixelLightingBlendFactor 0.0
+00001a54        GlobalLocalNormalBlendFactor 1.0
+00001a58        SoftParticlesFadeDistanceMultiplier 0.0
+00001a5c        LightWrapAroundFactor 0.5
+00001a60        BentNormalFactor 1.0
+00001a64        LightMultiplier 1.0
+00001a68        BendingFactor 0.0
+00001a6c        CameraBias 0.0
+00001a70        Shader::SurfaceShaderInstanceDataStruct
+00001a70            Shader *nullGuid*
+00001a74            BoolParameters *nullArray*
+00001a78            VectorParameters *nullArray*
+00001a7c            VectorArrayParameters *nullArray*
+00001a80            TextureParameters *nullArray*
+00001a84        EmitterDrawOrder EmitterDrawOrder_Default
+00001a88        ParticleCullingFactor 0.800000011921
+00001a8c        MinSpawnDistance 0.0
+00001a90        MaxSpawnDistance 0.0
+00001a94        MinScreenArea 9.99999974738e-05
+00001a98        MeshCullingDistance 0.0
+00001a9c        DistanceScaleLength 200.0
+00001aa0        DistanceScaleNearValue 0.0500000007451
+00001aa4        DistanceScaleFarValue 200.0
+00001aa8        SpeedNormalizationValue 50.0
+00001aac        WindSpeedNormalizationValue 50.0
+00001ab0        PerParticleEffectParameters *nullArray*
+00001ab4        CullFadeNearDistance 35.0
+00001ab8        CullFadeNearRange 150.0
+00001abc        CullFadeFarDistance 0.0
+00001ac0        CullFadeFarRange 0.0
+00001ac4        RepeatParticleSpawning False
+00001ac5        FollowSpawnSource True
+00001ac6        KillParticlesWithEmitter True
+00001ac7        ExclusionVolumeCullEnable False
+00001ac8        Emissive True
+00001ac9        Opaque False
+00001aca        ForceNiceSorting False
+00001acb        LocalSpace True
+00001acc        CameraSpace False
+00001acd        TransparencySunShadowEnable False
+00001ace        CastPlanarReflectionEnable False
+00001acf        ForceFullRes True
+00001ad0        FogFade True
+00001ad1        AcceptGlobalParameter1 False
+00001ad2        AcceptGlobalParameter2 False
+00001ad3        AcceptGlobalParameter3 False
+00001ad4        UseOfCustomParamRandomSpawnValuesEnabled False
+00001ad5        EmitterWindEvaluationEnable False
+00001ad6        EmittableWindEvaluationEnable False
+00001ad7        GroupEmittersWithSameBaseTextureOnly False
+00001ae0    UpdateColorData 00000003
+00001ae0        $::ProcessorData
+00001ae0            $::DataContainer
+00001ae8            Pre *nullGuid*
+00001aec            NextProcessor 00000006
+00001af0            EvaluatorInput EfNormTime
+00001b00        Color::Vec3
+00001b00            x 100.0
+00001b04            y 72.8720016479
+00001b08            z 39.408000946
+00001b10    RandomEvaluatorData 00000004
+00001b08        $::EvaluatorData
+00001b08            $::DataContainer
+00001b10            Parameter *nullGuid*
+00001b14        Max 1.0
+00001b18        Min 0.300000011921
+00001b1c    SpawnRateData 00000005
+00001b14        $::ProcessorData
+00001b14            $::DataContainer
+00001b1c            Pre *nullGuid*
+00001b20            NextProcessor 0000000a
+00001b24            EvaluatorInput EfOne
+00001b28        SpawnRate 60.0
+00001b2c        DistributeOverTime True
+00001b2d        DistributeOverDistance False
+00001b30    SpawnSizeData 00000006
+00001b28        $::ProcessorData
+00001b28            $::DataContainer
+00001b30            Pre 00000004
+00001b34            NextProcessor 00000008
+00001b38            EvaluatorInput EfOne
+00001b3c        Size 1.0
+00001b40    UpdateAgeData 00000007
+00001b38        $::ProcessorData
+00001b38            $::DataContainer
+00001b40            Pre *nullGuid*
+00001b44            NextProcessor 00000005
+00001b48            EvaluatorInput EfOne
+00001b4c        Lifetime 1.5
+00001b50        RandomLifetimeScale 0.0
+00001b54        MaxFactor 1.0
+00001b58    UpdateSizeData 00000008
+00001b50        $::ProcessorData
+00001b50            $::DataContainer
+00001b58            Pre 00000001
+00001b5c            NextProcessor *nullGuid*
+00001b60            EvaluatorInput EfNormTime
+00001b64        Pivot::Vec2
+00001b64            x 0.0
+00001b68            y 0.0
+00001b6c    UpdateTextureCoordsData 00000009
+00001b64        $::ProcessorData
+00001b64            $::DataContainer
+00001b6c            Pre *nullGuid*
+00001b70            NextProcessor 00000003
+00001b74            EvaluatorInput EfNormTime
+00001b78        BaseTexture FX/Textures/Sparks/Sparks_Round_01/aaf46c80d65f42499433729d973260cd
+00001b7c        NormalTexture Systems/Emitter/DefaultNormalTexture/479eddffb0309e4c95392f6240c340cc
+00001b80    UpdateTransparencyData 0000000a
+00001b78        $::ProcessorData
+00001b78            $::DataContainer
+00001b80            Pre 00000000
+00001b84            NextProcessor 00000009
+00001b88            EvaluatorInput EfNormTime
+00001b8c        CullThreshold 0.20000000298

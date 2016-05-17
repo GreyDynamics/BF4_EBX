@@ -1,0 +1,221 @@
+00001810    UIScreenAsset 97c51800da00a34a1036ab4aac8ab135
+00001808        $::UIViewBaseAsset
+00001808            $::UIGraphAsset
+00001808                $::Asset
+00001808                    $::DataContainer
+00001810                    Name UI/Flow/Screen/Frontend/JoiningServerWaitingForDataScreen
+00001814                Nodes::array
+00001a44                    member(0) e0c07aa4b900854cb73a8e1bfa78061a
+00001a48                    member(1) 2e3ba146c5fe9948b65cd330da8f797d
+00001a4c                    member(2) b86051dd280d274493895fd46c459ce9
+00001a50                    member(3) e0baf2f8452f0c498453f6f63fabe75f
+00001a54                    member(4) 0ee693a6bfe7934a9bd00e6563585d25
+00001818                GlobalNode *nullGuid*
+0000181c                Connections::array
+00001a5c                    member(0) 00000004
+00001a60                    member(1) 00000003
+00001820                AudioEventMappings UI/Flow/Graph/AudioMapping/FlashScreenAudioMapping/e9a16c48bc2ec84b820957b2691a28d2
+00001824                BundleAssetName *nullString*
+00001828                EventList *nullArray*
+0000182c                ProtectScreens False
+0000182d                Modal True
+0000182e                IsWin32UIGraphAsset True
+0000182f                IsXenonUIGraphAsset True
+00001830                IsPs3UIGraphAsset True
+00001831                IsGen4aUIGraphAsset True
+00001832                IsGen4bUIGraphAsset True
+00001834        UIAsset UI/Assets/JoiningServerWaitingForDataScreen/abe53984423fb58a87fde37032f26713
+00001838        SwfPath UI/Assets/JoiningServerWaitingForDataScreen
+0000183c        Purpose UIScreenPurpose_Standard
+00001850    InstanceOutputNode 0ee693a6bfe7934a9bd00e6563585d25
+00001848        $::UINodeData
+00001848            $::DataContainer
+00001850            Name Done
+00001854            ParentGraph 97c51800da00a34a1036ab4aac8ab135
+00001858            IsRootNode False
+00001859            ParentIsScreen True
+0000185c        In 0000000b
+00001860        Id 2088749093
+00001864        DestroyGraph True
+00001878    WidgetNode 2e3ba146c5fe9948b65cd330da8f797d
+00001870        $::UINodeData
+00001870            $::DataContainer
+00001878            Name LoadingSpinner
+0000187c            ParentGraph 97c51800da00a34a1036ab4aac8ab135
+00001880            IsRootNode False
+00001881            ParentIsScreen True
+00001884        WidgetAsset UI/Assets/LoadingSpinner/0648945aa2a1bd13fdd010c6d7af6d2e
+00001888        FocusIndex 0
+0000188c        VerticalAlign WVA_Center
+00001890        HorisontalAlign WHA_Center
+00001894        ZDepthLevel 0
+00001898        DataBinding 00000000
+0000189c        InstanceName LoadingSpinner_00
+000018a0        WidgetProperties::array
+00001a68            member(0)::UIWidgetProperty
+00001a68                Name startAsVisible
+00001a6c                Value true
+000018a4        Outputs *nullArray*
+000018a8        Inputs *nullArray*
+000018ac        AlwaysInFocus False
+000018ad        IsDisabled False
+000018c0    WidgetNode b86051dd280d274493895fd46c459ce9
+000018b8        $::UINodeData
+000018b8            $::DataContainer
+000018c0            Name WaitingDetailedServerInfo
+000018c4            ParentGraph 97c51800da00a34a1036ab4aac8ab135
+000018c8            IsRootNode False
+000018c9            ParentIsScreen True
+000018cc        WidgetAsset UI/Assets/ChangeListener/c2ebd27dd24701eba1fd557ccf7a7309
+000018d0        FocusIndex 0
+000018d4        VerticalAlign WVA_Center
+000018d8        HorisontalAlign WHA_Center
+000018dc        ZDepthLevel 0
+000018e0        DataBinding 00000001
+000018e4        InstanceName ChangeListener_00
+000018e8        WidgetProperties *nullArray*
+000018ec        Outputs::array
+00001a74            member(0) 00000009
+000018f0        Inputs *nullArray*
+000018f4        AlwaysInFocus False
+000018f5        IsDisabled False
+00001908    BinaryLogicNode e0baf2f8452f0c498453f6f63fabe75f
+00001900        $::UINodeData
+00001900            $::DataContainer
+00001908            Name WaitingForData
+0000190c            ParentGraph 97c51800da00a34a1036ab4aac8ab135
+00001910            IsRootNode False
+00001911            ParentIsScreen True
+00001914        In 00000006
+00001918        True 00000007
+0000191c        False 00000008
+00001920        DataSourceInfo::UISimpleDataSource
+00001920            DataCategory *nullGuid*
+00001924            DataKey 0
+00001938    WidgetNode e0c07aa4b900854cb73a8e1bfa78061a
+00001930        $::UINodeData
+00001930            $::DataContainer
+00001938            Name Dimmer
+0000193c            ParentGraph 97c51800da00a34a1036ab4aac8ab135
+00001940            IsRootNode False
+00001941            ParentIsScreen True
+00001944        WidgetAsset UI/Assets/Dimmer/5cbbd928b6246077e7268be53524ba15
+00001948        FocusIndex 0
+0000194c        VerticalAlign WVA_Center
+00001950        HorisontalAlign WHA_Center
+00001954        ZDepthLevel 0
+00001958        DataBinding 00000002
+0000195c        InstanceName Dimmer_00
+00001960        WidgetProperties::array
+00001a7c            member(0)::UIWidgetProperty
+00001a7c                Name DimFromStart
+00001a80                Value true
+00001a84            member(1)::UIWidgetProperty
+00001a84                Name InstantDim
+00001a88                Value true
+00001964        Outputs *nullArray*
+00001968        Inputs::array
+00001a90            member(0) 0000000a
+00001a94            member(1) 00000005
+0000196c        AlwaysInFocus False
+0000196d        IsDisabled False
+00001970    UIDynamicDataBinding 00000000
+00001968        $::UIDataBinding
+00001968            $::DataContainer
+00001970        Bindings::array
+00001a9c            member(0)::UIDataSourceInfo
+00001a9c                DataName Visibility
+00001aa0                DataCategory *nullGuid*
+00001aa4                DataKey 0
+00001aa8                UseDirectAccess False
+00001aa9                UpdateOnInitialize False
+00001974        Refresh True
+00001978    UIDynamicDataBinding 00000001
+00001970        $::UIDataBinding
+00001970            $::DataContainer
+00001978        Bindings::array
+00001ab0            member(0)::UIDataSourceInfo
+00001ab0                DataName Key
+00001ab4                DataCategory UI/UIComponents/UIServerListComp/dfb8f93efdbb3294f3703c843354402d
+00001ab8                DataKey 1963457139
+00001abc                UseDirectAccess False
+00001abd                UpdateOnInitialize True
+0000197c        Refresh True
+00001980    UIDynamicDataBinding 00000002
+00001978        $::UIDataBinding
+00001978            $::DataContainer
+00001980        Bindings::array
+00001ac4            member(0)::UIDataSourceInfo
+00001ac4                DataName Visible
+00001ac8                DataCategory *nullGuid*
+00001acc                DataKey 0
+00001ad0                UseDirectAccess False
+00001ad1                UpdateOnInitialize False
+00001984        Refresh True
+00001988    UINodeConnection 00000003
+00001980        $::DataContainer
+00001988        SourceNode e0baf2f8452f0c498453f6f63fabe75f
+0000198c        TargetNode 0ee693a6bfe7934a9bd00e6563585d25
+00001990        SourcePort 00000008
+00001994        TargetPort 0000000b
+00001998        SourcePortName *nullString*
+0000199c        TargetPortName *nullString*
+000019a0        NumScreensToPop 0
+000019a4    UINodeConnection 00000004
+0000199c        $::DataContainer
+000019a4        SourceNode b86051dd280d274493895fd46c459ce9
+000019a8        TargetNode e0baf2f8452f0c498453f6f63fabe75f
+000019ac        SourcePort 00000009
+000019b0        TargetPort 00000006
+000019b4        SourcePortName *nullString*
+000019b8        TargetPortName *nullString*
+000019bc        NumScreensToPop 0
+000019c0    UINodePort 00000005
+000019b8        $::DataContainer
+000019c0        Name FadeOut
+000019c4        InstanceName Dimmer_00
+000019c8        Query UIWidgetEventID_Hide
+000019cc        AllowManualRemove False
+000019cd        IsReferencePort False
+000019d0    UINodePort 00000006
+000019c8        $::DataContainer
+000019d0        Name *nullString*
+000019d4        InstanceName *nullString*
+000019d8        Query UIWidgetEventID_None
+000019dc        AllowManualRemove False
+000019dd        IsReferencePort False
+000019e0    UINodePort 00000007
+000019d8        $::DataContainer
+000019e0        Name True
+000019e4        InstanceName *nullString*
+000019e8        Query UIWidgetEventID_None
+000019ec        AllowManualRemove False
+000019ed        IsReferencePort False
+000019f0    UINodePort 00000008
+000019e8        $::DataContainer
+000019f0        Name False
+000019f4        InstanceName *nullString*
+000019f8        Query UIWidgetEventID_None
+000019fc        AllowManualRemove False
+000019fd        IsReferencePort False
+00001a00    UINodePort 00000009
+000019f8        $::DataContainer
+00001a00        Name KeyChanged
+00001a04        InstanceName ChangeListener_00
+00001a08        Query UIWidgetEventID_OnChanged
+00001a0c        AllowManualRemove False
+00001a0d        IsReferencePort False
+00001a10    UINodePort 0000000a
+00001a08        $::DataContainer
+00001a10        Name FadeIn
+00001a14        InstanceName Dimmer_00
+00001a18        Query UIWidgetEventID_Show
+00001a1c        AllowManualRemove False
+00001a1d        IsReferencePort False
+00001a20    UINodePort 0000000b
+00001a18        $::DataContainer
+00001a20        Name *nullString*
+00001a24        InstanceName *nullString*
+00001a28        Query UIWidgetEventID_None
+00001a2c        AllowManualRemove False
+00001a2d        IsReferencePort False

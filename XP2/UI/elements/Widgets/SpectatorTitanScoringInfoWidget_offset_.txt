@@ -1,0 +1,613 @@
+00001d40    UIWidgetBlueprint ea018662b8bc1745b1fe791999205931
+00001d38        $::ObjectBlueprint
+00001d38            $::Blueprint
+00001d38                $::EntityBusData
+00001d38                    $::DataBusData
+00001d38                        $::Asset
+00001d38                            $::DataContainer
+00001d40                            Name XP2/UI/elements/Widgets/SpectatorTitanScoringInfoWidget
+00001d44                        PropertyConnections *nullArray*
+00001d48                        LinkConnections *nullArray*
+00001d4c                        Interface *nullGuid*
+00001d50                        Flags 0
+00001d54                    EventConnections *nullArray*
+00001d58            Object 1139de38225ed74c86888fe6b9146a9e
+00001d6c    UITitanScoringInfoWidgetData 1139de38225ed74c86888fe6b9146a9e
+00001d64        $::BFUIWidgetEntityData
+00001d64            $::UIWidgetEntityData
+00001d64                $::EntityData
+00001d64                    $::GameObjectData
+00001d64                        $::DataBusPeer
+00001d64                            $::GameDataContainer
+00001d64                                $::DataContainer
+00001d6c                            Flags 182335761
+00001d70                Size::UIElementSize
+00001d70                    X 178.0
+00001d74                    Y 52.0
+00001d78                Layers::array
+000024d4                    member(0) 00000008
+00001d7c                TextureMappings::array
+000024dc                    member(0) XP2/UI/CppScreens/textures/TitanTextures/3236bad8a509e24e8b6fe6df176a739a
+000024e0                    member(1) UI/CppScreens/textures/VehicleSeatTextures/79d213ae61890aa7a968c3e5d5734c96
+00001d80                Components *nullArray*
+00001d84                VisibilityDataSource::UICompareDataSource
+00001d84                    DataCategory *nullGuid*
+00001d88                    DataKey 0
+00001d8c                    SchematicsProperty *nullString*
+00001d90                    CompareValue *nullString*
+00001d94                InputEvents *nullArray*
+00001d98                Visible True
+00001d9c        States::array
+000024e8            member(0)::TitanScoringInfoState
+000024e8                ShipBarOutlineTexture boatempty
+000024ec                ShipBarFillTexture boatfill
+000024f0                PulseInterval 0.0
+000024f4            member(1)::TitanScoringInfoState
+000024f4                ShipBarOutlineTexture boatempty
+000024f8                ShipBarFillTexture boatfill
+000024fc                PulseInterval 0.25
+00002500            member(2)::TitanScoringInfoState
+00002500                ShipBarOutlineTexture boat.broken
+00002504                ShipBarFillTexture boatfill.broken
+00002508                PulseInterval 0.25
+00001da0        Team1CarrierHealthPercentProperty Team1CarrierHealthPercent
+00001da4        Team1CarrierStateProperty Team1CarrierState
+00001da8        Team2CarrierHealthPercentProperty Team2CarrierHealthPercent
+00001dac        Team2CarrierStateProperty Team2CarrierState
+00001db0    BFUIElementColorizedTextFieldEntityData 00000000
+00001db0        $::UIElementTextFieldEntityData
+00001db0            $::UIElementEntityData
+00001db0                $::EntityData
+00001db0                    $::GameObjectData
+00001db0                        $::DataBusPeer
+00001db0                            $::GameDataContainer
+00001db0                                $::DataContainer
+00001db8                            Flags 0
+00001dbc                InstanceName FriendlyHealth
+00001dc0                UIElementTransform::UIElementTransform
+00001dc0                    Rotation::Vec3
+00001dc0                        x 0.0
+00001dc4                        y 0.0
+00001dc8                        z 0.0
+00001dd0                    RotationPivot::Vec3
+00001dd0                        x 0.5
+00001dd4                        y 0.5
+00001dd8                        z 0.0
+00001de0                    Z 0.0
+00001de4                    PropertyName *nullString*
+00001df0                Color::UIElementColor
+00001df0                    Rgb::Vec3
+00001df0                        x 1.0
+00001df4                        y 1.0
+00001df8                        z 1.0
+00001e00                    Alpha 1.0
+00001e04                    PropertyName *nullString*
+00001e10                PositionOffset::Vec3
+00001e10                    x 0.0
+00001e14                    y 0.0
+00001e18                    z 0.0
+00001e20                RotationOffset::Vec3
+00001e20                    x 0.0
+00001e24                    y 0.0
+00001e28                    z 0.0
+00001e30                InstanceNameHash 3471732958
+00001e34                Size::UIElementSize
+00001e34                    X 64.0
+00001e38                    Y 24.0
+00001e3c                LayoutMode UILayoutMode_PositionExpansion
+00001e40                Offset::UIElementOffset
+00001e40                    X 0.0
+00001e44                    Y 0.0
+00001e48                Anchor::UIElementAnchor
+00001e48                    X 0.0
+00001e4c                    Y 0.0
+00001e50                Position::UIElementOffset
+00001e50                    X -42.0
+00001e54                    Y -12.0
+00001e58                Expansion::UIElementRectExpansion
+00001e58                    X 0.0
+00001e5c                    Y 0.0
+00001e60                    Width 0.0
+00001e64                    Height 0.0
+00001e68                Visible True
+00001e70            Style UI/elements/ElementSettings/GenericStyleDefault/979e9c5ce6172942ead038239a2d80a5
+00001e74            Text::UIElementText
+00001e74                Sid *nullString*
+00001e78                Entries::array
+00002510                    member(0)::UIElementTextEntry
+00002510                        TextType UITextEntryType_PropertyFloat
+00002514                        Text Team1CarrierHealthPercent100
+00002518                        FloatFormat %.0f
+0000251c                        DataSource::UIDataSource
+0000251c                            DataCategory *nullGuid*
+00002520                            DataKey 0
+00002524                            SchematicsProperty *nullString*
+00002528                        UseLocalization False
+0000252c                    member(1)::UIElementTextEntry
+0000252c                        TextType UITextEntryType_Passthrough
+00002530                        Text %
+00002534                        FloatFormat *nullString*
+00002538                        DataSource::UIDataSource
+00002538                            DataCategory *nullGuid*
+0000253c                            DataKey 0
+00002540                            SchematicsProperty *nullString*
+00002544                        UseLocalization False
+00001e7c                VerticalAlignment UIElementAlignment_Center
+00001e80                HorizonalAlignment UIElementAlignment_Center
+00001e84                Multiline False
+00001e85                Wordwrap False
+00001e88            FontStyle UI/Elements/FontStyles/ScoringInfoTickets/6cbb9969aea22842ae9297b078c973d9
+00001e8c            TextOffset 0.0
+00001e90            AutoAdjustLeftPadding 5.0
+00001e94            AutoAdjustRightPadding 5.0
+00001e98            AutoScrollSettings *nullGuid*
+00001e9c            AutoAdjustWidth False
+00001e9d            UseAutoScroll False
+00001ea0        ColorizationData::BFUIColorizationData
+00001ea0            ColorizationMode BFUIColorizationMode_IconState
+00001ea4            IconState UIIconState_Team1
+00001ea8            SpectatorIconState UIIconState_Default
+00001eb0    BFUIElementColorizedTextFieldEntityData 00000001
+00001eb0        $::UIElementTextFieldEntityData
+00001eb0            $::UIElementEntityData
+00001eb0                $::EntityData
+00001eb0                    $::GameObjectData
+00001eb0                        $::DataBusPeer
+00001eb0                            $::GameDataContainer
+00001eb0                                $::DataContainer
+00001eb8                            Flags 0
+00001ebc                InstanceName EnemyHealth
+00001ec0                UIElementTransform::UIElementTransform
+00001ec0                    Rotation::Vec3
+00001ec0                        x 0.0
+00001ec4                        y 0.0
+00001ec8                        z 0.0
+00001ed0                    RotationPivot::Vec3
+00001ed0                        x 0.5
+00001ed4                        y 0.5
+00001ed8                        z 0.0
+00001ee0                    Z 0.0
+00001ee4                    PropertyName *nullString*
+00001ef0                Color::UIElementColor
+00001ef0                    Rgb::Vec3
+00001ef0                        x 1.0
+00001ef4                        y 1.0
+00001ef8                        z 1.0
+00001f00                    Alpha 1.0
+00001f04                    PropertyName *nullString*
+00001f10                PositionOffset::Vec3
+00001f10                    x 0.0
+00001f14                    y 0.0
+00001f18                    z 0.0
+00001f20                RotationOffset::Vec3
+00001f20                    x 0.0
+00001f24                    y 0.0
+00001f28                    z 0.0
+00001f30                InstanceNameHash 552941571
+00001f34                Size::UIElementSize
+00001f34                    X 64.0
+00001f38                    Y 24.0
+00001f3c                LayoutMode UILayoutMode_PositionExpansion
+00001f40                Offset::UIElementOffset
+00001f40                    X 0.0
+00001f44                    Y 0.0
+00001f48                Anchor::UIElementAnchor
+00001f48                    X 0.0
+00001f4c                    Y 0.0
+00001f50                Position::UIElementOffset
+00001f50                    X 150.0
+00001f54                    Y -12.0
+00001f58                Expansion::UIElementRectExpansion
+00001f58                    X 0.0
+00001f5c                    Y 0.0
+00001f60                    Width 0.0
+00001f64                    Height 0.0
+00001f68                Visible True
+00001f70            Style UI/elements/ElementSettings/GenericStyleDefault/979e9c5ce6172942ead038239a2d80a5
+00001f74            Text::UIElementText
+00001f74                Sid *nullString*
+00001f78                Entries::array
+0000254c                    member(0)::UIElementTextEntry
+0000254c                        TextType UITextEntryType_PropertyFloat
+00002550                        Text Team2CarrierHealthPercent100
+00002554                        FloatFormat %.0f
+00002558                        DataSource::UIDataSource
+00002558                            DataCategory *nullGuid*
+0000255c                            DataKey 0
+00002560                            SchematicsProperty *nullString*
+00002564                        UseLocalization False
+00002568                    member(1)::UIElementTextEntry
+00002568                        TextType UITextEntryType_Passthrough
+0000256c                        Text %
+00002570                        FloatFormat *nullString*
+00002574                        DataSource::UIDataSource
+00002574                            DataCategory *nullGuid*
+00002578                            DataKey 0
+0000257c                            SchematicsProperty *nullString*
+00002580                        UseLocalization False
+00001f7c                VerticalAlignment UIElementAlignment_Center
+00001f80                HorizonalAlignment UIElementAlignment_Center
+00001f84                Multiline False
+00001f85                Wordwrap False
+00001f88            FontStyle UI/Elements/FontStyles/ScoringInfoTickets/6cbb9969aea22842ae9297b078c973d9
+00001f8c            TextOffset 0.0
+00001f90            AutoAdjustLeftPadding 5.0
+00001f94            AutoAdjustRightPadding 5.0
+00001f98            AutoScrollSettings *nullGuid*
+00001f9c            AutoAdjustWidth False
+00001f9d            UseAutoScroll False
+00001fa0        ColorizationData::BFUIColorizationData
+00001fa0            ColorizationMode BFUIColorizationMode_IconState
+00001fa4            IconState UIIconState_Team2
+00001fa8            SpectatorIconState UIIconState_Default
+00001fb0    UIElementDummyEntityData 00000002
+00001fb0        $::UIElementEntityData
+00001fb0            $::EntityData
+00001fb0                $::GameObjectData
+00001fb0                    $::DataBusPeer
+00001fb0                        $::GameDataContainer
+00001fb0                            $::DataContainer
+00001fb8                        Flags 0
+00001fbc            InstanceName EnemyIcon1
+00001fc0            UIElementTransform::UIElementTransform
+00001fc0                Rotation::Vec3
+00001fc0                    x 0.0
+00001fc4                    y 0.0
+00001fc8                    z 0.0
+00001fd0                RotationPivot::Vec3
+00001fd0                    x 0.5
+00001fd4                    y 0.5
+00001fd8                    z 0.0
+00001fe0                Z 0.0
+00001fe4                PropertyName *nullString*
+00001ff0            Color::UIElementColor
+00001ff0                Rgb::Vec3
+00001ff0                    x 1.0
+00001ff4                    y 1.0
+00001ff8                    z 1.0
+00002000                Alpha 1.0
+00002004                PropertyName *nullString*
+00002010            PositionOffset::Vec3
+00002010                x 0.0
+00002014                y 0.0
+00002018                z 0.0
+00002020            RotationOffset::Vec3
+00002020                x 0.0
+00002024                y 0.0
+00002028                z 0.0
+00002030            InstanceNameHash 2881331077
+00002034            Size::UIElementSize
+00002034                X 25.0
+00002038                Y 25.0
+0000203c            LayoutMode UILayoutMode_PositionExpansion
+00002040            Offset::UIElementOffset
+00002040                X 0.0
+00002044                Y 0.0
+00002048            Anchor::UIElementAnchor
+00002048                X 0.0
+0000204c                Y 0.0
+00002050            Position::UIElementOffset
+00002050                X 319.0
+00002054                Y 16.0
+00002058            Expansion::UIElementRectExpansion
+00002058                X 0.0
+0000205c                Y 0.0
+00002060                Width 0.0
+00002064                Height 0.0
+00002068            Visible True
+00002070        DrawBackGround True
+00002080    UIElementDummyEntityData 00000003
+00002080        $::UIElementEntityData
+00002080            $::EntityData
+00002080                $::GameObjectData
+00002080                    $::DataBusPeer
+00002080                        $::GameDataContainer
+00002080                            $::DataContainer
+00002088                        Flags 0
+0000208c            InstanceName EnemyIcon2
+00002090            UIElementTransform::UIElementTransform
+00002090                Rotation::Vec3
+00002090                    x 0.0
+00002094                    y 0.0
+00002098                    z 0.0
+000020a0                RotationPivot::Vec3
+000020a0                    x 0.5
+000020a4                    y 0.5
+000020a8                    z 0.0
+000020b0                Z 0.0
+000020b4                PropertyName *nullString*
+000020c0            Color::UIElementColor
+000020c0                Rgb::Vec3
+000020c0                    x 1.0
+000020c4                    y 1.0
+000020c8                    z 1.0
+000020d0                Alpha 1.0
+000020d4                PropertyName *nullString*
+000020e0            PositionOffset::Vec3
+000020e0                x 0.0
+000020e4                y 0.0
+000020e8                z 0.0
+000020f0            RotationOffset::Vec3
+000020f0                x 0.0
+000020f4                y 0.0
+000020f8                z 0.0
+00002100            InstanceNameHash 2881331078
+00002104            Size::UIElementSize
+00002104                X 25.0
+00002108                Y 25.0
+0000210c            LayoutMode UILayoutMode_PositionExpansion
+00002110            Offset::UIElementOffset
+00002110                X 0.0
+00002114                Y 0.0
+00002118            Anchor::UIElementAnchor
+00002118                X 0.0
+0000211c                Y 0.0
+00002120            Position::UIElementOffset
+00002120                X 346.0
+00002124                Y 16.0
+00002128            Expansion::UIElementRectExpansion
+00002128                X 0.0
+0000212c                Y 0.0
+00002130                Width 0.0
+00002134                Height 0.0
+00002138            Visible True
+00002140        DrawBackGround True
+00002150    UIElementDummyEntityData 00000004
+00002150        $::UIElementEntityData
+00002150            $::EntityData
+00002150                $::GameObjectData
+00002150                    $::DataBusPeer
+00002150                        $::GameDataContainer
+00002150                            $::DataContainer
+00002158                        Flags 0
+0000215c            InstanceName FriendlyIcon1
+00002160            UIElementTransform::UIElementTransform
+00002160                Rotation::Vec3
+00002160                    x 0.0
+00002164                    y 0.0
+00002168                    z 0.0
+00002170                RotationPivot::Vec3
+00002170                    x 0.5
+00002174                    y 0.5
+00002178                    z 0.0
+00002180                Z 0.0
+00002184                PropertyName *nullString*
+00002190            Color::UIElementColor
+00002190                Rgb::Vec3
+00002190                    x 1.0
+00002194                    y 1.0
+00002198                    z 1.0
+000021a0                Alpha 1.0
+000021a4                PropertyName *nullString*
+000021b0            PositionOffset::Vec3
+000021b0                x 0.0
+000021b4                y 0.0
+000021b8                z 0.0
+000021c0            RotationOffset::Vec3
+000021c0                x 0.0
+000021c4                y 0.0
+000021c8                z 0.0
+000021d0            InstanceNameHash 2446510200
+000021d4            Size::UIElementSize
+000021d4                X 25.0
+000021d8                Y 25.0
+000021dc            LayoutMode UILayoutMode_PositionExpansion
+000021e0            Offset::UIElementOffset
+000021e0                X 0.0
+000021e4                Y 0.0
+000021e8            Anchor::UIElementAnchor
+000021e8                X 0.0
+000021ec                Y 0.0
+000021f0            Position::UIElementOffset
+000021f0                X -193.0
+000021f4                Y 16.0
+000021f8            Expansion::UIElementRectExpansion
+000021f8                X 0.0
+000021fc                Y 0.0
+00002200                Width 0.0
+00002204                Height 0.0
+00002208            Visible True
+00002210        DrawBackGround True
+00002220    UIElementDummyEntityData 00000005
+00002220        $::UIElementEntityData
+00002220            $::EntityData
+00002220                $::GameObjectData
+00002220                    $::DataBusPeer
+00002220                        $::GameDataContainer
+00002220                            $::DataContainer
+00002228                        Flags 0
+0000222c            InstanceName EnemyBar
+00002230            UIElementTransform::UIElementTransform
+00002230                Rotation::Vec3
+00002230                    x 0.0
+00002234                    y 0.0
+00002238                    z 0.0
+00002240                RotationPivot::Vec3
+00002240                    x 0.5
+00002244                    y 0.5
+00002248                    z 0.0
+00002250                Z 0.0
+00002254                PropertyName *nullString*
+00002260            Color::UIElementColor
+00002260                Rgb::Vec3
+00002260                    x 1.0
+00002264                    y 1.0
+00002268                    z 1.0
+00002270                Alpha 1.0
+00002274                PropertyName *nullString*
+00002280            PositionOffset::Vec3
+00002280                x 0.0
+00002284                y 0.0
+00002288                z 0.0
+00002290            RotationOffset::Vec3
+00002290                x 0.0
+00002294                y 0.0
+00002298                z 0.0
+000022a0            InstanceNameHash 251124750
+000022a4            Size::UIElementSize
+000022a4                X 91.0
+000022a8                Y 33.0
+000022ac            LayoutMode UILayoutMode_PositionExpansion
+000022b0            Offset::UIElementOffset
+000022b0                X 0.0
+000022b4                Y 0.0
+000022b8            Anchor::UIElementAnchor
+000022b8                X 0.0
+000022bc                Y 0.0
+000022c0            Position::UIElementOffset
+000022c0                X 113.0
+000022c4                Y 26.0
+000022c8            Expansion::UIElementRectExpansion
+000022c8                X 0.0
+000022cc                Y 0.0
+000022d0                Width 0.0
+000022d4                Height 0.0
+000022d8            Visible True
+000022e0        DrawBackGround True
+000022f0    UIElementDummyEntityData 00000006
+000022f0        $::UIElementEntityData
+000022f0            $::EntityData
+000022f0                $::GameObjectData
+000022f0                    $::DataBusPeer
+000022f0                        $::GameDataContainer
+000022f0                            $::DataContainer
+000022f8                        Flags 0
+000022fc            InstanceName FriendlyBar
+00002300            UIElementTransform::UIElementTransform
+00002300                Rotation::Vec3
+00002300                    x 0.0
+00002304                    y 0.0
+00002308                    z 0.0
+00002310                RotationPivot::Vec3
+00002310                    x 0.5
+00002314                    y 0.5
+00002318                    z 0.0
+00002320                Z 0.0
+00002324                PropertyName *nullString*
+00002330            Color::UIElementColor
+00002330                Rgb::Vec3
+00002330                    x 1.0
+00002334                    y 1.0
+00002338                    z 1.0
+00002340                Alpha 1.0
+00002344                PropertyName *nullString*
+00002350            PositionOffset::Vec3
+00002350                x 0.0
+00002354                y 0.0
+00002358                z 0.0
+00002360            RotationOffset::Vec3
+00002360                x 0.0
+00002364                y 0.0
+00002368                z 0.0
+00002370            InstanceNameHash 2660466931
+00002374            Size::UIElementSize
+00002374                X 91.0
+00002378                Y 33.0
+0000237c            LayoutMode UILayoutMode_PositionExpansion
+00002380            Offset::UIElementOffset
+00002380                X 0.0
+00002384                Y 0.0
+00002388            Anchor::UIElementAnchor
+00002388                X 0.0
+0000238c                Y 0.0
+00002390            Position::UIElementOffset
+00002390                X -27.0
+00002394                Y 26.0
+00002398            Expansion::UIElementRectExpansion
+00002398                X 0.0
+0000239c                Y 0.0
+000023a0                Width 0.0
+000023a4                Height 0.0
+000023a8            Visible True
+000023b0        DrawBackGround True
+000023c0    UIElementDummyEntityData 00000007
+000023c0        $::UIElementEntityData
+000023c0            $::EntityData
+000023c0                $::GameObjectData
+000023c0                    $::DataBusPeer
+000023c0                        $::GameDataContainer
+000023c0                            $::DataContainer
+000023c8                        Flags 0
+000023cc            InstanceName FriendlyIcon2
+000023d0            UIElementTransform::UIElementTransform
+000023d0                Rotation::Vec3
+000023d0                    x 0.0
+000023d4                    y 0.0
+000023d8                    z 0.0
+000023e0                RotationPivot::Vec3
+000023e0                    x 0.5
+000023e4                    y 0.5
+000023e8                    z 0.0
+000023f0                Z 0.0
+000023f4                PropertyName *nullString*
+00002400            Color::UIElementColor
+00002400                Rgb::Vec3
+00002400                    x 1.0
+00002404                    y 1.0
+00002408                    z 1.0
+00002410                Alpha 1.0
+00002414                PropertyName *nullString*
+00002420            PositionOffset::Vec3
+00002420                x 0.0
+00002424                y 0.0
+00002428                z 0.0
+00002430            RotationOffset::Vec3
+00002430                x 0.0
+00002434                y 0.0
+00002438                z 0.0
+00002440            InstanceNameHash 2446510203
+00002444            Size::UIElementSize
+00002444                X 25.0
+00002448                Y 25.0
+0000244c            LayoutMode UILayoutMode_PositionExpansion
+00002450            Offset::UIElementOffset
+00002450                X 0.0
+00002454                Y 0.0
+00002458            Anchor::UIElementAnchor
+00002458                X 0.0
+0000245c                Y 0.0
+00002460            Position::UIElementOffset
+00002460                X -166.0
+00002464                Y 16.0
+00002468            Expansion::UIElementRectExpansion
+00002468                X 0.0
+0000246c                Y 0.0
+00002470                Width 0.0
+00002474                Height 0.0
+00002478            Visible True
+00002480        DrawBackGround True
+00002490    UIElementLayerEntityData 00000008
+00002488        $::EntityData
+00002488            $::GameObjectData
+00002488                $::DataBusPeer
+00002488                    $::GameDataContainer
+00002488                        $::DataContainer
+00002490                    Flags 0
+00002494        LayerName BoatHUD
+00002498        Elements::array
+00002588            member(0) 00000006
+0000258c            member(1) 00000005
+00002590            member(2) 00000004
+00002594            member(3) 00000007
+00002598            member(4) 00000002
+0000259c            member(5) 00000003
+000025a0            member(6) 00000001
+000025a4            member(7) 00000000
+0000249c        InclusionSettings::UIElementInclusionSettings
+0000249c            CustomInclusionCritera *nullArray*
+000024a0            IsSingleplayerLayer True
+000024a1            IsMultiplayerLayer True
+000024a2            IsWin32Layer True
+000024a3            IsXenonLayer True
+000024a4            IsPs3Layer True
+000024a5            IsGen4aLayer True
+000024a6            IsGen4bLayer True
+000024a7            IsSDLayer True
+000024a8            IsHDLayer True
+000024a9            IsAdvanced False
+000024ac        VisibilityDataSource::UICompareDataSource
+000024ac            DataCategory *nullGuid*
+000024b0            DataKey 0
+000024b4            SchematicsProperty *nullString*
+000024b8            CompareValue *nullString*
+000024bc        Visible True

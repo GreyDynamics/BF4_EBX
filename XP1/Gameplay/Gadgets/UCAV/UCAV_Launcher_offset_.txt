@@ -1,0 +1,1350 @@
+00009800    VehicleBlueprint 86b124cac7f489c8fdee2ed48731c679
+000097f8        $::ObjectBlueprint
+000097f8            $::Blueprint
+000097f8                $::EntityBusData
+000097f8                    $::DataBusData
+000097f8                        $::Asset
+000097f8                            $::DataContainer
+00009800                            Name XP1/Gameplay/Gadgets/UCAV/UCAV_Launcher
+00009804                        PropertyConnections *nullArray*
+00009808                        LinkConnections::array
+0000a8d4                            member(0)::LinkConnection
+0000a8d4                                Source 00000005
+0000a8d8                                Target 00000014
+0000a8dc                                SourceFieldId -773028713
+0000a8e0                                TargetFieldId 0
+0000980c                        Interface *nullGuid*
+00009810                        Flags 1
+00009814                    EventConnections::array
+0000a8e8                        member(0)::EventConnection
+0000a8e8                            Source 00000010
+0000a8ec                            Target 4c4d3c8bd4f462f7bf2ff876cb7e1d23
+0000a8f0                            SourceEvent::EventSpec
+0000a8f0                                Id 193453899
+0000a8f4                            TargetEvent::EventSpec
+0000a8f4                                Id -274579609
+0000a8f8                            TargetType EventConnectionTargetType_Server
+00009818            Object 4c4d3c8bd4f462f7bf2ff876cb7e1d23
+00009830    VehicleEntityData 4c4d3c8bd4f462f7bf2ff876cb7e1d23
+00009830        $::ControllableEntityData
+00009830            $::GamePhysicsEntityData
+00009830                $::GameComponentEntityData
+00009830                    $::ComponentEntityData
+00009830                        $::SpatialEntityData
+00009830                            $::EntityData
+00009830                                $::GameObjectData
+00009830                                    $::DataBusPeer
+00009830                                        $::GameDataContainer
+00009830                                            $::DataContainer
+00009838                                        Flags 524045644
+00009840                            Transform::LinearTransform
+00009840                                right::Vec3
+00009840                                    x 1.0
+00009844                                    y 0.0
+00009848                                    z 0.0
+00009850                                up::Vec3
+00009850                                    x 0.0
+00009854                                    y 1.0
+00009858                                    z 0.0
+00009860                                forward::Vec3
+00009860                                    x 0.0
+00009864                                    y 0.0
+00009868                                    z 1.0
+00009870                                trans::Vec3
+00009870                                    x 0.0
+00009874                                    y 0.0
+00009878                                    z 0.0
+00009880                        Components::array
+0000a900                            member(0) 00000001
+0000a904                            member(1) 00000010
+0000a908                            member(2) 0000000e
+0000a90c                            member(3) 0000000d
+00009884                        ClientRuntimeComponentCount 6
+00009885                        ServerRuntimeComponentCount 6
+00009886                        ClientRuntimeTransformationCount 4
+00009887                        ServerRuntimeTransformationCount 4
+00009890                    Enabled True
+000098a0                PhysicsData 00000003
+000098b0            DefaultTeam TeamNeutral
+000098b4            LowHealthThreshold 50.0
+000098b8            MaterialPair::MaterialDecl
+000098b8                Packed 573538304
+000098bc            UsePrediction True
+000098bd            ResetTeamOnLastPlayerExits False
+000098be            Immortal False
+000098bf            FakeImmortal False
+000098c0            ForceForegroundRendering False
+000098d0        CriticallyDamagedEffectPosition::Vec3
+000098d0            x 0.0
+000098d4            y 0.0
+000098d8            z 0.0
+000098e0        PreExplosionEffectPosition::Vec3
+000098e0            x 0.0
+000098e4            y 0.0
+000098e8            z 0.0
+000098f0        HudData::VehicleHudData
+000098f0            CustomizationOffset::Vec3
+000098f0                x 10.0
+000098f4                y 0.0
+000098f8                z -50.0
+00009900            Customization *nullGuid*
+00009904            MinimapIcon UIHudIcon_Tank
+00009908            IconName *nullString*
+0000990c            Texture *nullGuid*
+00009910            VehicleItemHash 3896442385
+00009914            RotateInMap True
+00009915            ShowHealth True
+00009920        FLIRKeyColor::Vec3
+00009920            x 1.0
+00009924            y 1.0
+00009928            z 1.0
+00009930        InteractionOffset::Vec3
+00009930            x 0.0
+00009934            y 0.20000000298
+00009938            z 0.0
+00009940        ControllableType XP1/Gameplay/Gadgets/UCAV/UCAV_Launcher
+00009944        DisabledDamageThreshold 0.0
+00009948        ClearDisabledDamageThreshold 0.0
+0000994c        PreDestructionDamageThreshold 100.0
+00009950        FrontHealthZone::VehicleHealthZoneData
+00009950            MaxHealth 100.0
+00009954            MaxShieldHealth 0.0
+00009958            MinDamageAngle 0.0
+0000995c            DamageAngleMultiplier 2.0
+00009960            DamageAngleMultiplierCurve *nullGuid*
+00009964            VerticalFactor 1.0
+00009968            UseDamageAngleCalculation False
+0000996c        RearHealthZone::VehicleHealthZoneData
+0000996c            MaxHealth 100.0
+00009970            MaxShieldHealth 0.0
+00009974            MinDamageAngle 0.0
+00009978            DamageAngleMultiplier 1.0
+0000997c            DamageAngleMultiplierCurve *nullGuid*
+00009980            VerticalFactor 1.0
+00009984            UseDamageAngleCalculation False
+00009988        LeftHealthZone::VehicleHealthZoneData
+00009988            MaxHealth 100.0
+0000998c            MaxShieldHealth 0.0
+00009990            MinDamageAngle 0.0
+00009994            DamageAngleMultiplier 1.0
+00009998            DamageAngleMultiplierCurve *nullGuid*
+0000999c            VerticalFactor 1.0
+000099a0            UseDamageAngleCalculation False
+000099a4        RightHealthZone::VehicleHealthZoneData
+000099a4            MaxHealth 100.0
+000099a8            MaxShieldHealth 0.0
+000099ac            MinDamageAngle 0.0
+000099b0            DamageAngleMultiplier 1.0
+000099b4            DamageAngleMultiplierCurve *nullGuid*
+000099b8            VerticalFactor 1.0
+000099bc            UseDamageAngleCalculation False
+000099c0        TopHealthZone::VehicleHealthZoneData
+000099c0            MaxHealth 0.0
+000099c4            MaxShieldHealth 0.0
+000099c8            MinDamageAngle 0.0
+000099cc            DamageAngleMultiplier 1.0
+000099d0            DamageAngleMultiplierCurve *nullGuid*
+000099d4            VerticalFactor 1.0
+000099d8            UseDamageAngleCalculation False
+000099dc        TopHitHeight 0.75
+000099e0        TopHitAngle 45.0
+000099e4        RegenerationDelay 5.0
+000099e8        RegenerationRate 0.0
+000099ec        ArmorMultiplier 1.0
+000099f0        RegenerationDelayMultiplier 1.0
+000099f4        RegenerationRateMultiplier 1.0
+000099f8        EmergencyRepairHealth 30.0
+000099fc        DecayDelay 5.0
+00009a00        DecayRate 0.0
+00009a04        CriticallyDamagedEffect *nullGuid*
+00009a08        CriticalDamageTime 0.0
+00009a0c        PreExplosionEffect *nullGuid*
+00009a10        PreExplosionTime 0.0
+00009a14        Explosion *nullGuid*
+00009a18        Mesh xp1/gameplay/gadgets/ucav/ucav_launcher_Mesh/c8fd9ae548c51055d35b96987dfc93c3
+00009a1c        CockpitMesh *nullGuid*
+00009a20        NameSid Switchblade
+00009a24        MaxPlayersInVehicle 1
+00009a28        MinSpeedForMineActivation 0.10000000149
+00009a2c        UpsideDownDamage 50.0
+00009a30        UpsideDownDamageDelay 1.0
+00009a34        UpsideDownAngle 120.0
+00009a38        WaterDamage 30.0
+00009a3c        BelowWaterDamageDelay 2.0
+00009a40        WaterDamageOffset 0.0
+00009a44        VelocityDamageThreshold 75.0
+00009a48        VelocityDamageMagnifier 5.0
+00009a4c        RepairRateModifier 1.0
+00009a50        RepairRatePassengerModifier 1.0
+00009a54        KillSoldierCollisionSpeedThreshold 5.0
+00009a58        ExitSpeedThreshold 0.0
+00009a5c        ExitDirectionSpeedThreshold 1.0
+00009a60        FLIRValue 1.0
+00009a64        MPMode::MPModeData
+00009a64            VehiclePoints 0
+00009a68        ExitCameraSwitchDelay 0.0
+00009a6c        AngleOfImpact::AngleOfImpactData
+00009a6c            Zone12Delimiter 30.0
+00009a70            Zone23Delimiter 60.0
+00009a74            Zone1Multiplier 1.0
+00009a78            Zone2Multiplier 1.0
+00009a7c            Zone3Multiplier 1.0
+00009a80            Enabled False
+00009a84        LockingTimeMultiplier 1.0
+00009a88        VehicleLockableInfo::VehicleLockableInfoData
+00009a88            HeatSignature -1.0
+00009a8c            RadarSignature 10.0
+00009a90            LowAltitudeHeight 0.0
+00009a94            LowAltitudeHeatSignature 0.0
+00009a98        HighAltitudeLockHeight 0.0
+00009a9c        Sound *nullGuid*
+00009aa0        VoiceOverInfo *nullGuid*
+00009aa4        NametagHeightScale 0.75
+00009aa8        SpottingFovScale 1.0
+00009aac        AllowVehicleOutsideCombatAreas False
+00009aad        UseTopZone False
+00009aae        HealthZonesShareDamage True
+00009aaf        UseProtectedShields False
+00009ab0        ShowPlayerHealth True
+00009ab1        ForegroundRenderCockpitMesh True
+00009ab2        MotionBlurMask False
+00009ab3        SuppressDamageByPassengers False
+00009ab4        IsAffectedByEMP True
+00009ab5        CanTakeDynamicFireDamage False
+00009ab6        ThrowOutSoldierInsideOnWaterDamage True
+00009ab7        IgnoreSoldierCollisionNormal False
+00009ab8        ChoseExitPointByDirection True
+00009ab9        ExitAllowed True
+00009aba        EnableGroundmapLighting False
+00009abb        UseAsTeamSpawner False
+00009abc        IsLockable True
+00009abd        NeverReportVehicleAsEmpty True
+00009abe        UseLowAltitudeHeatSignature False
+00009abf        UseSpottingTargetComponentForRaycast False
+00009ac0        EquipmentFakeVehicle False
+00009ac1        ExplosionPacksAttachable True
+00009ac2        DamageGiverOverrideOwnerVehicle False
+00009ac3        VehicleLightingEnable True
+00009ae0    VehicleProjectileEntityData b1199bfd2de1ba4aaf56a262152e06bf
+00009ae0        $::ProjectileEntityData
+00009ae0            $::GamePhysicsEntityData
+00009ae0                $::GameComponentEntityData
+00009ae0                    $::ComponentEntityData
+00009ae0                        $::SpatialEntityData
+00009ae0                            $::EntityData
+00009ae0                                $::GameObjectData
+00009ae0                                    $::DataBusPeer
+00009ae0                                        $::GameDataContainer
+00009ae0                                            $::DataContainer
+00009ae8                                        Flags 0
+00009af0                            Transform::LinearTransform
+00009af0                                right::Vec3
+00009af0                                    x 1.0
+00009af4                                    y 0.0
+00009af8                                    z 0.0
+00009b00                                up::Vec3
+00009b00                                    x 0.0
+00009b04                                    y 1.0
+00009b08                                    z 0.0
+00009b10                                forward::Vec3
+00009b10                                    x 0.0
+00009b14                                    y 0.0
+00009b18                                    z 1.0
+00009b20                                trans::Vec3
+00009b20                                    x 0.0
+00009b24                                    y 0.0
+00009b28                                    z 0.0
+00009b30                        Components *nullArray*
+00009b34                        ClientRuntimeComponentCount 0
+00009b35                        ServerRuntimeComponentCount 0
+00009b36                        ClientRuntimeTransformationCount 0
+00009b37                        ServerRuntimeTransformationCount 0
+00009b40                    Enabled True
+00009b50                PhysicsData *nullGuid*
+00009b60            InitialSpeed 350.0
+00009b64            TimeToLive 10.0
+00009b68            MaxCount 1
+00009b6c            InitMeshHideTime 0.0
+00009b70            VisualConvergeDistance 0.0
+00009b74            VisualConvergenceDelay 0.10000000149
+00009b78            VisualConvergenceDuration 0.10000000149
+00009b7c            ProxyVisualConvergenceDelay -1.0
+00009b80            ProxyVisualConvergenceDuration -1.0
+00009b84            Explosion *nullGuid*
+00009b88            SuppressionData *nullGuid*
+00009b8c            AmmunitionType *nullString*
+00009b90            MaterialPair::MaterialDecl
+00009b90                Packed 3389227008
+00009b94            HitReactionWeaponType AntHitReactionWeaponType_AssaultRifle
+00009b98            DetonateOnTimeout True
+00009b99            ServerProjectileDisabled False
+00009b9a            HideOnDetonation False
+00009b9b            VehicleLightingEnable False
+00009ba0        Vehicle XP1/Gameplay/Gadgets/UCAV/UCAV/54f97b343da575b61d402cdbe2cc8d9f
+00009ba4        EnterDelay 0.0
+00009ba8        AlignWithGroundRayLength 5.0
+00009bac        NoVehicleCollisionTime 0.10000000149
+00009bb0        AutoEnter True
+00009bb1        AlignWithGround False
+00009bb2        CheckGroundWhenSpawned False
+00009bb3        DeployInsideNeutralCombatAreaOnly False
+00009bc0    CameraComponentData 00000000
+00009bc0        $::GameComponentData
+00009bc0            $::ComponentData
+00009bc0                $::GameObjectData
+00009bc0                    $::DataBusPeer
+00009bc0                        $::GameDataContainer
+00009bc0                            $::DataContainer
+00009bc8                        Flags 7739133
+00009bcc                Components *nullArray*
+00009bd0                Transform::LinearTransform
+00009bd0                    right::Vec3
+00009bd0                        x 1.0
+00009bd4                        y 0.0
+00009bd8                        z 0.0
+00009be0                    up::Vec3
+00009be0                        x 0.0
+00009be4                        y 0.606113493443
+00009be8                        z -0.79537832737
+00009bf0                    forward::Vec3
+00009bf0                        x 0.0
+00009bf4                        y 0.79537832737
+00009bf8                        z 0.606113493443
+00009c00                    trans::Vec3
+00009c00                        x 0.0
+00009c04                        y 0.809958636761
+00009c08                        z 0.64919757843
+00009c10                Excluded False
+00009c20        RegularView::RegularCameraViewData
+00009c20            MeshOffset::Vec3
+00009c20                x 0.0
+00009c24                y 0.0
+00009c28                z 0.0
+00009c30            MeshScale::Vec3
+00009c30                x 1.0
+00009c34                y 1.0
+00009c38                z 1.0
+00009c40            InputSuppression::InputSuppressionData
+00009c40                SuppressVehicleInput *nullArray*
+00009c44            FieldOfView 55.0
+00009c48            Mesh *nullGuid*
+00009c4c            MaskMeshBlueprint *nullGuid*
+00009c50            ScreenExposureAreaScale 1.0
+00009c54            FLIREnabled False
+00009c55            AllowFieldOfViewScaling False
+00009c56            LockMeshToRenderView False
+00009c60        CameraTransitionPos::Vec3
+00009c60            x 0.0
+00009c64            y 0.0
+00009c68            z 0.0
+00009c70        Camera 00000008
+00009c74        FieldOfView 45.0
+00009c78        ForceFieldOfView -1.0
+00009c7c        AlternateView *nullGuid*
+00009c80        OverrideFreelookPitch 0.0
+00009c84        OverrideFreelookYaw 0.0
+00009c88        CameraRelativeControlConfig *nullGuid*
+00009c8c        FreezeHeight 0.0
+00009c90        SoldierAnimatedCamera::SoldierAnimatedCameraData
+00009c90            CameraTransitionTime 0.5
+00009c94            EnableFeature False
+00009c98        CameraTransitionTime 2.0
+00009c9c        MeshParentComponentNumber 0
+00009ca0        StanceData::StanceCameraData
+00009ca0            ValidStances *nullArray*
+00009ca4            DefaultCameraForStances *nullArray*
+00009ca8        CameraSoundData *nullGuid*
+00009cac        EnableCameraMesh True
+00009cad        OverrideFreelookEnable False
+00009cae        AlternateViewEnabled False
+00009caf        IsFirstPerson False
+00009cb0        ReceiveImpulsesAsThirdPerson False
+00009cb1        UseCameraTransition False
+00009cc0    ChassisComponentData 00000001
+00009cc0        $::PartComponentData
+00009cc0            $::GameComponentData
+00009cc0                $::ComponentData
+00009cc0                    $::GameObjectData
+00009cc0                        $::DataBusPeer
+00009cc0                            $::GameDataContainer
+00009cc0                                $::DataContainer
+00009cc8                            Flags 14921149
+00009ccc                    Components::array
+0000a914                        member(0) 00000005
+0000a918                        member(1) 0000000f
+0000a91c                        member(2) 0000000b
+0000a920                        member(3) 0000000a
+0000a924                        member(4) 0000000c
+00009cd0                    Transform::LinearTransform
+00009cd0                        right::Vec3
+00009cd0                            x 1.0
+00009cd4                            y 0.0
+00009cd8                            z 0.0
+00009ce0                        up::Vec3
+00009ce0                            x 0.0
+00009ce4                            y 1.0
+00009ce8                            z 0.0
+00009cf0                        forward::Vec3
+00009cf0                            x 0.0
+00009cf4                            y 0.0
+00009cf8                            z 1.0
+00009d00                        trans::Vec3
+00009d00                            x 0.0
+00009d04                            y 0.0
+00009d08                            z 0.0
+00009d10                    Excluded False
+00009d20            HealthStates::array
+0000a92c                member(0) 00000013
+0000a930                member(1) 00000012
+00009d24            PartLinks *nullArray*
+00009d28            IsSupported False
+00009d29            IsFragile False
+00009d2a            IsNetworkable True
+00009d2b            IsWindow False
+00009d2c            AnimatePhysics False
+00009d30        TriggerGroundEffectOffset::Vec3
+00009d30            x 0.0
+00009d34            y 0.0
+00009d38            z 0.0
+00009d40        VehicleConfig 00000009
+00009d44        GearboxConfig 00000011
+00009d48        CameraRelativeControlConfig *nullGuid*
+00009d4c        WaterEffects *nullArray*
+00009d50        WaterStreakEffects *nullArray*
+00009d54        TriggerGroundEffectImpulse 0.0
+00009d58        TriggerGroundEffectHeight 0.0
+00009d5c        GroundEffectFadeParam 0.0
+00009d60        LandingGearLogic *nullGuid*
+00009d64        OnImpulseModifiers *nullArray*
+00009d68        AlwaysFullThrottle False
+00009d69        TriggerGroundEffectUseBBCenter True
+00009d6a        GroundEffectOnTerrainOnly False
+00009d6b        AllowNegativeThrottle True
+00009d70    FiringFunctionData 00000002
+00009d70        $::GameDataContainer
+00009d70            $::DataContainer
+00009d78        Dispersion *nullArray*
+00009d7c        WeaponDispersion::WeaponDispersion
+00009d7c            StandDispersion::FiringDispersionData
+00009d7c                MinAngle 0.0010000000475
+00009d80                MaxAngle 10.0
+00009d84                IncreasePerShot 0.0
+00009d88                DecreasePerSecond 5.0
+00009d8c            CrouchDispersion::FiringDispersionData
+00009d8c                MinAngle 0.0010000000475
+00009d90                MaxAngle 10.0
+00009d94                IncreasePerShot 0.0
+00009d98                DecreasePerSecond 5.0
+00009d9c            ProneDispersion::FiringDispersionData
+00009d9c                MinAngle 0.0010000000475
+00009da0                MaxAngle 10.0
+00009da4                IncreasePerShot 0.0
+00009da8                DecreasePerSecond 5.0
+00009dac            JumpDispersionAngle 0.0
+00009db0            ProneTransitionDispersionAngle 0.0
+00009db4            MoveDispersionAngle 0.0
+00009db8            MoveZoomedDispersionAngle 0.0
+00009dbc            DecreasePerSecond 5.0
+00009dc0        Shot::ShotConfigData
+00009dc0            InitialPosition::Vec3
+00009dc0                x 0.0
+00009dc4                y 0.0
+00009dc8                z 0.0
+00009dd0            InitialDirection::Vec3
+00009dd0                x 0.0
+00009dd4                y 0.0
+00009dd8                z 1.0
+00009de0            InitialSpeed::Vec3
+00009de0                x 0.0
+00009de4                y 0.0
+00009de8                z 50.0
+00009df0            InitialDirectionScaleByPitch *nullArray*
+00009df4            InitialSpeedScaleByPitch *nullArray*
+00009df8            InheritWeaponSpeedAmount 0.0
+00009dfc            MuzzleExplosion *nullGuid*
+00009e00            ProjectileData b1199bfd2de1ba4aaf56a262152e06bf
+00009e04            SecondaryProjectileData *nullGuid*
+00009e08            Projectile *nullGuid*
+00009e0c            SecondaryProjectile *nullGuid*
+00009e10            SpawnDelay 0.0
+00009e14            SpawnDelayZoomed -1.0
+00009e18            NumberOfBulletsPerShell 1
+00009e1c            NumberOfBulletsPerShot 1
+00009e20            NumberOfBulletsPerBurst 1
+00009e24            RelativeTargetAiming False
+00009e25            ForceSpawnToCamera False
+00009e26            SpawnVisualAtWeaponBone False
+00009e27            ActiveForceSpawnToCamera False
+00009e30        OverHeat::OverHeatData
+00009e30            OverHeatEffect::FireEffectData
+00009e30                Offset::Vec3
+00009e30                    x 0.0
+00009e34                    y 0.0
+00009e38                    z 0.0
+00009e40                Rotation::Vec3
+00009e40                    x 0.0
+00009e44                    y 0.0
+00009e48                    z 0.0
+00009e50                ZoomOffset::Vec3
+00009e50                    x 0.0
+00009e54                    y 0.0
+00009e58                    z 0.0
+00009e60                ZoomRotation::Vec3
+00009e60                    x 0.0
+00009e64                    y 0.0
+00009e68                    z 0.0
+00009e70                Effect *nullGuid*
+00009e74                UseZoomOffset False
+00009e75                UseZoomRotation False
+00009e76                DisableDuringZoom False
+00009e77                UpdateTransform False
+00009e78                StopLoopingEffects False
+00009e80            HeatPerBullet 0.0
+00009e84            HeatDropPerSecond 0.20000000298
+00009e88            OverHeatPenaltyTime 3.0
+00009e8c            OverHeatThreshold 0.800000011921
+00009e90        FireEffects1p *nullArray*
+00009e94        FireEffects3p::array
+0000a940            member(0)::FireEffectData
+0000a940                Offset::Vec3
+0000a940                    x 0.0
+0000a944                    y 0.0
+0000a948                    z 0.0
+0000a950                Rotation::Vec3
+0000a950                    x 0.0
+0000a954                    y 0.0
+0000a958                    z 0.0
+0000a960                ZoomOffset::Vec3
+0000a960                    x 0.0
+0000a964                    y 0.0
+0000a968                    z 0.0
+0000a970                ZoomRotation::Vec3
+0000a970                    x 0.0
+0000a974                    y 0.0
+0000a978                    z 0.0
+0000a980                Effect FX/Weapons/MuzzleFlashes/FX_Muzz_Generic_Mortar/89e09a09e2047f468fa4d07f4223cc34
+0000a984                UseZoomOffset False
+0000a985                UseZoomRotation False
+0000a986                DisableDuringZoom False
+0000a987                UpdateTransform True
+0000a988                StopLoopingEffects False
+00009e98        Sound *nullGuid*
+00009e9c        FireLogic::FireLogicData
+00009e9c            HoldAndRelease::HoldAndReleaseData
+00009e9c                MaxHoldTime 10.0
+00009ea0                MinPowerModifier 1.0
+00009ea4                MaxPowerModifier 2.0
+00009ea8                PowerIncreasePerSecond 0.10000000149
+00009eac                Delay 0.0
+00009eb0                KilledHoldingPowerModifier 0.0
+00009eb4                ForceFireWhenKilledHolding True
+00009eb8            BoltAction::BoltActionData
+00009eb8                BoltActionDelay 0.5
+00009ebc                BoltActionTime 1.0
+00009ec0                HoldBoltActionUntilFireRelease True
+00009ec1                HoldBoltActionUntilZoomRelease True
+00009ec2                ForceBoltActionOnFireTrigger False
+00009ec3                UnZoomOnBoltAction True
+00009ec4                ReturnToZoomAfterBoltAction True
+00009ec8            Recoil::RecoilData
+00009ec8                MaxRecoilAngleX 0.0
+00009ecc                MinRecoilAngleX 0.0
+00009ed0                MaxRecoilAngleY 0.0
+00009ed4                MinRecoilAngleY 0.0
+00009ed8                MaxRecoilAngleZ 0.0
+00009edc                MinRecoilAngleZ 0.0
+00009ee0                MaxRecoilFov 0.0
+00009ee4                MinRecoilFov 0.0
+00009ee8                RecoilFollowsDispersion True
+00009eec            FireInputAction 1018135856
+00009ef0            ReloadInputAction 1131457753
+00009ef4            CycleFireModeInputAction -1145593149
+00009ef8            TriggerPullWeight 0.10000000149
+00009efc            RateOfFire 100.0
+00009f00            RateOfFireForBurst 100.0
+00009f04            DelayBetweenBursts -1.0
+00009f08            ClientFireRateMultiplier 0.670000016689
+00009f0c            ReloadDelay 0.0
+00009f10            ReloadTime 0.0
+00009f14            ReloadTimerArray *nullArray*
+00009f18            ReloadTimeBulletsLeft -1.0
+00009f1c            ReloadThreshold 0.0
+00009f20            PreFireDelay 0.0
+00009f24            PreFireDelayZoomed -1.0
+00009f28            PreFireRequireHold 1.0
+00009f2c            AutomaticDelay 0.0
+00009f30            ReloadLogic rlWeaponSwitchCancelsUnfinishedReload
+00009f34            ReloadType rtMagazine
+00009f38            FireLogicType fltSingleFire
+00009f3c            FireLogicTypeArray *nullArray*
+00009f40            HoldOffReloadUntilFireRelease False
+00009f41            HoldOffReloadUntilZoomRelease False
+00009f42            ForceReloadActionOnFireTrigger False
+00009f43            AlwaysAutoReload True
+00009f44            ZoomTransitionDisableFire False
+00009f48        Ammo::AmmoConfigData
+00009f48            MagazineCapacity 1
+00009f4c            NumberOfMagazines 1
+00009f50            TraceFrequency 1
+00009f54            AmmoPickupMinAmount 0
+00009f58            AmmoPickupMaxAmount 0
+00009f5c            AutoReplenishDelay 10000.0
+00009f60            AmmoBagPickupDelayMultiplier 0.0
+00009f64            AmmoBagPickupAmount 0
+00009f68            AutoReplenishMagazine False
+00009f69            StartUnloaded False
+00009f6c        SelfHealTimeWhenDeployed 0.0
+00009f70        UsePrimaryAmmo True
+00009f71        UnlimitedAmmoForAI False
+00009f80    PhysicsEntityData 00000003
+00009f80        $::EntityData
+00009f80            $::GameObjectData
+00009f80                $::DataBusPeer
+00009f80                    $::GameDataContainer
+00009f80                        $::DataContainer
+00009f88                    Flags 0
+00009f8c        Asset XP1/Gameplay/Gadgets/UCAV/UCAV_Launcher_Physics_Win32/2bd2173ed404b957d699f962e9cea341
+00009f90        InertiaModifier::Vec3
+00009f90            x 1.0
+00009f94            y 1.0
+00009f98            z 1.0
+00009fa0        RigidBodies::array
+0000a994            member(0) 00000006
+0000a998            member(1) 00000007
+00009fa4        FloatPhysics *nullGuid*
+00009fa8        Mass 1000010.0
+00009fac        Friction 1000010.0
+00009fb0        Restitution 1000010.0
+00009fb4        AngularVelocityDamping -1.0
+00009fb8        LinearVelocityDamping -1.0
+00009fbc        Proximity *nullGuid*
+00009fc0        Constraints *nullArray*
+00009fc4        MovableParts True
+00009fc5        IsComposite False
+00009fd0    ReferenceObjectData 00000004
+00009fd0        $::GameObjectData
+00009fd0            $::DataBusPeer
+00009fd0                $::GameDataContainer
+00009fd0                    $::DataContainer
+00009fd8                Flags 0
+00009fdc        Blueprint FX/Destruction/PropDest/FX_PropDest_Metal_Small/40a011198b592649865ebedc9f2fa779
+00009fe0        BlueprintTransform::LinearTransform
+00009fe0            right::Vec3
+00009fe0                x 1.0
+00009fe4                y 0.0
+00009fe8                z 0.0
+00009ff0            up::Vec3
+00009ff0                x 0.0
+00009ff4                y 1.0
+00009ff8                z 0.0
+0000a000            forward::Vec3
+0000a000                x 0.0
+0000a004                y 0.0
+0000a008                z 1.0
+0000a010            trans::Vec3
+0000a010                x 3.72529029846e-08
+0000a014                y 0.396429121494
+0000a018                z 0.268579691648
+0000a020        ObjectVariation *nullGuid*
+0000a024        StreamRealm StreamRealm_None
+0000a028        RadiosityTypeOverride RadiosityTypeOverride_None
+0000a02c        CastSunShadowEnable True
+0000a02d        CastReflectionEnable False
+0000a02e        Excluded False
+0000a030    RemoteEntryComponentData 00000005
+0000a030        $::EntryComponentData
+0000a030            $::GameComponentData
+0000a030                $::ComponentData
+0000a030                    $::GameObjectData
+0000a030                        $::DataBusPeer
+0000a030                            $::GameDataContainer
+0000a030                                $::DataContainer
+0000a038                            Flags 1621902883
+0000a03c                    Components::array
+0000a9a0                        member(0) 00000000
+0000a040                    Transform::LinearTransform
+0000a040                        right::Vec3
+0000a040                            x 1.0
+0000a044                            y 0.0
+0000a048                            z 0.0
+0000a050                        up::Vec3
+0000a050                            x 0.0
+0000a054                            y 1.0
+0000a058                            z 0.0
+0000a060                        forward::Vec3
+0000a060                            x 0.0
+0000a064                            y 0.0
+0000a068                            z 1.0
+0000a070                        trans::Vec3
+0000a070                            x 0.0
+0000a074                            y 0.0
+0000a078                            z 0.0
+0000a080                    Excluded False
+0000a090            SoldierOffset::Vec3
+0000a090                x 0.0
+0000a094                y 0.0
+0000a098                z 0.0
+0000a0a0            EntryClass ecPrimary
+0000a0a4            AIData *nullGuid*
+0000a0a8            InputConceptDefinition Gameplay/Input/VeniceGunnerInputConcepts/338674b65515664ebfc82c0a914119a7
+0000a0ac            InputMapping Gameplay/Input/DefaultVehicleInputMapping/ca8f6a5c3f2dd74c84331120c9a89dfe
+0000a0b0            InputCurves *nullArray*
+0000a0b4            HudData::EntryComponentHudData
+0000a0b4                Index 0
+0000a0b8                SeatType EST_Driver
+0000a0bc                Frustum False
+0000a0bd                Visible True
+0000a0be                MaximizeMiniMapOnEntry False
+0000a0c0            EntryOrderNumber 0
+0000a0c4            EnterImpulse 0.0
+0000a0c8            EntryRadius 0.0
+0000a0cc            SoldierTransitionInvisbleTime 0.0750000029802
+0000a0d0            NumberOfStances 1
+0000a0d4            EntrySpottingSettings ESSDefault
+0000a0d8            EntryComponentSound *nullGuid*
+0000a0dc            TriggerEventOnKey 899534898
+0000a0e0            ForbiddenForHuman False
+0000a0e1            IsAllowedToExitInAir True
+0000a0e2            IsShielded False
+0000a0e3            LockSoldierAimingToEntry True
+0000a0e4            ShowSoldierInEntry True
+0000a0e5            Show1pSoldierInEntry False
+0000a0e6            StancesEnabled False
+0000a0e7            ShowSoldierWeaponInEntry False
+0000a0e8            Show1pSoldierInEntryForPlayerOnly False
+0000a0e9            Show3pSoldierWeaponInEntry True
+0000a0ea            ShowSoldierGearInEntry False
+0000a0eb            PoseConstraints::PoseConstraintsData
+0000a0eb                StandPose True
+0000a0ec                CrouchPose True
+0000a0ed                PronePose True
+0000a0ee            AllowRagdollFromEntry True
+0000a0f0    RigidBodyData 00000006
+0000a0f0        $::EntityData
+0000a0f0            $::GameObjectData
+0000a0f0                $::DataBusPeer
+0000a0f0                    $::GameDataContainer
+0000a0f0                        $::DataContainer
+0000a0f8                    Flags 0
+0000a0fc        RigidBodyType RBTypeCollision
+0000a100        InertiaModifier::Vec3
+0000a100            x 1.0
+0000a104            y 1.0
+0000a108            z 1.0
+0000a110        Transform::LinearTransform
+0000a110            right::Vec3
+0000a110                x 1.0
+0000a114                y 0.0
+0000a118                z 0.0
+0000a120            up::Vec3
+0000a120                x 0.0
+0000a124                y 1.0
+0000a128                z 0.0
+0000a130            forward::Vec3
+0000a130                x 0.0
+0000a134                y 0.0
+0000a138                z 1.0
+0000a140            trans::Vec3
+0000a140                x 0.0
+0000a144                y 0.0
+0000a148                z 0.0
+0000a150        KeyframeTransform::LinearTransform
+0000a150            right::Vec3
+0000a150                x 1.0
+0000a154                y 0.0
+0000a158                z 0.0
+0000a160            up::Vec3
+0000a160                x 0.0
+0000a164                y 1.0
+0000a168                z 0.0
+0000a170            forward::Vec3
+0000a170                x 0.0
+0000a174                y 0.0
+0000a178                z 1.0
+0000a180            trans::Vec3
+0000a180                x 0.0
+0000a184                y 0.0
+0000a188                z 0.0
+0000a190        Mass 100.0
+0000a194        Friction 1.0
+0000a198        Restitution 0.40000000596
+0000a19c        AngularVelocityDamping -1.0
+0000a1a0        LinearVelocityDamping -1.0
+0000a1a4        InteractionToolkitCollisionVolumeId 0
+0000a1a8        MotionType RigidBodyMotionType_Fixed
+0000a1ac        QualityType RigidBodyQualityType_Invalid
+0000a1b0        CollisionLayer RigidBodyCollisionLayer_VehicleLayer
+0000a1b4        PartIndices::array
+0000a9a8            member(0) 0
+0000a1b8        FloatPhysics *nullGuid*
+0000a1bc        IsRootController True
+0000a1c0    RigidBodyData 00000007
+0000a1c0        $::EntityData
+0000a1c0            $::GameObjectData
+0000a1c0                $::DataBusPeer
+0000a1c0                    $::GameDataContainer
+0000a1c0                        $::DataContainer
+0000a1c8                    Flags 0
+0000a1cc        RigidBodyType RBTypeRaycast
+0000a1d0        InertiaModifier::Vec3
+0000a1d0            x 1.0
+0000a1d4            y 1.0
+0000a1d8            z 1.0
+0000a1e0        Transform::LinearTransform
+0000a1e0            right::Vec3
+0000a1e0                x 1.0
+0000a1e4                y 0.0
+0000a1e8                z 0.0
+0000a1f0            up::Vec3
+0000a1f0                x 0.0
+0000a1f4                y 1.0
+0000a1f8                z 0.0
+0000a200            forward::Vec3
+0000a200                x 0.0
+0000a204                y 0.0
+0000a208                z 1.0
+0000a210            trans::Vec3
+0000a210                x 0.0
+0000a214                y 0.0
+0000a218                z 0.0
+0000a220        KeyframeTransform::LinearTransform
+0000a220            right::Vec3
+0000a220                x 1.0
+0000a224                y 0.0
+0000a228                z 0.0
+0000a230            up::Vec3
+0000a230                x 0.0
+0000a234                y 1.0
+0000a238                z 0.0
+0000a240            forward::Vec3
+0000a240                x 0.0
+0000a244                y 0.0
+0000a248                z 1.0
+0000a250            trans::Vec3
+0000a250                x 0.0
+0000a254                y 0.0
+0000a258                z 0.0
+0000a260        Mass 0.0
+0000a264        Friction 0.5
+0000a268        Restitution 0.40000000596
+0000a26c        AngularVelocityDamping -1.0
+0000a270        LinearVelocityDamping -1.0
+0000a274        InteractionToolkitCollisionVolumeId 0
+0000a278        MotionType RigidBodyMotionType_Fixed
+0000a27c        QualityType RigidBodyQualityType_Invalid
+0000a280        CollisionLayer RigidBodyCollisionLayer_Invalid
+0000a284        PartIndices::array
+0000a9b0            member(0) 0
+0000a288        FloatPhysics *nullGuid*
+0000a28c        IsRootController True
+0000a290    StaticCameraData 00000008
+0000a290        $::TargetCameraData
+0000a290            $::CameraData
+0000a290                $::GameObjectData
+0000a290                    $::DataBusPeer
+0000a290                        $::GameDataContainer
+0000a290                            $::DataContainer
+0000a298                        Flags 0
+0000a29c                PreFadeTime 0.0
+0000a2a0                OcclusionRayOffset::Vec3
+0000a2a0                    x 0.0
+0000a2a4                    y 0.0
+0000a2a8                    z 0.0
+0000a2b0                FadeTime 0.5
+0000a2b4                FadeWaitTime 0.0
+0000a2b8                ViewFx *nullGuid*
+0000a2bc                NearPlane -1.0
+0000a2c0                ShadowViewDistanceScale 1.0
+0000a2c4                SoundOcclusion 0.0
+0000a2c8                SoundListenerRadius 0.5
+0000a2cc                ShakeFactor 1.0
+0000a2d0                StayFadedWhileStreaming False
+0000a2e0            Hud::HudData
+0000a2e0                CrosshairScaleMin 0.0
+0000a2e4                CrosshairScaleMax 5.0
+0000a2e8                CrosshairOpacityMin 1.0
+0000a2ec                CrosshairOpacityMax 0.10000000149
+0000a2f0                CrosshairOpacityModifier 1.0
+0000a2f4                CrosshairTypeId *nullString*
+0000a2f8                CrosshairType *nullGuid*
+0000a2fc                LockingType *nullGuid*
+0000a300                WeaponClass *nullString*
+0000a304                LowAmmoWarning 0.300000011921
+0000a308                ReloadPrompt 0.300000011921
+0000a30c                RenderTargetIndex 0
+0000a310                HudPropertyList *nullGuid*
+0000a314                SeaLevelAltFreq 0.0
+0000a318                CameraShakeModifier 1.0
+0000a31c                HudIcon *nullString*
+0000a320                ShowMinimap True
+0000a321                HideAmmo False
+0000a322                InfiniteAmmo False
+0000a323                HideCrosshairWhenAimOnFriend True
+0000a324                UseRenderTarget False
+0000a325                UseRangeMeter False
+0000a326                UseAimWarning False
+0000a327                UsePredictedSight False
+0000a328                UseWeaponOrientations False
+0000a329                UseVelocityVectorMarker False
+0000a32a                UseLockingController False
+0000a32b                UseThrust False
+0000a32c                UseGForce False
+0000a32d                UseSkidSlip False
+0000a32e                UseClimbRate False
+0000a330        LeftCurve::array
+0000a9c0            member(0)::Vec3
+0000a9c0                x 0.0
+0000a9c4                y 0.0
+0000a9c8                z 0.0
+0000a9d0            member(1)::Vec3
+0000a9d0                x 0.10000000149
+0000a9d4                y 0.0
+0000a9d8                z 0.0
+0000a334        RightCurve::array
+0000a9f0            member(0)::Vec3
+0000a9f0                x 0.0
+0000a9f4                y 0.0
+0000a9f8                z 0.0
+0000aa00            member(1)::Vec3
+0000aa00                x -0.10000000149
+0000aa04                y 0.0
+0000aa08                z 0.0
+0000a338        UpCurve::array
+0000aa20            member(0)::Vec3
+0000aa20                x 0.0
+0000aa24                y 0.0
+0000aa28                z 0.0
+0000aa30            member(1)::Vec3
+0000aa30                x 0.0
+0000aa34                y -0.0500000007451
+0000aa38                z 0.0
+0000a33c        DownCurve::array
+0000aa50            member(0)::Vec3
+0000aa50                x 0.0
+0000aa54                y 0.0
+0000aa58                z 0.0
+0000aa60            member(1)::Vec3
+0000aa60                x 0.0
+0000aa64                y 0.0500000007451
+0000aa68                z -0.019999999553
+0000a340        LoosePartPhysics *nullArray*
+0000a344        LeftYawAngle -5.0
+0000a348        RightYawAngle 5.0
+0000a34c        UpPitchAngle 3.0
+0000a350        DownPitchAngle -3.0
+0000a354        AverageFilterFrames 50
+0000a358        YawInputAction 899534898
+0000a35c        PitchInputAction 899534898
+0000a360        WorldSpaceLockEfficiencyYaw 0.0
+0000a364        WorldSpaceLockEfficiencyYawAway -1.0
+0000a368        WorldSpaceLockEfficiencyPitch 0.0
+0000a36c        YawSensitivityNonZoomed 0.0
+0000a370        YawSensitivityZoomed 0.0
+0000a374        PitchSensitivityNonZoomed 0.0
+0000a378        PitchSensitivityZoomed 0.0
+0000a37c        MergeLeftAndRightCurves False
+0000a37d        MergeUpAndDownCurves False
+0000a37e        MirrorHorizontalCurves False
+0000a37f        MirrorVerticalCurves False
+0000a380        AccumulateInput False
+0000a381        ResetAccumulatedInputOnViewChange True
+0000a390    VehicleConfigData 00000009
+0000a390        $::DataContainer
+0000a398        AeroDynamicPhysics *nullGuid*
+0000a39c        MotorbikePhysics *nullGuid*
+0000a3a0        CenterOfMass::Vec3
+0000a3a0            x 0.0
+0000a3a4            y 0.0
+0000a3a8            z 0.0
+0000a3b0        CenterOfMassHandlingOffset::Vec3
+0000a3b0            x 0.0
+0000a3b4            y 0.0
+0000a3b8            z 0.0
+0000a3c0        InertiaOverride::Vec3
+0000a3c0            x 0.0
+0000a3c4            y 0.0
+0000a3c8            z 0.0
+0000a3d0        InertiaModifier::Vec3
+0000a3d0            x 1.0
+0000a3d4            y 1.0
+0000a3d8            z 1.0
+0000a3e0        ProximityExtScale::Vec3
+0000a3e0            x 1.33399999142
+0000a3e4            y 1.33399999142
+0000a3e8            z 1.33399999142
+0000a3f0        MotionDamping *nullGuid*
+0000a3f4        Input::VehicleInputData
+0000a3f4            ThrottleDeadzone 0.0
+0000a3f8            BrakeDeadzone 0.0
+0000a3fc            YawDeadzone 0.0
+0000a400            PitchDeadzone 0.0
+0000a404            RollDeadzone 0.0
+0000a408            ThrottleInertiaOutDuration 0.0
+0000a40c            ThrottleInertiaInDuration 0.0
+0000a410            ThrottleInertiaMinRatio 0.20000000298
+0000a414            BrakeInertiaOutDuration 0.0
+0000a418            BrakeInertiaInDuration 0.0
+0000a41c            BrakeInertiaMinRatio 0.20000000298
+0000a420            YawInertiaOutDuration 0.0
+0000a424            YawInertiaInDuration 0.0
+0000a428            YawInertiaMinRatio 0.20000000298
+0000a42c            PitchInertiaOutDuration 0.0
+0000a430            PitchInertiaInDuration 0.0
+0000a434            PitchInertiaMinRatio 0.20000000298
+0000a438            RollInertiaOutDuration 0.0
+0000a43c            RollInertiaInDuration 0.0
+0000a440            RollInertiaMinRatio 0.20000000298
+0000a444        FloatPhysics *nullGuid*
+0000a448        Stabilizer *nullGuid*
+0000a44c        Stabilizers *nullArray*
+0000a450        ConstantForce *nullArray*
+0000a454        VehicleModeAtReset VmIdle
+0000a458        BodyMass 5000.0
+0000a45c        GravityModifier 1.0
+0000a460        YawMin -1.0
+0000a464        YawMax 1.0
+0000a468        DownForceBaseFactor 8.0
+0000a46c        DownForceWheelFactor 40.0
+0000a470        VehicleModeChangeEnteringTime 1.0
+0000a474        VehicleModeChangeStartingTime 3.0
+0000a478        VehicleModeChangeStoppingTime 1.0
+0000a47c        VehicleModeChangeLeavingTime 3.0
+0000a480        StandStillLowSpeedTimeLimit 2.0
+0000a484        StaticFrictionBreakCollisionMod 1.0
+0000a488        StaticFrictionBreakVelocityMod 1.0
+0000a48c        CoefficientOfAirFriction 0.5
+0000a490        AirDensity 1.22500002384
+0000a494        AirDragArea 9.0
+0000a498        WindResistanceBaseFactor 0.20000000298
+0000a49c        WindResistanceVelocityFactor 100.0
+0000a4a0        WindResistanceVelocityFactorMin 1.0
+0000a4a4        WindResistanceVelocityFactorMax 4.0
+0000a4a8        UseInputYawAsThrottle::InputThrottle
+0000a4a8            ForwardSpeedSupressionAmount 1.0
+0000a4ac            BackwardSpeedSupressionAmount 1.0
+0000a4b0            SideSpeedSupressionAmount 0.0
+0000a4b4            IgnoreBrakeSpeedThreshold 20.0
+0000a4b8            Enabled False
+0000a4bc        AntiRollBars::AntiRollBars
+0000a4bc            Front *nullGuid*
+0000a4c0            Rear *nullGuid*
+0000a4c4        MaxGroundSpeed 0.0
+0000a4c8        ProximityHeightTranslation -1.0
+0000a4cc        FrictionAtLowVelocity 0.0
+0000a4d0        UseDownForce False
+0000a4d1        UseDownForceWheelFactor True
+0000a4d2        UseGearbox True
+0000a4d3        UseStandStillBrake True
+0000a4d4        UseStandStillSleep True
+0000a4d5        UseTurnAroundForce False
+0000a4d6        UseMotorcycleControl False
+0000a4d7        InvertPitchAllowed False
+0000a4d8        UseWindResistance True
+0000a4e0    VehicleExitPointComponentData 0000000a
+0000a4e0        $::GameComponentData
+0000a4e0            $::ComponentData
+0000a4e0                $::GameObjectData
+0000a4e0                    $::DataBusPeer
+0000a4e0                        $::GameDataContainer
+0000a4e0                            $::DataContainer
+0000a4e8                        Flags 19463992
+0000a4ec                Components *nullArray*
+0000a4f0                Transform::LinearTransform
+0000a4f0                    right::Vec3
+0000a4f0                        x 1.0
+0000a4f4                        y 0.0
+0000a4f8                        z 0.0
+0000a500                    up::Vec3
+0000a500                        x 0.0
+0000a504                        y 1.0
+0000a508                        z 0.0
+0000a510                    forward::Vec3
+0000a510                        x 0.0
+0000a514                        y 0.0
+0000a518                        z 1.0
+0000a520                    trans::Vec3
+0000a520                        x 1.27199602127
+0000a524                        y 0.0
+0000a528                        z 0.0
+0000a530                Excluded False
+0000a540        Impulse::Vec3
+0000a540            x 0.0
+0000a544            y 0.0
+0000a548            z 0.0
+0000a550        Ordinal 1
+0000a554        TerrainHeight 0.0
+0000a558        Velocity 0.0
+0000a55c        InheritCameraDirection True
+0000a55d        CheckForVehicleOverrun True
+0000a560    VehicleExitPointComponentData 0000000b
+0000a560        $::GameComponentData
+0000a560            $::ComponentData
+0000a560                $::GameObjectData
+0000a560                    $::DataBusPeer
+0000a560                        $::GameDataContainer
+0000a560                            $::DataContainer
+0000a568                        Flags 29355834
+0000a56c                Components *nullArray*
+0000a570                Transform::LinearTransform
+0000a570                    right::Vec3
+0000a570                        x 1.0
+0000a574                        y 0.0
+0000a578                        z 0.0
+0000a580                    up::Vec3
+0000a580                        x 0.0
+0000a584                        y 1.0
+0000a588                        z 0.0
+0000a590                    forward::Vec3
+0000a590                        x 0.0
+0000a594                        y 0.0
+0000a598                        z 1.0
+0000a5a0                    trans::Vec3
+0000a5a0                        x 0.0
+0000a5a4                        y 0.0
+0000a5a8                        z -1.34533393383
+0000a5b0                Excluded False
+0000a5c0        Impulse::Vec3
+0000a5c0            x 0.0
+0000a5c4            y 0.0
+0000a5c8            z 0.0
+0000a5d0        Ordinal 0
+0000a5d4        TerrainHeight 0.0
+0000a5d8        Velocity 0.0
+0000a5dc        InheritCameraDirection True
+0000a5dd        CheckForVehicleOverrun True
+0000a5e0    VehicleExitPointComponentData 0000000c
+0000a5e0        $::GameComponentData
+0000a5e0            $::ComponentData
+0000a5e0                $::GameObjectData
+0000a5e0                    $::DataBusPeer
+0000a5e0                        $::GameDataContainer
+0000a5e0                            $::DataContainer
+0000a5e8                        Flags 15548767
+0000a5ec                Components *nullArray*
+0000a5f0                Transform::LinearTransform
+0000a5f0                    right::Vec3
+0000a5f0                        x 1.0
+0000a5f4                        y 0.0
+0000a5f8                        z 0.0
+0000a600                    up::Vec3
+0000a600                        x 0.0
+0000a604                        y 1.0
+0000a608                        z 0.0
+0000a610                    forward::Vec3
+0000a610                        x 0.0
+0000a614                        y 0.0
+0000a618                        z 1.0
+0000a620                    trans::Vec3
+0000a620                        x -1.373945117
+0000a624                        y 0.0
+0000a628                        z 0.0
+0000a630                Excluded False
+0000a640        Impulse::Vec3
+0000a640            x 0.0
+0000a644            y 0.0
+0000a648            z 0.0
+0000a650        Ordinal 1
+0000a654        TerrainHeight 0.0
+0000a658        Velocity 0.0
+0000a65c        InheritCameraDirection True
+0000a65d        CheckForVehicleOverrun True
+0000a660    VehicleHealthComponentData 0000000d
+0000a660        $::ControllableHealthComponentData
+0000a660            $::GameHealthComponentData
+0000a660                $::HealthComponentData
+0000a660                    $::ComponentData
+0000a660                        $::GameObjectData
+0000a660                            $::DataBusPeer
+0000a660                                $::GameDataContainer
+0000a660                                    $::DataContainer
+0000a668                                Flags 3016670
+0000a66c                        Components *nullArray*
+0000a670                        Transform::LinearTransform
+0000a670                            right::Vec3
+0000a670                                x 1.0
+0000a674                                y 0.0
+0000a678                                z 0.0
+0000a680                            up::Vec3
+0000a680                                x 0.0
+0000a684                                y 1.0
+0000a688                                z 0.0
+0000a690                            forward::Vec3
+0000a690                                x 0.0
+0000a694                                y 0.0
+0000a698                                z 1.0
+0000a6a0                            trans::Vec3
+0000a6a0                                x 0.0
+0000a6a4                                y 0.0
+0000a6a8                                z 0.0
+0000a6b0                        Excluded False
+0000a6c0        ForceMinDamageAngleRadius 0.0
+0000a6c4        AlternateFakeImmortalDamageCalc False
+0000a6d0    VehiclePhysicsComponentData 0000000e
+0000a6d0        $::ControllablePhysicsComponentData
+0000a6d0            $::GamePhysicsComponentData
+0000a6d0                $::PhysicsComponentData
+0000a6d0                    $::ComponentData
+0000a6d0                        $::GameObjectData
+0000a6d0                            $::DataBusPeer
+0000a6d0                                $::GameDataContainer
+0000a6d0                                    $::DataContainer
+0000a6d8                                Flags 19605750
+0000a6dc                        Components *nullArray*
+0000a6e0                        Transform::LinearTransform
+0000a6e0                            right::Vec3
+0000a6e0                                x 1.0
+0000a6e4                                y 0.0
+0000a6e8                                z 0.0
+0000a6f0                            up::Vec3
+0000a6f0                                x 0.0
+0000a6f4                                y 1.0
+0000a6f8                                z 0.0
+0000a700                            forward::Vec3
+0000a700                                x 0.0
+0000a704                                y 0.0
+0000a708                                z 1.0
+0000a710                            trans::Vec3
+0000a710                                x 0.0
+0000a714                                y 0.0
+0000a718                                z 0.0
+0000a720                        Excluded False
+0000a730                Realm Realm_ClientAndServer
+0000a734                EffectParameters *nullArray*
+0000a740    WeaponComponentData 0000000f
+0000a740        $::BoneComponentData
+0000a740            $::GameComponentData
+0000a740                $::ComponentData
+0000a740                    $::GameObjectData
+0000a740                        $::DataBusPeer
+0000a740                            $::GameDataContainer
+0000a740                                $::DataContainer
+0000a748                            Flags 26612307
+0000a74c                    Components *nullArray*
+0000a750                    Transform::LinearTransform
+0000a750                        right::Vec3
+0000a750                            x 1.0
+0000a754                            y 0.0
+0000a758                            z 0.0
+0000a760                        up::Vec3
+0000a760                            x 0.0
+0000a764                            y 0.606114029884
+0000a768                            z -0.795377731323
+0000a770                        forward::Vec3
+0000a770                            x 0.0
+0000a774                            y 0.795377731323
+0000a778                            z 0.606114029884
+0000a780                        trans::Vec3
+0000a780                            x 0.0
+0000a784                            y 1.10333061218
+0000a788                            z 0.872760415077
+0000a790                    Excluded False
+0000a7a0        ProjectileSpawnOffset::Vec3
+0000a7a0            x 0.0
+0000a7a4            y 0.0
+0000a7a8            z 0.0
+0000a7b0        TargetPositionOverride::Vec3
+0000a7b0            x 0.0
+0000a7b4            y 0.0
+0000a7b8            z 0.0
+0000a7c0        WeaponMesh *nullGuid*
+0000a7c4        WeaponFiring 00000015
+0000a7c8        DamageGiverName Fire Switchblade
+0000a7cc        AIData *nullGuid*
+0000a7d0        CustomWeaponType *nullGuid*
+0000a7d4        ImpulseStrength 0.0
+0000a7d8        Classification WCNone
+0000a7dc        ReloadTimeMultiplier 1.0
+0000a7e0        DamageMultiplier 1.0
+0000a7e4        ExplosionDamageMultiplier 1.0
+0000a7e8        OverheatDropPerSecondMultiplier 1.0
+0000a7ec        LockTimeMultiplier 1.0
+0000a7f0        LockingAcceptanceAngleMultiplier 1.0
+0000a7f4        WeaponItemHash 3179631009
+0000a7f8        SequentialFiring True
+0000a800    DelayEntityData 00000010
+0000a7f8        $::EntityData
+0000a7f8            $::GameObjectData
+0000a7f8                $::DataBusPeer
+0000a7f8                    $::GameDataContainer
+0000a7f8                        $::DataContainer
+0000a800                    Flags 33232960
+0000a804        Delay 25.0
+0000a808        Realm Realm_Server
+0000a80c        AutoStart True
+0000a80d        RunOnce True
+0000a80e        RemoveDuplicateEvents True
+0000a810    GearboxConfigData 00000011
+0000a808        $::DataContainer
+0000a810        ForwardGearRatios *nullArray*
+0000a814        ForwardGearSpeeds *nullArray*
+0000a818        ReverseGearRatios *nullArray*
+0000a81c        ReverseGearSpeeds *nullArray*
+0000a820        GearboxType 0
+0000a824        GearboxMode 0
+0000a828        GearChangeTime 0.0625
+0000a82c        GearDownSpeedFactor 0.800000011921
+0000a830        OppositeDirGearChangeMaxSpeed 50.0
+0000a834        OppositeDirGearChangeTime 0.125
+0000a838        ClutchSpeedFactor 10.0
+0000a83c        TransmissionEfficiency 1.0
+0000a840        UseAutoClutch True
+0000a841        UseClassicGearBoxAutoClutch False
+0000a842        UseNeutralGear True
+0000a844    HealthStateData 00000012
+0000a83c        $::DataContainer
+0000a844        Objects::array
+0000aa74            member(0) 00000004
+0000a848        LoosePartPhysics *nullArray*
+0000a84c        SpawnedBangerBlueprint *nullGuid*
+0000a850        SpawnedBangerImpulseParams *nullGuid*
+0000a854        Health 0.0
+0000a858        PartIndex 4294967295
+0000a85c        CopyDamageToBanger True
+0000a85d        PhysicsEnabled True
+0000a85e        Indestructable False
+0000a85f        CanSupportOtherParts False
+0000a860    HealthStateData 00000013
+0000a858        $::DataContainer
+0000a860        Objects *nullArray*
+0000a864        LoosePartPhysics *nullArray*
+0000a868        SpawnedBangerBlueprint *nullGuid*
+0000a86c        SpawnedBangerImpulseParams *nullGuid*
+0000a870        Health 100.0
+0000a874        PartIndex 0
+0000a878        CopyDamageToBanger True
+0000a879        PhysicsEnabled True
+0000a87a        Indestructable False
+0000a87b        CanSupportOtherParts True
+0000a87c    InputModifierEntityData 00000014
+0000a874        $::EntityData
+0000a874            $::GameObjectData
+0000a874                $::DataBusPeer
+0000a874                    $::GameDataContainer
+0000a874                        $::DataContainer
+0000a87c                    Flags 100663296
+0000a880        Action 1018135856
+0000a884        Offset 1.0
+0000a888        Scale 1.0
+0000a88c        Enabled True
+0000a890    WeaponFiringData 00000015
+0000a888        $::GameDataContainer
+0000a888            $::DataContainer
+0000a890        PrimaryFire 00000002
+0000a894        DeployTime 0.0
+0000a898        ReactivateCooldownTime 0.0
+0000a89c        DisableZoomOnDeployTime 0.25
+0000a8a0        AltDeployTime 2.0
+0000a8a4        AltDeployId -1
+0000a8a8        WeaponSway *nullGuid*
+0000a8ac        Rumble::RumbleFiringData
+0000a8ac            LowRumble 0.0
+0000a8b0            HighRumble 0.0
+0000a8b4            RumbleDuration 0.20000000298
+0000a8b8        SupportDelayStand 0.300000011921
+0000a8bc        SupportDelayProne 0.300000011921
+0000a8c0        UseAutoAiming False
+0000a8c1        InflictSelfDamage False
+0000a8c2        ShowEnemyNametagOnAim True
+0000a8c3        ReloadWholeMags False
+0000a8c4        DisableReloadWhileSprinting False
+0000a8c5        AbortReloadOnSprint False
